@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/gothinkster/node-express-realworld-example-app.git /home/duongnv48/Desktop/benmark/nodejs/repos/node-express-realworld
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benmark/nodejs/repos/node-express-realworld'...
+

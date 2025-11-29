@@ -1,0 +1,20 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benmark/python/sboms/pydantic.cdxgen.cdx.json .
+exit_code: 1
+elapsed: 1.154 s
+
+=== STDERR ===
+file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5745
+        const pname = p.split(/(==|<=|~=|>=)/)[0].split(" ")[0];
+                        ^
+
+TypeError: p.split is not a function
+    at file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5745:25
+    at Array.forEach (<anonymous>)
+    at parsePyProjectTomlFile (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5744:45)
+    at createPythonBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:3792:23)
+    at createMultiXBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:7430:23)
+    at async createBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:8637:16)
+    at async file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/bin/cdxgen.js:830:20
+
+Node.js v20.19.5
+

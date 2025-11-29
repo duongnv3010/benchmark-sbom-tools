@@ -1,0 +1,70 @@
+metadata:
+  version: 1.0.0
+  description: "Custom scoring: NTIA + Semantic (checksums) + Structural"
+  last_updated: "2025-11-28"
+
+categories:
+  - name: NTIA-minimum-elements
+    description: "Features ensuring compliance with NTIA minimum elements for SBOMs"
+    features:
+      - name: comp_with_name
+        ignore: false
+        description: "components have a name"
+
+      - name: comp_with_version
+        ignore: false
+        description: "components have a version"
+
+      - name: comp_with_uniq_ids
+        ignore: false
+        description: "components have unique identifiers"
+
+      - name: comp_with_supplier
+        ignore: false
+        description: "components have supplier"
+
+      - name: sbom_creation_timestamp
+        ignore: false
+        description: "SBOM has a creation timestamp"
+
+      - name: sbom_authors
+        ignore: false
+        description: "SBOM has authors"
+
+      - name: sbom_dependencies
+        ignore: false
+        description: "primary component has dependencies"
+
+  - name: Semantic
+    description: "Semantic & integrity-related checks (licenses, checksums, required fields)"
+    features:
+      - name: comp_with_checksums
+        ignore: false
+        description: "components have checksums for verification"
+
+      - name: comp_with_licenses
+        ignore: false
+        description: "components have license information"
+
+      - name: sbom_required_fields
+        ignore: false
+        description: "SBOM has all required fields per specification"
+
+  - name: Structural
+    description: "Features related to the SBOM's spec and format"
+    features:
+      - name: sbom_parsable
+        ignore: false
+        description: "SBOM is machine-parsable"
+
+      - name: sbom_spec
+        ignore: false
+        description: "SBOM specification (SPDX, CycloneDX, ...)"
+
+      - name: sbom_spec_file_format
+        ignore: false
+        description: "SBOM file format is supported for the spec"
+
+      - name: sbom_spec_version
+        ignore: false
+        description: "SBOM specification version is supported"

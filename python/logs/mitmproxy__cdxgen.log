@@ -1,0 +1,53 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benmark/python/sboms/mitmproxy.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 7.147 s
+
+=== STDOUT ===
+Error while parsing the pyproject file pyproject.toml. TomlError: Inline lists must be a single type, not a mix of string and inline-table at row 81, col 28, pos 2867:
+80:     "types-requests==2.32.4.20250913",
+81>     {include-group = "tox"},
+                               ^
+82:     {include-group = "ruff"},
+
+
+    at TOMLParser.recordInlineListValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:1305:28)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.returnNow (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:107:17)
+    at TOMLParser.recordValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:523:19)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.parse (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:45:22)
+    at Object.parseString [as parse] (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/parse-string.js:13:12)
+    at parsePyProjectTomlFile (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5668:21)
+    at createPythonBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:3792:23)
+    at createMultiXBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:7430:23) {
+  fromTOML: true,
+  wrapped: null,
+  line: 80,
+  col: 27,
+  pos: 2867
+}
+Error while parsing the pyproject file /home/duongnv48/Desktop/benmark/python/repos/mitmproxy/pyproject.toml. TomlError: Inline lists must be a single type, not a mix of string and inline-table at row 81, col 28, pos 2867:
+80:     "types-requests==2.32.4.20250913",
+81>     {include-group = "tox"},
+                               ^
+82:     {include-group = "ruff"},
+
+
+    at TOMLParser.recordInlineListValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:1305:28)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.returnNow (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:107:17)
+    at TOMLParser.recordValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:523:19)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.parse (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:45:22)
+    at Object.parseString [as parse] (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/parse-string.js:13:12)
+    at parsePyProjectTomlFile (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5668:21)
+    at parsePyLockData (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5831:23)
+    at createPythonBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:3838:26) {
+  fromTOML: true,
+  wrapped: null,
+  line: 80,
+  col: 27,
+  pos: 2867
+}
+
+

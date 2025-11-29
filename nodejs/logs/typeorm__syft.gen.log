@@ -1,0 +1,6 @@
+CMD: syft scan dir:/home/duongnv48/Desktop/benmark/nodejs/repos/typeorm -o cyclonedx-json=/home/duongnv48/Desktop/benmark/nodejs/sboms/typeorm.syft.cdx.json
+EXIT_CODE: 0
+
+==== STDERR ====
+[0000]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+

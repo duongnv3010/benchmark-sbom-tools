@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/encode/httpx.git /home/duongnv48/Desktop/benmark/python/repos/httpx
+exit_code: 0
+elapsed: 2.013 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/httpx'...
+

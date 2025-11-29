@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benmark/python/sboms/pytest.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 3.609 s
+

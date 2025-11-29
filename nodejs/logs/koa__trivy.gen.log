@@ -1,0 +1,3 @@
+CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benmark/nodejs/sboms/koa.trivy.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/koa
+EXIT_CODE: 0
+

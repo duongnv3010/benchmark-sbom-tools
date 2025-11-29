@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/cookiecutter/cookiecutter.git /home/duongnv48/Desktop/benmark/python/repos/cookiecutter
+exit_code: 0
+elapsed: 1.577 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/cookiecutter'...
+

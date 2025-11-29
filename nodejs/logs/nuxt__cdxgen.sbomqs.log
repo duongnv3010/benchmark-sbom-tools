@@ -1,0 +1,29 @@
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benmark/nodejs/sboms/nuxt.cdxgen.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+
+ SBOM Quality Score: 8.6/10.0	 Grade: B	Components: 1716 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benmark/nodejs/sboms/nuxt.cdxgen.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 1716/1716 have name            |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 9.9/10.0  | 1705/1716 have versions        |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 10.0/10.0 | 1716/1716 have unique ID       |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 19            |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing legal authors          |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present 2025-11-29T06:47:28Z   |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

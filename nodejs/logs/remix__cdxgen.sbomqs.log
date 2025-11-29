@@ -1,0 +1,29 @@
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benmark/nodejs/sboms/remix.cdxgen.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+
+ SBOM Quality Score: 8.5/10.0	 Grade: B	Components: 719 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benmark/nodejs/sboms/remix.cdxgen.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 719/719 have name              |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 9.7/10.0  | 699/719 have versions          |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 10.0/10.0 | 719/719 have unique ID         |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 50            |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing legal authors          |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present 2025-11-29T06:47:47Z   |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

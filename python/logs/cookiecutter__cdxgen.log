@@ -1,0 +1,53 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benmark/python/sboms/cookiecutter.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 1.873 s
+
+=== STDOUT ===
+Error while parsing the pyproject file pyproject.toml. TomlError: Inline lists must be a single type, not a mix of string and inline-table at row 61, col 31, pos 1897:
+60:     "rust-just>=1.42.3",        # Justfile tasks
+61>     { include-group = "test" }, # test runner and helpers
+                                  ^
+62: ]
+
+
+    at TOMLParser.recordInlineListValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:1305:28)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.returnNow (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:107:17)
+    at TOMLParser.recordValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:523:19)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.parse (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:45:22)
+    at Object.parseString [as parse] (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/parse-string.js:13:12)
+    at parsePyProjectTomlFile (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5668:21)
+    at createPythonBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:3792:23)
+    at createMultiXBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:7430:23) {
+  fromTOML: true,
+  wrapped: null,
+  line: 60,
+  col: 30,
+  pos: 1897
+}
+Error while parsing the pyproject file /home/duongnv48/Desktop/benmark/python/repos/cookiecutter/pyproject.toml. TomlError: Inline lists must be a single type, not a mix of string and inline-table at row 61, col 31, pos 1897:
+60:     "rust-just>=1.42.3",        # Justfile tasks
+61>     { include-group = "test" }, # test runner and helpers
+                                  ^
+62: ]
+
+
+    at TOMLParser.recordInlineListValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:1305:28)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.returnNow (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:107:17)
+    at TOMLParser.recordValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:523:19)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.parse (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:45:22)
+    at Object.parseString [as parse] (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/parse-string.js:13:12)
+    at parsePyProjectTomlFile (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5668:21)
+    at parsePyLockData (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5831:23)
+    at createPythonBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:3838:26) {
+  fromTOML: true,
+  wrapped: null,
+  line: 60,
+  col: 30,
+  pos: 1897
+}
+
+

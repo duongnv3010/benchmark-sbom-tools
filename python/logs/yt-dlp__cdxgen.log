@@ -1,0 +1,11 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benmark/python/sboms/yt-dlp.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 2.057 s
+
+=== STDOUT ===
+Atom requires Java 21 or above. To improve the SBOM accuracy, please install a suitable version, set the JAVA_HOME environment variable, and re-run cdxgen.
+Alternatively, use the cdxgen container image.
+Current JAVA_HOME: 
+Slicing was not successful. For large projects (> 1 million lines of code), try running atom cli externally in Java mode. Please refer to the instructions in https://github.com/CycloneDX/cdxgen/blob/master/ADVANCED.md.
+
+

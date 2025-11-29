@@ -1,0 +1,21 @@
+# 10 Python application repos cho benchmark SBOM (mỗi dòng 1 URL, bỏ qua dòng bắt đầu bằng #)
+https://github.com/pypa/pipenv.git
+https://github.com/psf/requests.git
+https://github.com/scrapy/scrapy.git
+https://github.com/celery/celery.git
+https://github.com/locustio/locust.git
+https://github.com/httpie/cli.git
+https://github.com/encode/httpx.git
+https://github.com/psf/black.git
+https://github.com/pytest-dev/pytest.git
+https://github.com/tox-dev/tox.git
+https://github.com/cookiecutter/cookiecutter.git
+https://github.com/ytdl-org/youtube-dl.git
+https://github.com/yt-dlp/yt-dlp.git
+https://github.com/mitmproxy/mitmproxy.git
+https://github.com/ansible/ansible.git
+https://github.com/fastapi/fastapi.git
+https://github.com/encode/django-rest-framework.git
+https://github.com/fastapi/sqlmodel.git
+https://github.com/pydantic/pydantic.git
+https://github.com/benoitc/gunicorn.git

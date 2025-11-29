@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/mitmproxy/mitmproxy.git /home/duongnv48/Desktop/benmark/python/repos/mitmproxy
+exit_code: 0
+elapsed: 5.103 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/mitmproxy'...
+

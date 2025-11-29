@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/psf/black.git /home/duongnv48/Desktop/benmark/python/repos/black
+exit_code: 0
+elapsed: 2.592 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/black'...
+

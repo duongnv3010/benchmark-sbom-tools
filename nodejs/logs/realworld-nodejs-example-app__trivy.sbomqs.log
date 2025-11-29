@@ -1,0 +1,30 @@
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benmark/nodejs/sboms/realworld-nodejs-example-app.trivy.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+
+ SBOM Quality Score: 8.6/10.0	 Grade: B	Components: 2126 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benmark/nodejs/sboms/realworld-nodejs-example-app.trivy.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 2126/2126 have name            |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 10.0/10.0 | 2122/2126 have versions        |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 10.0/10.0 | 2122/2126 have unique ID       |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 3             |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing authors                |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present                        |
+|                       |                     |           | 2025-11-29T06:49:50+00:00      |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

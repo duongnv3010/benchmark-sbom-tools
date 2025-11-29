@@ -1,0 +1,194 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:826dfadd-748e-460e-a732-5ee6af542543",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-11-29T06:13:00+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "f4e1d780-bb88-4514-9408-244e47942d74",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "136fee85-b845-461d-b989-5198c90d582b",
+      "type": "application",
+      "name": "Pipfile.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1dc10eae-aabd-41b1-9ecd-e97d0f482c9d",
+      "type": "application",
+      "name": "examples/Pipfile.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/certifi@2025.6.15",
+      "type": "library",
+      "name": "certifi",
+      "version": "2025.6.15",
+      "purl": "pkg:pypi/certifi@2025.6.15",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/charset-normalizer@3.4.2",
+      "type": "library",
+      "name": "charset-normalizer",
+      "version": "3.4.2",
+      "purl": "pkg:pypi/charset-normalizer@3.4.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/idna@3.10",
+      "type": "library",
+      "name": "idna",
+      "version": "3.10",
+      "purl": "pkg:pypi/idna@3.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytz@2025.2",
+      "type": "library",
+      "name": "pytz",
+      "version": "2025.2",
+      "purl": "pkg:pypi/pytz@2025.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.32.4",
+      "type": "library",
+      "name": "requests",
+      "version": "2.32.4",
+      "purl": "pkg:pypi/requests@2.32.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.5.0",
+      "type": "library",
+      "name": "urllib3",
+      "version": "2.5.0",
+      "purl": "pkg:pypi/urllib3@2.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "136fee85-b845-461d-b989-5198c90d582b",
+      "dependsOn": [
+        "pkg:pypi/pytz@2025.2"
+      ]
+    },
+    {
+      "ref": "1dc10eae-aabd-41b1-9ecd-e97d0f482c9d",
+      "dependsOn": [
+        "pkg:pypi/certifi@2025.6.15",
+        "pkg:pypi/charset-normalizer@3.4.2",
+        "pkg:pypi/idna@3.10",
+        "pkg:pypi/requests@2.32.4",
+        "pkg:pypi/urllib3@2.5.0"
+      ]
+    },
+    {
+      "ref": "f4e1d780-bb88-4514-9408-244e47942d74",
+      "dependsOn": [
+        "136fee85-b845-461d-b989-5198c90d582b",
+        "1dc10eae-aabd-41b1-9ecd-e97d0f482c9d"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/certifi@2025.6.15",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/charset-normalizer@3.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/idna@3.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytz@2025.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests@2.32.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.5.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

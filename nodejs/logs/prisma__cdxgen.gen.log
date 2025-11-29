@@ -1,0 +1,346 @@
+CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/prisma.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/prisma
+EXIT_CODE: 0
+
+==== STDOUT ====
+Found a duplicate workspace with the name: seed-sqlite-js, ref: pkg:npm/seed-sqlite-js@1.0.0 at packages/migrate/src/__tests__/fixtures/seed-from-prisma-config/seed-sqlite-js/package.json and packages/migrate/src/__tests__/fixtures/seed-from-prisma-config/seed-sqlite-js-extra-args/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/seed-sqlite-js@1.0.0#packages/migrate/src/__tests__/fixtures/seed-from-prisma-config/seed-sqlite-js under metadata.component.components
+Found a duplicate workspace with the name: @prisma/client, ref: pkg:npm/@prisma/client at packages/client-generator-js/tests/__fixture__/@prisma/client/package.json and packages/client-generator-ts/tests/__fixture__/@prisma/client/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/@prisma/client#packages/client-generator-js/tests/__fixture__/@prisma/client under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/8_monorepo-serverComponents-noCustomOutput-noReExport/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/8_monorepo-serverComponents-noCustomOutput-noReExport/packages/service under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/7_monorepo-noServerComponents-noCustomOutput-noReExport/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/7_monorepo-noServerComponents-noCustomOutput-noReExport/packages/service under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/6_simplerepo-serverComponents-customOutput-noReExport/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/6_simplerepo-serverComponents-customOutput-noReExport under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/5_simplerepo-noServerComponents-customOutput-noReExport/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/5_simplerepo-noServerComponents-customOutput-noReExport under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/4_simplerepo-serverComponents-noCustomOutput-noReExport/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/4_simplerepo-serverComponents-noCustomOutput-noReExport under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/3_simplerepo-noServerComponents-noCustomOutput-noReExport/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/3_simplerepo-noServerComponents-noCustomOutput-noReExport under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/service under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/19_monorepo-noServerComponents-newGenerator-reExportIndirect-ts/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/19_monorepo-noServerComponents-newGenerator-reExportIndirect-ts/packages/service under metadata.component.components
+Found a duplicate workspace with the name: db, ref: pkg:npm/db@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/19_monorepo-noServerComponents-newGenerator-reExportIndirect-ts/packages/db/package.json and packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/db/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/db@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/19_monorepo-noServerComponents-newGenerator-reExportIndirect-ts/packages/db under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/18_monorepo-serverComponents-customOutput-reExportIndirect-ts/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/18_monorepo-serverComponents-customOutput-reExportIndirect-ts/packages/service under metadata.component.components
+Found a duplicate workspace with the name: db, ref: pkg:npm/db@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/18_monorepo-serverComponents-customOutput-reExportIndirect-ts/packages/db/package.json and packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/db/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/db@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/18_monorepo-serverComponents-customOutput-reExportIndirect-ts/packages/db under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/17_monorepo-noServerComponents-customOutput-reExportIndirect-ts/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/17_monorepo-noServerComponents-customOutput-reExportIndirect-ts/packages/service under metadata.component.components
+Found a duplicate workspace with the name: db, ref: pkg:npm/db@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/17_monorepo-noServerComponents-customOutput-reExportIndirect-ts/packages/db/package.json and packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/db/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/db@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/17_monorepo-noServerComponents-customOutput-reExportIndirect-ts/packages/db under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/16_monorepo-serverComponents-customOutput-reExportIndirect/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/16_monorepo-serverComponents-customOutput-reExportIndirect/packages/service under metadata.component.components
+Found a duplicate workspace with the name: db, ref: pkg:npm/db@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/16_monorepo-serverComponents-customOutput-reExportIndirect/packages/db/package.json and packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/db/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/db@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/16_monorepo-serverComponents-customOutput-reExportIndirect/packages/db under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/15_monorepo-noServerComponents-customOutput-reExportIndirect/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/15_monorepo-noServerComponents-customOutput-reExportIndirect/packages/service under metadata.component.components
+Found a duplicate workspace with the name: db, ref: pkg:npm/db@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/15_monorepo-noServerComponents-customOutput-reExportIndirect/packages/db/package.json and packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/db/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/db@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/15_monorepo-noServerComponents-customOutput-reExportIndirect/packages/db under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/14_monorepo-serverComponents-customOutput-reExportDirect/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/14_monorepo-serverComponents-customOutput-reExportDirect/packages/service under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/13_monorepo-noServerComponents-customOutput-reExportDirect/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/13_monorepo-noServerComponents-customOutput-reExportDirect/packages/service under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/12_monorepo-serverComponents-noCustomOutput-reExportIndirect/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/12_monorepo-serverComponents-noCustomOutput-reExportIndirect/packages/service under metadata.component.components
+Found a duplicate workspace with the name: db, ref: pkg:npm/db@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/12_monorepo-serverComponents-noCustomOutput-reExportIndirect/packages/db/package.json and packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/db/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/db@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/12_monorepo-serverComponents-noCustomOutput-reExportIndirect/packages/db under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/11_monorepo-noServerComponents-noCustomOutput-reExportIndirect/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/11_monorepo-noServerComponents-noCustomOutput-reExportIndirect/packages/service under metadata.component.components
+Found a duplicate workspace with the name: db, ref: pkg:npm/db@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/11_monorepo-noServerComponents-noCustomOutput-reExportIndirect/packages/db/package.json and packages/client/tests/e2e/nextjs-schema-not-found/20_monorepo-serverComponents-newGenerator-reExportIndirect-ts/packages/db/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/db@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/11_monorepo-noServerComponents-noCustomOutput-reExportIndirect/packages/db under metadata.component.components
+Found a duplicate workspace with the name: service, ref: pkg:npm/service@1.0.0 at packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json and packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/service@1.0.0#packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service under metadata.component.components
+Found a duplicate workspace with the name: blog, ref: pkg:npm/blog@0.0.0 at packages/client/src/__tests__/integration/errors/can-not-connect-to-database/package.json and packages/client/src/__tests__/integration/errors/invalid-url/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/blog@0.0.0#packages/client/src/__tests__/integration/errors/can-not-connect-to-database under metadata.component.components
+Found a duplicate workspace with the name: sub-command, ref: pkg:npm/sub-command@1.0.0 at packages/cli/src/__tests__/fixtures/sub-command/node_modules/sub-command/package.json and packages/cli/src/__tests__/fixtures/sub-command-corrupted/node_modules/sub-command/package.json. This is likely an error in the project that needs fixing.
+Duplicate workspace tracked as pkg:npm/sub-command@1.0.0#packages/cli/src/__tests__/fixtures/sub-command/node_modules/sub-command under metadata.component.components
+Unable to find any package.json files belonging to the workspace '*' referred in /home/duongnv48/Desktop/benmark/nodejs/repos/prisma/sandbox/pnpm-workspace.yaml. To improve SBOM precision, run cdxgen from the directory containing the complete source code.
+Error: loadVirtual requires existing shrinkwrap file
+    at Arborist.loadVirtual (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/third-party/arborist/lib/arborist/load-virtual.js:53:20)
+    at async parsePkgLock (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:1750:14)
+    at async createNodejsBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:3236:26)
+    at async createMultiXBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:7336:17)
+    at async createBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:8637:16)
+    at async file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/bin/cdxgen.js:830:20 {
+  code: 'ENOLOCK'
+}
+Unable to parse /home/duongnv48/Desktop/benmark/nodejs/repos/prisma/packages/cli/src/__tests__/fixtures/custom-output-npm/package-lock.json without legacy peer dependencies. Retrying ...
+Error: loadVirtual requires existing shrinkwrap file
+    at Arborist.loadVirtual (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/third-party/arborist/lib/arborist/load-virtual.js:53:20)
+    at async parsePkgLock (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:1765:14)
+    at async createNodejsBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:3236:26)
+    at async createMultiXBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:7336:17)
+    at async createBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:8637:16)
+    at async file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/bin/cdxgen.js:830:20 {
+  code: 'ENOLOCK'
+}
+Unable to parse /home/duongnv48/Desktop/benmark/nodejs/repos/prisma/packages/cli/src/__tests__/fixtures/custom-output-npm/package-lock.json in legacy and non-legacy mode. The resulting SBOM would be incomplete.
+
+
+==== STDERR ====
+Unable to extract name and version for string file:../../tmp/prisma-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-0.0.0.tgz' ] file:../../tmp/prisma-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-client-0.0.0.tgz(prisma@0.0.0) [ 'file:..', '..', 'tmp', 'prisma-client-0.0.0.tgz' ] file:../../tmp/prisma-client-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-engines-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-engines-0.0.0.tgz' ] file:../../tmp/prisma-engines-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-0.0.0.tgz' ] file:../../tmp/prisma-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-client-0.0.0.tgz(prisma@0.0.0) [ 'file:..', '..', 'tmp', 'prisma-client-0.0.0.tgz' ] file:../../tmp/prisma-client-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-engines-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-engines-0.0.0.tgz' ] file:../../tmp/prisma-engines-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-0.0.0.tgz' ] file:../../tmp/prisma-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-client-0.0.0.tgz(prisma@0.0.0) [ 'file:..', '..', 'tmp', 'prisma-client-0.0.0.tgz' ] file:../../tmp/prisma-client-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-engines-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-engines-0.0.0.tgz' ] file:../../tmp/prisma-engines-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../tmp/prisma-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-0.0.0.tgz'
+] file:../../../../../../../../../tmp/prisma-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../tmp/prisma-client-0.0.0.tgz(prisma@0.0.0) [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-client-0.0.0.tgz'
+] file:../../../../../../../../../tmp/prisma-client-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../tmp/prisma-debug-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-debug-0.0.0.tgz'
+] file:../../../../../../../../../tmp/prisma-debug-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../tmp/prisma-engines-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-engines-0.0.0.tgz'
+] file:../../../../../../../../../tmp/prisma-engines-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../tmp/prisma-fetch-engine-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-fetch-engine-0.0.0.tgz'
+] file:../../../../../../../../../tmp/prisma-fetch-engine-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../tmp/prisma-get-platform-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-get-platform-0.0.0.tgz'
+] file:../../../../../../../../../tmp/prisma-get-platform-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-client-0.0.0.tgz(prisma@0.0.0) [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-client-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-client-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-debug-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-debug-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-debug-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-engines-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-engines-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-engines-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-fetch-engine-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-fetch-engine-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-fetch-engine-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-get-platform-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-get-platform-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-get-platform-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-client-0.0.0.tgz(prisma@0.0.0) [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-client-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-client-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-debug-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-debug-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-debug-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-engines-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-engines-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-engines-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-fetch-engine-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-fetch-engine-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-fetch-engine-0.0.0.tgz
+Unable to extract name and version for string file:../../../../../../../../../../tmp/prisma-get-platform-0.0.0.tgz [
+  'file:..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  '..',
+  'tmp',
+  'prisma-get-platform-0.0.0.tgz'
+] file:../../../../../../../../../../tmp/prisma-get-platform-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-0.0.0.tgz' ] file:../../tmp/prisma-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-client-0.0.0.tgz(prisma@0.0.0) [ 'file:..', '..', 'tmp', 'prisma-client-0.0.0.tgz' ] file:../../tmp/prisma-client-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-engines-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-engines-0.0.0.tgz' ] file:../../tmp/prisma-engines-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-0.0.0.tgz' ] file:../../tmp/prisma-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-client-0.0.0.tgz(prisma@0.0.0) [ 'file:..', '..', 'tmp', 'prisma-client-0.0.0.tgz' ] file:../../tmp/prisma-client-0.0.0.tgz
+Unable to extract name and version for string file:../../tmp/prisma-engines-0.0.0.tgz [ 'file:..', '..', 'tmp', 'prisma-engines-0.0.0.tgz' ] file:../../tmp/prisma-engines-0.0.0.tgz
+

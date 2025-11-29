@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/encode/django-rest-framework.git /home/duongnv48/Desktop/benmark/python/repos/django-rest-framework
+exit_code: 0
+elapsed: 5.522 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/django-rest-framework'...
+

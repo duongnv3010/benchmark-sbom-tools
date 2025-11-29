@@ -1,0 +1,335 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:5e4fa9ad-4133-4eb2-9480-ea1a0d448b0f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-11-29T06:13:34+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "92e1da57-6a8a-480f-b1e0-6738f280d38c",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "24cb6672-bb56-465c-9d2b-d044a75590a1",
+      "type": "application",
+      "name": "testing/plugins_integration/requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/anyio@4.11.0",
+      "type": "library",
+      "name": "anyio",
+      "version": "4.11.0",
+      "purl": "pkg:pypi/anyio@4.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django@5.2.8",
+      "type": "library",
+      "name": "django",
+      "version": "5.2.8",
+      "purl": "pkg:pypi/django@5.2.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-asyncio@1.3.0",
+      "type": "library",
+      "name": "pytest-asyncio",
+      "version": "1.3.0",
+      "purl": "pkg:pypi/pytest-asyncio@1.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-bdd@8.1.0",
+      "type": "library",
+      "name": "pytest-bdd",
+      "version": "8.1.0",
+      "purl": "pkg:pypi/pytest-bdd@8.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-cov@7.0.0",
+      "type": "library",
+      "name": "pytest-cov",
+      "version": "7.0.0",
+      "purl": "pkg:pypi/pytest-cov@7.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-django@4.11.1",
+      "type": "library",
+      "name": "pytest-django",
+      "version": "4.11.1",
+      "purl": "pkg:pypi/pytest-django@4.11.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-flakes@4.0.5",
+      "type": "library",
+      "name": "pytest-flakes",
+      "version": "4.0.5",
+      "purl": "pkg:pypi/pytest-flakes@4.0.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-html@4.1.1",
+      "type": "library",
+      "name": "pytest-html",
+      "version": "4.1.1",
+      "purl": "pkg:pypi/pytest-html@4.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-mock@3.15.1",
+      "type": "library",
+      "name": "pytest-mock",
+      "version": "3.15.1",
+      "purl": "pkg:pypi/pytest-mock@3.15.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-rerunfailures@16.1",
+      "type": "library",
+      "name": "pytest-rerunfailures",
+      "version": "16.1",
+      "purl": "pkg:pypi/pytest-rerunfailures@16.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-sugar@1.1.1",
+      "type": "library",
+      "name": "pytest-sugar",
+      "version": "1.1.1",
+      "purl": "pkg:pypi/pytest-sugar@1.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-trio@0.8.0",
+      "type": "library",
+      "name": "pytest-trio",
+      "version": "0.8.0",
+      "purl": "pkg:pypi/pytest-trio@0.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-twisted@1.14.3",
+      "type": "library",
+      "name": "pytest-twisted",
+      "version": "1.14.3",
+      "purl": "pkg:pypi/pytest-twisted@1.14.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-xvfb@3.1.1",
+      "type": "library",
+      "name": "pytest-xvfb",
+      "version": "3.1.1",
+      "purl": "pkg:pypi/pytest-xvfb@3.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/twisted@25.5.0",
+      "type": "library",
+      "name": "twisted",
+      "version": "25.5.0",
+      "purl": "pkg:pypi/twisted@25.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "24cb6672-bb56-465c-9d2b-d044a75590a1",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.11.0",
+        "pkg:pypi/django@5.2.8",
+        "pkg:pypi/pytest-asyncio@1.3.0",
+        "pkg:pypi/pytest-bdd@8.1.0",
+        "pkg:pypi/pytest-cov@7.0.0",
+        "pkg:pypi/pytest-django@4.11.1",
+        "pkg:pypi/pytest-flakes@4.0.5",
+        "pkg:pypi/pytest-html@4.1.1",
+        "pkg:pypi/pytest-mock@3.15.1",
+        "pkg:pypi/pytest-rerunfailures@16.1",
+        "pkg:pypi/pytest-sugar@1.1.1",
+        "pkg:pypi/pytest-trio@0.8.0",
+        "pkg:pypi/pytest-twisted@1.14.3",
+        "pkg:pypi/pytest-xvfb@3.1.1",
+        "pkg:pypi/twisted@25.5.0"
+      ]
+    },
+    {
+      "ref": "92e1da57-6a8a-480f-b1e0-6738f280d38c",
+      "dependsOn": [
+        "24cb6672-bb56-465c-9d2b-d044a75590a1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/anyio@4.11.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django@5.2.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-asyncio@1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-bdd@8.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-cov@7.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-django@4.11.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-flakes@4.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-html@4.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-mock@3.15.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-rerunfailures@16.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-sugar@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-trio@0.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-twisted@1.14.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-xvfb@3.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/twisted@25.5.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/koajs/koa.git /home/duongnv48/Desktop/benmark/nodejs/repos/koa
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benmark/nodejs/repos/koa'...
+

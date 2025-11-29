@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/locustio/locust.git /home/duongnv48/Desktop/benmark/python/repos/locust
+exit_code: 0
+elapsed: 2.862 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/locust'...
+

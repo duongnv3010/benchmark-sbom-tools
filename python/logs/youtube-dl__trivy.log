@@ -1,0 +1,8 @@
+$ trivy fs . --format cyclonedx --output /home/duongnv48/Desktop/benmark/python/sboms/youtube-dl.trivy.cdx.json
+exit_code: 0
+elapsed: 0.182 s
+
+=== STDERR ===
+2025-11-29T13:13:47+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-11-29T13:13:47+07:00	INFO	Number of language-specific files	num=0
+

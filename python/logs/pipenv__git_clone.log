@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/pypa/pipenv.git /home/duongnv48/Desktop/benmark/python/repos/pipenv
+exit_code: 0
+elapsed: 4.798 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/pipenv'...
+

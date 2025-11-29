@@ -1,0 +1,173 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:80da9ae1-8baf-436a-a090-fe6a0245f4c1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-11-29T06:13:30+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "3d77be17-dfbf-488a-846e-a4ddf2ca13b2",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "f26aa5c9-285e-43cc-a767-af67b7d20a36",
+      "type": "application",
+      "name": "docs/requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/docutils@0.21.2",
+      "type": "library",
+      "name": "docutils",
+      "version": "0.21.2",
+      "purl": "pkg:pypi/docutils@0.21.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/furo@2025.9.25",
+      "type": "library",
+      "name": "furo",
+      "version": "2025.9.25",
+      "purl": "pkg:pypi/furo@2025.9.25",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/myst-parser@4.0.1",
+      "type": "library",
+      "name": "myst-parser",
+      "version": "4.0.1",
+      "purl": "pkg:pypi/myst-parser@4.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sphinx-copybutton@0.5.2",
+      "type": "library",
+      "name": "sphinx_copybutton",
+      "version": "0.5.2",
+      "purl": "pkg:pypi/sphinx-copybutton@0.5.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sphinx@8.2.3",
+      "type": "library",
+      "name": "Sphinx",
+      "version": "8.2.3",
+      "purl": "pkg:pypi/sphinx@8.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sphinxcontrib-programoutput@0.18",
+      "type": "library",
+      "name": "sphinxcontrib-programoutput",
+      "version": "0.18",
+      "purl": "pkg:pypi/sphinxcontrib-programoutput@0.18",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "3d77be17-dfbf-488a-846e-a4ddf2ca13b2",
+      "dependsOn": [
+        "f26aa5c9-285e-43cc-a767-af67b7d20a36"
+      ]
+    },
+    {
+      "ref": "f26aa5c9-285e-43cc-a767-af67b7d20a36",
+      "dependsOn": [
+        "pkg:pypi/docutils@0.21.2",
+        "pkg:pypi/furo@2025.9.25",
+        "pkg:pypi/myst-parser@4.0.1",
+        "pkg:pypi/sphinx-copybutton@0.5.2",
+        "pkg:pypi/sphinx@8.2.3",
+        "pkg:pypi/sphinxcontrib-programoutput@0.18"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/docutils@0.21.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/furo@2025.9.25",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/myst-parser@4.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinx-copybutton@0.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinx@8.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinxcontrib-programoutput@0.18",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

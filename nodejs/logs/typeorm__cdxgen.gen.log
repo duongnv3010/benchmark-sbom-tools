@@ -1,0 +1,3 @@
+CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/typeorm.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/typeorm
+EXIT_CODE: 0
+

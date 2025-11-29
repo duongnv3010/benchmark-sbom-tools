@@ -1,0 +1,3 @@
+CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benmark/nodejs/sboms/pm2.trivy.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/pm2
+EXIT_CODE: 0
+

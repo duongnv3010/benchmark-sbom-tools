@@ -1,0 +1,3 @@
+CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benmark/nodejs/sboms/bulletproof-nodejs.trivy.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/bulletproof-nodejs
+EXIT_CODE: 0
+

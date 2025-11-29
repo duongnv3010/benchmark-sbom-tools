@@ -1,0 +1,3 @@
+CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/real-world-tourism-api.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/real-world-tourism-api
+EXIT_CODE: 0
+

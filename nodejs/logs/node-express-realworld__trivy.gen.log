@@ -1,0 +1,3 @@
+CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benmark/nodejs/sboms/node-express-realworld.trivy.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/node-express-realworld
+EXIT_CODE: 0
+

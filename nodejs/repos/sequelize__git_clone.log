@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/sequelize/sequelize.git /home/duongnv48/Desktop/benmark/nodejs/repos/sequelize
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benmark/nodejs/repos/sequelize'...
+

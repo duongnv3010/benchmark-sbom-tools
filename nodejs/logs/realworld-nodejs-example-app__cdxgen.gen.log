@@ -1,0 +1,3 @@
+CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/realworld-nodejs-example-app.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/realworld-nodejs-example-app
+EXIT_CODE: 0
+

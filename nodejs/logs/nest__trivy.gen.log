@@ -1,0 +1,3 @@
+CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benmark/nodejs/sboms/nest.trivy.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/nest
+EXIT_CODE: 0
+

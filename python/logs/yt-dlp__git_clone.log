@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/yt-dlp/yt-dlp.git /home/duongnv48/Desktop/benmark/python/repos/yt-dlp
+exit_code: 0
+elapsed: 5.250 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/yt-dlp'...
+

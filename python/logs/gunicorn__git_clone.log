@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/benoitc/gunicorn.git /home/duongnv48/Desktop/benmark/python/repos/gunicorn
+exit_code: 0
+elapsed: 1.672 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benmark/python/repos/gunicorn'...
+

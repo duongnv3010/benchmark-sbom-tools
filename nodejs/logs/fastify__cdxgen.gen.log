@@ -1,0 +1,3 @@
+CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/fastify.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/fastify
+EXIT_CODE: 0
+

@@ -1,0 +1,7 @@
+CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/express.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/express
+EXIT_CODE: 0
+
+==== STDOUT ====
+Executing 'npm install --package-lock' in /home/duongnv48/Desktop/benmark/nodejs/repos/express
+
+

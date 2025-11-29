@@ -1,0 +1,3 @@
+CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benmark/nodejs/sboms/nuxt.trivy.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/nuxt
+EXIT_CODE: 0
+

@@ -1,0 +1,31 @@
+CMD: cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/spring-petclinic.cdxgen.cdx.json .
+EXIT_CODE: 0
+
+==== STDOUT ====
+*** GRADLE BUILD ERRORS ***
+1. Check if the correct version of java and gradle are installed and available in PATH. For example, some project might require Java 11 with gradle 7.
+ cdxgen container image bundles Java 23 with gradle 8 which might be incompatible.
+2. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+
+
+==== STDERR ====
+  Starting a Gradle Daemon, 1 stopped Daemon could not be reused, use --status for details
+   
+  FAILURE: Build failed with an exception.
+  
+  * What went wrong:
+  A problem occurred configuring root project 'spring-petclinic'.
+  > Failed to calculate the value of task ':compileTestJava' property 'javaCompiler'.
+     > Cannot find a Java installation on your machine (Linux 6.14.0-36-generic amd64) matching: {languageVersion=17, vendor=any vendor, implementation=vendor-specific, nativeImageCapable=false}. Toolchain download repositories have not been configured.
+  
+  * Try:
+  > Learn more about toolchain auto-detection and auto-provisioning at https://docs.gradle.org/9.2.1/userguide/toolchains.html#sec:auto_detection.
+  > Learn more about toolchain repositories at https://docs.gradle.org/9.2.1/userguide/toolchains.html#sub:download_repositories.
+  > Run with --stacktrace option to get the stack trace.
+  > Run with --info or --debug option to get more log output.
+  > Run with --scan to generate a Build Scan (powered by Develocity).
+  > Get more help at https://help.gradle.org.
+  
+  BUILD FAILED in 10s
+  
+

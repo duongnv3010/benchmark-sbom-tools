@@ -1,0 +1,515 @@
+CMD: cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/swagger-core.cdxgen.cdx.json .
+EXIT_CODE: 0
+
+==== STDOUT ====
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 20 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;33mWARNING[m] The project io.swagger.core.v3:swagger-project:pom:2.2.42-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;33mWARNING[m] The project io.swagger.core.v3:swagger-project-jakarta:pom:2.2.42-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] swagger-project                                                    [pom]
+[[1;34mINFO[m] swagger-annotations                                                [jar]
+[[1;34mINFO[m] swagger-models                                                     [jar]
+[[1;34mINFO[m] swagger-core                                                       [jar]
+[[1;34mINFO[m] swagger-integration                                                [jar]
+[[1;34mINFO[m] swagger-jaxrs2                                                     [jar]
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer                                 [jar]
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-v2                              [jar]
+[[1;34mINFO[m] swagger-eclipse-transformer-maven-plugin                  [maven-plugin]
+[[1;34mINFO[m] swagger-maven-plugin                                      [maven-plugin]
+[[1;34mINFO[m] swagger-project-jakarta                                            [pom]
+[[1;34mINFO[m] swagger-annotations-jakarta                                        [jar]
+[[1;34mINFO[m] swagger-models-jakarta                                             [jar]
+[[1;34mINFO[m] swagger-core-jakarta                                               [jar]
+[[1;34mINFO[m] swagger-integration-jakarta                                        [jar]
+[[1;34mINFO[m] swagger-jaxrs2-jakarta                                             [jar]
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-jakarta                         [jar]
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-v2-jakarta                      [jar]
+[[1;34mINFO[m] swagger-maven-plugin-jakarta                              [maven-plugin]
+[[1;34mINFO[m] swagger-java17-support                                             [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.swagger.core.v3:swagger-project[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding swagger-project 2.2.42-SNAPSHOT                          [1/20][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mswagger-project[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-nxWxkf/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.swagger.core.v3:swagger-annotations[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding swagger-annotations 2.2.42-SNAPSHOT                      [2/20][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mswagger-annotations[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-nxWxkf/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.swagger.core.v3:swagger-models[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding swagger-models 2.2.42-SNAPSHOT                           [3/20][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mswagger-models[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-nxWxkf/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.swagger.core.v3:swagger-core[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding swagger-core 2.2.42-SNAPSHOT                             [4/20][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for swagger-project 2.2.42-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] swagger-project .................................... [1;32mSUCCESS[m [  0.551 s]
+[[1;34mINFO[m] swagger-annotations ................................ [1;32mSUCCESS[m [  0.015 s]
+[[1;34mINFO[m] swagger-models ..................................... [1;32mSUCCESS[m [  0.022 s]
+[[1;34mINFO[m] swagger-core ....................................... [1;31mFAILURE[m [  0.080 s]
+[[1;34mINFO[m] swagger-integration ................................ [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2 ..................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer ................. [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-v2 .............. [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-eclipse-transformer-maven-plugin ........... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-maven-plugin ............................... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-project-jakarta ............................ [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-annotations-jakarta ........................ [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-models-jakarta ............................. [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-core-jakarta ............................... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-integration-jakarta ........................ [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2-jakarta ............................. [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-jakarta ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-v2-jakarta ...... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-maven-plugin-jakarta ....................... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-java17-support ............................. [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.572 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:16+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-core[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-core:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :swagger-core[m
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 9 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;33mWARNING[m] The project io.swagger.core.v3:swagger-project-jakarta:pom:2.2.42-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] swagger-project-jakarta                                            [pom]
+[[1;34mINFO[m] swagger-annotations-jakarta                                        [jar]
+[[1;34mINFO[m] swagger-models-jakarta                                             [jar]
+[[1;34mINFO[m] swagger-core-jakarta                                               [jar]
+[[1;34mINFO[m] swagger-integration-jakarta                                        [jar]
+[[1;34mINFO[m] swagger-jaxrs2-jakarta                                             [jar]
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-jakarta                         [jar]
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-v2-jakarta                      [jar]
+[[1;34mINFO[m] swagger-maven-plugin-jakarta                              [maven-plugin]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mio.swagger.core.v3:swagger-project-jakarta[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding swagger-project-jakarta 2.2.42-SNAPSHOT                   [1/9][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mswagger-project-jakarta[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-QyPDoO/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.swagger.core.v3:swagger-annotations-jakarta[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding swagger-annotations-jakarta 2.2.42-SNAPSHOT               [2/9][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mswagger-annotations-jakarta[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-QyPDoO/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mio.swagger.core.v3:swagger-models-jakarta[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding swagger-models-jakarta 2.2.42-SNAPSHOT                    [3/9][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mswagger-models-jakarta[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-QyPDoO/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mio.swagger.core.v3:swagger-core-jakarta[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding swagger-core-jakarta 2.2.42-SNAPSHOT                      [4/9][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for swagger-project-jakarta 2.2.42-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] swagger-project-jakarta ............................ [1;32mSUCCESS[m [  0.572 s]
+[[1;34mINFO[m] swagger-annotations-jakarta ........................ [1;32mSUCCESS[m [  0.246 s]
+[[1;34mINFO[m] swagger-models-jakarta ............................. [1;32mSUCCESS[m [  0.014 s]
+[[1;34mINFO[m] swagger-core-jakarta ............................... [1;31mFAILURE[m [  0.076 s]
+[[1;34mINFO[m] swagger-integration-jakarta ........................ [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2-jakarta ............................. [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-jakarta ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-jaxrs2-servlet-initializer-v2-jakarta ...... [1;33mSKIPPED[m
+[[1;34mINFO[m] swagger-maven-plugin-jakarta ....................... [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.663 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:19+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-core-jakarta[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-core-jakarta:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-models-jakarta:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :swagger-core-jakarta[m
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36mio.swagger.core.v3:swagger-jaxrs2-servlet-initializer-v2-jakarta[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding swagger-jaxrs2-servlet-initializer-v2-jakarta 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-jaxrs2-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.636 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:25+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-jaxrs2-servlet-initializer-v2-jakarta[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-jaxrs2-servlet-initializer-v2-jakarta:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-jaxrs2-jakarta:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---< [0;36mio.swagger.core.v3:swagger-jaxrs2-servlet-initializer-jakarta[0;1m >----[m
+[[1;34mINFO[m] [1mBuilding swagger-jaxrs2-servlet-initializer-jakarta 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-jaxrs2-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.643 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:27+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-jaxrs2-servlet-initializer-jakarta[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-jaxrs2-servlet-initializer-jakarta:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-jaxrs2-jakarta:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mio.swagger.core.v3:swagger-jaxrs2-jakarta[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding swagger-jaxrs2-jakarta 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-models-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-integration-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.764 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:29+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-jaxrs2-jakarta[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-jaxrs2-jakarta:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-models-jakarta:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-integration-jakarta:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-models-jakarta:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.swagger.core.v3:swagger-integration-jakarta[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding swagger-integration-jakarta 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-core-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-models-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.646 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:30+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-integration-jakarta[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-integration-jakarta:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-core-jakarta:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-models-jakarta:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-core-jakarta:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mio.swagger.core.v3:swagger-core-jakarta[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding swagger-core-jakarta 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-models-jakarta:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.843 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:32+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-core-jakarta[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-core-jakarta:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-models-jakarta:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mio.swagger.core.v3:swagger-maven-plugin[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding swagger-maven-plugin 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m----------------------------[ maven-plugin ]----------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.971 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:38+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-maven-plugin[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-maven-plugin:maven-plugin:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------< [0;36mio.swagger.core.v3:swagger-jaxrs2-servlet-initializer-v2[0;1m >------[m
+[[1;34mINFO[m] [1mBuilding swagger-jaxrs2-servlet-initializer-v2 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.709 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:40+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-jaxrs2-servlet-initializer-v2[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-jaxrs2-servlet-initializer-v2:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------< [0;36mio.swagger.core.v3:swagger-jaxrs2-servlet-initializer[0;1m >--------[m
+[[1;34mINFO[m] [1mBuilding swagger-jaxrs2-servlet-initializer 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.757 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:42+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-jaxrs2-servlet-initializer[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-jaxrs2-servlet-initializer:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.swagger.core.v3:swagger-jaxrs2[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding swagger-jaxrs2 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-integration:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.062 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:44+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-jaxrs2[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-integration:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mio.swagger.core.v3:swagger-java17-support[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding swagger-java17-support 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-core:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.618 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:45+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-java17-support[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-java17-support:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-core:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-jaxrs2:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.swagger.core.v3:swagger-integration[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding swagger-integration 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-core:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.582 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:47+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-integration[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-integration:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-core:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-core:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.swagger.core.v3:swagger-core[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding swagger-core 2.2.42-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.668 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:19:51+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mswagger-core[m: [1;31mCould not resolve dependencies for project io.swagger.core.v3:swagger-core:jar:2.2.42-SNAPSHOT: The following artifacts could not be resolved: io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT, io.swagger.core.v3:swagger-models:jar:2.2.42-SNAPSHOT: Could not find artifact io.swagger.core.v3:swagger-annotations:jar:2.2.42-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+Is this a gradle project? Try running cdxgen with `-t gradle`.
+
+

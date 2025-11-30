@@ -111,7 +111,6 @@ def gen_sbom(
         cmd = [
             "trivy",
             "fs",
-            "--quiet",
             "--format",
             "cyclonedx",
             "--output",

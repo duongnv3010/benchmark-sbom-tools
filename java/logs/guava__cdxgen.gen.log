@@ -1,0 +1,158 @@
+CMD: cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/guava.cdxgen.cdx.json .
+EXIT_CODE: 0
+
+==== STDOUT ====
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 6 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Guava Maven Parent                                                 [pom]
+[[1;34mINFO[m] Guava: Google Core Libraries for Java                           [bundle]
+[[1;34mINFO[m] Guava BOM                                                          [pom]
+[[1;34mINFO[m] Guava Testing Library                                              [jar]
+[[1;34mINFO[m] Guava Unit Tests                                                   [jar]
+[[1;34mINFO[m] Guava GWT compatible libs                                          [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.google.guava:guava-parent[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Guava Maven Parent 999.0.0-HEAD-jre-SNAPSHOT              [1/6][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.8.1:tree[m [1m(default-cli)[m @ [36mguava-parent[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-ij3oCm/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.google.guava:guava[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding Guava: Google Core Libraries for Java 999.0.0-HEAD-jre-SNAPSHOT [2/6][m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.8.1:tree[m [1m(default-cli)[m @ [36mguava[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-ij3oCm/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.google.guava:guava-bom[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Guava BOM 999.0.0-HEAD-jre-SNAPSHOT                       [3/6][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mguava-bom[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-ij3oCm/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.google.guava:guava-testlib[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Guava Testing Library 999.0.0-HEAD-jre-SNAPSHOT           [4/6][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.8.1:tree[m [1m(default-cli)[m @ [36mguava-testlib[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-ij3oCm/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.google.guava:guava-tests[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Guava Unit Tests 999.0.0-HEAD-jre-SNAPSHOT                [5/6][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.8.1:tree[m [1m(default-cli)[m @ [36mguava-tests[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-ij3oCm/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.google.guava:guava-gwt[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Guava GWT compatible libs 999.0.0-HEAD-jre-SNAPSHOT       [6/6][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.8.1:tree[m [1m(default-cli)[m @ [36mguava-gwt[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Guava Maven Parent 999.0.0-HEAD-jre-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Guava Maven Parent ................................. [1;32mSUCCESS[m [  0.737 s]
+[[1;34mINFO[m] Guava: Google Core Libraries for Java .............. [1;32mSUCCESS[m [  0.456 s]
+[[1;34mINFO[m] Guava BOM .......................................... [1;32mSUCCESS[m [  0.432 s]
+[[1;34mINFO[m] Guava Testing Library .............................. [1;32mSUCCESS[m [  0.020 s]
+[[1;34mINFO[m] Guava Unit Tests ................................... [1;32mSUCCESS[m [  0.131 s]
+[[1;34mINFO[m] Guava GWT compatible libs .......................... [1;31mFAILURE[m [  0.242 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.125 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:08:04+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-dependency-plugin:3.8.1:tree[m [1m(default-cli)[m on project [36mguava-gwt[m: [1;31mExecution default-cli of goal org.apache.maven.plugins:maven-dependency-plugin:3.8.1:tree failed: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.8.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: com.google.guava:guava:jar:sources:999.0.0-HEAD-jre-SNAPSHOT, com.google.guava:guava-testlib:jar:sources:999.0.0-HEAD-jre-SNAPSHOT, com.google.guava:guava:jar:999.0.0-HEAD-jre-SNAPSHOT, com.google.guava:guava-testlib:jar:test-sources:999.0.0-HEAD-jre-SNAPSHOT, com.google.guava:guava-tests:jar:test-sources:999.0.0-HEAD-jre-SNAPSHOT: com.google.guava:guava:jar:sources:999.0.0-HEAD-jre-SNAPSHOT was not found in https://oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of sonatype-snapshots has elapsed or updates are forced[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :guava-gwt[m
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules
+[[1;34mINFO[m] Installing Central Publishing features
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.google.guava:guava-gwt[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Guava GWT compatible libs 999.0.0-HEAD-jre-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for com.google.guava:guava:jar:999.0.0-HEAD-jre-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for com.google.guava:guava-testlib:jar:999.0.0-HEAD-jre-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for com.google.guava:guava-testlib:jar:tests:999.0.0-HEAD-jre-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for com.google.guava:guava-tests:jar:tests:999.0.0-HEAD-jre-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.8.1:tree[m [1m(default-cli)[m @ [36mguava-gwt[0;1m ---[m
+[[1;33mWARNING[m] The POM for com.google.guava:guava:jar:sources:999.0.0-HEAD-jre-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for com.google.guava:guava-testlib:jar:sources:999.0.0-HEAD-jre-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for com.google.guava:guava-testlib:jar:test-sources:999.0.0-HEAD-jre-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for com.google.guava:guava-tests:jar:test-sources:999.0.0-HEAD-jre-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.330 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:08:12+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-dependency-plugin:3.8.1:tree[m [1m(default-cli)[m on project [36mguava-gwt[m: [1;31mExecution default-cli of goal org.apache.maven.plugins:maven-dependency-plugin:3.8.1:tree failed: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.8.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: com.google.guava:guava:jar:sources:999.0.0-HEAD-jre-SNAPSHOT, com.google.guava:guava-testlib:jar:sources:999.0.0-HEAD-jre-SNAPSHOT, com.google.guava:guava-testlib:jar:test-sources:999.0.0-HEAD-jre-SNAPSHOT, com.google.guava:guava-tests:jar:test-sources:999.0.0-HEAD-jre-SNAPSHOT: com.google.guava:guava:jar:sources:999.0.0-HEAD-jre-SNAPSHOT was not found in https://oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of sonatype-snapshots has elapsed or updates are forced[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+Is this a gradle project? Try running cdxgen with `-t gradle`.
+*** GRADLE BUILD ERRORS ***
+1. Check if the correct version of java and gradle are installed and available in PATH. For example, some project might require Java 11 with gradle 7.
+ cdxgen container image bundles Java 23 with gradle 8 which might be incompatible.
+2. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+
+
+==== STDERR ====
+  > Task :androidAndroidConstraintCompileClasspathJava:properties FAILED
+  
+  [Incubating] Problems report is available at: file:///home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/guava/integration-tests/gradle/build/reports/problems/problems-report.html
+  
+  Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+  
+  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+  
+  For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+  1 actionable task: 1 executed
+   
+  FAILURE: Build failed with an exception.
+  
+  * What went wrong:
+  Execution failed for task ':androidAndroidConstraintCompileClasspathJava:properties'.
+  > Basedir /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/guava/integration-tests/gradle/androidAndroidConstraintCompileClasspathJava does not exist
+  
+  * Try:
+  > Run with --stacktrace option to get the stack trace.
+  > Run with --info or --debug option to get more log output.
+  > Run with --scan to get full insights.
+  > Get more help at https://help.gradle.org.
+  
+  BUILD FAILED in 1s
+  
+

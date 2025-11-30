@@ -1,0 +1,9 @@
+CMD: cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/spring-data-examples.cdxgen.cdx.json .
+EXIT_CODE: 0
+
+==== STDOUT ====
+maven settings.xml found in /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/spring-data-examples. Please set the MVN_ARGS environment variable based on the full mvn build command used for this project.
+Example: MVN_ARGS='--settings /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/spring-data-examples/settings.xml'
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+
+

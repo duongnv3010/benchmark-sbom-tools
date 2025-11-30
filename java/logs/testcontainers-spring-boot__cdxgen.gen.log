@@ -1,0 +1,3 @@
+CMD: cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/testcontainers-spring-boot.cdxgen.cdx.json .
+EXIT_CODE: 0
+

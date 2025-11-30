@@ -1,0 +1,3 @@
+CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/spring-boot-3-rest-api-example.trivy.cdx.json .
+EXIT_CODE: 0
+

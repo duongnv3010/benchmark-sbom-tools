@@ -1,0 +1,1080 @@
+CMD: cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/dropwizard.cdxgen.cdx.json .
+EXIT_CODE: 0
+
+==== STDOUT ====
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Dropwizard Project                                                 [pom]
+[[1;34mINFO[m] Dropwizard BOM                                                     [pom]
+[[1;34mINFO[m] Dropwizard Dependencies                                            [pom]
+[[1;34mINFO[m] Dropwizard Parent                                                  [pom]
+[[1;34mINFO[m] Dropwizard Utility Classes                                         [jar]
+[[1;34mINFO[m] Dropwizard Jackson Support                                         [jar]
+[[1;34mINFO[m] Dropwizard Validation Support                                      [jar]
+[[1;34mINFO[m] Dropwizard Configuration Support                                   [jar]
+[[1;34mINFO[m] Dropwizard Logging Support                                         [jar]
+[[1;34mINFO[m] Dropwizard Lifecycle Support                                       [jar]
+[[1;34mINFO[m] Dropwizard Metrics Support                                         [jar]
+[[1;34mINFO[m] Dropwizard Jersey Support                                          [jar]
+[[1;34mINFO[m] Dropwizard Servlet Support                                         [jar]
+[[1;34mINFO[m] Dropwizard Jetty Support                                           [jar]
+[[1;34mINFO[m] Dropwizard Health Checking Support                                 [jar]
+[[1;34mINFO[m] Dropwizard Request Logging Support                                 [jar]
+[[1;34mINFO[m] Dropwizard                                                         [jar]
+[[1;34mINFO[m] Dropwizard Test Helpers                                            [jar]
+[[1;34mINFO[m] Dropwizard HTTP Client                                             [jar]
+[[1;34mINFO[m] Dropwizard Database Support                                        [jar]
+[[1;34mINFO[m] Dropwizard JDBI3 Support                                           [jar]
+[[1;34mINFO[m] Dropwizard Migrations                                              [jar]
+[[1;34mINFO[m] Dropwizard Hibernate Support                                       [jar]
+[[1;34mINFO[m] Dropwizard Authentication                                          [jar]
+[[1;34mINFO[m] Dropwizard Multipart Form Support                                  [jar]
+[[1;34mINFO[m] Dropwizard Views                                                   [jar]
+[[1;34mINFO[m] Dropwizard Freemarker Views                                        [jar]
+[[1;34mINFO[m] Dropwizard Mustache Views                                          [jar]
+[[1;34mINFO[m] Dropwizard Metrics Support for Graphite                            [jar]
+[[1;34mINFO[m] Dropwizard Asset Bundle                                            [jar]
+[[1;34mINFO[m] Dropwizard HTTP/2 Support                                          [jar]
+[[1;34mINFO[m] Dropwizard JSON logging                                            [jar]
+[[1;34mINFO[m] Dropwizard Unix Socket Support                                     [jar]
+[[1;34mINFO[m] Dropwizard Example Application                                     [jar]
+[[1;34mINFO[m] examples-parent                                                    [pom]
+[[1;34mINFO[m] Examples: Core                                                     [jar]
+[[1;34mINFO[m] Examples: Conscrypt                                                [jar]
+[[1;34mINFO[m] Examples: Getting Started                                          [jar]
+[[1;34mINFO[m] Examples: Views                                                    [jar]
+[[1;34mINFO[m] Dropwizard Documentation                                           [jar]
+[[1;34mINFO[m] Dropwizard End-to-end Tests                                        [jar]
+[[1;34mINFO[m] Dropwizard Benchmarks                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-project[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Project 5.0.1-SNAPSHOT                        [1/42][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-project[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mio.dropwizard:dropwizard-bom[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard BOM 5.0.1-SNAPSHOT                            [2/42][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-bom[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.dropwizard:dropwizard-dependencies[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Dependencies 5.0.1-SNAPSHOT                   [3/42][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-dependencies[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-parent[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Parent 5.0.1-SNAPSHOT                         [4/42][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-parent[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.dropwizard:dropwizard-util[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Utility Classes 5.0.1-SNAPSHOT                [5/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-util[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-jackson[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Jackson Support 5.0.1-SNAPSHOT                [6/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-jackson[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mio.dropwizard:dropwizard-validation[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Validation Support 5.0.1-SNAPSHOT             [7/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-validation[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.dropwizard:dropwizard-configuration[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Configuration Support 5.0.1-SNAPSHOT          [8/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-configuration[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-logging[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Logging Support 5.0.1-SNAPSHOT                [9/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-logging[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.dropwizard:dropwizard-lifecycle[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Lifecycle Support 5.0.1-SNAPSHOT             [10/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-lifecycle[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-metrics[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Metrics Support 5.0.1-SNAPSHOT               [11/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-metrics[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-jersey[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Jersey Support 5.0.1-SNAPSHOT                [12/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-jersey[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.dropwizard:dropwizard-servlets[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Servlet Support 5.0.1-SNAPSHOT               [13/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-servlets[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.dropwizard:dropwizard-jetty[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Jetty Support 5.0.1-SNAPSHOT                 [14/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-jetty[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-health[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Health Checking Support 5.0.1-SNAPSHOT       [15/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-health[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mio.dropwizard:dropwizard-request-logging[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Request Logging Support 5.0.1-SNAPSHOT       [16/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-request-logging[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.dropwizard:dropwizard-core[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard 5.0.1-SNAPSHOT                               [17/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-core[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-testing[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Test Helpers 5.0.1-SNAPSHOT                  [18/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-testing[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-client[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard HTTP Client 5.0.1-SNAPSHOT                   [19/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-client[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mio.dropwizard:dropwizard-db[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Database Support 5.0.1-SNAPSHOT              [20/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-db[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.dropwizard:dropwizard-jdbi3[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard JDBI3 Support 5.0.1-SNAPSHOT                 [21/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-jdbi3[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mio.dropwizard:dropwizard-migrations[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Migrations 5.0.1-SNAPSHOT                    [22/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-migrations[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.dropwizard:dropwizard-hibernate[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Hibernate Support 5.0.1-SNAPSHOT             [23/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-hibernate[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.dropwizard:dropwizard-auth[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Authentication 5.0.1-SNAPSHOT                [24/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-auth[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.dropwizard:dropwizard-forms[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Multipart Form Support 5.0.1-SNAPSHOT        [25/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-forms[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.dropwizard:dropwizard-views[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Views 5.0.1-SNAPSHOT                         [26/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-views[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mio.dropwizard:dropwizard-views-freemarker[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Freemarker Views 5.0.1-SNAPSHOT              [27/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-views-freemarker[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mio.dropwizard:dropwizard-views-mustache[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Mustache Views 5.0.1-SNAPSHOT                [28/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-views-mustache[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mio.dropwizard:dropwizard-metrics-graphite[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Metrics Support for Graphite 5.0.1-SNAPSHOT  [29/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-metrics-graphite[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-assets[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Asset Bundle 5.0.1-SNAPSHOT                  [30/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-assets[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.dropwizard:dropwizard-http2[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard HTTP/2 Support 5.0.1-SNAPSHOT                [31/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-http2[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.dropwizard:dropwizard-json-logging[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard JSON logging 5.0.1-SNAPSHOT                  [32/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-json-logging[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mio.dropwizard:dropwizard-unix-socket[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Unix Socket Support 5.0.1-SNAPSHOT           [33/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.9.0:tree[m [1m(default-cli)[m @ [36mdropwizard-unix-socket[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-IsvZIr/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.dropwizard:dropwizard-example[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Dropwizard Example Application 5.0.1-SNAPSHOT           [34/42][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Dropwizard Project 5.0.1-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Dropwizard Project ................................. [1;32mSUCCESS[m [  0.896 s]
+[[1;34mINFO[m] Dropwizard BOM ..................................... [1;32mSUCCESS[m [  0.004 s]
+[[1;34mINFO[m] Dropwizard Dependencies ............................ [1;32mSUCCESS[m [  0.006 s]
+[[1;34mINFO[m] Dropwizard Parent .................................. [1;32mSUCCESS[m [  0.063 s]
+[[1;34mINFO[m] Dropwizard Utility Classes ......................... [1;32mSUCCESS[m [  0.073 s]
+[[1;34mINFO[m] Dropwizard Jackson Support ......................... [1;32mSUCCESS[m [  0.087 s]
+[[1;34mINFO[m] Dropwizard Validation Support ...................... [1;32mSUCCESS[m [  0.049 s]
+[[1;34mINFO[m] Dropwizard Configuration Support ................... [1;32mSUCCESS[m [  0.047 s]
+[[1;34mINFO[m] Dropwizard Logging Support ......................... [1;32mSUCCESS[m [  0.062 s]
+[[1;34mINFO[m] Dropwizard Lifecycle Support ....................... [1;32mSUCCESS[m [  0.023 s]
+[[1;34mINFO[m] Dropwizard Metrics Support ......................... [1;32mSUCCESS[m [  0.018 s]
+[[1;34mINFO[m] Dropwizard Jersey Support .......................... [1;32mSUCCESS[m [  0.122 s]
+[[1;34mINFO[m] Dropwizard Servlet Support ......................... [1;32mSUCCESS[m [  0.019 s]
+[[1;34mINFO[m] Dropwizard Jetty Support ........................... [1;32mSUCCESS[m [  0.019 s]
+[[1;34mINFO[m] Dropwizard Health Checking Support ................. [1;32mSUCCESS[m [  0.026 s]
+[[1;34mINFO[m] Dropwizard Request Logging Support ................. [1;32mSUCCESS[m [  0.017 s]
+[[1;34mINFO[m] Dropwizard ......................................... [1;32mSUCCESS[m [  0.062 s]
+[[1;34mINFO[m] Dropwizard Test Helpers ............................ [1;32mSUCCESS[m [  0.089 s]
+[[1;34mINFO[m] Dropwizard HTTP Client ............................. [1;32mSUCCESS[m [  0.042 s]
+[[1;34mINFO[m] Dropwizard Database Support ........................ [1;32mSUCCESS[m [  0.025 s]
+[[1;34mINFO[m] Dropwizard JDBI3 Support ........................... [1;32mSUCCESS[m [  0.074 s]
+[[1;34mINFO[m] Dropwizard Migrations .............................. [1;32mSUCCESS[m [  0.050 s]
+[[1;34mINFO[m] Dropwizard Hibernate Support ....................... [1;32mSUCCESS[m [  0.037 s]
+[[1;34mINFO[m] Dropwizard Authentication .......................... [1;32mSUCCESS[m [  0.030 s]
+[[1;34mINFO[m] Dropwizard Multipart Form Support .................. [1;32mSUCCESS[m [  0.030 s]
+[[1;34mINFO[m] Dropwizard Views ................................... [1;32mSUCCESS[m [  0.023 s]
+[[1;34mINFO[m] Dropwizard Freemarker Views ........................ [1;32mSUCCESS[m [  0.030 s]
+[[1;34mINFO[m] Dropwizard Mustache Views .......................... [1;32mSUCCESS[m [  0.026 s]
+[[1;34mINFO[m] Dropwizard Metrics Support for Graphite ............ [1;32mSUCCESS[m [  0.016 s]
+[[1;34mINFO[m] Dropwizard Asset Bundle ............................ [1;32mSUCCESS[m [  0.025 s]
+[[1;34mINFO[m] Dropwizard HTTP/2 Support .......................... [1;32mSUCCESS[m [  0.093 s]
+[[1;34mINFO[m] Dropwizard JSON logging ............................ [1;32mSUCCESS[m [  0.015 s]
+[[1;34mINFO[m] Dropwizard Unix Socket Support ..................... [1;32mSUCCESS[m [  0.029 s]
+[[1;34mINFO[m] Dropwizard Example Application ..................... [1;31mFAILURE[m [  0.126 s]
+[[1;34mINFO[m] examples-parent .................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Examples: Core ..................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Examples: Conscrypt ................................ [1;33mSKIPPED[m
+[[1;34mINFO[m] Examples: Getting Started .......................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Examples: Views .................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Dropwizard Documentation ........................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Dropwizard End-to-end Tests ........................ [1;33mSKIPPED[m
+[[1;34mINFO[m] Dropwizard Benchmarks .............................. [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.927 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:21:14+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mdropwizard-example[m: [1;31mCould not resolve dependencies for project io.dropwizard:dropwizard-example:jar:5.0.1-SNAPSHOT: The following artifacts could not be resolved: io.dropwizard:dropwizard-core:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-util:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-jackson:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-validation:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-configuration:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-logging:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-metrics:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-jersey:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-servlets:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-jetty:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-lifecycle:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-health:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-request-logging:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-auth:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-assets:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-http2:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-hibernate:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-db:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-migrations:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-views-freemarker:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-views:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-views-mustache:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-metrics-graphite:jar:5.0.1-SNAPSHOT, io.dropwizard:dropwizard-testing:jar:5.0.1-SNAPSHOT: Could not find artifact io.dropwizard:dropwizard-core:jar:5.0.1-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :dropwizard-example[m
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-views-mustache:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-views-mustache/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-views-freemarker:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-views-freemarker/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-views:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-views/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-validation:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-validation/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-util:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-util/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-unix-socket:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-unix-socket/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-testing:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-testing/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-servlets:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-servlets/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-request-logging:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-request-logging/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-migrations:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-migrations/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-metrics-graphite:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-metrics-graphite/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-metrics:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-metrics/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-logging:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-logging/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-lifecycle:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-lifecycle/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-json-logging:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-json-logging/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-jetty:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-jetty/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-jersey:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-jersey/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-jdbi3:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-jdbi3/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-jackson:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-jackson/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-http2:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-http2/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-hibernate:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-hibernate/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-health:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-health/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-forms:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-forms/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: Could not find artifact io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT @ line 29, column 25
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-core:jar is missing. @ line 52, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-auth:jar is missing. @ line 56, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-assets:jar is missing. @ line 60, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-http2:jar is missing. @ line 64, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-hibernate:jar is missing. @ line 68, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-migrations:jar is missing. @ line 72, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-views-freemarker:jar is missing. @ line 76, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-views-mustache:jar is missing. @ line 80, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-metrics-graphite:jar is missing. @ line 84, column 21
+[ERROR] 'dependencies.dependency.version' for com.h2database:h2:jar is missing. @ line 88, column 21
+[ERROR] 'dependencies.dependency.version' for io.dropwizard:dropwizard-testing:jar is missing. @ line 92, column 21
+[ERROR] 'dependencies.dependency.version' for org.mockito:mockito-core:jar is missing. @ line 131, column 21
+[ERROR] 'dependencies.dependency.version' for org.assertj:assertj-core:jar is missing. @ line 136, column 21
+[ERROR] 'dependencies.dependency.version' for org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar is missing. @ line 141, column 21
+[ERROR] 'dependencies.dependency.version' for org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar is missing. @ line 156, column 21
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-example:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-example/pom.xml) has 16 errors
+[[1;31mERROR[m]     Non-resolvable import POM: Could not find artifact io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT @ line 29, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-core:jar is missing. @ line 52, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-auth:jar is missing. @ line 56, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-assets:jar is missing. @ line 60, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-http2:jar is missing. @ line 64, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-hibernate:jar is missing. @ line 68, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-migrations:jar is missing. @ line 72, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-views-freemarker:jar is missing. @ line 76, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-views-mustache:jar is missing. @ line 80, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-metrics-graphite:jar is missing. @ line 84, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for com.h2database:h2:jar is missing. @ line 88, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.dropwizard:dropwizard-testing:jar is missing. @ line 92, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.mockito:mockito-core:jar is missing. @ line 131, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.assertj:assertj-core:jar is missing. @ line 136, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar is missing. @ line 141, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar is missing. @ line 156, column 21
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-e2e:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-e2e/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-db:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-db/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-core:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-core/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-configuration:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-configuration/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-client:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-client/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-benchmarks:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-benchmarks/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-auth:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-auth/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.dropwizard:dropwizard-assets:5.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-assets/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable import POM: io.dropwizard:dropwizard-dependencies:pom:5.0.1-SNAPSHOT was not found in https://central.sonatype.com/repository/maven-snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of ossrh has elapsed or updates are forced @ io.dropwizard:dropwizard-parent:5.0.1-SNAPSHOT, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/dropwizard/dropwizard-parent/pom.xml, line 105, column 25 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+
+
+==== STDERR ====
+Multiple errors occurred while building this project with maven. The SBOM is therefore incomplete!
+

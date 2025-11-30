@@ -1,0 +1,1050 @@
+CMD: cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/mapstruct.cdxgen.cdx.json .
+EXIT_CODE: 0
+
+==== STDOUT ====
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.mapstruct:mapstruct-processor[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding MapStruct Processor 1.7.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for org.mapstruct:mapstruct:jar:1.7.0-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.1.1:tree[m [1m(default-cli)[m @ [36mmapstruct-processor[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.608 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:32:56+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-dependency-plugin:3.1.1:tree[m [1m(default-cli)[m on project [36mmapstruct-processor[m: [1;31mCannot build project dependency graph[m: Could not resolve nor collect following dependencies: [org.mapstruct:mapstruct:jar:1.7.0-SNAPSHOT (provided)]: Could not resolve dependencies for project org.mapstruct:mapstruct-processor:jar:1.7.0-SNAPSHOT: Could not find artifact org.mapstruct:mapstruct:jar:1.7.0-SNAPSHOT -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct-parent/$%7Bmapstruct.version%7D/mapstruct-parent-$%7Bmapstruct.version%7D.pom
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: Could not find artifact org.mapstruct:mapstruct-parent:pom:${mapstruct.version} in central (https://repo.maven.apache.org/maven2) and 'parent.relativePath' points at wrong local POM @ line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:mapstruct-it-parent:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: Could not find artifact org.mapstruct:mapstruct-parent:pom:${mapstruct.version} in central (https://repo.maven.apache.org/maven2) and 'parent.relativePath' points at wrong local POM @ line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-usestypegeneration-aggregator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/usesTypeGenerationTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-usestypegeneration-usage:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/usesTypeGenerationTest/usage/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-usestypegeneration-generator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/usesTypeGenerationTest/generator/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-targettypegeneration-aggregator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/targetTypeGenerationTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-targettypegeneration-usage:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/targetTypeGenerationTest/usage/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-targettypegeneration-generator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/targetTypeGenerationTest/generator/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-supertypegeneration-aggregator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/superTypeGenerationTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-supertypegeneration-usage:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/superTypeGenerationTest/usage/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-supertypegeneration-generator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/superTypeGenerationTest/generator/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:springTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/springTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:simpleTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/simpleTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:sealedSubclassTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/sealedSubclassTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:recordsTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/recordsTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:recordsCrossModuleTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/recordsCrossModuleTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:records-cross-module-mapper:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/recordsCrossModuleTest/mapper/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:records-cross-module-api:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/recordsCrossModuleTest/api/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:recordsCrossModuleInterfaceTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/recordsCrossModuleInterfaceTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:records-cross-module-2:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/recordsCrossModuleInterfaceTest/module-2/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:records-cross-module-1:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/recordsCrossModuleInterfaceTest/module-1/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:protobufIntegrationTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/protobufBuilderTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:namingStrategyTest-aggregator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/namingStrategyTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:namingStrategyTest-usage:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/namingStrategyTest/usage/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:namingStrategyTest-strategy:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/namingStrategyTest/strategy/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:modulesTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/moduleInfoTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:lombokModuleIntegrationTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/lombokModuleTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:lombokIntegrationTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/lombokBuilderTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:kotlinDataTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/kotlinDataTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:jsr330Test:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/jsr330Test/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:jaxbTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/jaxbTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:java8Test:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/java8Test/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:jakartaJaxbTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/jakartaJaxbTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:immutablesIntegrationTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/immutablesBuilderTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:itest-immutables-mapper:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/immutablesBuilderTest/mapper/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:itest-immutables-mapping-extras:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/immutablesBuilderTest/extras/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:fullFeatureTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/fullFeatureTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:freeBuilderIntegrationTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/freeBuilderBuilderTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-faultyAstModifyingProcessor-aggregator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/faultyAstModifyingAnnotationProcessorTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-faultyAstModifyingProcessor-usage:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/faultyAstModifyingAnnotationProcessorTest/usage/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct.itest:itest-faultyAstModifyingProcessor-generator:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/faultyAstModifyingAnnotationProcessorTest/generator/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:externalbeanjar:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/externalbeanjar/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:mapper:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/externalbeanjar/mapper/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:beanjar:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/externalbeanjar/beanjar/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:expressionTextBlocksTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:defaultPackage:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/defaultPackage/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:cdiTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/cdiTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.mapstruct:autoValueIntegrationTest:1.0.0 (/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/autoValueBuilderTest/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.mapstruct:mapstruct-it-parent:1.0.0: org.mapstruct:mapstruct-parent:pom:${mapstruct.version} was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ org.mapstruct:mapstruct-it-parent:1.0.0, /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct/integrationtest/src/test/resources/pom.xml, line 13, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36morg.mapstruct:mapstruct-distribution[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding MapStruct Distribution 1.7.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for org.mapstruct:mapstruct:jar:1.7.0-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for org.mapstruct:mapstruct-processor:jar:1.7.0-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.1.1:tree[m [1m(default-cli)[m @ [36mmapstruct-distribution[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.181 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:33:58+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-dependency-plugin:3.1.1:tree[m [1m(default-cli)[m on project [36mmapstruct-distribution[m: [1;31mCannot build project dependency graph[m: Could not resolve nor collect following dependencies: [org.mapstruct:mapstruct:jar:1.7.0-SNAPSHOT (compile), org.mapstruct:mapstruct-processor:jar:1.7.0-SNAPSHOT (compile)]: Could not resolve dependencies for project org.mapstruct:mapstruct-distribution:jar:1.7.0-SNAPSHOT: The following artifacts could not be resolved: org.mapstruct:mapstruct:jar:1.7.0-SNAPSHOT, org.mapstruct:mapstruct-processor:jar:1.7.0-SNAPSHOT: Could not find artifact org.mapstruct:mapstruct:jar:1.7.0-SNAPSHOT -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+Is this a gradle project? Try running cdxgen with `-t gradle`.
+
+

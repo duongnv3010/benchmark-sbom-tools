@@ -1,0 +1,1807 @@
+CMD: cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/mapstruct-examples.cdxgen.cdx.json .
+EXIT_CODE: 0
+
+==== STDOUT ====
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.bitness: 64
+[[1;34mINFO[m] os.detected.version: 6.14
+[[1;34mINFO[m] os.detected.version.major: 6
+[[1;34mINFO[m] os.detected.version.minor: 14
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 24.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] mapstruct-examples-field-mappings                                  [jar]
+[[1;34mINFO[m] mapstruct-examples-iterable-non-iterable                           [jar]
+[[1;34mINFO[m] mapstruct-examples-lombok                                          [jar]
+[[1;34mINFO[m] mapstruct-examples-from-map                                        [jar]
+[[1;34mINFO[m] mapstruct-examples-cycles-mapping                                  [jar]
+[[1;34mINFO[m] mapstruct-examples-nested-bean-mappings                            [jar]
+[[1;34mINFO[m] mapstruct-examples-rounding                                        [jar]
+[[1;34mINFO[m] accessornaming-parent                                              [pom]
+[[1;34mINFO[m] accessornaming-spi-impl                                            [jar]
+[[1;34mINFO[m] accessornaming-usage                                               [jar]
+[[1;34mINFO[m] protobuf-parent                                                    [pom]
+[[1;34mINFO[m] protobuf-spi-impl                                                  [jar]
+[[1;34mINFO[m] protobuf-usage                                                     [jar]
+[[1;34mINFO[m] mapstruct-examples-updatemethods-1                                 [jar]
+[[1;34mINFO[m] mapstruct-jpa-parent-child                                         [jar]
+[[1;34mINFO[m] mapstruct-lookup-entity-with-composed-key                          [jar]
+[[1;34mINFO[m] mapstruct-examples-metadata-with-annotations                       [jar]
+[[1;34mINFO[m] mapstruct-suppress-unmapped                                        [jar]
+[[1;34mINFO[m] mapstruct-deep-clone                                               [jar]
+[[1;34mINFO[m] mapstruct-repo                                                     [pom]
+[[1;34mINFO[m] repo-generator                                                     [jar]
+[[1;34mINFO[m] repo-example                                                       [jar]
+[[1;34mINFO[m] mapstruct-examples-record                                          [jar]
+[[1;34mINFO[m] mapstruct-examples                                                 [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---< [0;36morg.mapstruct.examples.field:mapstruct-examples-field-mappings[0;1m >---[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-field-mappings 1.0.0                  [1/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.pom
+Progress (1): 4.1 kB
+Progress (1): 8.2 kB
+Progress (1): 8.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.pom (8.3 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct/1.6.3/mapstruct-1.6.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct-processor/1.6.3/mapstruct-processor-1.6.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.jar
+Progress (1): 2.3/34 kB
+Progress (1): 5.0/34 kB
+Progress (1): 7.7/34 kB
+Progress (1): 10/34 kB 
+Progress (1): 13/34 kB
+Progress (1): 16/34 kB
+Progress (1): 19/34 kB
+Progress (1): 21/34 kB
+Progress (1): 24/34 kB
+Progress (1): 27/34 kB
+Progress (1): 30/34 kB
+Progress (1): 32/34 kB
+Progress (1): 34 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct/1.6.3/mapstruct-1.6.3.jar (34 kB at 35 kB/s)
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (2): 0/1.1 MB | 0/2.5 MB
+Progress (2): 0/1.1 MB | 0/2.5 MB
+Progress (2): 0/1.1 MB | 0/2.5 MB
+Progress (2): 0/1.1 MB | 0/2.5 MB
+Progress (2): 0/1.1 MB | 0/2.5 MB
+Progress (2): 0/1.1 MB | 0/2.5 MB
+Progress (2): 0/1.1 MB | 0/2.5 MB
+Progress (2): 0/1.1 MB | 0/2.5 MB
+Progress (2): 0/1.1 MB | 0.1/2.5 MB
+Progress (2): 0/1.1 MB | 0.1/2.5 MB
+Progress (2): 0/1.1 MB | 0.1/2.5 MB
+Progress (2): 0/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.1/2.5 MB
+Progress (2): 0.1/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.2/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.3/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.3/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.3/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.3/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.3/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.3/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.2/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.3/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.4/2.5 MB
+Progress (2): 0.4/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.5/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.5/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.6/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.7/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.6/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.8/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.7/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.8/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.8/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.8/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.8/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.8/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.8/1.1 MB | 0.9/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.8/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 0.9/1.1 MB | 1.0/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.0/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.0/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.0/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.0/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.0/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.0/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.1/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.1/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.1/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.1/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.1/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.1/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.1/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.1/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.2/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.0/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.3/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1/1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1 MB | 1.4/2.5 MB    
+Progress (2): 1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1 MB | 1.4/2.5 MB
+Progress (2): 1.1 MB | 1.5/2.5 MB
+Progress (2): 1.1 MB | 1.5/2.5 MB
+Progress (2): 1.1 MB | 1.5/2.5 MB
+Progress (2): 1.1 MB | 1.5/2.5 MB
+Progress (2): 1.1 MB | 1.5/2.5 MB
+Progress (2): 1.1 MB | 1.5/2.5 MB
+Progress (2): 1.1 MB | 1.6/2.5 MB
+Progress (2): 1.1 MB | 1.6/2.5 MB
+Progress (2): 1.1 MB | 1.6/2.5 MB
+Progress (2): 1.1 MB | 1.6/2.5 MB
+Progress (2): 1.1 MB | 1.6/2.5 MB
+Progress (2): 1.1 MB | 1.6/2.5 MB
+Progress (2): 1.1 MB | 1.7/2.5 MB
+Progress (2): 1.1 MB | 1.7/2.5 MB
+Progress (2): 1.1 MB | 1.7/2.5 MB
+Progress (2): 1.1 MB | 1.7/2.5 MB
+Progress (2): 1.1 MB | 1.7/2.5 MB
+Progress (2): 1.1 MB | 1.7/2.5 MB
+Progress (2): 1.1 MB | 1.8/2.5 MB
+Progress (2): 1.1 MB | 1.8/2.5 MB
+Progress (2): 1.1 MB | 1.8/2.5 MB
+Progress (2): 1.1 MB | 1.8/2.5 MB
+Progress (2): 1.1 MB | 1.8/2.5 MB
+Progress (2): 1.1 MB | 1.8/2.5 MB
+Progress (2): 1.1 MB | 1.8/2.5 MB
+Progress (2): 1.1 MB | 1.9/2.5 MB
+Progress (2): 1.1 MB | 1.9/2.5 MB
+Progress (2): 1.1 MB | 1.9/2.5 MB
+Progress (2): 1.1 MB | 1.9/2.5 MB
+Progress (2): 1.1 MB | 1.9/2.5 MB
+Progress (2): 1.1 MB | 1.9/2.5 MB
+Progress (2): 1.1 MB | 2.0/2.5 MB
+Progress (2): 1.1 MB | 2.0/2.5 MB
+Progress (2): 1.1 MB | 2.0/2.5 MB
+Progress (2): 1.1 MB | 2.0/2.5 MB
+Progress (2): 1.1 MB | 2.0/2.5 MB
+Progress (2): 1.1 MB | 2.0/2.5 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.jar (1.1 MB at 668 kB/s)
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.5/2.5 MB
+Progress (1): 2.5/2.5 MB
+Progress (1): 2.5/2.5 MB
+Progress (1): 2.5/2.5 MB
+Progress (1): 2.5 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct-processor/1.6.3/mapstruct-processor-1.6.3.jar (2.5 MB at 974 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-field-mappings[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36morg.mapstruct.examples.iterable:mapstruct-examples-iterable-non-iterable[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-iterable-non-iterable 1.0-SNAPSHOT    [2/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-iterable-non-iterable[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------< [0;36morg.mapstruct.examples.lombok:mapstruct-examples-lombok[0;1m >-------[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-lombok 1.0-SNAPSHOT                   [3/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30.pom (1.5 kB at 7.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar
+Progress (1): 0/2.0 MB
+Progress (1): 0/2.0 MB
+Progress (1): 0/2.0 MB
+Progress (1): 0/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.1/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.2/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.3/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.4/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.5/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.6/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.7/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.8/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 0.9/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.0/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.1/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.2/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.3/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.4/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.5/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.6/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.7/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.8/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 1.9/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0/2.0 MB
+Progress (1): 2.0 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar (2.0 MB at 1.5 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-lombok[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------< [0;36morg.mapstruct.examples.map:mapstruct-examples-from-map[0;1m >-------[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-from-map 1.0.0                        [4/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-from-map[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36morg.mapstruct.examples.cycles:mapstruct-examples-cycles-mapping[0;1m >---[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-cycles-mapping 1.0.0                  [5/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-cycles-mapping[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36morg.mapstruct.examples.nested:mapstruct-examples-nested-bean-mappings[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-nested-bean-mappings 1.0.0            [6/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-nested-bean-mappings[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----< [0;36morg.mapstruct.examples.rounding:mapstruct-examples-rounding[0;1m >-----[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-rounding 1.0.0                        [7/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-rounding[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------< [0;36morg.mapstruct.examples.spi:accessornaming-parent[0;1m >----------[m
+[[1;34mINFO[m] [1mBuilding accessornaming-parent 1.0.0                              [8/24][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36maccessornaming-parent[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------< [0;36morg.mapstruct.examples.spi:accessornaming-spi-impl[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding accessornaming-spi-impl 1.0.0                            [9/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36maccessornaming-spi-impl[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------< [0;36morg.mapstruct.examples.spi:accessornaming-usage[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding accessornaming-usage 1.0.0-SNAPSHOT                     [10/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36maccessornaming-usage[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.mapstruct.examples.spi:protobuf-parent[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding protobuf-parent 1.0.0                                   [11/24][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mprotobuf-parent[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36morg.mapstruct.examples.spi:protobuf-spi-impl[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding protobuf-spi-impl 1.0.0                                 [12/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mprotobuf-spi-impl[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.mapstruct.examples.spi:protobuf-usage[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding protobuf-usage 1.0.0-SNAPSHOT                           [13/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.27.3/protobuf-java-4.27.3.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.27.3/protobuf-java-4.27.3.pom (1.6 kB at 7.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.27.3/protobuf-parent-4.27.3.pom
+Progress (1): 4.1 kB
+Progress (1): 8.2 kB
+Progress (1): 9.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.27.3/protobuf-parent-4.27.3.pom (9.3 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/4.27.3/protobuf-bom-4.27.3.pom
+Progress (1): 3.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/4.27.3/protobuf-bom-4.27.3.pom (3.7 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.27.3/protobuf-java-4.27.3.jar
+Progress (1): 0/1.8 MB
+Progress (1): 0/1.8 MB
+Progress (1): 0/1.8 MB
+Progress (1): 0/1.8 MB
+Progress (1): 0/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.1/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.2/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.3/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.4/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.5/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.6/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.7/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.8/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 0.9/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.0/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.1/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.2/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.3/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.4/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.5/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.6/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.7/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8/1.8 MB
+Progress (1): 1.8 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.27.3/protobuf-java-4.27.3.jar (1.8 MB at 1.9 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mprotobuf-usage[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36morg.mapstruct.examples.updatemethods:mapstruct-examples-updatemethods-1[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-updatemethods-1 1.0.0                [14/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/easytesting/fest-assert/1.4/fest-assert-1.4.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easytesting/fest-assert/1.4/fest-assert-1.4.pom (2.4 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/easytesting/fest/1.0.8/fest-1.0.8.pom
+Progress (1): 4.1 kB
+Progress (1): 8.2 kB
+Progress (1): 12 kB 
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easytesting/fest/1.0.8/fest-1.0.8.pom (12 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/easytesting/fest-util/1.1.6/fest-util-1.1.6.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easytesting/fest-util/1.1.6/fest-util-1.1.6.pom (1.6 kB at 6.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/easytesting/fest-assert/1.4/fest-assert-1.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/easytesting/fest-util/1.1.6/fest-util-1.1.6.jar
+Progress (1): 3.7/78 kB
+Progress (1): 7.8/78 kB
+Progress (1): 12/78 kB 
+Progress (1): 16/78 kB
+Progress (1): 20/78 kB
+Progress (1): 24/78 kB
+Progress (1): 28/78 kB
+Progress (1): 32/78 kB
+Progress (1): 37/78 kB
+Progress (1): 41/78 kB
+Progress (1): 45/78 kB
+Progress (1): 49/78 kB
+Progress (1): 53/78 kB
+Progress (1): 57/78 kB
+Progress (1): 61/78 kB
+Progress (1): 65/78 kB
+Progress (1): 69/78 kB
+Progress (1): 73/78 kB
+Progress (1): 77/78 kB
+Progress (1): 78 kB   
+Progress (2): 78 kB | 4.1/31 kB
+Progress (2): 78 kB | 7.7/31 kB
+Progress (2): 78 kB | 12/31 kB 
+Progress (2): 78 kB | 16/31 kB
+Progress (2): 78 kB | 20/31 kB
+Progress (2): 78 kB | 24/31 kB
+Progress (2): 78 kB | 28/31 kB
+Progress (2): 78 kB | 31 kB   
+                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easytesting/fest-assert/1.4/fest-assert-1.4.jar (78 kB at 293 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easytesting/fest-util/1.1.6/fest-util-1.1.6.jar (31 kB at 116 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-updatemethods-1[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----< [0;36morg.mapstruct.examples.iterable:mapstruct-jpa-parent-child[0;1m >-----[m
+[[1;34mINFO[m] [1mBuilding mapstruct-jpa-parent-child 1.0-SNAPSHOT                 [15/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom (1.3 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.9.0/assertj-core-3.9.0.pom
+Progress (1): 4.1 kB
+Progress (1): 8.2 kB
+Progress (1): 9.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.9.0/assertj-core-3.9.0.pom (9.5 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/2.1.6/assertj-parent-pom-2.1.6.pom
+Progress (1): 4.1 kB
+Progress (1): 8.2 kB
+Progress (1): 12 kB 
+Progress (1): 15 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/2.1.6/assertj-parent-pom-2.1.6.pom (15 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.9.0/assertj-core-3.9.0.jar
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (2): 0/1.3 MB | 3.7/52 kB
+Progress (2): 0/1.3 MB | 3.7/52 kB
+Progress (2): 0.1/1.3 MB | 3.7/52 kB
+Progress (2): 0.1/1.3 MB | 7.8/52 kB
+Progress (2): 0.1/1.3 MB | 7.8/52 kB
+Progress (2): 0.1/1.3 MB | 12/52 kB 
+Progress (2): 0.1/1.3 MB | 12/52 kB
+Progress (2): 0.1/1.3 MB | 16/52 kB
+Progress (2): 0.1/1.3 MB | 20/52 kB
+Progress (2): 0.1/1.3 MB | 20/52 kB
+Progress (2): 0.1/1.3 MB | 20/52 kB
+Progress (2): 0.1/1.3 MB | 24/52 kB
+Progress (2): 0.1/1.3 MB | 28/52 kB
+Progress (2): 0.1/1.3 MB | 32/52 kB
+Progress (2): 0.1/1.3 MB | 36/52 kB
+Progress (2): 0.1/1.3 MB | 36/52 kB
+Progress (2): 0.1/1.3 MB | 36/52 kB
+Progress (2): 0.1/1.3 MB | 41/52 kB
+Progress (2): 0.1/1.3 MB | 41/52 kB
+Progress (2): 0.1/1.3 MB | 45/52 kB
+Progress (2): 0.1/1.3 MB | 49/52 kB
+Progress (2): 0.1/1.3 MB | 49/52 kB
+Progress (2): 0.1/1.3 MB | 52 kB   
+Progress (2): 0.1/1.3 MB | 52 kB
+Progress (2): 0.1/1.3 MB | 52 kB
+Progress (2): 0.1/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.2/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.3/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.4/1.3 MB | 52 kB
+Progress (2): 0.5/1.3 MB | 52 kB
+Progress (2): 0.5/1.3 MB | 52 kB
+Progress (2): 0.5/1.3 MB | 52 kB
+Progress (2): 0.5/1.3 MB | 52 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar (52 kB at 172 kB/s)
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.9.0/assertj-core-3.9.0.jar (1.3 MB at 1.4 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-jpa-parent-child[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36morg.mapstruct.examples.iterable:mapstruct-lookup-entity-with-composed-key[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding mapstruct-lookup-entity-with-composed-key 1.0-SNAPSHOT  [16/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-lookup-entity-with-composed-key[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36morg.mapstruct.examples.metadata:mapstruct-examples-metadata-with-annotations[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-metadata-with-annotations 1.0.0      [17/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-examples-metadata-with-annotations[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----< [0;36morg.mapstruct.examples.suppress:mapstruct-suppress-unmapped[0;1m >-----[m
+[[1;34mINFO[m] [1mBuilding mapstruct-suppress-unmapped 1.0-SNAPSHOT                [18/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-suppress-unmapped[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------< [0;36morg.mapstruct.examples.clone:mapstruct-deep-clone[0;1m >----------[m
+[[1;34mINFO[m] [1mBuilding mapstruct-deep-clone 1.0.0                              [19/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mmapstruct-deep-clone[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.mapstruct.examples.repo:repo[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding mapstruct-repo 0.0.1-SNAPSHOT                           [20/24][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mrepo[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.mapstruct.examples.repo:repo-generator[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding repo-generator 0.0.1-SNAPSHOT                           [21/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.pom (1.5 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar
+Progress (1): 0/1.4 MB
+Progress (1): 0/1.4 MB
+Progress (1): 0/1.4 MB
+Progress (1): 0/1.4 MB
+Progress (1): 0/1.4 MB
+Progress (1): 0/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.1/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.2/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.3/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.4/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.5/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.6/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.4 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar (1.4 MB at 1.3 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mrepo-generator[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-6AmwCL/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.mapstruct.examples.repo:repo-example[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding repo-example 0.0.1-SNAPSHOT                             [22/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] mapstruct-examples-field-mappings 1.0.0 ............ [1;32mSUCCESS[m [  4.182 s]
+[[1;34mINFO[m] mapstruct-examples-iterable-non-iterable 1.0-SNAPSHOT [1;32mSUCCESS[m [  0.007 s]
+[[1;34mINFO[m] mapstruct-examples-lombok 1.0-SNAPSHOT ............. [1;32mSUCCESS[m [  1.583 s]
+[[1;34mINFO[m] mapstruct-examples-from-map 1.0.0 .................. [1;32mSUCCESS[m [  0.004 s]
+[[1;34mINFO[m] mapstruct-examples-cycles-mapping 1.0.0 ............ [1;32mSUCCESS[m [  0.007 s]
+[[1;34mINFO[m] mapstruct-examples-nested-bean-mappings 1.0.0 ...... [1;32mSUCCESS[m [  0.006 s]
+[[1;34mINFO[m] mapstruct-examples-rounding 1.0.0 .................. [1;32mSUCCESS[m [  0.004 s]
+[[1;34mINFO[m] accessornaming-parent 1.0.0 ........................ [1;32mSUCCESS[m [  0.002 s]
+[[1;34mINFO[m] accessornaming-spi-impl 1.0.0 ...................... [1;32mSUCCESS[m [  0.008 s]
+[[1;34mINFO[m] accessornaming-usage 1.0.0-SNAPSHOT ................ [1;32mSUCCESS[m [  0.003 s]
+[[1;34mINFO[m] protobuf-parent 1.0.0 .............................. [1;32mSUCCESS[m [  0.002 s]
+[[1;34mINFO[m] protobuf-spi-impl 1.0.0 ............................ [1;32mSUCCESS[m [  0.003 s]
+[[1;34mINFO[m] protobuf-usage 1.0.0-SNAPSHOT ...................... [1;32mSUCCESS[m [  1.657 s]
+[[1;34mINFO[m] mapstruct-examples-updatemethods-1 1.0.0 ........... [1;32mSUCCESS[m [  0.851 s]
+[[1;34mINFO[m] mapstruct-jpa-parent-child 1.0-SNAPSHOT ............ [1;32mSUCCESS[m [  1.397 s]
+[[1;34mINFO[m] mapstruct-lookup-entity-with-composed-key 1.0-SNAPSHOT [1;32mSUCCESS[m [  0.004 s]
+[[1;34mINFO[m] mapstruct-examples-metadata-with-annotations 1.0.0 . [1;32mSUCCESS[m [  0.003 s]
+[[1;34mINFO[m] mapstruct-suppress-unmapped 1.0-SNAPSHOT ........... [1;32mSUCCESS[m [  0.002 s]
+[[1;34mINFO[m] mapstruct-deep-clone 1.0.0 ......................... [1;32mSUCCESS[m [  0.002 s]
+[[1;34mINFO[m] mapstruct-repo 0.0.1-SNAPSHOT ...................... [1;32mSUCCESS[m [  0.004 s]
+[[1;34mINFO[m] repo-generator 0.0.1-SNAPSHOT ...................... [1;32mSUCCESS[m [  1.118 s]
+[[1;34mINFO[m] repo-example 0.0.1-SNAPSHOT ........................ [1;31mFAILURE[m [  0.003 s]
+[[1;34mINFO[m] mapstruct-examples-record 1.0-SNAPSHOT ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] mapstruct-examples 1.0.0-SNAPSHOT .................. [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.328 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:45:29+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mrepo-example[m: [1;31mCould not resolve dependencies for project org.mapstruct.examples.repo:repo-example:jar:0.0.1-SNAPSHOT: Could not find artifact org.mapstruct.examples.repo:repo-generator:jar:0.0.1-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :repo-example[m
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] mapstruct-repo                                                     [pom]
+[[1;34mINFO[m] repo-generator                                                     [jar]
+[[1;34mINFO[m] repo-example                                                       [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.mapstruct.examples.repo:repo[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding mapstruct-repo 0.0.1-SNAPSHOT                             [1/3][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mrepo[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-ZC6bG1/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.mapstruct.examples.repo:repo-generator[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding repo-generator 0.0.1-SNAPSHOT                             [2/3][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mrepo-generator[0;1m ---[m
+[[1;34mINFO[m] Wrote dependency tree to: /tmp/cdxmvn-ZC6bG1/mvn-tree.txt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.mapstruct.examples.repo:repo-example[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding repo-example 0.0.1-SNAPSHOT                               [3/3][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for mapstruct-repo 0.0.1-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] mapstruct-repo ..................................... [1;32mSUCCESS[m [  0.666 s]
+[[1;34mINFO[m] repo-generator ..................................... [1;32mSUCCESS[m [  0.038 s]
+[[1;34mINFO[m] repo-example ....................................... [1;31mFAILURE[m [  0.022 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.993 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:46:56+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mrepo-example[m: [1;31mCould not resolve dependencies for project org.mapstruct.examples.repo:repo-example:jar:0.0.1-SNAPSHOT: Could not find artifact org.mapstruct.examples.repo:repo-generator:jar:0.0.1-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :repo-example[m
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.mapstruct.examples.repo:repo-example[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding repo-example 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for org.mapstruct.examples.repo:repo-generator:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.336 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:46:59+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mrepo-example[m: [1;31mCould not resolve dependencies for project org.mapstruct.examples.repo:repo-example:jar:0.0.1-SNAPSHOT: Could not find artifact org.mapstruct.examples.repo:repo-generator:jar:0.0.1-SNAPSHOT[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+[[1;34mINFO[m] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.6.3/kotlin-maven-plugin-1.6.3.pom
+[[1;33mWARNING[m] The POM for org.jetbrains.kotlin:kotlin-maven-plugin:jar:1.6.3 is missing, no dependency information available
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.6.3/kotlin-maven-plugin-1.6.3.jar
+[[1;33mWARNING[m] Failed to retrieve plugin descriptor for org.jetbrains.kotlin:kotlin-maven-plugin:1.6.3: Plugin org.jetbrains.kotlin:kotlin-maven-plugin:1.6.3 or one of its dependencies could not be resolved: Could not find artifact org.jetbrains.kotlin:kotlin-maven-plugin:jar:1.6.3 in central (https://repo.maven.apache.org/maven2)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------< [0;36morg.mapstruct.examples.kotlin:mapstruct-examples-kotlin[0;1m >-------[m
+[[1;34mINFO[m] [1mBuilding mapstruct-examples-kotlin 1.0.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for org.jetbrains.kotlin:kotlin-maven-plugin:jar:1.6.3 is missing, no dependency information available
+[[1;33mWARNING[m] Failed to retrieve plugin descriptor for org.jetbrains.kotlin:kotlin-maven-plugin:1.6.3: Plugin org.jetbrains.kotlin:kotlin-maven-plugin:1.6.3 or one of its dependencies could not be resolved: org.jetbrains.kotlin:kotlin-maven-plugin:jar:1.6.3 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.3/kotlin-stdlib-1.6.3.pom
+[[1;33mWARNING[m] The POM for org.jetbrains.kotlin:kotlin-stdlib:jar:1.6.3 is missing, no dependency information available
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.6.3/kotlin-test-junit-1.6.3.pom
+[[1;33mWARNING[m] The POM for org.jetbrains.kotlin:kotlin-test-junit:jar:1.6.3 is missing, no dependency information available
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.pom
+Progress (1): 4.1 kB
+Progress (1): 8.2 kB
+Progress (1): 8.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.pom (8.7 kB at 61 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.3/kotlin-stdlib-1.6.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.6.3/kotlin-test-junit-1.6.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.4/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.5/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.6/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.7/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.8/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+                        
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar (1.2 MB at 2.4 MB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.595 s
+[[1;34mINFO[m] Finished at: 2025-11-30T14:47:07+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal on project [36mmapstruct-examples-kotlin[m: [1;31mCould not resolve dependencies for project org.mapstruct.examples.kotlin:mapstruct-examples-kotlin:jar:1.0.0-SNAPSHOT: The following artifacts could not be resolved: org.jetbrains.kotlin:kotlin-stdlib:jar:1.6.3, org.jetbrains.kotlin:kotlin-test-junit:jar:1.6.3: Could not find artifact org.jetbrains.kotlin:kotlin-stdlib:jar:1.6.3 in central (https://repo.maven.apache.org/maven2)[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+1. Try building the project with 'mvn package -Dmaven.test.skip=true' using the correct version of Java and maven before invoking cdxgen.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+Is this a gradle project? Try running cdxgen with `-t gradle`.
+Executing bazel in /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct-examples
+1. Check if bazel is installed and available in PATH.
+2. Try building your app with bazel prior to invoking cdxgen
+
+
+==== STDERR ====
+ /bin/sh: 1: bazel: not found
+
+

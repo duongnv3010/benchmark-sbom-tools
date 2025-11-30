@@ -1,0 +1,5695 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:12652166-1e94-4d47-bd32-93ec995858ad",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-11-30T07:31:56+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "d1580ec2-591e-4197-a257-ba638ba9154c",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "0165078d-211b-4e4c-8958-6727af757244",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-mapper",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-mapper@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-mapper:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "07c1f6a9-4b1b-43cb-b109-fe871d8091c6",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/fullFeatureTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0951c642-68f2-44a8-8107-85fef374c823",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aop@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-aop:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0da92262-7112-4347-9313-bec4cd3725c2",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/defaultPackage/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0e52815e-9722-4518-b0a5-2acdf6a636c9",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-jcl",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-jcl@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-jcl:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "11036abb-fd57-43ca-9d8d-90cf66bb2aae",
+      "type": "application",
+      "name": "integrationtest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "110a1b4f-c445-45b8-ab2b-f336888c1126",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/java8Test/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1383a66e-ab5f-4571-a7dc-0d6413fd10ab",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "142b7a88-fcd9-482d-8f82-ddc0f7470487",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-core:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "226e9648-63e6-4660-9b7a-4b4a605d6cdd",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-2",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-2@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-2:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "23958644-3c1c-4fb3-88b2-2c0e6f7751d9",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/namingStrategyTest/strategy/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "244f0e33-a1ce-46df-a18e-e7f2273a3ffa",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-beans@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-beans:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2636a910-8556-4373-9f07-a8e771daf339",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-parent",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-parent@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-parent:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "266d3226-7cee-4ad6-93e5-5331a859c86b",
+      "type": "library",
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "javax.inject:javax.inject:1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2b3e2a31-424d-4a59-baaa-280b05c59bb9",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aop@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-aop:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2e02188c-6d99-4d2f-b10f-e22e01d3073b",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/faultyAstModifyingAnnotationProcessorTest/usage/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2edea56f-0e30-4b2d-8003-c2545d42ef3b",
+      "type": "application",
+      "name": "documentation/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3229b3a1-33c3-4770-84c9-3b0f063fc20f",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "namingStrategyTest-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/namingStrategyTest-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:namingStrategyTest-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "347687ce-8f4f-4b89-bebf-4a9a8a3506c1",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/recordsCrossModuleInterfaceTest/module-2/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "35785a7c-3b83-488a-99e5-fcd0b2b8ef36",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/protobufBuilderTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "36aabe6b-3f68-4b80-9bd9-91f34c9d5b48",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-api",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-api@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-api:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3b0dc8c6-fffa-4392-8810-473f39f95fb4",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapper",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapper@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapper:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3bec8e71-c482-406a-8596-e3556b4a4e49",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-supertypegeneration-generator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-supertypegeneration-generator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-supertypegeneration-generator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3c81c7a1-80bc-4ec4-9fa0-a830e6480278",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-supertypegeneration-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-supertypegeneration-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-supertypegeneration-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3d6415da-6749-415b-b68f-18cac4b7c0a0",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-targettypegeneration-generator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-targettypegeneration-generator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-targettypegeneration-generator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3d7e8746-4a36-4dff-bcd0-d7d7488d9d82",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-jcl",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-jcl@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-jcl:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3ee6e9ea-d77e-4377-bac1-b2b0934dbf01",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "namingStrategyTest-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/namingStrategyTest-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:namingStrategyTest-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3f61f3a4-1dbf-478e-9329-a8c3ae6cfd66",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/targetTypeGenerationTest/usage/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "41e55ae9-f669-4856-b146-e67e8c1be033",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-targettypegeneration-generator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-targettypegeneration-generator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-targettypegeneration-generator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "42f116b7-92e3-40b5-b8fe-2523429c6ee8",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-processor",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-processor@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-processor:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "42f4e104-42d4-40c3-a3a4-762c719364f3",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-beans@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-beans:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4c0ae76f-0fb7-4ce7-8f30-39c8f06f45f6",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-faultyAstModifyingProcessor-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-faultyAstModifyingProcessor-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-faultyAstModifyingProcessor-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "50c89dad-023d-40a9-92e9-df34237bffbc",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/immutablesBuilderTest/mapper/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "50d095ea-7b72-4bc7-98db-e5ca9fad8995",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-api",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-api@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-api:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "517dd429-babe-487a-89dc-050ca50f91f3",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-expression@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-expression:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "51841578-87b1-434b-9ef9-b211da2ae76d",
+      "type": "library",
+      "group": "io.micrometer",
+      "name": "micrometer-commons",
+      "version": "1.14.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-commons@1.14.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.micrometer:micrometer-commons:1.14.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5218ef53-7880-48e7-91f2-9874f5467869",
+      "type": "application",
+      "name": "core/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5264d5e2-3d76-4273-b838-e14249daa8a4",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-1",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-1@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-1:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "55ee7945-7971-4536-8ae5-80b03c89f749",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/recordsTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5e5475e9-767c-48e7-b8bc-f07715b33229",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/usesTypeGenerationTest/usage/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "60e1d794-41f6-4fdc-b2c9-7b9c8e5705f2",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/faultyAstModifyingAnnotationProcessorTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "60e95719-567c-4daa-b955-8c07e265fa23",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "namingStrategyTest-strategy",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/namingStrategyTest-strategy@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:namingStrategyTest-strategy:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6268551e-300d-4736-91e5-b0989e84e16c",
+      "type": "application",
+      "name": "processor/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6307d70b-2b05-4251-987d-137ee92cb06c",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-usestypegeneration-generator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-usestypegeneration-generator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-usestypegeneration-generator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6360cec9-617c-43b2-9c23-4474b00395bf",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-jdk8",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-jdk8@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-jdk8:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6463ab97-af60-4cf2-94bf-90382a14497d",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "64e2bf19-0f5f-4ff2-a222-1190f9b843fe",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/targetTypeGenerationTest/generator/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "65b94294-2900-40c2-9f12-a5e3e2b66b66",
+      "type": "library",
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "javax.inject:javax.inject:1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "67e1a5e3-902d-49be-8d4e-b8700817a3f0",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/recordsCrossModuleInterfaceTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6876b800-4415-4845-b5f4-58d3a540d8a2",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-core:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6a397f73-25ad-4d36-bb6f-6e706777837a",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-usestypegeneration-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-usestypegeneration-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-usestypegeneration-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6b49f4de-cd71-42d0-89fd-d73703680a90",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/cdiTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6c46c486-bb7d-4156-9473-d2fa49620eff",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-parent",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-parent@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-parent:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6c4ebe44-9124-402e-a200-cb29b3b70c46",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-faultyAstModifyingProcessor-generator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-faultyAstModifyingProcessor-generator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-faultyAstModifyingProcessor-generator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6db7c721-629a-43f1-9e53-7aab7d8bb7b7",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/expressionTextBlocksTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6f9e6846-fbd8-4cb8-bbe7-b993061a2da7",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-build-config",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-build-config@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-build-config:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "718562de-01f2-48e8-aab5-fb86a9880590",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/superTypeGenerationTest/generator/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "73e8398b-ffb2-40ac-97fb-09e71cbf66e2",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/moduleInfoTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7603fb8d-945e-4b94-86a0-de0aa2646432",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "beanjar",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/beanjar@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:beanjar:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7726341f-8cca-43e4-b1a5-ab4e8b698c93",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/namingStrategyTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "77511006-452d-4d9d-8c0d-203b3ef9ea53",
+      "type": "library",
+      "group": "org.mapstruct.tools.gem",
+      "name": "gem-api",
+      "version": "1.0.0.Alpha3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.tools.gem/gem-api@1.0.0.Alpha3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.tools.gem:gem-api:1.0.0.Alpha3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "77e14c87-ca2d-49e6-b34f-6b825649d191",
+      "type": "library",
+      "group": "org.projectlombok",
+      "name": "lombok",
+      "version": "1.18.30",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.projectlombok/lombok@1.18.30",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.projectlombok:lombok:1.18.30"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7cff0bb3-cda6-48fb-9a7d-2c5a3d24589b",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/superTypeGenerationTest/usage/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7d149ac3-2a46-4833-9dd5-9de12dcb78a2",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-processor",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-processor@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-processor:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7ed12fa3-a28e-4b42-a352-89a40c6bb09e",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-context:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7f9c1bba-491e-4c81-b1ff-18c46b8b0b29",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-build-config",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-build-config@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-build-config:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "80c724c8-455f-4f71-b2e7-36c11fbf0575",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "beanjar",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/beanjar@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:beanjar:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "817ad976-7a83-4bf4-907f-1085a6df1d1c",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-expression@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-expression:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "81b54e0c-d21a-4633-bd1b-1b27145839a6",
+      "type": "library",
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "javax.inject:javax.inject:1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "82586d25-c1d3-4dbb-8fa4-cebadbc0dcd5",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/externalbeanjar/mapper/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "82fa7df4-1e39-48b1-ad2d-1c5c544edba1",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/freeBuilderBuilderTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "836a78cb-d57b-466b-ab6d-90b3286d78f0",
+      "type": "library",
+      "group": "org.mapstruct.tools.gem",
+      "name": "gem-api",
+      "version": "1.0.0.Alpha3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.tools.gem/gem-api@1.0.0.Alpha3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.tools.gem:gem-api:1.0.0.Alpha3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "87608765-3408-42ac-b6f1-4e1696b80e11",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/usesTypeGenerationTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "87b4f9a5-df25-4c1a-a48e-d6cbdb39da28",
+      "type": "library",
+      "group": "io.micrometer",
+      "name": "micrometer-commons",
+      "version": "1.14.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-commons@1.14.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.micrometer:micrometer-commons:1.14.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "87d487d0-adbd-4691-b0d4-12461c32eee2",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-processor",
+      "version": "1.7.0-SNAPSHOT",
+      "purl": "pkg:maven/org.mapstruct/mapstruct-processor@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-processor:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8989dd8f-5a78-4c1a-aa17-8683e0c6c28b",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/lombokBuilderTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8b59ec42-27da-4a97-be5a-028ce952b476",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/simpleTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8bbd66ba-f105-4058-80d7-15d7546a2dd8",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-jdk8",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-jdk8@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-jdk8:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8fd13a2f-350e-41e3-9011-5296cca7c78b",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/recordsCrossModuleTest/api/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "905083b5-7494-469d-96cc-e1b354f051f5",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-1",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-1@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-1:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9200631b-cb5c-4806-a4c6-584b615147b7",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/recordsCrossModuleTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "96e32b6c-fa75-4a30-8ba3-a7010bb23021",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/externalbeanjar/beanjar/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9711bee2-f6b1-4daa-8885-650d457fb639",
+      "type": "library",
+      "group": "org.projectlombok",
+      "name": "lombok-mapstruct-binding",
+      "version": "0.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.projectlombok/lombok-mapstruct-binding@0.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.projectlombok:lombok-mapstruct-binding:0.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "98c267a3-8ba6-459f-a823-bd3642cf1709",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-context:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "999a6bda-a9ba-426d-ae71-cb8fb02a7f82",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-expression@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-expression:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9a0485da-b6d7-4a5c-abbf-7e31ab227ec1",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-1",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-1@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-1:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9c4f55e6-7d86-42c0-9a5e-7692265ba09d",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/externalbeanjar/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9edfa095-556e-4823-87b0-cff41a6fc3f8",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9ff5a34c-fe57-4aa7-914d-e94b379c3c53",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/usesTypeGenerationTest/generator/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a0cfa97a-c268-4539-b295-0ea785468e0b",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-beans@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-beans:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a1a5837a-5ca6-4e35-b829-713b4a82787d",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/jakartaJaxbTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a31b4ab2-9af2-448c-9f21-716ba4fdce3f",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/targetTypeGenerationTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a545b7df-4c5d-4e28-86e6-2a474ca38f59",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapper",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapper@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapper:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a777f1e9-bc74-4a79-ad9e-b5cb5cc8da35",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/springTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a9354e4b-3856-411f-a6dc-8ed0360d81dc",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/jsr330Test/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "aa20e389-ef5b-465b-a149-f92301758ce0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-2",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-2@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-2:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ab4e9f30-e60e-480a-a94d-48491d90f22a",
+      "type": "application",
+      "name": "distribution/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ab8184bb-6e35-4c75-a891-dec7fc73186f",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-targettypegeneration-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-targettypegeneration-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-targettypegeneration-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ae424076-322a-4149-9ef9-12024a677406",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "itest-immutables-mapping-extras",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/itest-immutables-mapping-extras@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:itest-immutables-mapping-extras:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "af86b19f-6757-4210-ad99-a6b238a30125",
+      "type": "library",
+      "group": "io.micrometer",
+      "name": "micrometer-observation",
+      "version": "1.14.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-observation@1.14.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.micrometer:micrometer-observation:1.14.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "afab57e2-baab-42ba-97f5-5dc8d4efb762",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "itest-immutables-mapping-extras",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/itest-immutables-mapping-extras@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:itest-immutables-mapping-extras:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b0fa637a-2463-4e99-8adf-8f9f989cea05",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/jaxbTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b4c35cdb-ee06-4489-961c-3a9cf0a4141d",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "beanjar",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.mapstruct/beanjar@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:beanjar:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bdc9ab65-c215-4515-8920-b4c6f2a04dbd",
+      "type": "library",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.32",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.32",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.freemarker:freemarker:2.3.32"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c1f37540-4120-4556-82ef-7a1c9336332a",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "itest-immutables-mapping-extras",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/itest-immutables-mapping-extras@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:itest-immutables-mapping-extras:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c3d2a601-8979-4182-8b30-732e47590a80",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-faultyAstModifyingProcessor-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-faultyAstModifyingProcessor-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-faultyAstModifyingProcessor-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c415ccd8-5dfb-482f-bb18-d3ce24d2e982",
+      "type": "library",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.32",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.32",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.freemarker:freemarker:2.3.32"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c48d9c20-9c71-4af4-ba57-c2d3b1e3aae9",
+      "type": "application",
+      "name": "parent/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c7220cbc-5eda-4822-b27b-f992b762303a",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/faultyAstModifyingAnnotationProcessorTest/generator/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c7a4587b-c710-44ca-8856-a945e89dde53",
+      "type": "library",
+      "group": "io.micrometer",
+      "name": "micrometer-observation",
+      "version": "1.14.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-observation@1.14.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.micrometer:micrometer-observation:1.14.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c84f98c8-5c40-42dc-b6ab-f97277bf01e1",
+      "type": "library",
+      "group": "org.mapstruct.tools.gem",
+      "name": "gem-api",
+      "version": "1.0.0.Alpha3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.tools.gem/gem-api@1.0.0.Alpha3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.tools.gem:gem-api:1.0.0.Alpha3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c978ff64-684e-48b5-8ed5-24e3cb7e5df2",
+      "type": "library",
+      "group": "org.projectlombok",
+      "name": "lombok-mapstruct-binding",
+      "version": "0.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.projectlombok/lombok-mapstruct-binding@0.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.projectlombok:lombok-mapstruct-binding:0.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c9fd4d47-30b8-44de-9135-eb2145d56fb3",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/namingStrategyTest/usage/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ca30acc6-1a53-4446-9136-849285eda6d6",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-targettypegeneration-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-targettypegeneration-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-targettypegeneration-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ca6b97b6-7788-4711-806d-439251d3ed5a",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-api",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-api@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-api:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ce6137cd-43a7-4f36-b9fb-ed3a511ae620",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "cf81f721-62d6-4882-a324-8cfdfd7f48c7",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "namingStrategyTest-strategy",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/namingStrategyTest-strategy@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:namingStrategyTest-strategy:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d220e3e3-4720-4868-bd0a-34a192715675",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "namingStrategyTest-strategy",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.mapstruct/namingStrategyTest-strategy@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:namingStrategyTest-strategy:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d3524b2e-50ff-4c6a-8dc5-7eb047bd5f6e",
+      "type": "application",
+      "name": "core-jdk8/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d6b020ca-64b1-4135-a8c1-455fcb44bd3b",
+      "type": "library",
+      "group": "io.micrometer",
+      "name": "micrometer-commons",
+      "version": "1.14.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-commons@1.14.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.micrometer:micrometer-commons:1.14.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d93ed78f-cab3-4771-bb20-c5bdb6382d65",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aop@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-aop:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "da9bef4a-5640-482e-8b1f-11811de52aa1",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-usestypegeneration-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-usestypegeneration-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-usestypegeneration-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dbd76747-160f-4ecf-9723-78aa50410495",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "itest-immutables-mapper",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/itest-immutables-mapper@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:itest-immutables-mapper:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dc862075-ba39-48f3-a1ce-baafdd455160",
+      "type": "application",
+      "name": "build-config/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dd8bad65-892b-4c2f-a6be-25a4be73bbec",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/autoValueBuilderTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "de4bff96-c8b6-4046-b967-45c2f05ddff1",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct",
+      "version": "1.7.0-SNAPSHOT",
+      "purl": "pkg:maven/org.mapstruct/mapstruct@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "df7e28f2-ff85-4b80-a82a-fd283da3aaae",
+      "type": "library",
+      "group": "io.micrometer",
+      "name": "micrometer-observation",
+      "version": "1.14.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-observation@1.14.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.micrometer:micrometer-observation:1.14.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dfea09c2-b1ce-429a-852b-946ebb73562c",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "itest-immutables-mapping-extras",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.mapstruct/itest-immutables-mapping-extras@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:itest-immutables-mapping-extras:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e0bb3260-7f6f-45e2-a0a5-29d9b54b134a",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-supertypegeneration-usage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-supertypegeneration-usage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-supertypegeneration-usage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e1b7e0be-a98a-4d98-82f1-c17b6929b14e",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/superTypeGenerationTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e20e33bc-ab42-4f6c-9041-f1ecaac1cf23",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-mapper",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-mapper@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-mapper:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e2d00b88-55ae-4c97-9bea-d6d986f3320c",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-usestypegeneration-generator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-usestypegeneration-generator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-usestypegeneration-generator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e4b8152e-0f68-4f9a-978e-946ca894ffdb",
+      "type": "library",
+      "group": "org.projectlombok",
+      "name": "lombok",
+      "version": "1.18.30",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.projectlombok/lombok@1.18.30",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.projectlombok:lombok:1.18.30"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e56f7b2b-d037-465f-8ad0-ce682f6bd10c",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "itest-immutables-mapper",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/itest-immutables-mapper@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:itest-immutables-mapper:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e5a21693-3642-49df-9560-723ef19a8875",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/immutablesBuilderTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e601ded6-621f-43e3-89da-c4d3336f44ba",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-core:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e73b37ca-77f0-41ee-8d38-5b32511896ff",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "beanjar",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/beanjar@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:beanjar:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "eb13c27f-a046-4950-bdd5-b22790a0f176",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-1",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-1@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-1:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ed41c491-3fa1-4ae1-93ac-2f20a5a9b000",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/kotlinDataTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f0ac88db-b91c-45f6-ae87-4cd7dc5947df",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-context:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f42405f9-0519-41e6-a485-2783394259b1",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/sealedSubclassTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f521a2cc-3d03-4a16-a4a3-5c72f3929953",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/immutablesBuilderTest/extras/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f5560f87-c0f4-4ca5-a028-fea7fe685b6d",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "namingStrategyTest-strategy",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/namingStrategyTest-strategy@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:namingStrategyTest-strategy:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f6a39120-7d0c-4038-82ef-d78e0ceacc6f",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/lombokModuleTest/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f6bd68cd-7931-400c-be9b-6b04de160d68",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-faultyAstModifyingProcessor-generator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-faultyAstModifyingProcessor-generator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-faultyAstModifyingProcessor-generator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f6d82001-0dfc-448e-a52c-ad6a4f1f6a31",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-jcl",
+      "version": "6.2.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-jcl@6.2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-jcl:6.2.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f6dfa8a6-aadf-4ab4-9b2e-e216ec5ff967",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "records-cross-module-api",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.mapstruct/records-cross-module-api@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:records-cross-module-api:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f6f95dc4-ca7c-480b-88de-9052b3d23cbd",
+      "type": "library",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.32",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.32",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.freemarker:freemarker:2.3.32"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f705638e-e321-4f31-a341-c3912e7cb4d5",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/recordsCrossModuleInterfaceTest/module-1/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f79d81cd-59c9-42af-a26f-2729e75de0fd",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-supertypegeneration-generator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-supertypegeneration-generator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-supertypegeneration-generator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f8ee277d-3816-4ce9-9b96-eab1804490db",
+      "type": "application",
+      "name": "integrationtest/src/test/resources/recordsCrossModuleTest/mapper/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "type": "library",
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.code.findbugs:jsr305:3.0.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0",
+      "type": "library",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.18.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.errorprone:error_prone_annotations:2.18.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.guava:failureaccess:1.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/guava@32.0.0-jre",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "32.0.0-jre",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@32.0.0-jre",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.guava:guava:32.0.0-jre"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8",
+      "type": "library",
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "2.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.j2objc:j2objc-annotations:2.8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.0",
+      "type": "library",
+      "group": "jakarta.annotation",
+      "name": "jakarta.annotation-api",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jakarta.annotation:jakarta.annotation-api:2.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.el/jakarta.el-api@5.0.0",
+      "type": "library",
+      "group": "jakarta.el",
+      "name": "jakarta.el-api",
+      "version": "5.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.el/jakarta.el-api@5.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jakarta.el:jakarta.el-api:5.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.enterprise/jakarta.enterprise.cdi-api@4.0.1",
+      "type": "library",
+      "group": "jakarta.enterprise",
+      "name": "jakarta.enterprise.cdi-api",
+      "version": "4.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.enterprise/jakarta.enterprise.cdi-api@4.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.enterprise/jakarta.enterprise.lang-model@4.0.1",
+      "type": "library",
+      "group": "jakarta.enterprise",
+      "name": "jakarta.enterprise.lang-model",
+      "version": "4.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.enterprise/jakarta.enterprise.lang-model@4.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jakarta.enterprise:jakarta.enterprise.lang-model:4.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "type": "library",
+      "group": "jakarta.inject",
+      "name": "jakarta.inject-api",
+      "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jakarta.inject:jakarta.inject-api:2.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.interceptor/jakarta.interceptor-api@2.1.0",
+      "type": "library",
+      "group": "jakarta.interceptor",
+      "name": "jakarta.interceptor-api",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.interceptor/jakarta.interceptor-api@2.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jakarta.interceptor:jakarta.interceptor-api:2.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.el/javax.el-api@3.0.0",
+      "type": "library",
+      "group": "javax.el",
+      "name": "javax.el-api",
+      "version": "3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL + GPLv2 with classpath exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.el/javax.el-api@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "javax.el:javax.el-api:3.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.enterprise/cdi-api@2.0.SP1",
+      "type": "library",
+      "group": "javax.enterprise",
+      "name": "cdi-api",
+      "version": "2.0.SP1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.enterprise/cdi-api@2.0.SP1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "javax.enterprise:cdi-api:2.0.SP1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.interceptor/javax.interceptor-api@1.2",
+      "type": "library",
+      "group": "javax.interceptor",
+      "name": "javax.interceptor-api",
+      "version": "1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL + GPLv2 with classpath exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.interceptor/javax.interceptor-api@1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "javax.interceptor:javax.interceptor-api:1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/joda-time/joda-time@2.12.5",
+      "type": "library",
+      "group": "joda-time",
+      "name": "joda-time",
+      "version": "2.12.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/joda-time/joda-time@2.12.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "joda-time:joda-time:2.12.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.33.0",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.33.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.33.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.checkerframework:checker-qual:3.33.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.0",
+      "type": "library",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0",
+      "type": "library",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jetbrains.kotlin:kotlin-stdlib:1.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains/annotations@13.0",
+      "type": "library",
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains/annotations@13.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jetbrains:annotations:13.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct.itest/itest-faultyAstModifyingProcessor-aggregator@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-faultyAstModifyingProcessor-aggregator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-faultyAstModifyingProcessor-aggregator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-faultyAstModifyingProcessor-aggregator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct.itest/itest-supertypegeneration-aggregator@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-supertypegeneration-aggregator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-supertypegeneration-aggregator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-supertypegeneration-aggregator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct.itest/itest-targettypegeneration-aggregator@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-targettypegeneration-aggregator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-targettypegeneration-aggregator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-targettypegeneration-aggregator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct.itest/itest-usestypegeneration-aggregator@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct.itest",
+      "name": "itest-usestypegeneration-aggregator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct.itest/itest-usestypegeneration-aggregator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct.itest:itest-usestypegeneration-aggregator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/autoValueIntegrationTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "autoValueIntegrationTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/autoValueIntegrationTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:autoValueIntegrationTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/cdiTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "cdiTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/cdiTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:cdiTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/defaultPackage@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "defaultPackage",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/defaultPackage@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:defaultPackage:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/expressionTextBlocksTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "expressionTextBlocksTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/expressionTextBlocksTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:expressionTextBlocksTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/externalbeanjar@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "externalbeanjar",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/externalbeanjar@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:externalbeanjar:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/freeBuilderIntegrationTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "freeBuilderIntegrationTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/freeBuilderIntegrationTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:freeBuilderIntegrationTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/fullFeatureTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "fullFeatureTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/fullFeatureTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:fullFeatureTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/immutablesIntegrationTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "immutablesIntegrationTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/immutablesIntegrationTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:immutablesIntegrationTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/jakartaJaxbTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "jakartaJaxbTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/jakartaJaxbTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:jakartaJaxbTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/java8Test@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "java8Test",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/java8Test@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:java8Test:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/jaxbTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "jaxbTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/jaxbTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:jaxbTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/jsr330Test@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "jsr330Test",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/jsr330Test@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:jsr330Test:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/kotlinDataTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "kotlinDataTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/kotlinDataTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:kotlinDataTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/lombokIntegrationTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "lombokIntegrationTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/lombokIntegrationTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:lombokIntegrationTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/lombokModuleIntegrationTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "lombokModuleIntegrationTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/lombokModuleIntegrationTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:lombokModuleIntegrationTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/mapstruct-aggregator@1.7.0-SNAPSHOT",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-aggregator",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-aggregator@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-aggregator:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/mapstruct-distribution@1.7.0-SNAPSHOT",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-distribution",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-distribution@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-distribution:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/mapstruct-documentation@1.7.0-SNAPSHOT",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-documentation",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-documentation@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-documentation:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/mapstruct-integrationtest@1.7.0-SNAPSHOT",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-integrationtest",
+      "version": "1.7.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-integrationtest@1.7.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-integrationtest:1.7.0-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/mapstruct-it-parent@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "mapstruct-it-parent",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/mapstruct-it-parent@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:mapstruct-it-parent:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/modulesTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "modulesTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/modulesTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:modulesTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/namingStrategyTest-aggregator@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "namingStrategyTest-aggregator",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/namingStrategyTest-aggregator@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:namingStrategyTest-aggregator:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/protobufIntegrationTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "protobufIntegrationTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/protobufIntegrationTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:protobufIntegrationTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/recordsCrossModuleInterfaceTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "recordsCrossModuleInterfaceTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/recordsCrossModuleInterfaceTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:recordsCrossModuleInterfaceTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/recordsCrossModuleTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "recordsCrossModuleTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/recordsCrossModuleTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:recordsCrossModuleTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/recordsTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "recordsTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/recordsTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:recordsTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/sealedSubclassTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "sealedSubclassTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/sealedSubclassTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:sealedSubclassTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/simpleTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "simpleTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/simpleTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:simpleTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mapstruct/springTest@1.0.0",
+      "type": "library",
+      "group": "org.mapstruct",
+      "name": "springTest",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mapstruct/springTest@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mapstruct:springTest:1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "0165078d-211b-4e4c-8958-6727af757244",
+      "dependsOn": [
+        "ca6b97b6-7788-4711-806d-439251d3ed5a"
+      ]
+    },
+    {
+      "ref": "07c1f6a9-4b1b-43cb-b109-fe871d8091c6",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/fullFeatureTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "0951c642-68f2-44a8-8107-85fef374c823",
+      "dependsOn": [
+        "42f4e104-42d4-40c3-a3a4-762c719364f3",
+        "6876b800-4415-4845-b5f4-58d3a540d8a2"
+      ]
+    },
+    {
+      "ref": "0da92262-7112-4347-9313-bec4cd3725c2",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/defaultPackage@1.0.0"
+      ]
+    },
+    {
+      "ref": "0e52815e-9722-4518-b0a5-2acdf6a636c9",
+      "dependsOn": []
+    },
+    {
+      "ref": "11036abb-fd57-43ca-9d8d-90cf66bb2aae",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/mapstruct-integrationtest@1.7.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "110a1b4f-c445-45b8-ab2b-f336888c1126",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/java8Test@1.0.0"
+      ]
+    },
+    {
+      "ref": "1383a66e-ab5f-4571-a7dc-0d6413fd10ab",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/mapstruct-it-parent@1.0.0"
+      ]
+    },
+    {
+      "ref": "142b7a88-fcd9-482d-8f82-ddc0f7470487",
+      "dependsOn": [
+        "0e52815e-9722-4518-b0a5-2acdf6a636c9"
+      ]
+    },
+    {
+      "ref": "226e9648-63e6-4660-9b7a-4b4a605d6cdd",
+      "dependsOn": [
+        "5264d5e2-3d76-4273-b838-e14249daa8a4"
+      ]
+    },
+    {
+      "ref": "23958644-3c1c-4fb3-88b2-2c0e6f7751d9",
+      "dependsOn": [
+        "60e95719-567c-4daa-b955-8c07e265fa23"
+      ]
+    },
+    {
+      "ref": "244f0e33-a1ce-46df-a18e-e7f2273a3ffa",
+      "dependsOn": [
+        "e601ded6-621f-43e3-89da-c4d3336f44ba"
+      ]
+    },
+    {
+      "ref": "2636a910-8556-4373-9f07-a8e771daf339",
+      "dependsOn": []
+    },
+    {
+      "ref": "266d3226-7cee-4ad6-93e5-5331a859c86b",
+      "dependsOn": []
+    },
+    {
+      "ref": "2b3e2a31-424d-4a59-baaa-280b05c59bb9",
+      "dependsOn": [
+        "142b7a88-fcd9-482d-8f82-ddc0f7470487",
+        "a0cfa97a-c268-4539-b295-0ea785468e0b"
+      ]
+    },
+    {
+      "ref": "2e02188c-6d99-4d2f-b10f-e22e01d3073b",
+      "dependsOn": [
+        "c3d2a601-8979-4182-8b30-732e47590a80"
+      ]
+    },
+    {
+      "ref": "2edea56f-0e30-4b2d-8003-c2545d42ef3b",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/mapstruct-documentation@1.7.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "3229b3a1-33c3-4770-84c9-3b0f063fc20f",
+      "dependsOn": [
+        "cf81f721-62d6-4882-a324-8cfdfd7f48c7"
+      ]
+    },
+    {
+      "ref": "347687ce-8f4f-4b89-bebf-4a9a8a3506c1",
+      "dependsOn": [
+        "aa20e389-ef5b-465b-a149-f92301758ce0"
+      ]
+    },
+    {
+      "ref": "35785a7c-3b83-488a-99e5-fcd0b2b8ef36",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/protobufIntegrationTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "36aabe6b-3f68-4b80-9bd9-91f34c9d5b48",
+      "dependsOn": []
+    },
+    {
+      "ref": "3b0dc8c6-fffa-4392-8810-473f39f95fb4",
+      "dependsOn": [
+        "b4c35cdb-ee06-4489-961c-3a9cf0a4141d"
+      ]
+    },
+    {
+      "ref": "3bec8e71-c482-406a-8596-e3556b4a4e49",
+      "dependsOn": []
+    },
+    {
+      "ref": "3c81c7a1-80bc-4ec4-9fa0-a830e6480278",
+      "dependsOn": []
+    },
+    {
+      "ref": "3d6415da-6749-415b-b68f-18cac4b7c0a0",
+      "dependsOn": []
+    },
+    {
+      "ref": "3d7e8746-4a36-4dff-bcd0-d7d7488d9d82",
+      "dependsOn": []
+    },
+    {
+      "ref": "3ee6e9ea-d77e-4377-bac1-b2b0934dbf01",
+      "dependsOn": [
+        "d220e3e3-4720-4868-bd0a-34a192715675"
+      ]
+    },
+    {
+      "ref": "3f61f3a4-1dbf-478e-9329-a8c3ae6cfd66",
+      "dependsOn": [
+        "ca30acc6-1a53-4446-9136-849285eda6d6"
+      ]
+    },
+    {
+      "ref": "41e55ae9-f669-4856-b146-e67e8c1be033",
+      "dependsOn": []
+    },
+    {
+      "ref": "42f116b7-92e3-40b5-b8fe-2523429c6ee8",
+      "dependsOn": [
+        "c84f98c8-5c40-42dc-b6ab-f97277bf01e1",
+        "f6f95dc4-ca7c-480b-88de-9052b3d23cbd"
+      ]
+    },
+    {
+      "ref": "42f4e104-42d4-40c3-a3a4-762c719364f3",
+      "dependsOn": [
+        "6876b800-4415-4845-b5f4-58d3a540d8a2"
+      ]
+    },
+    {
+      "ref": "4c0ae76f-0fb7-4ce7-8f30-39c8f06f45f6",
+      "dependsOn": []
+    },
+    {
+      "ref": "50c89dad-023d-40a9-92e9-df34237bffbc",
+      "dependsOn": [
+        "e56f7b2b-d037-465f-8ad0-ce682f6bd10c"
+      ]
+    },
+    {
+      "ref": "50d095ea-7b72-4bc7-98db-e5ca9fad8995",
+      "dependsOn": []
+    },
+    {
+      "ref": "517dd429-babe-487a-89dc-050ca50f91f3",
+      "dependsOn": [
+        "6876b800-4415-4845-b5f4-58d3a540d8a2"
+      ]
+    },
+    {
+      "ref": "51841578-87b1-434b-9ef9-b211da2ae76d",
+      "dependsOn": []
+    },
+    {
+      "ref": "5218ef53-7880-48e7-91f2-9874f5467869",
+      "dependsOn": [
+        "6463ab97-af60-4cf2-94bf-90382a14497d"
+      ]
+    },
+    {
+      "ref": "5264d5e2-3d76-4273-b838-e14249daa8a4",
+      "dependsOn": []
+    },
+    {
+      "ref": "55ee7945-7971-4536-8ae5-80b03c89f749",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/recordsTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "5e5475e9-767c-48e7-b8bc-f07715b33229",
+      "dependsOn": [
+        "da9bef4a-5640-482e-8b1f-11811de52aa1"
+      ]
+    },
+    {
+      "ref": "60e1d794-41f6-4fdc-b2c9-7b9c8e5705f2",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct.itest/itest-faultyAstModifyingProcessor-aggregator@1.0.0"
+      ]
+    },
+    {
+      "ref": "60e95719-567c-4daa-b955-8c07e265fa23",
+      "dependsOn": []
+    },
+    {
+      "ref": "6268551e-300d-4736-91e5-b0989e84e16c",
+      "dependsOn": [
+        "42f116b7-92e3-40b5-b8fe-2523429c6ee8"
+      ]
+    },
+    {
+      "ref": "6307d70b-2b05-4251-987d-137ee92cb06c",
+      "dependsOn": []
+    },
+    {
+      "ref": "6360cec9-617c-43b2-9c23-4474b00395bf",
+      "dependsOn": []
+    },
+    {
+      "ref": "6463ab97-af60-4cf2-94bf-90382a14497d",
+      "dependsOn": []
+    },
+    {
+      "ref": "64e2bf19-0f5f-4ff2-a222-1190f9b843fe",
+      "dependsOn": [
+        "41e55ae9-f669-4856-b146-e67e8c1be033"
+      ]
+    },
+    {
+      "ref": "65b94294-2900-40c2-9f12-a5e3e2b66b66",
+      "dependsOn": []
+    },
+    {
+      "ref": "67e1a5e3-902d-49be-8d4e-b8700817a3f0",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/recordsCrossModuleInterfaceTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "6876b800-4415-4845-b5f4-58d3a540d8a2",
+      "dependsOn": [
+        "f6d82001-0dfc-448e-a52c-ad6a4f1f6a31"
+      ]
+    },
+    {
+      "ref": "6a397f73-25ad-4d36-bb6f-6e706777837a",
+      "dependsOn": []
+    },
+    {
+      "ref": "6b49f4de-cd71-42d0-89fd-d73703680a90",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/cdiTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "6c46c486-bb7d-4156-9473-d2fa49620eff",
+      "dependsOn": []
+    },
+    {
+      "ref": "6c4ebe44-9124-402e-a200-cb29b3b70c46",
+      "dependsOn": []
+    },
+    {
+      "ref": "6db7c721-629a-43f1-9e53-7aab7d8bb7b7",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/expressionTextBlocksTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "6f9e6846-fbd8-4cb8-bbe7-b993061a2da7",
+      "dependsOn": []
+    },
+    {
+      "ref": "718562de-01f2-48e8-aab5-fb86a9880590",
+      "dependsOn": [
+        "3bec8e71-c482-406a-8596-e3556b4a4e49"
+      ]
+    },
+    {
+      "ref": "73e8398b-ffb2-40ac-97fb-09e71cbf66e2",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/modulesTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "7603fb8d-945e-4b94-86a0-de0aa2646432",
+      "dependsOn": []
+    },
+    {
+      "ref": "7726341f-8cca-43e4-b1a5-ab4e8b698c93",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/namingStrategyTest-aggregator@1.0.0"
+      ]
+    },
+    {
+      "ref": "77511006-452d-4d9d-8c0d-203b3ef9ea53",
+      "dependsOn": []
+    },
+    {
+      "ref": "77e14c87-ca2d-49e6-b34f-6b825649d191",
+      "dependsOn": []
+    },
+    {
+      "ref": "7cff0bb3-cda6-48fb-9a7d-2c5a3d24589b",
+      "dependsOn": [
+        "e0bb3260-7f6f-45e2-a0a5-29d9b54b134a"
+      ]
+    },
+    {
+      "ref": "7d149ac3-2a46-4833-9dd5-9de12dcb78a2",
+      "dependsOn": [
+        "77511006-452d-4d9d-8c0d-203b3ef9ea53",
+        "c415ccd8-5dfb-482f-bb18-d3ce24d2e982"
+      ]
+    },
+    {
+      "ref": "7ed12fa3-a28e-4b42-a352-89a40c6bb09e",
+      "dependsOn": [
+        "244f0e33-a1ce-46df-a18e-e7f2273a3ffa",
+        "999a6bda-a9ba-426d-ae71-cb8fb02a7f82",
+        "af86b19f-6757-4210-ad99-a6b238a30125",
+        "d93ed78f-cab3-4771-bb20-c5bdb6382d65",
+        "e601ded6-621f-43e3-89da-c4d3336f44ba"
+      ]
+    },
+    {
+      "ref": "7f9c1bba-491e-4c81-b1ff-18c46b8b0b29",
+      "dependsOn": []
+    },
+    {
+      "ref": "80c724c8-455f-4f71-b2e7-36c11fbf0575",
+      "dependsOn": []
+    },
+    {
+      "ref": "817ad976-7a83-4bf4-907f-1085a6df1d1c",
+      "dependsOn": [
+        "142b7a88-fcd9-482d-8f82-ddc0f7470487"
+      ]
+    },
+    {
+      "ref": "81b54e0c-d21a-4633-bd1b-1b27145839a6",
+      "dependsOn": []
+    },
+    {
+      "ref": "82586d25-c1d3-4dbb-8fa4-cebadbc0dcd5",
+      "dependsOn": [
+        "3b0dc8c6-fffa-4392-8810-473f39f95fb4"
+      ]
+    },
+    {
+      "ref": "82fa7df4-1e39-48b1-ad2d-1c5c544edba1",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/freeBuilderIntegrationTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "836a78cb-d57b-466b-ab6d-90b3286d78f0",
+      "dependsOn": []
+    },
+    {
+      "ref": "87608765-3408-42ac-b6f1-4e1696b80e11",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct.itest/itest-usestypegeneration-aggregator@1.0.0"
+      ]
+    },
+    {
+      "ref": "87b4f9a5-df25-4c1a-a48e-d6cbdb39da28",
+      "dependsOn": []
+    },
+    {
+      "ref": "87d487d0-adbd-4691-b0d4-12461c32eee2",
+      "dependsOn": []
+    },
+    {
+      "ref": "8989dd8f-5a78-4c1a-aa17-8683e0c6c28b",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/lombokIntegrationTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "8b59ec42-27da-4a97-be5a-028ce952b476",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/simpleTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "8bbd66ba-f105-4058-80d7-15d7546a2dd8",
+      "dependsOn": []
+    },
+    {
+      "ref": "8fd13a2f-350e-41e3-9011-5296cca7c78b",
+      "dependsOn": [
+        "50d095ea-7b72-4bc7-98db-e5ca9fad8995"
+      ]
+    },
+    {
+      "ref": "905083b5-7494-469d-96cc-e1b354f051f5",
+      "dependsOn": []
+    },
+    {
+      "ref": "9200631b-cb5c-4806-a4c6-584b615147b7",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/recordsCrossModuleTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "96e32b6c-fa75-4a30-8ba3-a7010bb23021",
+      "dependsOn": [
+        "80c724c8-455f-4f71-b2e7-36c11fbf0575"
+      ]
+    },
+    {
+      "ref": "9711bee2-f6b1-4daa-8885-650d457fb639",
+      "dependsOn": []
+    },
+    {
+      "ref": "98c267a3-8ba6-459f-a823-bd3642cf1709",
+      "dependsOn": [
+        "142b7a88-fcd9-482d-8f82-ddc0f7470487",
+        "2b3e2a31-424d-4a59-baaa-280b05c59bb9",
+        "817ad976-7a83-4bf4-907f-1085a6df1d1c",
+        "a0cfa97a-c268-4539-b295-0ea785468e0b",
+        "df7e28f2-ff85-4b80-a82a-fd283da3aaae"
+      ]
+    },
+    {
+      "ref": "999a6bda-a9ba-426d-ae71-cb8fb02a7f82",
+      "dependsOn": [
+        "e601ded6-621f-43e3-89da-c4d3336f44ba"
+      ]
+    },
+    {
+      "ref": "9a0485da-b6d7-4a5c-abbf-7e31ab227ec1",
+      "dependsOn": []
+    },
+    {
+      "ref": "9c4f55e6-7d86-42c0-9a5e-7692265ba09d",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/externalbeanjar@1.0.0"
+      ]
+    },
+    {
+      "ref": "9edfa095-556e-4823-87b0-cff41a6fc3f8",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/mapstruct-aggregator@1.7.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "9ff5a34c-fe57-4aa7-914d-e94b379c3c53",
+      "dependsOn": [
+        "6307d70b-2b05-4251-987d-137ee92cb06c"
+      ]
+    },
+    {
+      "ref": "a0cfa97a-c268-4539-b295-0ea785468e0b",
+      "dependsOn": [
+        "142b7a88-fcd9-482d-8f82-ddc0f7470487"
+      ]
+    },
+    {
+      "ref": "a1a5837a-5ca6-4e35-b829-713b4a82787d",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/jakartaJaxbTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "a31b4ab2-9af2-448c-9f21-716ba4fdce3f",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct.itest/itest-targettypegeneration-aggregator@1.0.0"
+      ]
+    },
+    {
+      "ref": "a545b7df-4c5d-4e28-86e6-2a474ca38f59",
+      "dependsOn": [
+        "7603fb8d-945e-4b94-86a0-de0aa2646432"
+      ]
+    },
+    {
+      "ref": "a777f1e9-bc74-4a79-ad9e-b5cb5cc8da35",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/springTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "a9354e4b-3856-411f-a6dc-8ed0360d81dc",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/jsr330Test@1.0.0"
+      ]
+    },
+    {
+      "ref": "aa20e389-ef5b-465b-a149-f92301758ce0",
+      "dependsOn": [
+        "eb13c27f-a046-4950-bdd5-b22790a0f176"
+      ]
+    },
+    {
+      "ref": "ab4e9f30-e60e-480a-a94d-48491d90f22a",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/mapstruct-distribution@1.7.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "ab8184bb-6e35-4c75-a891-dec7fc73186f",
+      "dependsOn": []
+    },
+    {
+      "ref": "ae424076-322a-4149-9ef9-12024a677406",
+      "dependsOn": []
+    },
+    {
+      "ref": "af86b19f-6757-4210-ad99-a6b238a30125",
+      "dependsOn": [
+        "87b4f9a5-df25-4c1a-a48e-d6cbdb39da28"
+      ]
+    },
+    {
+      "ref": "afab57e2-baab-42ba-97f5-5dc8d4efb762",
+      "dependsOn": []
+    },
+    {
+      "ref": "b0fa637a-2463-4e99-8adf-8f9f989cea05",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/jaxbTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "b4c35cdb-ee06-4489-961c-3a9cf0a4141d",
+      "dependsOn": []
+    },
+    {
+      "ref": "bdc9ab65-c215-4515-8920-b4c6f2a04dbd",
+      "dependsOn": []
+    },
+    {
+      "ref": "c1f37540-4120-4556-82ef-7a1c9336332a",
+      "dependsOn": []
+    },
+    {
+      "ref": "c3d2a601-8979-4182-8b30-732e47590a80",
+      "dependsOn": []
+    },
+    {
+      "ref": "c415ccd8-5dfb-482f-bb18-d3ce24d2e982",
+      "dependsOn": []
+    },
+    {
+      "ref": "c48d9c20-9c71-4af4-ba57-c2d3b1e3aae9",
+      "dependsOn": [
+        "2636a910-8556-4373-9f07-a8e771daf339"
+      ]
+    },
+    {
+      "ref": "c7220cbc-5eda-4822-b27b-f992b762303a",
+      "dependsOn": [
+        "6c4ebe44-9124-402e-a200-cb29b3b70c46"
+      ]
+    },
+    {
+      "ref": "c7a4587b-c710-44ca-8856-a945e89dde53",
+      "dependsOn": [
+        "51841578-87b1-434b-9ef9-b211da2ae76d"
+      ]
+    },
+    {
+      "ref": "c84f98c8-5c40-42dc-b6ab-f97277bf01e1",
+      "dependsOn": []
+    },
+    {
+      "ref": "c978ff64-684e-48b5-8ed5-24e3cb7e5df2",
+      "dependsOn": []
+    },
+    {
+      "ref": "c9fd4d47-30b8-44de-9135-eb2145d56fb3",
+      "dependsOn": [
+        "3ee6e9ea-d77e-4377-bac1-b2b0934dbf01"
+      ]
+    },
+    {
+      "ref": "ca30acc6-1a53-4446-9136-849285eda6d6",
+      "dependsOn": []
+    },
+    {
+      "ref": "ca6b97b6-7788-4711-806d-439251d3ed5a",
+      "dependsOn": []
+    },
+    {
+      "ref": "ce6137cd-43a7-4f36-b9fb-ed3a511ae620",
+      "dependsOn": []
+    },
+    {
+      "ref": "cf81f721-62d6-4882-a324-8cfdfd7f48c7",
+      "dependsOn": []
+    },
+    {
+      "ref": "d1580ec2-591e-4197-a257-ba638ba9154c",
+      "dependsOn": [
+        "07c1f6a9-4b1b-43cb-b109-fe871d8091c6",
+        "0da92262-7112-4347-9313-bec4cd3725c2",
+        "11036abb-fd57-43ca-9d8d-90cf66bb2aae",
+        "110a1b4f-c445-45b8-ab2b-f336888c1126",
+        "1383a66e-ab5f-4571-a7dc-0d6413fd10ab",
+        "23958644-3c1c-4fb3-88b2-2c0e6f7751d9",
+        "2e02188c-6d99-4d2f-b10f-e22e01d3073b",
+        "2edea56f-0e30-4b2d-8003-c2545d42ef3b",
+        "347687ce-8f4f-4b89-bebf-4a9a8a3506c1",
+        "35785a7c-3b83-488a-99e5-fcd0b2b8ef36",
+        "3f61f3a4-1dbf-478e-9329-a8c3ae6cfd66",
+        "50c89dad-023d-40a9-92e9-df34237bffbc",
+        "5218ef53-7880-48e7-91f2-9874f5467869",
+        "55ee7945-7971-4536-8ae5-80b03c89f749",
+        "5e5475e9-767c-48e7-b8bc-f07715b33229",
+        "60e1d794-41f6-4fdc-b2c9-7b9c8e5705f2",
+        "6268551e-300d-4736-91e5-b0989e84e16c",
+        "64e2bf19-0f5f-4ff2-a222-1190f9b843fe",
+        "67e1a5e3-902d-49be-8d4e-b8700817a3f0",
+        "6b49f4de-cd71-42d0-89fd-d73703680a90",
+        "6db7c721-629a-43f1-9e53-7aab7d8bb7b7",
+        "718562de-01f2-48e8-aab5-fb86a9880590",
+        "73e8398b-ffb2-40ac-97fb-09e71cbf66e2",
+        "7726341f-8cca-43e4-b1a5-ab4e8b698c93",
+        "7cff0bb3-cda6-48fb-9a7d-2c5a3d24589b",
+        "82586d25-c1d3-4dbb-8fa4-cebadbc0dcd5",
+        "82fa7df4-1e39-48b1-ad2d-1c5c544edba1",
+        "87608765-3408-42ac-b6f1-4e1696b80e11",
+        "8989dd8f-5a78-4c1a-aa17-8683e0c6c28b",
+        "8b59ec42-27da-4a97-be5a-028ce952b476",
+        "8fd13a2f-350e-41e3-9011-5296cca7c78b",
+        "9200631b-cb5c-4806-a4c6-584b615147b7",
+        "96e32b6c-fa75-4a30-8ba3-a7010bb23021",
+        "9c4f55e6-7d86-42c0-9a5e-7692265ba09d",
+        "9edfa095-556e-4823-87b0-cff41a6fc3f8",
+        "9ff5a34c-fe57-4aa7-914d-e94b379c3c53",
+        "a1a5837a-5ca6-4e35-b829-713b4a82787d",
+        "a31b4ab2-9af2-448c-9f21-716ba4fdce3f",
+        "a777f1e9-bc74-4a79-ad9e-b5cb5cc8da35",
+        "a9354e4b-3856-411f-a6dc-8ed0360d81dc",
+        "ab4e9f30-e60e-480a-a94d-48491d90f22a",
+        "b0fa637a-2463-4e99-8adf-8f9f989cea05",
+        "c48d9c20-9c71-4af4-ba57-c2d3b1e3aae9",
+        "c7220cbc-5eda-4822-b27b-f992b762303a",
+        "c9fd4d47-30b8-44de-9135-eb2145d56fb3",
+        "d3524b2e-50ff-4c6a-8dc5-7eb047bd5f6e",
+        "dc862075-ba39-48f3-a1ce-baafdd455160",
+        "dd8bad65-892b-4c2f-a6be-25a4be73bbec",
+        "e1b7e0be-a98a-4d98-82f1-c17b6929b14e",
+        "e5a21693-3642-49df-9560-723ef19a8875",
+        "ed41c491-3fa1-4ae1-93ac-2f20a5a9b000",
+        "f42405f9-0519-41e6-a485-2783394259b1",
+        "f521a2cc-3d03-4a16-a4a3-5c72f3929953",
+        "f6a39120-7d0c-4038-82ef-d78e0ceacc6f",
+        "f705638e-e321-4f31-a341-c3912e7cb4d5",
+        "f8ee277d-3816-4ce9-9b96-eab1804490db"
+      ]
+    },
+    {
+      "ref": "d220e3e3-4720-4868-bd0a-34a192715675",
+      "dependsOn": []
+    },
+    {
+      "ref": "d3524b2e-50ff-4c6a-8dc5-7eb047bd5f6e",
+      "dependsOn": [
+        "6360cec9-617c-43b2-9c23-4474b00395bf"
+      ]
+    },
+    {
+      "ref": "d6b020ca-64b1-4135-a8c1-455fcb44bd3b",
+      "dependsOn": []
+    },
+    {
+      "ref": "d93ed78f-cab3-4771-bb20-c5bdb6382d65",
+      "dependsOn": [
+        "244f0e33-a1ce-46df-a18e-e7f2273a3ffa",
+        "e601ded6-621f-43e3-89da-c4d3336f44ba"
+      ]
+    },
+    {
+      "ref": "da9bef4a-5640-482e-8b1f-11811de52aa1",
+      "dependsOn": []
+    },
+    {
+      "ref": "dbd76747-160f-4ecf-9723-78aa50410495",
+      "dependsOn": [
+        "c1f37540-4120-4556-82ef-7a1c9336332a"
+      ]
+    },
+    {
+      "ref": "dc862075-ba39-48f3-a1ce-baafdd455160",
+      "dependsOn": [
+        "7f9c1bba-491e-4c81-b1ff-18c46b8b0b29"
+      ]
+    },
+    {
+      "ref": "dd8bad65-892b-4c2f-a6be-25a4be73bbec",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/autoValueIntegrationTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "de4bff96-c8b6-4046-b967-45c2f05ddff1",
+      "dependsOn": []
+    },
+    {
+      "ref": "df7e28f2-ff85-4b80-a82a-fd283da3aaae",
+      "dependsOn": [
+        "d6b020ca-64b1-4135-a8c1-455fcb44bd3b"
+      ]
+    },
+    {
+      "ref": "dfea09c2-b1ce-429a-852b-946ebb73562c",
+      "dependsOn": []
+    },
+    {
+      "ref": "e0bb3260-7f6f-45e2-a0a5-29d9b54b134a",
+      "dependsOn": []
+    },
+    {
+      "ref": "e1b7e0be-a98a-4d98-82f1-c17b6929b14e",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct.itest/itest-supertypegeneration-aggregator@1.0.0"
+      ]
+    },
+    {
+      "ref": "e20e33bc-ab42-4f6c-9041-f1ecaac1cf23",
+      "dependsOn": [
+        "f6dfa8a6-aadf-4ab4-9b2e-e216ec5ff967"
+      ]
+    },
+    {
+      "ref": "e2d00b88-55ae-4c97-9bea-d6d986f3320c",
+      "dependsOn": []
+    },
+    {
+      "ref": "e4b8152e-0f68-4f9a-978e-946ca894ffdb",
+      "dependsOn": []
+    },
+    {
+      "ref": "e56f7b2b-d037-465f-8ad0-ce682f6bd10c",
+      "dependsOn": [
+        "dfea09c2-b1ce-429a-852b-946ebb73562c"
+      ]
+    },
+    {
+      "ref": "e5a21693-3642-49df-9560-723ef19a8875",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/immutablesIntegrationTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "e601ded6-621f-43e3-89da-c4d3336f44ba",
+      "dependsOn": [
+        "3d7e8746-4a36-4dff-bcd0-d7d7488d9d82"
+      ]
+    },
+    {
+      "ref": "e73b37ca-77f0-41ee-8d38-5b32511896ff",
+      "dependsOn": []
+    },
+    {
+      "ref": "eb13c27f-a046-4950-bdd5-b22790a0f176",
+      "dependsOn": []
+    },
+    {
+      "ref": "ed41c491-3fa1-4ae1-93ac-2f20a5a9b000",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/kotlinDataTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "f0ac88db-b91c-45f6-ae87-4cd7dc5947df",
+      "dependsOn": [
+        "0951c642-68f2-44a8-8107-85fef374c823",
+        "42f4e104-42d4-40c3-a3a4-762c719364f3",
+        "517dd429-babe-487a-89dc-050ca50f91f3",
+        "6876b800-4415-4845-b5f4-58d3a540d8a2",
+        "c7a4587b-c710-44ca-8856-a945e89dde53"
+      ]
+    },
+    {
+      "ref": "f42405f9-0519-41e6-a485-2783394259b1",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/sealedSubclassTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "f521a2cc-3d03-4a16-a4a3-5c72f3929953",
+      "dependsOn": [
+        "afab57e2-baab-42ba-97f5-5dc8d4efb762"
+      ]
+    },
+    {
+      "ref": "f5560f87-c0f4-4ca5-a028-fea7fe685b6d",
+      "dependsOn": []
+    },
+    {
+      "ref": "f6a39120-7d0c-4038-82ef-d78e0ceacc6f",
+      "dependsOn": [
+        "pkg:maven/org.mapstruct/lombokModuleIntegrationTest@1.0.0"
+      ]
+    },
+    {
+      "ref": "f6bd68cd-7931-400c-be9b-6b04de160d68",
+      "dependsOn": []
+    },
+    {
+      "ref": "f6d82001-0dfc-448e-a52c-ad6a4f1f6a31",
+      "dependsOn": []
+    },
+    {
+      "ref": "f6dfa8a6-aadf-4ab4-9b2e-e216ec5ff967",
+      "dependsOn": []
+    },
+    {
+      "ref": "f6f95dc4-ca7c-480b-88de-9052b3d23cbd",
+      "dependsOn": []
+    },
+    {
+      "ref": "f705638e-e321-4f31-a341-c3912e7cb4d5",
+      "dependsOn": [
+        "905083b5-7494-469d-96cc-e1b354f051f5"
+      ]
+    },
+    {
+      "ref": "f79d81cd-59c9-42af-a26f-2729e75de0fd",
+      "dependsOn": []
+    },
+    {
+      "ref": "f8ee277d-3816-4ce9-9b96-eab1804490db",
+      "dependsOn": [
+        "e20e33bc-ab42-4f6c-9041-f1ecaac1cf23"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@32.0.0-jre",
+      "dependsOn": [
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0",
+        "pkg:maven/com.google.guava/failureaccess@1.0.1",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@2.8",
+        "pkg:maven/org.checkerframework/checker-qual@3.33.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.el/jakarta.el-api@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.enterprise/jakarta.enterprise.cdi-api@4.0.1",
+      "dependsOn": [
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.0",
+        "pkg:maven/jakarta.el/jakarta.el-api@5.0.0",
+        "pkg:maven/jakarta.enterprise/jakarta.enterprise.lang-model@4.0.1",
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+        "pkg:maven/jakarta.interceptor/jakarta.interceptor-api@2.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.enterprise/jakarta.enterprise.lang-model@4.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.interceptor/jakarta.interceptor-api@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.el/javax.el-api@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.enterprise/cdi-api@2.0.SP1",
+      "dependsOn": [
+        "65b94294-2900-40c2-9f12-a5e3e2b66b66",
+        "pkg:maven/javax.el/javax.el-api@3.0.0",
+        "pkg:maven/javax.interceptor/javax.interceptor-api@1.2"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.interceptor/javax.interceptor-api@1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/joda-time/joda-time@2.12.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@3.33.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.0",
+        "pkg:maven/org.jetbrains/annotations@13.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains/annotations@13.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct.itest/itest-faultyAstModifyingProcessor-aggregator@1.0.0",
+      "dependsOn": [
+        "4c0ae76f-0fb7-4ce7-8f30-39c8f06f45f6",
+        "f6bd68cd-7931-400c-be9b-6b04de160d68"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct.itest/itest-supertypegeneration-aggregator@1.0.0",
+      "dependsOn": [
+        "3c81c7a1-80bc-4ec4-9fa0-a830e6480278",
+        "f79d81cd-59c9-42af-a26f-2729e75de0fd"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct.itest/itest-targettypegeneration-aggregator@1.0.0",
+      "dependsOn": [
+        "3d6415da-6749-415b-b68f-18cac4b7c0a0",
+        "ab8184bb-6e35-4c75-a891-dec7fc73186f"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct.itest/itest-usestypegeneration-aggregator@1.0.0",
+      "dependsOn": [
+        "6a397f73-25ad-4d36-bb6f-6e706777837a",
+        "e2d00b88-55ae-4c97-9bea-d6d986f3320c"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/autoValueIntegrationTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/cdiTest@1.0.0",
+      "dependsOn": [
+        "65b94294-2900-40c2-9f12-a5e3e2b66b66",
+        "pkg:maven/javax.enterprise/cdi-api@2.0.SP1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/defaultPackage@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/expressionTextBlocksTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/externalbeanjar@1.0.0",
+      "dependsOn": [
+        "7603fb8d-945e-4b94-86a0-de0aa2646432",
+        "a545b7df-4c5d-4e28-86e6-2a474ca38f59"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/freeBuilderIntegrationTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/fullFeatureTest@1.0.0",
+      "dependsOn": [
+        "81b54e0c-d21a-4633-bd1b-1b27145839a6",
+        "98c267a3-8ba6-459f-a823-bd3642cf1709",
+        "a0cfa97a-c268-4539-b295-0ea785468e0b",
+        "pkg:maven/com.google.guava/guava@32.0.0-jre",
+        "pkg:maven/jakarta.enterprise/jakarta.enterprise.cdi-api@4.0.1",
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+        "pkg:maven/joda-time/joda-time@2.12.5"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/immutablesIntegrationTest@1.0.0",
+      "dependsOn": [
+        "c1f37540-4120-4556-82ef-7a1c9336332a",
+        "dbd76747-160f-4ecf-9723-78aa50410495"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/jakartaJaxbTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/java8Test@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/jaxbTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/jsr330Test@1.0.0",
+      "dependsOn": [
+        "244f0e33-a1ce-46df-a18e-e7f2273a3ffa",
+        "266d3226-7cee-4ad6-93e5-5331a859c86b",
+        "7ed12fa3-a28e-4b42-a352-89a40c6bb09e"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/kotlinDataTest@1.0.0",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/lombokIntegrationTest@1.0.0",
+      "dependsOn": [
+        "77e14c87-ca2d-49e6-b34f-6b825649d191",
+        "c978ff64-684e-48b5-8ed5-24e3cb7e5df2"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/lombokModuleIntegrationTest@1.0.0",
+      "dependsOn": [
+        "9711bee2-f6b1-4daa-8885-650d457fb639",
+        "e4b8152e-0f68-4f9a-978e-946ca894ffdb"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/mapstruct-aggregator@1.7.0-SNAPSHOT",
+      "dependsOn": [
+        "6c46c486-bb7d-4156-9473-d2fa49620eff",
+        "6f9e6846-fbd8-4cb8-bbe7-b993061a2da7",
+        "7d149ac3-2a46-4833-9dd5-9de12dcb78a2",
+        "8bbd66ba-f105-4058-80d7-15d7546a2dd8",
+        "ce6137cd-43a7-4f36-b9fb-ed3a511ae620"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/mapstruct-distribution@1.7.0-SNAPSHOT",
+      "dependsOn": [
+        "836a78cb-d57b-466b-ab6d-90b3286d78f0",
+        "87d487d0-adbd-4691-b0d4-12461c32eee2",
+        "bdc9ab65-c215-4515-8920-b4c6f2a04dbd",
+        "de4bff96-c8b6-4046-b967-45c2f05ddff1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/mapstruct-documentation@1.7.0-SNAPSHOT",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/mapstruct-integrationtest@1.7.0-SNAPSHOT",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/mapstruct-it-parent@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/modulesTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/namingStrategyTest-aggregator@1.0.0",
+      "dependsOn": [
+        "3229b3a1-33c3-4770-84c9-3b0f063fc20f",
+        "cf81f721-62d6-4882-a324-8cfdfd7f48c7"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/protobufIntegrationTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/recordsCrossModuleInterfaceTest@1.0.0",
+      "dependsOn": [
+        "226e9648-63e6-4660-9b7a-4b4a605d6cdd",
+        "5264d5e2-3d76-4273-b838-e14249daa8a4"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/recordsCrossModuleTest@1.0.0",
+      "dependsOn": [
+        "0165078d-211b-4e4c-8958-6727af757244",
+        "ca6b97b6-7788-4711-806d-439251d3ed5a"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/recordsTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/sealedSubclassTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/simpleTest@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mapstruct/springTest@1.0.0",
+      "dependsOn": [
+        "42f4e104-42d4-40c3-a3a4-762c719364f3",
+        "f0ac88db-b91c-45f6-ae87-4cd7dc5947df"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

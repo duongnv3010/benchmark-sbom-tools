@@ -1,0 +1,30 @@
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/mapstruct-examples.trivy.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+
+ SBOM Quality Score: 8.2/10.0	 Grade: B	Components: 243 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/java/sboms/mapstruct-examples.trivy.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 243/243 have name              |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 8.8/10.0  | 214/243 have versions          |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 8.9/10.0  | 216/243 have unique ID         |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 26            |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing authors                |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present                        |
+|                       |                     |           | 2025-11-30T07:45:11+00:00      |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

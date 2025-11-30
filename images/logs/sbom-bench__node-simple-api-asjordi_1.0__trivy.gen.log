@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/sbom-bench__node-simple-api-asjordi_1.0.trivy.cdx.json sbom-bench/node-simple-api-asjordi:1.0
+EXIT_CODE: 0
+

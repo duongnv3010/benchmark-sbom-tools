@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/images/sboms/postgres_17-alpine.cdxgen.cdx.json postgres:17-alpine
+EXIT_CODE: 0
+

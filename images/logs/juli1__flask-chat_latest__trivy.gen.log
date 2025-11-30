@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/juli1__flask-chat_latest.trivy.cdx.json juli1/flask-chat:latest
+EXIT_CODE: 0
+

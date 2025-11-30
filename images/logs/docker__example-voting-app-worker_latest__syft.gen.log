@@ -1,0 +1,3 @@
+CMD: syft scan docker/example-voting-app-worker:latest -o cyclonedx-json=/home/duongnv/Desktop/images/sboms/docker__example-voting-app-worker_latest.syft.cdx.json
+EXIT_CODE: 0
+

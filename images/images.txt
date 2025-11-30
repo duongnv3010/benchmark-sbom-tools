@@ -1,0 +1,17 @@
+arey/springboot-petclinic:latest
+dependencytrack/apiserver:latest
+dependencytrack/frontend:latest
+docker/example-voting-app-worker:latest
+ghcr.io/guacsec/guac:v1.0.1
+ghost:5-alpine
+jenkins/jenkins:lts-jdk17
+juli1/flask-chat:latest
+netboxcommunity/netbox:v3.7-2.8.0
+postgres:17-alpine
+sbom-bench/node-docker-node-example-nickjj:1.0
+sbom-bench/node-rest-llatinov:1.0
+sbom-bench/node-simple-api-asjordi:1.0
+sbom-bench/python-flask-lvthillo:1.0
+springcommunity/spring-framework-petclinic:latest
+springcommunity/spring-petclinic-rest:2.6.2
+strapi/strapi:latest

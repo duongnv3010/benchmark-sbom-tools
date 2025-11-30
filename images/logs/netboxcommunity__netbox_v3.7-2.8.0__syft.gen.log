@@ -1,0 +1,3 @@
+CMD: syft scan netboxcommunity/netbox:v3.7-2.8.0 -o cyclonedx-json=/home/duongnv/Desktop/images/sboms/netboxcommunity__netbox_v3.7-2.8.0.syft.cdx.json
+EXIT_CODE: 0
+

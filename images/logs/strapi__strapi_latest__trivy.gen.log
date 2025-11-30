@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/strapi__strapi_latest.trivy.cdx.json strapi/strapi:latest
+EXIT_CODE: 0
+

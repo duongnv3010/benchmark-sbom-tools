@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/images/sboms/dependencytrack__frontend_latest.cdxgen.cdx.json dependencytrack/frontend:latest
+EXIT_CODE: 0
+

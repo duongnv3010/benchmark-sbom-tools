@@ -1,0 +1,7 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/images/sboms/jenkins__jenkins_lts-jdk17.cdxgen.cdx.json jenkins/jenkins:lts-jdk17
+EXIT_CODE: 0
+
+==== STDOUT ====
+Obtained only 77 components from 78 jars at /tmp/jar-deps-fFeuuh.
+
+

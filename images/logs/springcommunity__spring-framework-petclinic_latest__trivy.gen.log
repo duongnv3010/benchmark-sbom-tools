@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/springcommunity__spring-framework-petclinic_latest.trivy.cdx.json springcommunity/spring-framework-petclinic:latest
+EXIT_CODE: 0
+

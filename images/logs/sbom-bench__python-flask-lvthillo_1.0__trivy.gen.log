@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/sbom-bench__python-flask-lvthillo_1.0.trivy.cdx.json sbom-bench/python-flask-lvthillo:1.0
+EXIT_CODE: 0
+

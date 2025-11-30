@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/images/sboms/ghcr.io__guacsec__guac_v1.0.1.cdxgen.cdx.json ghcr.io/guacsec/guac:v1.0.1
+EXIT_CODE: 0
+

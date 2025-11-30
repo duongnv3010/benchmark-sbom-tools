@@ -1,0 +1,3 @@
+CMD: syft scan arey/springboot-petclinic:latest -o cyclonedx-json=/home/duongnv/Desktop/images/sboms/arey__springboot-petclinic_latest.syft.cdx.json
+EXIT_CODE: 0
+

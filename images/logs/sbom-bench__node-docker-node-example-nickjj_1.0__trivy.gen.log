@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/sbom-bench__node-docker-node-example-nickjj_1.0.trivy.cdx.json sbom-bench/node-docker-node-example-nickjj:1.0
+EXIT_CODE: 0
+

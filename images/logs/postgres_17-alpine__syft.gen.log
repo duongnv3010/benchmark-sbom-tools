@@ -1,0 +1,3 @@
+CMD: syft scan postgres:17-alpine -o cyclonedx-json=/home/duongnv/Desktop/images/sboms/postgres_17-alpine.syft.cdx.json
+EXIT_CODE: 0
+

@@ -1,0 +1,18 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/images/sboms/springcommunity__spring-framework-petclinic_latest.cdxgen.cdx.json springcommunity/spring-framework-petclinic:latest
+EXIT_CODE: 0
+
+==== STDOUT ====
+/bin/sh: 1: mvn: not found
+
+The above build errors could be due to:
+
+1. Java version requirement: cdxgen container image bundles Java 24 with maven 3.9 which might be incompatible. Try running cdxgen with the custom JDK11-based image `ghcr.io/cyclonedx/cdxgen-java11:v11`.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+
+
+==== STDERR ====
+Multiple errors occurred while building this project with maven. The SBOM is therefore incomplete!
+

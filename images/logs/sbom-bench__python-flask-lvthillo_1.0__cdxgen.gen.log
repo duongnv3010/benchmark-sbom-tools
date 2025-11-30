@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/images/sboms/sbom-bench__python-flask-lvthillo_1.0.cdxgen.cdx.json sbom-bench/python-flask-lvthillo:1.0
+EXIT_CODE: 0
+

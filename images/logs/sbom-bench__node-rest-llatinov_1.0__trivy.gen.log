@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/sbom-bench__node-rest-llatinov_1.0.trivy.cdx.json sbom-bench/node-rest-llatinov:1.0
+EXIT_CODE: 0
+

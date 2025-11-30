@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/dependencytrack__frontend_latest.trivy.cdx.json dependencytrack/frontend:latest
+EXIT_CODE: 0
+

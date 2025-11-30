@@ -1,0 +1,3 @@
+CMD: syft scan ghost:5-alpine -o cyclonedx-json=/home/duongnv/Desktop/images/sboms/ghost_5-alpine.syft.cdx.json
+EXIT_CODE: 0
+

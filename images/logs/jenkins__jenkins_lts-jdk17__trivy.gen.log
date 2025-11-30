@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/images/sboms/jenkins__jenkins_lts-jdk17.trivy.cdx.json jenkins/jenkins:lts-jdk17
+EXIT_CODE: 0
+

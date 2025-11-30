@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/images/sboms/dependencytrack__apiserver_latest.cdxgen.cdx.json dependencytrack/apiserver:latest
+EXIT_CODE: 0
+

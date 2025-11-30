@@ -1,19 +1,19 @@
-CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benmark/nodejs/sboms/express.syft.cdx.json
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/express.syft.cdx.json
 EXIT_CODE: 0
 
 ==== STDOUT ====
 
- SBOM Quality Score: 7.9/10.0	 Grade: C	Components: 22 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benmark/nodejs/sboms/express.syft.cdx.json
+ SBOM Quality Score: 8.3/10.0	 Grade: B	Components: 102 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/express.syft.cdx.json
 +-----------------------+---------------------+-----------+--------------------------------+
 |        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
 +-----------------------+---------------------+-----------+--------------------------------+
 | NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
 +                       +---------------------+-----------+--------------------------------+
-|                       | comp_name           | 10.0/10.0 | 22/22 have name                |
+|                       | comp_name           | 10.0/10.0 | 102/102 have name              |
 +                       +---------------------+-----------+--------------------------------+
-|                       | comp_version        | 7.7/10.0  | 17/22 have versions            |
+|                       | comp_version        | 8.9/10.0  | 91/102 have versions           |
 +                       +---------------------+-----------+--------------------------------+
-|                       | comp_uniq_id        | 7.7/10.0  | 17/22 have unique ID           |
+|                       | comp_uniq_id        | 8.9/10.0  | 91/102 have unique ID          |
 +                       +---------------------+-----------+--------------------------------+
 |                       | sbom_dependencies   | 10.0/10.0 | primary comp has 0             |
 |                       |                     |           | dependencies                   |
@@ -21,7 +21,7 @@ EXIT_CODE: 0
 |                       | sbom_creator        | 0.0/10.0  | missing authors                |
 +                       +---------------------+-----------+--------------------------------+
 |                       | sbom_timestamp      | 10.0/10.0 | present                        |
-|                       |                     |           | 2025-11-29T13:43:30+07:00      |
+|                       |                     |           | 2025-11-30T10:12:41+07:00      |
 +-----------------------+---------------------+-----------+--------------------------------+
 
 

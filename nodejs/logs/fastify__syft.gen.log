@@ -1,4 +1,4 @@
-CMD: syft scan dir:/home/duongnv48/Desktop/benmark/nodejs/repos/fastify -o cyclonedx-json=/home/duongnv48/Desktop/benmark/nodejs/sboms/fastify.syft.cdx.json
+CMD: syft scan dir:/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/fastify -o cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/fastify.syft.cdx.json
 EXIT_CODE: 0
 
 ==== STDERR ====

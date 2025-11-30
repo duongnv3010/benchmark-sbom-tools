@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:f0bb342e-835a-4530-bbc6-a267efa783df",
+  "serialNumber": "urn:uuid:3d78038a-08b6-498d-88a0-d489e0dccdc3",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-11-29T06:44:22+00:00",
+    "timestamp": "2025-11-30T03:13:06+00:00",
     "tools": {
       "components": [
         {
@@ -20,9 +20,9 @@
       ]
     },
     "component": {
-      "bom-ref": "e1f4d7ba-7da8-40b0-a7b2-42c5e49bf178",
+      "bom-ref": "027fd1fa-ea0a-44aa-9ee8-eae83a71b6d9",
       "type": "application",
-      "name": "/home/duongnv48/Desktop/benmark/nodejs/repos/fastify",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/fastify",
       "properties": [
         {
           "name": "aquasecurity:trivy:SchemaVersion",
@@ -34,7 +34,7 @@
   "components": [],
   "dependencies": [
     {
-      "ref": "e1f4d7ba-7da8-40b0-a7b2-42c5e49bf178",
+      "ref": "027fd1fa-ea0a-44aa-9ee8-eae83a71b6d9",
       "dependsOn": []
     }
   ],

@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:cc798509-50b0-4868-b34c-46bdad0d7230",
+  "serialNumber": "urn:uuid:2cfcddb4-f06a-4fe4-beb0-8cbfc8926695",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-11-29T06:50:00+00:00",
+    "timestamp": "2025-11-30T03:17:11+00:00",
     "tools": {
       "components": [
         {
@@ -20,9 +20,9 @@
       ]
     },
     "component": {
-      "bom-ref": "dafa30f1-8e53-4190-abb2-1f6a1e6fcbd7",
+      "bom-ref": "cb6f6d9a-8600-44e4-b9d4-3763fdf927ac",
       "type": "application",
-      "name": "/home/duongnv48/Desktop/benmark/nodejs/repos/nodejs-ecommerce-api",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/nodejs-ecommerce-api",
       "properties": [
         {
           "name": "aquasecurity:trivy:SchemaVersion",
@@ -33,7 +33,7 @@
   },
   "components": [
     {
-      "bom-ref": "316990e4-0e06-4917-bcca-8bd717d9e1e0",
+      "bom-ref": "9d398e91-8dba-4528-9d8d-3e76f29c6d66",
       "type": "application",
       "name": "package-lock.json",
       "properties": [
@@ -2093,7 +2093,7 @@
   ],
   "dependencies": [
     {
-      "ref": "316990e4-0e06-4917-bcca-8bd717d9e1e0",
+      "ref": "9d398e91-8dba-4528-9d8d-3e76f29c6d66",
       "dependsOn": [
         "pkg:npm/bcryptjs@2.4.3",
         "pkg:npm/cors@2.8.5",
@@ -2106,9 +2106,9 @@
       ]
     },
     {
-      "ref": "dafa30f1-8e53-4190-abb2-1f6a1e6fcbd7",
+      "ref": "cb6f6d9a-8600-44e4-b9d4-3763fdf927ac",
       "dependsOn": [
-        "316990e4-0e06-4917-bcca-8bd717d9e1e0"
+        "9d398e91-8dba-4528-9d8d-3e76f29c6d66"
       ]
     },
     {

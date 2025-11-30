@@ -1,4 +1,4 @@
-CMD: syft scan dir:/home/duongnv48/Desktop/benmark/nodejs/repos/node-express-realworld -o cyclonedx-json=/home/duongnv48/Desktop/benmark/nodejs/sboms/node-express-realworld.syft.cdx.json
+CMD: syft scan dir:/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/node-express-realworld -o cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/node-express-realworld.syft.cdx.json
 EXIT_CODE: 0
 
 ==== STDERR ====

@@ -1,9 +1,9 @@
-CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benmark/nodejs/sboms/koa.cdxgen.cdx.json
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/koa.cdxgen.cdx.json
 EXIT_CODE: 0
 
 ==== STDOUT ====
 
- SBOM Quality Score: 8.6/10.0	 Grade: B	Components: 374 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benmark/nodejs/sboms/koa.cdxgen.cdx.json
+ SBOM Quality Score: 8.6/10.0	 Grade: B	Components: 374 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/koa.cdxgen.cdx.json
 +-----------------------+---------------------+-----------+--------------------------------+
 |        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
 +-----------------------+---------------------+-----------+--------------------------------+
@@ -20,7 +20,7 @@ EXIT_CODE: 0
 +                       +---------------------+-----------+--------------------------------+
 |                       | sbom_creator        | 0.0/10.0  | missing legal authors          |
 +                       +---------------------+-----------+--------------------------------+
-|                       | sbom_timestamp      | 10.0/10.0 | present 2025-11-29T06:44:29Z   |
+|                       | sbom_timestamp      | 10.0/10.0 | present 2025-11-30T03:13:11Z   |
 +-----------------------+---------------------+-----------+--------------------------------+
 
 

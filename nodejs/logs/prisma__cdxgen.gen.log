@@ -1,4 +1,4 @@
-CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/prisma.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/prisma
+CMD: cdxgen -o /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/prisma.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/prisma
 EXIT_CODE: 0
 
 ==== STDOUT ====
@@ -58,7 +58,7 @@ Found a duplicate workspace with the name: blog, ref: pkg:npm/blog@0.0.0 at pack
 Duplicate workspace tracked as pkg:npm/blog@0.0.0#packages/client/src/__tests__/integration/errors/can-not-connect-to-database under metadata.component.components
 Found a duplicate workspace with the name: sub-command, ref: pkg:npm/sub-command@1.0.0 at packages/cli/src/__tests__/fixtures/sub-command/node_modules/sub-command/package.json and packages/cli/src/__tests__/fixtures/sub-command-corrupted/node_modules/sub-command/package.json. This is likely an error in the project that needs fixing.
 Duplicate workspace tracked as pkg:npm/sub-command@1.0.0#packages/cli/src/__tests__/fixtures/sub-command/node_modules/sub-command under metadata.component.components
-Unable to find any package.json files belonging to the workspace '*' referred in /home/duongnv48/Desktop/benmark/nodejs/repos/prisma/sandbox/pnpm-workspace.yaml. To improve SBOM precision, run cdxgen from the directory containing the complete source code.
+Unable to find any package.json files belonging to the workspace '*' referred in /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/prisma/sandbox/pnpm-workspace.yaml. To improve SBOM precision, run cdxgen from the directory containing the complete source code.
 Error: loadVirtual requires existing shrinkwrap file
     at Arborist.loadVirtual (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/third-party/arborist/lib/arborist/load-virtual.js:53:20)
     at async parsePkgLock (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:1750:14)
@@ -68,7 +68,7 @@ Error: loadVirtual requires existing shrinkwrap file
     at async file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/bin/cdxgen.js:830:20 {
   code: 'ENOLOCK'
 }
-Unable to parse /home/duongnv48/Desktop/benmark/nodejs/repos/prisma/packages/cli/src/__tests__/fixtures/custom-output-npm/package-lock.json without legacy peer dependencies. Retrying ...
+Unable to parse /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/prisma/packages/cli/src/__tests__/fixtures/custom-output-npm/package-lock.json without legacy peer dependencies. Retrying ...
 Error: loadVirtual requires existing shrinkwrap file
     at Arborist.loadVirtual (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/third-party/arborist/lib/arborist/load-virtual.js:53:20)
     at async parsePkgLock (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:1765:14)
@@ -78,7 +78,7 @@ Error: loadVirtual requires existing shrinkwrap file
     at async file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/bin/cdxgen.js:830:20 {
   code: 'ENOLOCK'
 }
-Unable to parse /home/duongnv48/Desktop/benmark/nodejs/repos/prisma/packages/cli/src/__tests__/fixtures/custom-output-npm/package-lock.json in legacy and non-legacy mode. The resulting SBOM would be incomplete.
+Unable to parse /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/prisma/packages/cli/src/__tests__/fixtures/custom-output-npm/package-lock.json in legacy and non-legacy mode. The resulting SBOM would be incomplete.
 
 
 ==== STDERR ====

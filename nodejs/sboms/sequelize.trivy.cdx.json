@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:31096c27-909f-46d0-bbec-ce26c33c87d8",
+  "serialNumber": "urn:uuid:5db257cf-a7dd-4572-afd4-dc3872870f19",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-11-29T06:48:26+00:00",
+    "timestamp": "2025-11-30T03:16:08+00:00",
     "tools": {
       "components": [
         {
@@ -20,9 +20,9 @@
       ]
     },
     "component": {
-      "bom-ref": "c9b27035-c117-458e-9392-6ed08e8d68a6",
+      "bom-ref": "7dd10ad8-34ed-40cb-8bc6-f100465d16b2",
       "type": "application",
-      "name": "/home/duongnv48/Desktop/benmark/nodejs/repos/sequelize",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/sequelize",
       "properties": [
         {
           "name": "aquasecurity:trivy:SchemaVersion",
@@ -33,22 +33,7 @@
   },
   "components": [
     {
-      "bom-ref": "837abe6b-8f95-452b-86b1-bcc6abf691cb",
-      "type": "application",
-      "name": "yarn.lock",
-      "properties": [
-        {
-          "name": "aquasecurity:trivy:Class",
-          "value": "lang-pkgs"
-        },
-        {
-          "name": "aquasecurity:trivy:Type",
-          "value": "yarn"
-        }
-      ]
-    },
-    {
-      "bom-ref": "9a23648a-aa23-4190-b543-4a444783b1b5",
+      "bom-ref": "66cfe24e-5a22-4564-a1b8-86c5b375045f",
       "type": "library",
       "name": "*",
       "version": "7.0.0-alpha.47",
@@ -72,7 +57,7 @@
       ]
     },
     {
-      "bom-ref": "c19452d4-6631-4f9c-9e38-7c08f61fe5fa",
+      "bom-ref": "cedf966a-8f08-4662-8325-23d2cea9a380",
       "type": "library",
       "name": "*",
       "version": "7.0.0-alpha.47",
@@ -91,6 +76,21 @@
         },
         {
           "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f7a5a0bd-4fa1-4337-a894-3e3892990812",
+      "type": "application",
+      "name": "yarn.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
           "value": "yarn"
         }
       ]
@@ -13751,13 +13751,7 @@
   ],
   "dependencies": [
     {
-      "ref": "837abe6b-8f95-452b-86b1-bcc6abf691cb",
-      "dependsOn": [
-        "pkg:npm/%40sequelize/monorepo"
-      ]
-    },
-    {
-      "ref": "9a23648a-aa23-4190-b543-4a444783b1b5",
+      "ref": "66cfe24e-5a22-4564-a1b8-86c5b375045f",
       "dependsOn": [
         "pkg:npm/%40types/chai-as-promised@7.1.8",
         "pkg:npm/%40types/chai-datetime@1.0.0",
@@ -13804,16 +13798,22 @@
       ]
     },
     {
-      "ref": "c19452d4-6631-4f9c-9e38-7c08f61fe5fa",
+      "ref": "7dd10ad8-34ed-40cb-8bc6-f100465d16b2",
+      "dependsOn": [
+        "f7a5a0bd-4fa1-4337-a894-3e3892990812"
+      ]
+    },
+    {
+      "ref": "cedf966a-8f08-4662-8325-23d2cea9a380",
       "dependsOn": [
         "pkg:npm/lodash@4.17.21",
         "pkg:npm/sqlite3@5.1.7"
       ]
     },
     {
-      "ref": "c9b27035-c117-458e-9392-6ed08e8d68a6",
+      "ref": "f7a5a0bd-4fa1-4337-a894-3e3892990812",
       "dependsOn": [
-        "837abe6b-8f95-452b-86b1-bcc6abf691cb"
+        "pkg:npm/%40sequelize/monorepo"
       ]
     },
     {
@@ -14935,7 +14935,7 @@
     {
       "ref": "pkg:npm/%40sequelize/db2@7.0.0-alpha.47",
       "dependsOn": [
-        "9a23648a-aa23-4190-b543-4a444783b1b5",
+        "66cfe24e-5a22-4564-a1b8-86c5b375045f",
         "pkg:npm/dayjs@1.11.19",
         "pkg:npm/ibm_db@3.3.4",
         "pkg:npm/lodash@4.17.21"
@@ -14958,8 +14958,8 @@
     {
       "ref": "pkg:npm/%40sequelize/monorepo",
       "dependsOn": [
-        "9a23648a-aa23-4190-b543-4a444783b1b5",
-        "c19452d4-6631-4f9c-9e38-7c08f61fe5fa",
+        "66cfe24e-5a22-4564-a1b8-86c5b375045f",
+        "cedf966a-8f08-4662-8325-23d2cea9a380",
         "pkg:npm/%40sequelize/cli@7.0.0-alpha.47",
         "pkg:npm/%40sequelize/db2-ibmi@7.0.0-alpha.47",
         "pkg:npm/%40sequelize/db2@7.0.0-alpha.47",
@@ -15044,7 +15044,7 @@
     {
       "ref": "pkg:npm/%40sequelize/validator.js@7.0.0-alpha.47",
       "dependsOn": [
-        "c19452d4-6631-4f9c-9e38-7c08f61fe5fa",
+        "cedf966a-8f08-4662-8325-23d2cea9a380",
         "pkg:npm/%40types/chai-as-promised@7.1.8",
         "pkg:npm/%40types/chai@4.3.20",
         "pkg:npm/chai-as-promised@7.1.2",

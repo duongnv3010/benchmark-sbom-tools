@@ -1,4 +1,4 @@
-CMD: syft scan dir:/home/duongnv48/Desktop/benmark/nodejs/repos/bulletproof-nodejs-template -o cyclonedx-json=/home/duongnv48/Desktop/benmark/nodejs/sboms/bulletproof-nodejs-template.syft.cdx.json
+CMD: syft scan dir:/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/bulletproof-nodejs-template -o cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/bulletproof-nodejs-template.syft.cdx.json
 EXIT_CODE: 0
 
 ==== STDERR ====

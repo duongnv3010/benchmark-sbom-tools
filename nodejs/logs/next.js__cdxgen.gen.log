@@ -1,4 +1,4 @@
-CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/next.js.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/next.js
+CMD: cdxgen -o /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/next.js.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/next.js
 EXIT_CODE: 1
 
 ==== STDOUT ====
@@ -10,7 +10,7 @@ Found a duplicate workspace with the name: schema-utils, ref: pkg:npm/schema-uti
 Duplicate workspace tracked as pkg:npm/schema-utils#packages/next/src/compiled/schema-utils2 under metadata.component.components
 Found a duplicate workspace with the name: loader-utils, ref: pkg:npm/loader-utils at packages/next/src/compiled/loader-utils2/package.json and packages/next/src/compiled/loader-utils3/package.json. This is likely an error in the project that needs fixing.
 Duplicate workspace tracked as pkg:npm/loader-utils#packages/next/src/compiled/loader-utils2 under metadata.component.components
-Unable to find any package.json files belonging to the workspace 'crates/js' referred in /home/duongnv48/Desktop/benmark/nodejs/repos/next.js/pnpm-workspace.yaml. To improve SBOM precision, run cdxgen from the directory containing the complete source code.
+Unable to find any package.json files belonging to the workspace 'crates/js' referred in /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/next.js/pnpm-workspace.yaml. To improve SBOM precision, run cdxgen from the directory containing the complete source code.
 Found a duplicate workspace with the name: exports, ref: pkg:npm/exports at turbopack/crates/turbopack-tests/tests/execution/turbopack/resolving/dynamic-module/input/node_modules/exports-a/package.json and turbopack/crates/turbopack-tests/tests/execution/turbopack/resolving/dynamic-module/input/node_modules/exports-b/package.json. This is likely an error in the project that needs fixing.
 Duplicate workspace tracked as pkg:npm/exports#turbopack/crates/turbopack-tests/tests/execution/turbopack/resolving/dynamic-module/input/node_modules/exports-a under metadata.component.components
 

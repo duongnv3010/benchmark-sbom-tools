@@ -1,7 +1,7 @@
-CMD: cdxgen -o /home/duongnv48/Desktop/benmark/nodejs/sboms/strapi.cdxgen.cdx.json /home/duongnv48/Desktop/benmark/nodejs/repos/strapi
+CMD: cdxgen -o /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/strapi.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/strapi
 EXIT_CODE: 0
 
 ==== STDOUT ====
-Unable to find any package.json files belonging to the workspace 'examples/*' referred in /home/duongnv48/Desktop/benmark/nodejs/repos/strapi/package.json. To improve SBOM precision, run cdxgen from the directory containing the complete source code.
+Unable to find any package.json files belonging to the workspace 'examples/*' referred in /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/strapi/package.json. To improve SBOM precision, run cdxgen from the directory containing the complete source code.
 
 

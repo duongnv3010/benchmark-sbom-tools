@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:9f35501b-507e-4e4f-8424-eaf20ce4c5a3",
+  "serialNumber": "urn:uuid:b42173d2-7866-44d2-b185-da1b0a24c351",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-11-29T06:49:17+00:00",
+    "timestamp": "2025-11-30T03:16:49+00:00",
     "tools": {
       "components": [
         {
@@ -20,9 +20,9 @@
       ]
     },
     "component": {
-      "bom-ref": "692eab0a-956c-41ec-a5ec-8a1078c56f7b",
+      "bom-ref": "4522a3e2-9c6e-416c-8dea-21516cf3de1e",
       "type": "application",
-      "name": "/home/duongnv48/Desktop/benmark/nodejs/repos/node-express-realworld",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/node-express-realworld",
       "properties": [
         {
           "name": "aquasecurity:trivy:SchemaVersion",
@@ -33,7 +33,7 @@
   },
   "components": [
     {
-      "bom-ref": "9a90687a-fb0f-4486-ac4c-51fadcd111c3",
+      "bom-ref": "213baf7d-6f34-459c-ae89-9337e98576df",
       "type": "application",
       "name": "package-lock.json",
       "properties": [
@@ -1807,13 +1807,7 @@
   ],
   "dependencies": [
     {
-      "ref": "692eab0a-956c-41ec-a5ec-8a1078c56f7b",
-      "dependsOn": [
-        "9a90687a-fb0f-4486-ac4c-51fadcd111c3"
-      ]
-    },
-    {
-      "ref": "9a90687a-fb0f-4486-ac4c-51fadcd111c3",
+      "ref": "213baf7d-6f34-459c-ae89-9337e98576df",
       "dependsOn": [
         "pkg:npm/%40ngneat/falso@7.1.1",
         "pkg:npm/%40prisma/client@4.16.2",
@@ -1828,6 +1822,12 @@
         "pkg:npm/prisma@4.16.2",
         "pkg:npm/slugify@1.6.6",
         "pkg:npm/tslib@2.6.2"
+      ]
+    },
+    {
+      "ref": "4522a3e2-9c6e-416c-8dea-21516cf3de1e",
+      "dependsOn": [
+        "213baf7d-6f34-459c-ae89-9337e98576df"
       ]
     },
     {

@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:2e791b02-79a6-4bac-be0f-4981c25d1d2a",
+  "serialNumber": "urn:uuid:92b7a90e-b438-4d35-aee2-81d6d0cc69c2",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-11-29T06:47:24+00:00",
+    "timestamp": "2025-11-30T03:15:22+00:00",
     "tools": {
       "components": [
         {
@@ -20,9 +20,9 @@
       ]
     },
     "component": {
-      "bom-ref": "882f55a8-8fd1-4583-9541-6a77abdc4761",
+      "bom-ref": "af153187-7e44-4b28-8aca-e308f32a93c5",
       "type": "application",
-      "name": "/home/duongnv48/Desktop/benmark/nodejs/repos/nuxt",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/nuxt",
       "properties": [
         {
           "name": "aquasecurity:trivy:SchemaVersion",
@@ -33,7 +33,7 @@
   },
   "components": [
     {
-      "bom-ref": "ee56ca58-07b5-4fe8-950a-cee496e58ac5",
+      "bom-ref": "4982686a-373c-43b3-b684-edb17adc058b",
       "type": "application",
       "name": "pnpm-lock.yaml",
       "properties": [
@@ -17268,13 +17268,7 @@
   ],
   "dependencies": [
     {
-      "ref": "882f55a8-8fd1-4583-9541-6a77abdc4761",
-      "dependsOn": [
-        "ee56ca58-07b5-4fe8-950a-cee496e58ac5"
-      ]
-    },
-    {
-      "ref": "ee56ca58-07b5-4fe8-950a-cee496e58ac5",
+      "ref": "4982686a-373c-43b3-b684-edb17adc058b",
       "dependsOn": [
         "pkg:npm/%40babel/core@7.28.5",
         "pkg:npm/%40babel/helper-plugin-utils@7.27.1",
@@ -17393,6 +17387,12 @@
         "pkg:npm/webpack-hot-middleware@2.26.1",
         "pkg:npm/webpack@5.103.0",
         "pkg:npm/webpackbar@7.0.0"
+      ]
+    },
+    {
+      "ref": "af153187-7e44-4b28-8aca-e308f32a93c5",
+      "dependsOn": [
+        "4982686a-373c-43b3-b684-edb17adc058b"
       ]
     },
     {

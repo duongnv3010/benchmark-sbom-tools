@@ -1,4 +1,4 @@
-CMD: syft scan dir:/home/duongnv48/Desktop/benmark/nodejs/repos/nest -o cyclonedx-json=/home/duongnv48/Desktop/benmark/nodejs/sboms/nest.syft.cdx.json
+CMD: syft scan dir:/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/nest -o cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/nest.syft.cdx.json
 EXIT_CODE: 0
 
 ==== STDERR ====

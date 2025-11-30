@@ -1,4 +1,4 @@
-CMD: syft scan dir:/home/duongnv48/Desktop/benmark/nodejs/repos/real-world-tourism-api -o cyclonedx-json=/home/duongnv48/Desktop/benmark/nodejs/sboms/real-world-tourism-api.syft.cdx.json
+CMD: syft scan dir:/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/real-world-tourism-api -o cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/real-world-tourism-api.syft.cdx.json
 EXIT_CODE: 0
 
 ==== STDERR ====

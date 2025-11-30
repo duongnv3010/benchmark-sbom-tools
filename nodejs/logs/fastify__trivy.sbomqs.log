@@ -1,9 +1,9 @@
-CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benmark/nodejs/sboms/fastify.trivy.cdx.json
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/fastify.trivy.cdx.json
 EXIT_CODE: 0
 
 ==== STDOUT ====
 
- SBOM Quality Score: 5.7/10.0	 Grade: D	Components: 1 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benmark/nodejs/sboms/fastify.trivy.cdx.json
+ SBOM Quality Score: 5.7/10.0	 Grade: D	Components: 1 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/fastify.trivy.cdx.json
 +-----------------------+---------------------+-----------+--------------------------------+
 |        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
 +-----------------------+---------------------+-----------+--------------------------------+
@@ -21,7 +21,7 @@ EXIT_CODE: 0
 |                       | sbom_creator        | 0.0/10.0  | missing authors                |
 +                       +---------------------+-----------+--------------------------------+
 |                       | sbom_timestamp      | 10.0/10.0 | present                        |
-|                       |                     |           | 2025-11-29T06:44:22+00:00      |
+|                       |                     |           | 2025-11-30T03:13:06+00:00      |
 +-----------------------+---------------------+-----------+--------------------------------+
 
 

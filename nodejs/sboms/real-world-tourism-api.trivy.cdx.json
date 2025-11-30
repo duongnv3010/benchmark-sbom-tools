@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:187088ca-c374-4a6a-8cb7-e1ce8f4dcab6",
+  "serialNumber": "urn:uuid:36a2ec0f-5aee-40d8-862e-690d9f69fab2",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-11-29T06:50:05+00:00",
+    "timestamp": "2025-11-30T03:17:15+00:00",
     "tools": {
       "components": [
         {
@@ -20,9 +20,9 @@
       ]
     },
     "component": {
-      "bom-ref": "b5dca374-c8ec-41ae-a0f2-6acb690ac5b6",
+      "bom-ref": "7fb64c9b-4511-49f1-a0cf-de2b838225cc",
       "type": "application",
-      "name": "/home/duongnv48/Desktop/benmark/nodejs/repos/real-world-tourism-api",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/real-world-tourism-api",
       "properties": [
         {
           "name": "aquasecurity:trivy:SchemaVersion",
@@ -33,7 +33,7 @@
   },
   "components": [
     {
-      "bom-ref": "6bc13100-5c27-441c-a3e4-0b19a746b1ae",
+      "bom-ref": "2e9680d6-4ed6-4246-9db0-84494f9ecdcc",
       "type": "application",
       "name": "package-lock.json",
       "properties": [
@@ -6732,7 +6732,7 @@
   ],
   "dependencies": [
     {
-      "ref": "6bc13100-5c27-441c-a3e4-0b19a746b1ae",
+      "ref": "2e9680d6-4ed6-4246-9db0-84494f9ecdcc",
       "dependsOn": [
         "pkg:npm/bcrypt@3.0.3",
         "pkg:npm/compression@1.7.3",
@@ -6770,9 +6770,9 @@
       ]
     },
     {
-      "ref": "b5dca374-c8ec-41ae-a0f2-6acb690ac5b6",
+      "ref": "7fb64c9b-4511-49f1-a0cf-de2b838225cc",
       "dependsOn": [
-        "6bc13100-5c27-441c-a3e4-0b19a746b1ae"
+        "2e9680d6-4ed6-4246-9db0-84494f9ecdcc"
       ]
     },
     {

@@ -1,7 +1,0 @@
-$ syft dir:. -o cyclonedx-json=/home/duongnv48/Desktop/benmark/python/sboms/cli.syft.cdx.json
-exit_code: 0
-elapsed: 1.885 s
-
-=== STDERR ===
-[0000]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
-

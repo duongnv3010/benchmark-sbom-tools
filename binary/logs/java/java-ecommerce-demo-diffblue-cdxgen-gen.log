@@ -1,0 +1,9 @@
+CMD: cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-ecommerce-demo-diffblue-cdxgen-artifact.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/ecommerce-demo-diffblue/ecommerce-0.1.0-with-dependencies.jar
+EXIT_CODE: 0
+
+==== STDOUT ====
+/tmp/war-deps-m0xHbz did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-m0xHbz
+
+

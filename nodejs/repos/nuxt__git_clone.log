@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/nuxt/nuxt.git /home/duongnv48/Desktop/benmark/nodejs/repos/nuxt
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benmark/nodejs/repos/nuxt'...
-

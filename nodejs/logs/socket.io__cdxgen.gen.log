@@ -1,3 +1,0 @@
-CMD: cdxgen -o /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/socket.io.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/socket.io
-EXIT_CODE: 0
-

@@ -1,7 +1,0 @@
-$ git clone --depth 1 https://github.com/pydantic/pydantic.git /home/duongnv48/Desktop/benmark/python/repos/pydantic
-exit_code: 0
-elapsed: 2.690 s
-
-=== STDERR ===
-Cloning into '/home/duongnv48/Desktop/benmark/python/repos/pydantic'...
-

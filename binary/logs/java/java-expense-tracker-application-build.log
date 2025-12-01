@@ -1,0 +1,3 @@
+CMD: mvn -q -DskipTests package
+EXIT_CODE: 0
+

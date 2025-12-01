@@ -1,7 +1,0 @@
-$ git clone --depth 1 https://github.com/tox-dev/tox.git /home/duongnv48/Desktop/benmark/python/repos/tox
-exit_code: 0
-elapsed: 1.809 s
-
-=== STDERR ===
-Cloning into '/home/duongnv48/Desktop/benmark/python/repos/tox'...
-

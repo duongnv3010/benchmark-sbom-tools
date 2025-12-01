@@ -1,3 +1,0 @@
-CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/fastify.trivy.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/fastify
-EXIT_CODE: 0
-

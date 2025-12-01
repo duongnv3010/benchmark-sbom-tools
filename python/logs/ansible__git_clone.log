@@ -1,7 +1,0 @@
-$ git clone --depth 1 https://github.com/ansible/ansible.git /home/duongnv48/Desktop/benmark/python/repos/ansible
-exit_code: 0
-elapsed: 3.428 s
-
-=== STDERR ===
-Cloning into '/home/duongnv48/Desktop/benmark/python/repos/ansible'...
-

@@ -1,0 +1,9 @@
+CMD: cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-java-spring-boot-secure-todo-app-cdxgen-artifact.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/java-spring-boot-secure-todo-app/todo-0.0.1-SNAPSHOT.jar
+EXIT_CODE: 0
+
+==== STDOUT ====
+/tmp/war-deps-Xi3DO4 did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-Xi3DO4
+
+

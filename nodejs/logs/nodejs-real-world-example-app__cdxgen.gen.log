@@ -1,3 +1,0 @@
-CMD: cdxgen -o /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/nodejs-real-world-example-app.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/nodejs-real-world-example-app
-EXIT_CODE: 0
-

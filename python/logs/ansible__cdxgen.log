@@ -1,4 +1,0 @@
-$ cdxgen -r -o /home/duongnv48/Desktop/benmark/python/sboms/ansible.cdxgen.cdx.json .
-exit_code: 0
-elapsed: 10.191 s
-

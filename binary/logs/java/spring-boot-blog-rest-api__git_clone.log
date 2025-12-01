@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/osopromadze/Spring-Boot-Blog-REST-API.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-blog-rest-api
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-blog-rest-api'...
+

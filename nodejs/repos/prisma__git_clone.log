@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/prisma/prisma.git /home/duongnv48/Desktop/benmark/nodejs/repos/prisma
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benmark/nodejs/repos/prisma'...
-

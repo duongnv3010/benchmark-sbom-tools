@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/manirDev/Spring-boot-e-commerce-rest-api.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-ecommerce-rest-api-manirdev
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-ecommerce-rest-api-manirdev'...
+

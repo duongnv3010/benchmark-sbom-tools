@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/chizuru-nina-yamauchi/Expense_Tracker_Application.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/expense-tracker-application
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/expense-tracker-application'...
+

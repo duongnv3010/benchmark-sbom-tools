@@ -1,3 +1,0 @@
-CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/real-world-tourism-api.trivy.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/real-world-tourism-api
-EXIT_CODE: 0
-

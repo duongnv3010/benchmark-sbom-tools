@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/shivamverma26/Ecommerce_SpringBoot.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/ecommerce-springboot-shivam
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/ecommerce-springboot-shivam'...
+

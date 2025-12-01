@@ -1,3 +1,0 @@
-CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/prisma.trivy.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/prisma
-EXIT_CODE: 0
-

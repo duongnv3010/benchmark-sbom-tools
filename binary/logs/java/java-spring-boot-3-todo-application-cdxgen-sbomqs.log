@@ -1,0 +1,29 @@
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-3-todo-application-cdxgen-artifact.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+
+ SBOM Quality Score: 8.6/10.0	 Grade: B	Components: 64 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-3-todo-application-cdxgen-artifact.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 64/64 have name                |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 10.0/10.0 | 64/64 have versions            |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 10.0/10.0 | 64/64 have unique ID           |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 0             |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing legal authors          |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present 2025-12-01T03:28:32Z   |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

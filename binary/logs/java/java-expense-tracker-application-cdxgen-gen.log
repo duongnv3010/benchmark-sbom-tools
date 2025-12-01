@@ -1,0 +1,9 @@
+CMD: cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-expense-tracker-application-cdxgen-artifact.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/expense-tracker-application/Expense_Tracker_Application-0.0.1-SNAPSHOT.jar
+EXIT_CODE: 0
+
+==== STDOUT ====
+/tmp/war-deps-bc28fz did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-bc28fz
+
+

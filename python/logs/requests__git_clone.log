@@ -1,7 +1,0 @@
-$ git clone --depth 1 https://github.com/psf/requests.git /home/duongnv48/Desktop/benmark/python/repos/requests
-exit_code: 0
-elapsed: 4.334 s
-
-=== STDERR ===
-Cloning into '/home/duongnv48/Desktop/benmark/python/repos/requests'...
-

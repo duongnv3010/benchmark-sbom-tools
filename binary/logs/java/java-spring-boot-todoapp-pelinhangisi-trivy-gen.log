@@ -1,0 +1,7 @@
+CMD: trivy fs --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-todoapp-pelinhangisi-trivy-artifact.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-todoapp-pelinhangisi/spring-boot-todoapp-0.0.1-SNAPSHOT.jar
+EXIT_CODE: 0
+
+==== STDERR ====
+2025-12-01T10:30:00+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-01T10:30:00+07:00	INFO	Number of language-specific files	num=0
+

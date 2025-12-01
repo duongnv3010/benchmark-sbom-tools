@@ -1,0 +1,8 @@
+CMD: cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-3-todo-application-cdxgen-artifact.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-3-todo-application/spring-boot-3-todo-application-0.0.1-SNAPSHOT.jar
+EXIT_CODE: 0
+
+==== STDOUT ====
+/tmp/war-deps-TlsJ3N did not contain any jars. Try building the project to improve the BOM precision.
+Cleaning up /tmp/war-deps-TlsJ3N
+
+

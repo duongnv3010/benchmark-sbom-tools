@@ -1,0 +1,15 @@
+express,https://github.com/expressjs/express.git
+nest,https://github.com/nestjs/nest.git
+koa,https://github.com/koajs/koa.git
+strapi,https://github.com/strapi/strapi.git
+nuxt,https://github.com/nuxt/nuxt.git
+remix,https://github.com/remix-run/remix.git
+prisma,https://github.com/prisma/prisma.git
+sequelize,https://github.com/sequelize/sequelize.git
+typeorm,https://github.com/typeorm/typeorm.git
+bulletproof-nodejs,https://github.com/santiq/bulletproof-nodejs.git
+nodejs-real-world-example-app,https://github.com/balajihambeere/nodejs-real-world-example-app.git
+bulletproof-nodejs-template,https://github.com/IshaanOhri/Bulletproof-NodeJS-Template.git
+realworld-nodejs-example-app,https://github.com/kenyipp/realworld-nodejs-example-app.git
+nodejs-ecommerce-api,https://github.com/dinushchathurya/nodejs-ecommerce-api.git
+real-world-tourism-api,https://github.com/pejmanhadavi/real-world-Tourism-node-express-mongodb.git

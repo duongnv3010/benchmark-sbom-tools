@@ -1,0 +1,9 @@
+CMD: trivy fs --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/strapi.trivy.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/strapi
+EXIT_CODE: 0
+
+==== STDERR ====
+2025-12-01T11:05:41+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-01T11:05:42+07:00	WARN	[yarn] Unable to parse package.json to remove dev dependencies	file_path="package.json" err="unable to resolve workspace dependencies: unable to resolve dependencies: unable to walk dependencies: unable to match version for react"
+2025-12-01T11:05:42+07:00	INFO	Suppressing dependencies for development and testing. To display them, try the '--include-dev-deps' flag.
+2025-12-01T11:05:42+07:00	INFO	Number of language-specific files	num=2
+

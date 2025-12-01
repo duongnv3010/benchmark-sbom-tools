@@ -1,0 +1,7 @@
+CMD: ./mvnw -q -DskipTests package
+EXIT_CODE: 0
+
+==== STDOUT ====
+Warning: JAVA_HOME environment variable is not set.
+
+

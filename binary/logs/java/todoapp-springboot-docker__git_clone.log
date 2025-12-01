@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/devSuatt/todoApp-springboot-docker.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/todoapp-springboot-docker
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/todoapp-springboot-docker'...
+

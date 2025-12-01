@@ -1,0 +1,8 @@
+CMD: trivy fs --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/sequelize.trivy.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/sequelize
+EXIT_CODE: 0
+
+==== STDERR ====
+2025-12-01T11:07:17+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-01T11:07:18+07:00	INFO	Suppressing dependencies for development and testing. To display them, try the '--include-dev-deps' flag.
+2025-12-01T11:07:18+07:00	INFO	Number of language-specific files	num=1
+

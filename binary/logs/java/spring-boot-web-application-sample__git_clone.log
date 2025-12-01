@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/gtiwari333/spring-boot-web-application-sample.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-web-application-sample
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-web-application-sample'...
+

@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/IshaanOhri/Bulletproof-NodeJS-Template.git /home/duongnv48/Desktop/benmark/nodejs/repos/bulletproof-nodejs-template
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benmark/nodejs/repos/bulletproof-nodejs-template'...
-

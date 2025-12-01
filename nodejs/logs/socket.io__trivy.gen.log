@@ -1,3 +1,0 @@
-CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/socket.io.trivy.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/socket.io
-EXIT_CODE: 0
-

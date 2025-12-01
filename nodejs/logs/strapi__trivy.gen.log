@@ -1,3 +1,0 @@
-CMD: trivy fs --quiet --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/sboms/strapi.trivy.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/strapi
-EXIT_CODE: 0
-

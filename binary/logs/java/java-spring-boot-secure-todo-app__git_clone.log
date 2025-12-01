@@ -1,0 +1,6 @@
+CMD: git clone --depth 1 https://github.com/mongodb-developer/java-spring-boot-secure-todo-app.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/java-spring-boot-secure-todo-app
+EXIT_CODE: 0
+
+==== STDERR ====
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/java-spring-boot-secure-todo-app'...
+

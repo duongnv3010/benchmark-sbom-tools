@@ -1,9 +1,9 @@
-CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-expense-tracker-application-syft-artifact.cdx.json
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/expense-tracker-application.syft.cdx.json
 EXIT_CODE: 0
 
 ==== STDOUT ====
 
- SBOM Quality Score: 8.5/10.0	 Grade: B	Components: 64 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-expense-tracker-application-syft-artifact.cdx.json
+ SBOM Quality Score: 8.5/10.0	 Grade: B	Components: 64 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/expense-tracker-application.syft.cdx.json
 +-----------------------+---------------------+-----------+--------------------------------+
 |        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
 +-----------------------+---------------------+-----------+--------------------------------+
@@ -21,7 +21,7 @@ EXIT_CODE: 0
 |                       | sbom_creator        | 0.0/10.0  | missing authors                |
 +                       +---------------------+-----------+--------------------------------+
 |                       | sbom_timestamp      | 10.0/10.0 | present                        |
-|                       |                     |           | 2025-12-01T10:28:48+07:00      |
+|                       |                     |           | 2025-12-01T13:50:16+07:00      |
 +-----------------------+---------------------+-----------+--------------------------------+
 
 

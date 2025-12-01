@@ -1,9 +1,9 @@
-CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-3-todo-application-trivy-artifact.cdx.json
+CMD: sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-3-todo-application.trivy.cdx.json
 EXIT_CODE: 0
 
 ==== STDOUT ====
 
- SBOM Quality Score: 5.7/10.0	 Grade: D	Components: 1 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-3-todo-application-trivy-artifact.cdx.json
+ SBOM Quality Score: 5.7/10.0	 Grade: D	Components: 1 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-3-todo-application.trivy.cdx.json
 +-----------------------+---------------------+-----------+--------------------------------+
 |        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
 +-----------------------+---------------------+-----------+--------------------------------+
@@ -21,7 +21,7 @@ EXIT_CODE: 0
 |                       | sbom_creator        | 0.0/10.0  | missing authors                |
 +                       +---------------------+-----------+--------------------------------+
 |                       | sbom_timestamp      | 10.0/10.0 | present                        |
-|                       |                     |           | 2025-12-01T03:28:12+00:00      |
+|                       |                     |           | 2025-12-01T06:49:56+00:00      |
 +-----------------------+---------------------+-----------+--------------------------------+
 
 

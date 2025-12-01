@@ -1,3 +1,3 @@
-CMD: syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-file-upload-download/file-demo-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-file-upload-download-syft-artifact.cdx.json
+CMD: syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-file-upload-download/file-demo-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-file-upload-download.syft.cdx.json
 EXIT_CODE: 0
 

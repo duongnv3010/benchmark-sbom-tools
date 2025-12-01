@@ -1,9 +1,9 @@
-CMD: cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-ecommerce-rest-api-manirdev-cdxgen-artifact.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-ecommerce-rest-api-manirdev/spring-boot-e-commerce-rest-api-0.0.1-SNAPSHOT.jar
+CMD: cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-ecommerce-rest-api-manirdev.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-ecommerce-rest-api-manirdev/spring-boot-e-commerce-rest-api-0.0.1-SNAPSHOT.jar
 EXIT_CODE: 0
 
 ==== STDOUT ====
-/tmp/war-deps-GxbMWU did not contain any jars. Try building the project to improve the BOM precision.
+/tmp/war-deps-5Yptd1 did not contain any jars. Try building the project to improve the BOM precision.
 Maven search appears to be unavailable. Search will be skipped for all remaining packages.
-Cleaning up /tmp/war-deps-GxbMWU
+Cleaning up /tmp/war-deps-5Yptd1
 
 

@@ -6,6 +6,6 @@ Warning: JAVA_HOME environment variable is not set.
 
 
 ==== STDERR ====
-Dec 01, 2025 10:28:07 AM org.hibernate.Version logVersion
+Dec 01, 2025 1:49:50 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate ORM core version 6.1.5.Final
 

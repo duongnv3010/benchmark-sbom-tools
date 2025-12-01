@@ -161,7 +161,11 @@ def generate_sbom(tool: str, repo_name: str, artifact_path: Path, sboms_dir: Pat
     sboms_dir.mkdir(parents=True, exist_ok=True)
     logs_dir.mkdir(parents=True, exist_ok=True)
 
-    sbom_file = sboms_dir / f"java-{repo_name}-{tool}-artifact.cdx.json"
+    # Đặt tên SBOM theo dạng: <app-name>.<sbom-tool>.cdx.json
+    # Ở đây app-name = repo_name
+    app_name = repo_name
+    sbom_file = sboms_dir / f"{app_name}.{tool}.cdx.json"
+
     log_file = logs_dir / f"java-{repo_name}-{tool}-gen.log"
 
     if tool == "syft":

@@ -1,0 +1,9 @@
+$ trivy fs . --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/node-express-boilerplate.trivy.cdx.json
+exit_code: 0
+elapsed: 0.252 s
+
+=== STDERR ===
+2025-12-04T23:07:19+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-04T23:07:19+07:00	INFO	Suppressing dependencies for development and testing. To display them, try the '--include-dev-deps' flag.
+2025-12-04T23:07:19+07:00	INFO	Number of language-specific files	num=1
+

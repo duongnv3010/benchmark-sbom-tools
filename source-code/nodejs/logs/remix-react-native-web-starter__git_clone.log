@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/HorusGoul/remix-react-native-web-starter.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/remix-react-native-web-starter
+exit_code: 0
+elapsed: 1.273 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/remix-react-native-web-starter'...
+

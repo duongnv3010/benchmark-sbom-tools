@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/zackha/nuxtcommerce.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/nuxtcommerce
+exit_code: 0
+elapsed: 1.458 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/nuxtcommerce'...
+

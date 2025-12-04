@@ -1,0 +1,8 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/node-express-typeorm-boilerplate.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 45.082 s
+
+=== STDOUT ===
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-express-typeorm-boilerplate
+
+

@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/adr1enbe4udou1n/nestjs-realworld-example-app.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/nestjs-realworld-example-adr1en
+exit_code: 0
+elapsed: 1.336 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/nestjs-realworld-example-adr1en'...
+

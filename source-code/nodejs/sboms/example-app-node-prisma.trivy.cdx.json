@@ -1,0 +1,257 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:7d760380-96a5-4fa5-ac89-a343d824f842",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T16:13:04+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "b325f661-cca4-4fd5-8db9-9a310735408f",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "697f5b98-0fa2-4cdc-b356-ecb7f9b49e67",
+      "type": "application",
+      "name": "package-lock.json",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "npm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40prisma/client@5.8.1",
+      "type": "library",
+      "group": "@prisma",
+      "name": "client",
+      "version": "5.8.1",
+      "purl": "pkg:npm/%40prisma/client@5.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@prisma/client@5.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "npm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40prisma/debug@5.8.1",
+      "type": "library",
+      "group": "@prisma",
+      "name": "debug",
+      "version": "5.8.1",
+      "purl": "pkg:npm/%40prisma/debug@5.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@prisma/debug@5.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "npm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40prisma/engines-version@5.8.1-1.78caf6feeaed953168c64e15a249c3e9a033ebe2",
+      "type": "library",
+      "group": "@prisma",
+      "name": "engines-version",
+      "version": "5.8.1-1.78caf6feeaed953168c64e15a249c3e9a033ebe2",
+      "purl": "pkg:npm/%40prisma/engines-version@5.8.1-1.78caf6feeaed953168c64e15a249c3e9a033ebe2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@prisma/engines-version@5.8.1-1.78caf6feeaed953168c64e15a249c3e9a033ebe2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "npm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40prisma/engines@5.8.1",
+      "type": "library",
+      "group": "@prisma",
+      "name": "engines",
+      "version": "5.8.1",
+      "purl": "pkg:npm/%40prisma/engines@5.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@prisma/engines@5.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "npm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40prisma/fetch-engine@5.8.1",
+      "type": "library",
+      "group": "@prisma",
+      "name": "fetch-engine",
+      "version": "5.8.1",
+      "purl": "pkg:npm/%40prisma/fetch-engine@5.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@prisma/fetch-engine@5.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "npm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40prisma/get-platform@5.8.1",
+      "type": "library",
+      "group": "@prisma",
+      "name": "get-platform",
+      "version": "5.8.1",
+      "purl": "pkg:npm/%40prisma/get-platform@5.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@prisma/get-platform@5.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "npm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/prisma@5.8.1",
+      "type": "library",
+      "name": "prisma",
+      "version": "5.8.1",
+      "purl": "pkg:npm/prisma@5.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "prisma@5.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "npm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/uuid@9.0.1",
+      "type": "library",
+      "name": "uuid",
+      "version": "9.0.1",
+      "purl": "pkg:npm/uuid@9.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "uuid@9.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "npm"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "697f5b98-0fa2-4cdc-b356-ecb7f9b49e67",
+      "dependsOn": [
+        "pkg:npm/%40prisma/client@5.8.1",
+        "pkg:npm/prisma@5.8.1",
+        "pkg:npm/uuid@9.0.1"
+      ]
+    },
+    {
+      "ref": "b325f661-cca4-4fd5-8db9-9a310735408f",
+      "dependsOn": [
+        "697f5b98-0fa2-4cdc-b356-ecb7f9b49e67"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40prisma/client@5.8.1",
+      "dependsOn": [
+        "pkg:npm/prisma@5.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40prisma/debug@5.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/%40prisma/engines-version@5.8.1-1.78caf6feeaed953168c64e15a249c3e9a033ebe2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/%40prisma/engines@5.8.1",
+      "dependsOn": [
+        "pkg:npm/%40prisma/debug@5.8.1",
+        "pkg:npm/%40prisma/engines-version@5.8.1-1.78caf6feeaed953168c64e15a249c3e9a033ebe2",
+        "pkg:npm/%40prisma/fetch-engine@5.8.1",
+        "pkg:npm/%40prisma/get-platform@5.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40prisma/fetch-engine@5.8.1",
+      "dependsOn": [
+        "pkg:npm/%40prisma/debug@5.8.1",
+        "pkg:npm/%40prisma/engines-version@5.8.1-1.78caf6feeaed953168c64e15a249c3e9a033ebe2",
+        "pkg:npm/%40prisma/get-platform@5.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40prisma/get-platform@5.8.1",
+      "dependsOn": [
+        "pkg:npm/%40prisma/debug@5.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/prisma@5.8.1",
+      "dependsOn": [
+        "pkg:npm/%40prisma/engines@5.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/uuid@9.0.1",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/cockroachlabs/example-app-node-prisma.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/example-app-node-prisma
+exit_code: 0
+elapsed: 1.216 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/example-app-node-prisma'...
+

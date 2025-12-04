@@ -1,0 +1,8 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/koa-examples.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 27.422 s
+
+=== STDOUT ===
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/koa-examples
+
+

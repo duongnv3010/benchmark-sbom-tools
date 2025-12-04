@@ -1,0 +1,9 @@
+$ trivy fs . --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/nuxt-commerce-baroshem.trivy.cdx.json
+exit_code: 0
+elapsed: 0.189 s
+
+=== STDERR ===
+2025-12-04T23:11:40+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-04T23:11:40+07:00	INFO	[pnpm] To collect the license information of packages, "pnpm install" needs to be performed beforehand	dir="node_modules"
+2025-12-04T23:11:40+07:00	INFO	Number of language-specific files	num=1
+

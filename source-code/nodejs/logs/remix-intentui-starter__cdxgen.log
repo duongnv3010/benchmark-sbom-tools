@@ -1,0 +1,35 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/remix-intentui-starter.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 8.014 s
+
+=== STDOUT ===
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/remix-intentui-starter
+Set the environment variable `NPM_INSTALL_ARGS=--legacy-peer-deps` to resolve the dependency resolution issue reported.
+---------------
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: justd-remix-sk@undefined
+npm error Found: react@19.2.1
+npm error node_modules/react
+npm error   react@"^19.0.0" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^18.0.0" from @remix-run/react@2.17.2
+npm error node_modules/@remix-run/react
+npm error   @remix-run/react@"^2.16.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /home/duongnv48/.npm/_logs/2025-12-04T16_12_38_517Z-eresolve-report.txt
+npm error A complete log of this run can be found in: /home/duongnv48/.npm/_logs/2025-12-04T16_12_38_517Z-debug-0.log
+
+
+
+=== STDERR ===
+npm install has failed. Generated SBOM will be empty or with a lower precision.
+

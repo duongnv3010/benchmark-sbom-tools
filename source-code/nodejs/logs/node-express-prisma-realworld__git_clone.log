@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/gothinkster/node-express-prisma-v1-official-app.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-express-prisma-realworld
+exit_code: 0
+elapsed: 1.415 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-express-prisma-realworld'...
+

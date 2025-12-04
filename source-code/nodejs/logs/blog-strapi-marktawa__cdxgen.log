@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/blog-strapi-marktawa.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 6.894 s
+

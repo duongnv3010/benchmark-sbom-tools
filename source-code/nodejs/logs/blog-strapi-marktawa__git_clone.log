@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/Marktawa/blog-strapi.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/blog-strapi-marktawa
+exit_code: 0
+elapsed: 9.285 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/blog-strapi-marktawa'...
+

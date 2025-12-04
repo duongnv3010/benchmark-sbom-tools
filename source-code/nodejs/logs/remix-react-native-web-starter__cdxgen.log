@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/remix-react-native-web-starter.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 3.850 s
+

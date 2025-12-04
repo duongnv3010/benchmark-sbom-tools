@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/supabase-nuxt-ecommerce.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 6.970 s
+

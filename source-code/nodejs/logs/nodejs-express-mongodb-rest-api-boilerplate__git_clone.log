@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/trungquandev/nodejs-express-mongodb-rest-api-boilerplate.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/nodejs-express-mongodb-rest-api-boilerplate
+exit_code: 0
+elapsed: 1.348 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/nodejs-express-mongodb-rest-api-boilerplate'...
+

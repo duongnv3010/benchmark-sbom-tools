@@ -1,0 +1,31 @@
+$ sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/node-express-sequelize-mysql-api.trivy.cdx.json
+exit_code: 0
+elapsed: 0.086 s
+
+=== STDOUT ===
+
+ SBOM Quality Score: 8.6/10.0	 Grade: B	Components: 376 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/node-express-sequelize-mysql-api.trivy.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 376/376 have name              |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 9.9/10.0  | 374/376 have versions          |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 9.9/10.0  | 374/376 have unique ID         |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 1             |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing authors                |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present                        |
+|                       |                     |           | 2025-12-04T16:08:55+00:00      |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

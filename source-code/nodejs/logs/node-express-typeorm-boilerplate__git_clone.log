@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/OsamaShahid/node-express-typeorm-boilerplate.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-express-typeorm-boilerplate
+exit_code: 0
+elapsed: 1.359 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-express-typeorm-boilerplate'...
+

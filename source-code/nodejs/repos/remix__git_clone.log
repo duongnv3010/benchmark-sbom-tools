@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/remix-run/remix.git /home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/remix
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/nodejs/repos/remix'...
-

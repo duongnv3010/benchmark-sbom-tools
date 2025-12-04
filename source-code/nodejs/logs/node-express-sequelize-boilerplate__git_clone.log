@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/faizanah/NodeJS-Express-Sequelize-Boilerplate.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-express-sequelize-boilerplate
+exit_code: 0
+elapsed: 1.304 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-express-sequelize-boilerplate'...
+

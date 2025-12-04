@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/chiangs/remix-starter.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/remix-starter-chiangs
+exit_code: 0
+elapsed: 1.499 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/remix-starter-chiangs'...
+

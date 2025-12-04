@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/httpie/httpie.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/httpie
+exit_code: 0
+elapsed: 1.662 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/httpie'...
+

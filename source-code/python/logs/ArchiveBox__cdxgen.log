@@ -1,0 +1,52 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/ArchiveBox.cdxgen.cdx.json .
+exit_code: 1
+elapsed: 86.150 s
+
+=== STDOUT ===
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/ArchiveBox/etc
+Executing 'composer install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/ArchiveBox/etc/node_modules/@postlight/parser/node_modules/moment-timezone
+Error: spawnSync composer ENOENT
+    at Object.spawnSync (node:internal/child_process:1123:20)
+    at spawnSync (node:child_process:877:24)
+    at safeSpawnSync (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:167:10)
+    at createPHPBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:6220:22)
+    at createMultiXBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:7522:17)
+    at async createBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:8637:16)
+    at async file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/bin/cdxgen.js:830:20 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawnSync composer',
+  path: 'composer',
+  spawnargs: [ 'install', '--ignore-platform-reqs' ]
+}
+
+
+=== STDERR ===
+No composer version found. Check if composer is installed and available in PATH.
+Error running composer:
+/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/composer.js:70
+                this.errors.push(new errors.YAMLParseError(pos, code, message));
+                                 ^
+
+YAMLParseError: Nested mappings are not allowed in compact mappings at line 104, column 17:
+
+          tags: ${{ github.event_name == 'workflow_dispatch' ? steps.docker_met…
+                ^
+
+    at Composer.onError (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/composer.js:70:34)
+    at Object.resolveBlockMap (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/resolve-block-map.js:78:21)
+    at resolveCollection (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/compose-collection.js:13:27)
+    at Object.composeCollection (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/compose-collection.js:59:16)
+    at composeNode (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/compose-node.js:33:38)
+    at Object.resolveBlockMap (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/resolve-block-map.js:85:19)
+    at resolveCollection (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/compose-collection.js:13:27)
+    at Object.composeCollection (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/compose-collection.js:59:16)
+    at composeNode (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/compose-node.js:33:38)
+    at Object.resolveBlockSeq (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/yaml/dist/compose/resolve-block-seq.js:40:15) {
+  code: 'BLOCK_AS_IMPLICIT_KEY',
+  pos: [ 2926, 2927 ],
+  linePos: [ { line: 104, col: 17 }, { line: 104, col: 18 } ]
+}
+
+Node.js v20.19.5
+

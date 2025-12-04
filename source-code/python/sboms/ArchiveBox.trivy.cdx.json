@@ -1,0 +1,3804 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:22cf20d0-3694-4f85-ab28-5090523ad32c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T15:24:53+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "cd2c3cfc-5559-4d73-bc5e-e4aefda769d5",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "af269485-16ac-40cd-b5e0-65e311f233d3",
+      "type": "application",
+      "name": "uv.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-pkg@0.6.0",
+      "type": "library",
+      "name": "abx-pkg",
+      "version": "0.6.0",
+      "purl": "pkg:pypi/abx-pkg@0.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-pkg@0.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-archivedotorg@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-archivedotorg",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-archivedotorg@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-archivedotorg@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-chrome@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-chrome",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-chrome@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-chrome@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-curl@2024.10.24",
+      "type": "library",
+      "name": "abx-plugin-curl",
+      "version": "2024.10.24",
+      "purl": "pkg:pypi/abx-plugin-curl@2024.10.24",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-curl@2024.10.24"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-default-binproviders@2024.10.24",
+      "type": "library",
+      "name": "abx-plugin-default-binproviders",
+      "version": "2024.10.24",
+      "purl": "pkg:pypi/abx-plugin-default-binproviders@2024.10.24",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-default-binproviders@2024.10.24"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-favicon@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-favicon",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-favicon@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-favicon@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-git@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-git",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-git@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-git@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-htmltotext@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-htmltotext",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-htmltotext@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-htmltotext@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-ldap-auth@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-ldap-auth",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-ldap-auth@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-ldap-auth@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-mercury@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-mercury",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-mercury@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-mercury@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-npm@2024.10.24",
+      "type": "library",
+      "name": "abx-plugin-npm",
+      "version": "2024.10.24",
+      "purl": "pkg:pypi/abx-plugin-npm@2024.10.24",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-npm@2024.10.24"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-pip@2024.10.24",
+      "type": "library",
+      "name": "abx-plugin-pip",
+      "version": "2024.10.24",
+      "purl": "pkg:pypi/abx-plugin-pip@2024.10.24",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-pip@2024.10.24"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-playwright@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-playwright",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-playwright@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-playwright@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-puppeteer@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-puppeteer",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-puppeteer@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-puppeteer@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-readability@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-readability",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-readability@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-readability@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-ripgrep-search@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-ripgrep-search",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-ripgrep-search@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-ripgrep-search@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-singlefile@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-singlefile",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-singlefile@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-singlefile@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-sonic-search@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-sonic-search",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-sonic-search@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-sonic-search@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-sqlitefts-search@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-sqlitefts-search",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-sqlitefts-search@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-sqlitefts-search@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-title@2024.10.27",
+      "type": "library",
+      "name": "abx-plugin-title",
+      "version": "2024.10.27",
+      "purl": "pkg:pypi/abx-plugin-title@2024.10.27",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-title@2024.10.27"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-wget@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-wget",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-wget@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-wget@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-plugin-ytdlp@2024.10.28",
+      "type": "library",
+      "name": "abx-plugin-ytdlp",
+      "version": "2024.10.28",
+      "purl": "pkg:pypi/abx-plugin-ytdlp@2024.10.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-plugin-ytdlp@2024.10.28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+      "type": "library",
+      "name": "abx-spec-abx-pkg",
+      "version": "0.1.1",
+      "purl": "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-spec-abx-pkg@0.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-spec-archivebox@0.1.0",
+      "type": "library",
+      "name": "abx-spec-archivebox",
+      "version": "0.1.0",
+      "purl": "pkg:pypi/abx-spec-archivebox@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-spec-archivebox@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-spec-config@0.1.0",
+      "type": "library",
+      "name": "abx-spec-config",
+      "version": "0.1.0",
+      "purl": "pkg:pypi/abx-spec-config@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-spec-config@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-spec-django@0.1.0",
+      "type": "library",
+      "name": "abx-spec-django",
+      "version": "0.1.0",
+      "purl": "pkg:pypi/abx-spec-django@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-spec-django@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-spec-extractor@0.1.0",
+      "type": "library",
+      "name": "abx-spec-extractor",
+      "version": "0.1.0",
+      "purl": "pkg:pypi/abx-spec-extractor@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-spec-extractor@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx-spec-searchbackend@0.1.0",
+      "type": "library",
+      "name": "abx-spec-searchbackend",
+      "version": "0.1.0",
+      "purl": "pkg:pypi/abx-spec-searchbackend@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx-spec-searchbackend@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/abx@0.1.0",
+      "type": "library",
+      "name": "abx",
+      "version": "0.1.0",
+      "purl": "pkg:pypi/abx@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "abx@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/annotated-types@0.7.0",
+      "type": "library",
+      "name": "annotated-types",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/annotated-types@0.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "annotated-types@0.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/anyio@4.7.0",
+      "type": "library",
+      "name": "anyio",
+      "version": "4.7.0",
+      "purl": "pkg:pypi/anyio@4.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "anyio@4.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/archivebox@0.8.6rc3",
+      "type": "library",
+      "name": "archivebox",
+      "version": "0.8.6rc3",
+      "purl": "pkg:pypi/archivebox@0.8.6rc3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "archivebox@0.8.6rc3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/asgiref@3.8.1",
+      "type": "library",
+      "name": "asgiref",
+      "version": "3.8.1",
+      "purl": "pkg:pypi/asgiref@3.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "asgiref@3.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/asttokens@3.0.0",
+      "type": "library",
+      "name": "asttokens",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/asttokens@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "asttokens@3.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/atomicwrites@1.4.1",
+      "type": "library",
+      "name": "atomicwrites",
+      "version": "1.4.1",
+      "purl": "pkg:pypi/atomicwrites@1.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "atomicwrites@1.4.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/attrs@24.3.0",
+      "type": "library",
+      "name": "attrs",
+      "version": "24.3.0",
+      "purl": "pkg:pypi/attrs@24.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "attrs@24.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/autobahn@24.4.2",
+      "type": "library",
+      "name": "autobahn",
+      "version": "24.4.2",
+      "purl": "pkg:pypi/autobahn@24.4.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "autobahn@24.4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/automat@24.8.1",
+      "type": "library",
+      "name": "automat",
+      "version": "24.8.1",
+      "purl": "pkg:pypi/automat@24.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "automat@24.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/base32-crockford@0.3.0",
+      "type": "library",
+      "name": "base32-crockford",
+      "version": "0.3.0",
+      "purl": "pkg:pypi/base32-crockford@0.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "base32-crockford@0.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/beautifulsoup4@4.12.3",
+      "type": "library",
+      "name": "beautifulsoup4",
+      "version": "4.12.3",
+      "purl": "pkg:pypi/beautifulsoup4@4.12.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "beautifulsoup4@4.12.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/blake3@1.0.0",
+      "type": "library",
+      "name": "blake3",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/blake3@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "blake3@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/bx-django-utils@84",
+      "type": "library",
+      "name": "bx-django-utils",
+      "version": "84",
+      "purl": "pkg:pypi/bx-django-utils@84",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bx-django-utils@84"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/bx-py-utils@106",
+      "type": "library",
+      "name": "bx-py-utils",
+      "version": "106",
+      "purl": "pkg:pypi/bx-py-utils@106",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bx-py-utils@106"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/certifi@2024.12.14",
+      "type": "library",
+      "name": "certifi",
+      "version": "2024.12.14",
+      "purl": "pkg:pypi/certifi@2024.12.14",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "certifi@2024.12.14"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cffi@1.17.1",
+      "type": "library",
+      "name": "cffi",
+      "version": "1.17.1",
+      "purl": "pkg:pypi/cffi@1.17.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "cffi@1.17.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/channels@4.2.0",
+      "type": "library",
+      "name": "channels",
+      "version": "4.2.0",
+      "purl": "pkg:pypi/channels@4.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "channels@4.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/charset-normalizer@3.4.0",
+      "type": "library",
+      "name": "charset-normalizer",
+      "version": "3.4.0",
+      "purl": "pkg:pypi/charset-normalizer@3.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "charset-normalizer@3.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/click@8.1.7",
+      "type": "library",
+      "name": "click",
+      "version": "8.1.7",
+      "purl": "pkg:pypi/click@8.1.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "click@8.1.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/constantly@23.10.4",
+      "type": "library",
+      "name": "constantly",
+      "version": "23.10.4",
+      "purl": "pkg:pypi/constantly@23.10.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "constantly@23.10.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/croniter@6.0.0",
+      "type": "library",
+      "name": "croniter",
+      "version": "6.0.0",
+      "purl": "pkg:pypi/croniter@6.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "croniter@6.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cryptography@44.0.0",
+      "type": "library",
+      "name": "cryptography",
+      "version": "44.0.0",
+      "purl": "pkg:pypi/cryptography@44.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "cryptography@44.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/daphne@4.1.2",
+      "type": "library",
+      "name": "daphne",
+      "version": "4.1.2",
+      "purl": "pkg:pypi/daphne@4.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "daphne@4.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/dateparser@1.2.0",
+      "type": "library",
+      "name": "dateparser",
+      "version": "1.2.0",
+      "purl": "pkg:pypi/dateparser@1.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "dateparser@1.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/decorator@5.1.1",
+      "type": "library",
+      "name": "decorator",
+      "version": "5.1.1",
+      "purl": "pkg:pypi/decorator@5.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "decorator@5.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-admin-data-views@0.4.3",
+      "type": "library",
+      "name": "django-admin-data-views",
+      "version": "0.4.3",
+      "purl": "pkg:pypi/django-admin-data-views@0.4.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-admin-data-views@0.4.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-auth-ldap@5.1.0",
+      "type": "library",
+      "name": "django-auth-ldap",
+      "version": "5.1.0",
+      "purl": "pkg:pypi/django-auth-ldap@5.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-auth-ldap@5.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-autotyping@0.5.1",
+      "type": "library",
+      "name": "django-autotyping",
+      "version": "0.5.1",
+      "purl": "pkg:pypi/django-autotyping@0.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-autotyping@0.5.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-charid-field@0.4",
+      "type": "library",
+      "name": "django-charid-field",
+      "version": "0.4",
+      "purl": "pkg:pypi/django-charid-field@0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-charid-field@0.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-debug-toolbar@4.4.6",
+      "type": "library",
+      "name": "django-debug-toolbar",
+      "version": "4.4.6",
+      "purl": "pkg:pypi/django-debug-toolbar@4.4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-debug-toolbar@4.4.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-extensions@3.2.3",
+      "type": "library",
+      "name": "django-extensions",
+      "version": "3.2.3",
+      "purl": "pkg:pypi/django-extensions@3.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-extensions@3.2.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-huey-monitor@0.9.0",
+      "type": "library",
+      "name": "django-huey-monitor",
+      "version": "0.9.0",
+      "purl": "pkg:pypi/django-huey-monitor@0.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-huey-monitor@0.9.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-huey@1.2.1",
+      "type": "library",
+      "name": "django-huey",
+      "version": "1.2.1",
+      "purl": "pkg:pypi/django-huey@1.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-huey@1.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-ninja@1.3.0",
+      "type": "library",
+      "name": "django-ninja",
+      "version": "1.3.0",
+      "purl": "pkg:pypi/django-ninja@1.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-ninja@1.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-object-actions@4.3.0",
+      "type": "library",
+      "name": "django-object-actions",
+      "version": "4.3.0",
+      "purl": "pkg:pypi/django-object-actions@4.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-object-actions@4.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-settings-holder@0.2.2",
+      "type": "library",
+      "name": "django-settings-holder",
+      "version": "0.2.2",
+      "purl": "pkg:pypi/django-settings-holder@0.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-settings-holder@0.2.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-signal-webhooks@0.3.1",
+      "type": "library",
+      "name": "django-signal-webhooks",
+      "version": "0.3.1",
+      "purl": "pkg:pypi/django-signal-webhooks@0.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-signal-webhooks@0.3.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-stubs-ext@5.1.1",
+      "type": "library",
+      "name": "django-stubs-ext",
+      "version": "5.1.1",
+      "purl": "pkg:pypi/django-stubs-ext@5.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-stubs-ext@5.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-stubs@5.1.1",
+      "type": "library",
+      "name": "django-stubs",
+      "version": "5.1.1",
+      "purl": "pkg:pypi/django-stubs@5.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-stubs@5.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-taggit@6.1.0",
+      "type": "library",
+      "name": "django-taggit",
+      "version": "6.1.0",
+      "purl": "pkg:pypi/django-taggit@6.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django-taggit@6.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django@5.1.4",
+      "type": "library",
+      "name": "django",
+      "version": "5.1.4",
+      "purl": "pkg:pypi/django@5.1.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "django@5.1.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/djdt-flamegraph@0.2.13",
+      "type": "library",
+      "name": "djdt-flamegraph",
+      "version": "0.2.13",
+      "purl": "pkg:pypi/djdt-flamegraph@0.2.13",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "djdt-flamegraph@0.2.13"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/et-xmlfile@2.0.0",
+      "type": "library",
+      "name": "et-xmlfile",
+      "version": "2.0.0",
+      "purl": "pkg:pypi/et-xmlfile@2.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "et-xmlfile@2.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/exceptiongroup@1.2.2",
+      "type": "library",
+      "name": "exceptiongroup",
+      "version": "1.2.2",
+      "purl": "pkg:pypi/exceptiongroup@1.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "exceptiongroup@1.2.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/executing@2.1.0",
+      "type": "library",
+      "name": "executing",
+      "version": "2.1.0",
+      "purl": "pkg:pypi/executing@2.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "executing@2.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/feedparser@6.0.11",
+      "type": "library",
+      "name": "feedparser",
+      "version": "6.0.11",
+      "purl": "pkg:pypi/feedparser@6.0.11",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "feedparser@6.0.11"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ftfy@6.3.1",
+      "type": "library",
+      "name": "ftfy",
+      "version": "6.3.1",
+      "purl": "pkg:pypi/ftfy@6.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ftfy@6.3.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/h11@0.14.0",
+      "type": "library",
+      "name": "h11",
+      "version": "0.14.0",
+      "purl": "pkg:pypi/h11@0.14.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "h11@0.14.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/httpcore@1.0.7",
+      "type": "library",
+      "name": "httpcore",
+      "version": "1.0.7",
+      "purl": "pkg:pypi/httpcore@1.0.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "httpcore@1.0.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/httpx@0.28.1",
+      "type": "library",
+      "name": "httpx",
+      "version": "0.28.1",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "httpx@0.28.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/huey@2.5.2",
+      "type": "library",
+      "name": "huey",
+      "version": "2.5.2",
+      "purl": "pkg:pypi/huey@2.5.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "huey@2.5.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/hyperlink@21.0.0",
+      "type": "library",
+      "name": "hyperlink",
+      "version": "21.0.0",
+      "purl": "pkg:pypi/hyperlink@21.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "hyperlink@21.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/idna@3.10",
+      "type": "library",
+      "name": "idna",
+      "version": "3.10",
+      "purl": "pkg:pypi/idna@3.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "idna@3.10"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/incremental@24.7.2",
+      "type": "library",
+      "name": "incremental",
+      "version": "24.7.2",
+      "purl": "pkg:pypi/incremental@24.7.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "incremental@24.7.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ipdb@0.13.13",
+      "type": "library",
+      "name": "ipdb",
+      "version": "0.13.13",
+      "purl": "pkg:pypi/ipdb@0.13.13",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ipdb@0.13.13"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ipython@8.30.0",
+      "type": "library",
+      "name": "ipython",
+      "version": "8.30.0",
+      "purl": "pkg:pypi/ipython@8.30.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ipython@8.30.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jedi@0.19.2",
+      "type": "library",
+      "name": "jedi",
+      "version": "0.19.2",
+      "purl": "pkg:pypi/jedi@0.19.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jedi@0.19.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/libcst@1.5.1",
+      "type": "library",
+      "name": "libcst",
+      "version": "1.5.1",
+      "purl": "pkg:pypi/libcst@1.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libcst@1.5.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mailchecker@6.0.14",
+      "type": "library",
+      "name": "mailchecker",
+      "version": "6.0.14",
+      "purl": "pkg:pypi/mailchecker@6.0.14",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mailchecker@6.0.14"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markdown-it-py@3.0.0",
+      "type": "library",
+      "name": "markdown-it-py",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/markdown-it-py@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "markdown-it-py@3.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/matplotlib-inline@0.1.7",
+      "type": "library",
+      "name": "matplotlib-inline",
+      "version": "0.1.7",
+      "purl": "pkg:pypi/matplotlib-inline@0.1.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "matplotlib-inline@0.1.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mdurl@0.1.2",
+      "type": "library",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mdurl@0.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mypy-extensions@1.0.0",
+      "type": "library",
+      "name": "mypy-extensions",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/mypy-extensions@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mypy-extensions@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/openpyxl@3.1.5",
+      "type": "library",
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "purl": "pkg:pypi/openpyxl@3.1.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "openpyxl@3.1.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/parso@0.8.4",
+      "type": "library",
+      "name": "parso",
+      "version": "0.8.4",
+      "purl": "pkg:pypi/parso@0.8.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "parso@0.8.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pexpect@4.9.0",
+      "type": "library",
+      "name": "pexpect",
+      "version": "4.9.0",
+      "purl": "pkg:pypi/pexpect@4.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pexpect@4.9.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/phonenumbers@8.13.52",
+      "type": "library",
+      "name": "phonenumbers",
+      "version": "8.13.52",
+      "purl": "pkg:pypi/phonenumbers@8.13.52",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "phonenumbers@8.13.52"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pip@24.3.1",
+      "type": "library",
+      "name": "pip",
+      "version": "24.3.1",
+      "purl": "pkg:pypi/pip@24.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pip@24.3.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/platformdirs@4.3.6",
+      "type": "library",
+      "name": "platformdirs",
+      "version": "4.3.6",
+      "purl": "pkg:pypi/platformdirs@4.3.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "platformdirs@4.3.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pluggy@1.5.0",
+      "type": "library",
+      "name": "pluggy",
+      "version": "1.5.0",
+      "purl": "pkg:pypi/pluggy@1.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pluggy@1.5.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pocket@0.3.6",
+      "type": "library",
+      "name": "pocket",
+      "version": "0.3.6",
+      "purl": "pkg:pypi/pocket@0.3.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pocket@0.3.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/prompt-toolkit@3.0.48",
+      "type": "library",
+      "name": "prompt-toolkit",
+      "version": "3.0.48",
+      "purl": "pkg:pypi/prompt-toolkit@3.0.48",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "prompt-toolkit@3.0.48"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/psutil@6.1.0",
+      "type": "library",
+      "name": "psutil",
+      "version": "6.1.0",
+      "purl": "pkg:pypi/psutil@6.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "psutil@6.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ptyprocess@0.7.0",
+      "type": "library",
+      "name": "ptyprocess",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/ptyprocess@0.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ptyprocess@0.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pure-eval@0.2.3",
+      "type": "library",
+      "name": "pure-eval",
+      "version": "0.2.3",
+      "purl": "pkg:pypi/pure-eval@0.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pure-eval@0.2.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/py-machineid@0.7.0",
+      "type": "library",
+      "name": "py-machineid",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/py-machineid@0.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "py-machineid@0.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyasn1-modules@0.4.1",
+      "type": "library",
+      "name": "pyasn1-modules",
+      "version": "0.4.1",
+      "purl": "pkg:pypi/pyasn1-modules@0.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pyasn1-modules@0.4.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyasn1@0.6.1",
+      "type": "library",
+      "name": "pyasn1",
+      "version": "0.6.1",
+      "purl": "pkg:pypi/pyasn1@0.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pyasn1@0.6.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pycparser@2.22",
+      "type": "library",
+      "name": "pycparser",
+      "version": "2.22",
+      "purl": "pkg:pypi/pycparser@2.22",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pycparser@2.22"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pydantic-core@2.27.2",
+      "type": "library",
+      "name": "pydantic-core",
+      "version": "2.27.2",
+      "purl": "pkg:pypi/pydantic-core@2.27.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pydantic-core@2.27.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pydantic-settings@2.7.0",
+      "type": "library",
+      "name": "pydantic-settings",
+      "version": "2.7.0",
+      "purl": "pkg:pypi/pydantic-settings@2.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pydantic-settings@2.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pydantic@2.10.4",
+      "type": "library",
+      "name": "pydantic",
+      "version": "2.10.4",
+      "purl": "pkg:pypi/pydantic@2.10.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pydantic@2.10.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pygments@2.18.0",
+      "type": "library",
+      "name": "pygments",
+      "version": "2.18.0",
+      "purl": "pkg:pypi/pygments@2.18.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pygments@2.18.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyopenssl@24.3.0",
+      "type": "library",
+      "name": "pyopenssl",
+      "version": "24.3.0",
+      "purl": "pkg:pypi/pyopenssl@24.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pyopenssl@24.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-benedict@0.34.0",
+      "type": "library",
+      "name": "python-benedict",
+      "version": "0.34.0",
+      "purl": "pkg:pypi/python-benedict@0.34.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-benedict@0.34.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-crontab@3.2.0",
+      "type": "library",
+      "name": "python-crontab",
+      "version": "3.2.0",
+      "purl": "pkg:pypi/python-crontab@3.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-crontab@3.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "type": "library",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-dateutil@2.9.0.post0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-dotenv@1.0.1",
+      "type": "library",
+      "name": "python-dotenv",
+      "version": "1.0.1",
+      "purl": "pkg:pypi/python-dotenv@1.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-dotenv@1.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-fsutil@0.14.1",
+      "type": "library",
+      "name": "python-fsutil",
+      "version": "0.14.1",
+      "purl": "pkg:pypi/python-fsutil@0.14.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-fsutil@0.14.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-ldap@3.4.4",
+      "type": "library",
+      "name": "python-ldap",
+      "version": "3.4.4",
+      "purl": "pkg:pypi/python-ldap@3.4.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-ldap@3.4.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-slugify@8.0.4",
+      "type": "library",
+      "name": "python-slugify",
+      "version": "8.0.4",
+      "purl": "pkg:pypi/python-slugify@8.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-slugify@8.0.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-statemachine@2.5.0",
+      "type": "library",
+      "name": "python-statemachine",
+      "version": "2.5.0",
+      "purl": "pkg:pypi/python-statemachine@2.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-statemachine@2.5.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-stdnum@1.20",
+      "type": "library",
+      "name": "python-stdnum",
+      "version": "1.20",
+      "purl": "pkg:pypi/python-stdnum@1.20",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-stdnum@1.20"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytz@2024.2",
+      "type": "library",
+      "name": "pytz",
+      "version": "2024.2",
+      "purl": "pkg:pypi/pytz@2024.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pytz@2024.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyyaml@6.0.2",
+      "type": "library",
+      "name": "pyyaml",
+      "version": "6.0.2",
+      "purl": "pkg:pypi/pyyaml@6.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pyyaml@6.0.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/regex@2024.11.6",
+      "type": "library",
+      "name": "regex",
+      "version": "2024.11.6",
+      "purl": "pkg:pypi/regex@2024.11.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "regex@2024.11.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/requests-tracker@0.3.3",
+      "type": "library",
+      "name": "requests-tracker",
+      "version": "0.3.3",
+      "purl": "pkg:pypi/requests-tracker@0.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "requests-tracker@0.3.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.32.3",
+      "type": "library",
+      "name": "requests",
+      "version": "2.32.3",
+      "purl": "pkg:pypi/requests@2.32.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "requests@2.32.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/rich-click@1.8.5",
+      "type": "library",
+      "name": "rich-click",
+      "version": "1.8.5",
+      "purl": "pkg:pypi/rich-click@1.8.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rich-click@1.8.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/rich@13.9.4",
+      "type": "library",
+      "name": "rich",
+      "version": "13.9.4",
+      "purl": "pkg:pypi/rich@13.9.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rich@13.9.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/service-identity@24.2.0",
+      "type": "library",
+      "name": "service-identity",
+      "version": "24.2.0",
+      "purl": "pkg:pypi/service-identity@24.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "service-identity@24.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/setuptools@75.6.0",
+      "type": "library",
+      "name": "setuptools",
+      "version": "75.6.0",
+      "purl": "pkg:pypi/setuptools@75.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "setuptools@75.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sgmllib3k@1.0.0",
+      "type": "library",
+      "name": "sgmllib3k",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/sgmllib3k@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sgmllib3k@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/six@1.17.0",
+      "type": "library",
+      "name": "six",
+      "version": "1.17.0",
+      "purl": "pkg:pypi/six@1.17.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "six@1.17.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sniffio@1.3.1",
+      "type": "library",
+      "name": "sniffio",
+      "version": "1.3.1",
+      "purl": "pkg:pypi/sniffio@1.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sniffio@1.3.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sonic-client@1.0.0",
+      "type": "library",
+      "name": "sonic-client",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/sonic-client@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sonic-client@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/soupsieve@2.6",
+      "type": "library",
+      "name": "soupsieve",
+      "version": "2.6",
+      "purl": "pkg:pypi/soupsieve@2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "soupsieve@2.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sqlparse@0.5.3",
+      "type": "library",
+      "name": "sqlparse",
+      "version": "0.5.3",
+      "purl": "pkg:pypi/sqlparse@0.5.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sqlparse@0.5.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/stack-data@0.6.3",
+      "type": "library",
+      "name": "stack-data",
+      "version": "0.6.3",
+      "purl": "pkg:pypi/stack-data@0.6.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "stack-data@0.6.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/supervisor@4.2.5",
+      "type": "library",
+      "name": "supervisor",
+      "version": "4.2.5",
+      "purl": "pkg:pypi/supervisor@4.2.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "supervisor@4.2.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/text-unidecode@1.3",
+      "type": "library",
+      "name": "text-unidecode",
+      "version": "1.3",
+      "purl": "pkg:pypi/text-unidecode@1.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "text-unidecode@1.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/toml@0.10.2",
+      "type": "library",
+      "name": "toml",
+      "version": "0.10.2",
+      "purl": "pkg:pypi/toml@0.10.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "toml@0.10.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tomli@2.2.1",
+      "type": "library",
+      "name": "tomli",
+      "version": "2.2.1",
+      "purl": "pkg:pypi/tomli@2.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tomli@2.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/traitlets@5.14.3",
+      "type": "library",
+      "name": "traitlets",
+      "version": "5.14.3",
+      "purl": "pkg:pypi/traitlets@5.14.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "traitlets@5.14.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/twisted@24.11.0",
+      "type": "library",
+      "name": "twisted",
+      "version": "24.11.0",
+      "purl": "pkg:pypi/twisted@24.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "twisted@24.11.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/txaio@23.1.1",
+      "type": "library",
+      "name": "txaio",
+      "version": "23.1.1",
+      "purl": "pkg:pypi/txaio@23.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "txaio@23.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/typeid-python@0.3.1",
+      "type": "library",
+      "name": "typeid-python",
+      "version": "0.3.1",
+      "purl": "pkg:pypi/typeid-python@0.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "typeid-python@0.3.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/types-pyyaml@6.0.12.20240917",
+      "type": "library",
+      "name": "types-pyyaml",
+      "version": "6.0.12.20240917",
+      "purl": "pkg:pypi/types-pyyaml@6.0.12.20240917",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "types-pyyaml@6.0.12.20240917"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.12.2",
+      "type": "library",
+      "name": "typing-extensions",
+      "version": "4.12.2",
+      "purl": "pkg:pypi/typing-extensions@4.12.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "typing-extensions@4.12.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tzdata@2024.2",
+      "type": "library",
+      "name": "tzdata",
+      "version": "2024.2",
+      "purl": "pkg:pypi/tzdata@2024.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tzdata@2024.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tzlocal@5.2",
+      "type": "library",
+      "name": "tzlocal",
+      "version": "5.2",
+      "purl": "pkg:pypi/tzlocal@5.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tzlocal@5.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ulid-py@1.1.0",
+      "type": "library",
+      "name": "ulid-py",
+      "version": "1.1.0",
+      "purl": "pkg:pypi/ulid-py@1.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ulid-py@1.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.2.3",
+      "type": "library",
+      "name": "urllib3",
+      "version": "2.2.3",
+      "purl": "pkg:pypi/urllib3@2.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "urllib3@2.2.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/uuid6@2024.7.10",
+      "type": "library",
+      "name": "uuid6",
+      "version": "2024.7.10",
+      "purl": "pkg:pypi/uuid6@2024.7.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "uuid6@2024.7.10"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/w3lib@2.2.1",
+      "type": "library",
+      "name": "w3lib",
+      "version": "2.2.1",
+      "purl": "pkg:pypi/w3lib@2.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "w3lib@2.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/wcwidth@0.2.13",
+      "type": "library",
+      "name": "wcwidth",
+      "version": "0.2.13",
+      "purl": "pkg:pypi/wcwidth@0.2.13",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "wcwidth@0.2.13"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/xlrd@2.0.1",
+      "type": "library",
+      "name": "xlrd",
+      "version": "2.0.1",
+      "purl": "pkg:pypi/xlrd@2.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "xlrd@2.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/xmltodict@0.14.2",
+      "type": "library",
+      "name": "xmltodict",
+      "version": "0.14.2",
+      "purl": "pkg:pypi/xmltodict@0.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "xmltodict@0.14.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/zope-interface@7.2",
+      "type": "library",
+      "name": "zope-interface",
+      "version": "7.2",
+      "purl": "pkg:pypi/zope-interface@7.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "zope-interface@7.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "uv"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "af269485-16ac-40cd-b5e0-65e311f233d3",
+      "dependsOn": [
+        "pkg:pypi/archivebox@0.8.6rc3"
+      ]
+    },
+    {
+      "ref": "cd2c3cfc-5559-4d73-bc5e-e4aefda769d5",
+      "dependsOn": [
+        "af269485-16ac-40cd-b5e0-65e311f233d3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-pkg@0.6.0",
+      "dependsOn": [
+        "pkg:pypi/pip@24.3.1",
+        "pkg:pypi/platformdirs@4.3.6",
+        "pkg:pypi/pydantic-core@2.27.2",
+        "pkg:pypi/pydantic@2.10.4",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-archivedotorg@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-plugin-curl@2024.10.24",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-chrome@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-curl@2024.10.24",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-default-binproviders@2024.10.24",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-favicon@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-plugin-curl@2024.10.24",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-git@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-plugin-default-binproviders@2024.10.24",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-htmltotext@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-ldap-auth@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx-spec-django@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-mercury@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-npm@2024.10.24",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-plugin-default-binproviders@2024.10.24",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-pip@2024.10.24",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-plugin-default-binproviders@2024.10.24",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0",
+        "pkg:pypi/django@5.1.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-playwright@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0",
+        "pkg:pypi/pydantic@2.10.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-puppeteer@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-readability@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-ripgrep-search@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx-spec-searchbackend@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-singlefile@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-sonic-search@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx-spec-searchbackend@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-sqlitefts-search@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx-spec-searchbackend@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-title@2024.10.27",
+      "dependsOn": [
+        "pkg:pypi/abx-plugin-curl@2024.10.24",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-wget@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-plugin-ytdlp@2024.10.28",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-spec-archivebox@0.1.0",
+      "dependsOn": [
+        "pkg:pypi/abx@0.1.0",
+        "pkg:pypi/django@5.1.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-spec-config@0.1.0",
+      "dependsOn": [
+        "pkg:pypi/abx@0.1.0",
+        "pkg:pypi/pydantic-settings@2.7.0",
+        "pkg:pypi/pydantic@2.10.4",
+        "pkg:pypi/python-benedict@0.34.0",
+        "pkg:pypi/rich@13.9.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-spec-django@0.1.0",
+      "dependsOn": [
+        "pkg:pypi/abx@0.1.0",
+        "pkg:pypi/django@5.1.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-spec-extractor@0.1.0",
+      "dependsOn": [
+        "pkg:pypi/abx@0.1.0",
+        "pkg:pypi/pydantic@2.10.4",
+        "pkg:pypi/python-benedict@0.34.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx-spec-searchbackend@0.1.0",
+      "dependsOn": [
+        "pkg:pypi/abx@0.1.0",
+        "pkg:pypi/pydantic@2.10.4",
+        "pkg:pypi/python-benedict@0.34.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/abx@0.1.0",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/pluggy@1.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/annotated-types@0.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/anyio@4.7.0",
+      "dependsOn": [
+        "pkg:pypi/exceptiongroup@1.2.2",
+        "pkg:pypi/idna@3.10",
+        "pkg:pypi/sniffio@1.3.1",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/archivebox@0.8.6rc3",
+      "dependsOn": [
+        "pkg:pypi/abx-pkg@0.6.0",
+        "pkg:pypi/abx-plugin-archivedotorg@2024.10.28",
+        "pkg:pypi/abx-plugin-chrome@2024.10.28",
+        "pkg:pypi/abx-plugin-curl@2024.10.24",
+        "pkg:pypi/abx-plugin-default-binproviders@2024.10.24",
+        "pkg:pypi/abx-plugin-favicon@2024.10.28",
+        "pkg:pypi/abx-plugin-git@2024.10.28",
+        "pkg:pypi/abx-plugin-htmltotext@2024.10.28",
+        "pkg:pypi/abx-plugin-ldap-auth@2024.10.28",
+        "pkg:pypi/abx-plugin-mercury@2024.10.28",
+        "pkg:pypi/abx-plugin-npm@2024.10.24",
+        "pkg:pypi/abx-plugin-pip@2024.10.24",
+        "pkg:pypi/abx-plugin-playwright@2024.10.28",
+        "pkg:pypi/abx-plugin-puppeteer@2024.10.28",
+        "pkg:pypi/abx-plugin-readability@2024.10.28",
+        "pkg:pypi/abx-plugin-ripgrep-search@2024.10.28",
+        "pkg:pypi/abx-plugin-singlefile@2024.10.28",
+        "pkg:pypi/abx-plugin-sonic-search@2024.10.28",
+        "pkg:pypi/abx-plugin-sqlitefts-search@2024.10.28",
+        "pkg:pypi/abx-plugin-title@2024.10.27",
+        "pkg:pypi/abx-plugin-wget@2024.10.28",
+        "pkg:pypi/abx-plugin-ytdlp@2024.10.28",
+        "pkg:pypi/abx-spec-abx-pkg@0.1.1",
+        "pkg:pypi/abx-spec-archivebox@0.1.0",
+        "pkg:pypi/abx-spec-config@0.1.0",
+        "pkg:pypi/abx-spec-django@0.1.0",
+        "pkg:pypi/abx-spec-extractor@0.1.0",
+        "pkg:pypi/abx-spec-searchbackend@0.1.0",
+        "pkg:pypi/abx@0.1.0",
+        "pkg:pypi/atomicwrites@1.4.1",
+        "pkg:pypi/base32-crockford@0.3.0",
+        "pkg:pypi/blake3@1.0.0",
+        "pkg:pypi/channels@4.2.0",
+        "pkg:pypi/click@8.1.7",
+        "pkg:pypi/croniter@6.0.0",
+        "pkg:pypi/dateparser@1.2.0",
+        "pkg:pypi/django-admin-data-views@0.4.3",
+        "pkg:pypi/django-auth-ldap@5.1.0",
+        "pkg:pypi/django-autotyping@0.5.1",
+        "pkg:pypi/django-charid-field@0.4",
+        "pkg:pypi/django-debug-toolbar@4.4.6",
+        "pkg:pypi/django-extensions@3.2.3",
+        "pkg:pypi/django-huey-monitor@0.9.0",
+        "pkg:pypi/django-huey@1.2.1",
+        "pkg:pypi/django-ninja@1.3.0",
+        "pkg:pypi/django-object-actions@4.3.0",
+        "pkg:pypi/django-signal-webhooks@0.3.1",
+        "pkg:pypi/django-stubs@5.1.1",
+        "pkg:pypi/django-taggit@6.1.0",
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/djdt-flamegraph@0.2.13",
+        "pkg:pypi/feedparser@6.0.11",
+        "pkg:pypi/ipdb@0.13.13",
+        "pkg:pypi/ipython@8.30.0",
+        "pkg:pypi/mypy-extensions@1.0.0",
+        "pkg:pypi/pip@24.3.1",
+        "pkg:pypi/platformdirs@4.3.6",
+        "pkg:pypi/pluggy@1.5.0",
+        "pkg:pypi/pocket@0.3.6",
+        "pkg:pypi/psutil@6.1.0",
+        "pkg:pypi/py-machineid@0.7.0",
+        "pkg:pypi/pydantic-settings@2.7.0",
+        "pkg:pypi/pydantic@2.10.4",
+        "pkg:pypi/python-benedict@0.34.0",
+        "pkg:pypi/python-crontab@3.2.0",
+        "pkg:pypi/python-ldap@3.4.4",
+        "pkg:pypi/python-statemachine@2.5.0",
+        "pkg:pypi/requests-tracker@0.3.3",
+        "pkg:pypi/requests@2.32.3",
+        "pkg:pypi/rich-click@1.8.5",
+        "pkg:pypi/rich@13.9.4",
+        "pkg:pypi/setuptools@75.6.0",
+        "pkg:pypi/sonic-client@1.0.0",
+        "pkg:pypi/supervisor@4.2.5",
+        "pkg:pypi/typeid-python@0.3.1",
+        "pkg:pypi/tzdata@2024.2",
+        "pkg:pypi/ulid-py@1.1.0",
+        "pkg:pypi/w3lib@2.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/asgiref@3.8.1",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/asttokens@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/atomicwrites@1.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/attrs@24.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/autobahn@24.4.2",
+      "dependsOn": [
+        "pkg:pypi/cryptography@44.0.0",
+        "pkg:pypi/hyperlink@21.0.0",
+        "pkg:pypi/setuptools@75.6.0",
+        "pkg:pypi/txaio@23.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/automat@24.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/base32-crockford@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/beautifulsoup4@4.12.3",
+      "dependsOn": [
+        "pkg:pypi/soupsieve@2.6"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/blake3@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/bx-django-utils@84",
+      "dependsOn": [
+        "pkg:pypi/bx-py-utils@106",
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/python-stdnum@1.20"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/bx-py-utils@106",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/certifi@2024.12.14",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cffi@1.17.1",
+      "dependsOn": [
+        "pkg:pypi/pycparser@2.22"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/channels@4.2.0",
+      "dependsOn": [
+        "pkg:pypi/asgiref@3.8.1",
+        "pkg:pypi/daphne@4.1.2",
+        "pkg:pypi/django@5.1.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/charset-normalizer@3.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/click@8.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/constantly@23.10.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/croniter@6.0.0",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.9.0.post0",
+        "pkg:pypi/pytz@2024.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cryptography@44.0.0",
+      "dependsOn": [
+        "pkg:pypi/cffi@1.17.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/daphne@4.1.2",
+      "dependsOn": [
+        "pkg:pypi/asgiref@3.8.1",
+        "pkg:pypi/autobahn@24.4.2",
+        "pkg:pypi/twisted@24.11.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/dateparser@1.2.0",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.9.0.post0",
+        "pkg:pypi/pytz@2024.2",
+        "pkg:pypi/regex@2024.11.6",
+        "pkg:pypi/tzlocal@5.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/decorator@5.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-admin-data-views@0.4.3",
+      "dependsOn": [
+        "pkg:pypi/django-settings-holder@0.2.2",
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-auth-ldap@5.1.0",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/python-ldap@3.4.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-autotyping@0.5.1",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/libcst@1.5.1",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-charid-field@0.4",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-debug-toolbar@4.4.6",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/sqlparse@0.5.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-extensions@3.2.3",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-huey-monitor@0.9.0",
+      "dependsOn": [
+        "pkg:pypi/bx-django-utils@84",
+        "pkg:pypi/bx-py-utils@106",
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/huey@2.5.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-huey@1.2.1",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/huey@2.5.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-ninja@1.3.0",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/pydantic@2.10.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-object-actions@4.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-settings-holder@0.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-signal-webhooks@0.3.1",
+      "dependsOn": [
+        "pkg:pypi/asgiref@3.8.1",
+        "pkg:pypi/cryptography@44.0.0",
+        "pkg:pypi/django-settings-holder@0.2.2",
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-stubs-ext@5.1.1",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-stubs@5.1.1",
+      "dependsOn": [
+        "pkg:pypi/asgiref@3.8.1",
+        "pkg:pypi/django-stubs-ext@5.1.1",
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/tomli@2.2.1",
+        "pkg:pypi/types-pyyaml@6.0.12.20240917",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-taggit@6.1.0",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django@5.1.4",
+      "dependsOn": [
+        "pkg:pypi/asgiref@3.8.1",
+        "pkg:pypi/sqlparse@0.5.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/djdt-flamegraph@0.2.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/et-xmlfile@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/exceptiongroup@1.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/executing@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/feedparser@6.0.11",
+      "dependsOn": [
+        "pkg:pypi/sgmllib3k@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ftfy@6.3.1",
+      "dependsOn": [
+        "pkg:pypi/wcwidth@0.2.13"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/h11@0.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/httpcore@1.0.7",
+      "dependsOn": [
+        "pkg:pypi/certifi@2024.12.14",
+        "pkg:pypi/h11@0.14.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/httpx@0.28.1",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.7.0",
+        "pkg:pypi/certifi@2024.12.14",
+        "pkg:pypi/httpcore@1.0.7",
+        "pkg:pypi/idna@3.10"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/huey@2.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/hyperlink@21.0.0",
+      "dependsOn": [
+        "pkg:pypi/idna@3.10"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/idna@3.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/incremental@24.7.2",
+      "dependsOn": [
+        "pkg:pypi/setuptools@75.6.0",
+        "pkg:pypi/tomli@2.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ipdb@0.13.13",
+      "dependsOn": [
+        "pkg:pypi/decorator@5.1.1",
+        "pkg:pypi/ipython@8.30.0",
+        "pkg:pypi/tomli@2.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ipython@8.30.0",
+      "dependsOn": [
+        "pkg:pypi/decorator@5.1.1",
+        "pkg:pypi/exceptiongroup@1.2.2",
+        "pkg:pypi/jedi@0.19.2",
+        "pkg:pypi/matplotlib-inline@0.1.7",
+        "pkg:pypi/pexpect@4.9.0",
+        "pkg:pypi/prompt-toolkit@3.0.48",
+        "pkg:pypi/pygments@2.18.0",
+        "pkg:pypi/stack-data@0.6.3",
+        "pkg:pypi/traitlets@5.14.3",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jedi@0.19.2",
+      "dependsOn": [
+        "pkg:pypi/parso@0.8.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/libcst@1.5.1",
+      "dependsOn": [
+        "pkg:pypi/pyyaml@6.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mailchecker@6.0.14",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markdown-it-py@3.0.0",
+      "dependsOn": [
+        "pkg:pypi/mdurl@0.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/matplotlib-inline@0.1.7",
+      "dependsOn": [
+        "pkg:pypi/traitlets@5.14.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mdurl@0.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mypy-extensions@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/openpyxl@3.1.5",
+      "dependsOn": [
+        "pkg:pypi/et-xmlfile@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/parso@0.8.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pexpect@4.9.0",
+      "dependsOn": [
+        "pkg:pypi/ptyprocess@0.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/phonenumbers@8.13.52",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pip@24.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/platformdirs@4.3.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pluggy@1.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pocket@0.3.6",
+      "dependsOn": [
+        "pkg:pypi/requests@2.32.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/prompt-toolkit@3.0.48",
+      "dependsOn": [
+        "pkg:pypi/wcwidth@0.2.13"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/psutil@6.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ptyprocess@0.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pure-eval@0.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/py-machineid@0.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyasn1-modules@0.4.1",
+      "dependsOn": [
+        "pkg:pypi/pyasn1@0.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyasn1@0.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycparser@2.22",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pydantic-core@2.27.2",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic-settings@2.7.0",
+      "dependsOn": [
+        "pkg:pypi/pydantic@2.10.4",
+        "pkg:pypi/python-dotenv@1.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic@2.10.4",
+      "dependsOn": [
+        "pkg:pypi/annotated-types@0.7.0",
+        "pkg:pypi/pydantic-core@2.27.2",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pygments@2.18.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyopenssl@24.3.0",
+      "dependsOn": [
+        "pkg:pypi/cryptography@44.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-benedict@0.34.0",
+      "dependsOn": [
+        "pkg:pypi/beautifulsoup4@4.12.3",
+        "pkg:pypi/ftfy@6.3.1",
+        "pkg:pypi/mailchecker@6.0.14",
+        "pkg:pypi/openpyxl@3.1.5",
+        "pkg:pypi/phonenumbers@8.13.52",
+        "pkg:pypi/python-dateutil@2.9.0.post0",
+        "pkg:pypi/python-fsutil@0.14.1",
+        "pkg:pypi/python-slugify@8.0.4",
+        "pkg:pypi/pyyaml@6.0.2",
+        "pkg:pypi/requests@2.32.3",
+        "pkg:pypi/toml@0.10.2",
+        "pkg:pypi/xlrd@2.0.1",
+        "pkg:pypi/xmltodict@0.14.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-crontab@3.2.0",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.9.0.post0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "dependsOn": [
+        "pkg:pypi/six@1.17.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-dotenv@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-fsutil@0.14.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-ldap@3.4.4",
+      "dependsOn": [
+        "pkg:pypi/pyasn1-modules@0.4.1",
+        "pkg:pypi/pyasn1@0.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-slugify@8.0.4",
+      "dependsOn": [
+        "pkg:pypi/text-unidecode@1.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-statemachine@2.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-stdnum@1.20",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytz@2024.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/regex@2024.11.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests-tracker@0.3.3",
+      "dependsOn": [
+        "pkg:pypi/django@5.1.4",
+        "pkg:pypi/sqlparse@0.5.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/requests@2.32.3",
+      "dependsOn": [
+        "pkg:pypi/certifi@2024.12.14",
+        "pkg:pypi/charset-normalizer@3.4.0",
+        "pkg:pypi/idna@3.10",
+        "pkg:pypi/urllib3@2.2.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/rich-click@1.8.5",
+      "dependsOn": [
+        "pkg:pypi/click@8.1.7",
+        "pkg:pypi/rich@13.9.4",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/rich@13.9.4",
+      "dependsOn": [
+        "pkg:pypi/markdown-it-py@3.0.0",
+        "pkg:pypi/pygments@2.18.0",
+        "pkg:pypi/typing-extensions@4.12.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/service-identity@24.2.0",
+      "dependsOn": [
+        "pkg:pypi/attrs@24.3.0",
+        "pkg:pypi/cryptography@44.0.0",
+        "pkg:pypi/pyasn1-modules@0.4.1",
+        "pkg:pypi/pyasn1@0.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/setuptools@75.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sgmllib3k@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sniffio@1.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sonic-client@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/soupsieve@2.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sqlparse@0.5.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/stack-data@0.6.3",
+      "dependsOn": [
+        "pkg:pypi/asttokens@3.0.0",
+        "pkg:pypi/executing@2.1.0",
+        "pkg:pypi/pure-eval@0.2.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/supervisor@4.2.5",
+      "dependsOn": [
+        "pkg:pypi/setuptools@75.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/text-unidecode@1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/toml@0.10.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tomli@2.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/traitlets@5.14.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/twisted@24.11.0",
+      "dependsOn": [
+        "pkg:pypi/attrs@24.3.0",
+        "pkg:pypi/automat@24.8.1",
+        "pkg:pypi/constantly@23.10.4",
+        "pkg:pypi/hyperlink@21.0.0",
+        "pkg:pypi/idna@3.10",
+        "pkg:pypi/incremental@24.7.2",
+        "pkg:pypi/pyopenssl@24.3.0",
+        "pkg:pypi/service-identity@24.2.0",
+        "pkg:pypi/typing-extensions@4.12.2",
+        "pkg:pypi/zope-interface@7.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/txaio@23.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typeid-python@0.3.1",
+      "dependsOn": [
+        "pkg:pypi/uuid6@2024.7.10"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/types-pyyaml@6.0.12.20240917",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.12.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tzdata@2024.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tzlocal@5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ulid-py@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/uuid6@2024.7.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/w3lib@2.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/wcwidth@0.2.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/xlrd@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/xmltodict@0.14.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/zope-interface@7.2",
+      "dependsOn": [
+        "pkg:pypi/setuptools@75.6.0"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,947 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:191ef3c7-2671-4b3b-b9f6-2b3267a75b4a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T15:30:31+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "50c7ed8d-fa40-4376-a062-b8520e862e10",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "6e3598d9-214e-4652-a461-bbffb74bed27",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/apscheduler@3.10.1",
+      "type": "library",
+      "name": "apscheduler",
+      "version": "3.10.1",
+      "purl": "pkg:pypi/apscheduler@3.10.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/arrow@1.3.0",
+      "type": "library",
+      "name": "arrow",
+      "version": "1.3.0",
+      "purl": "pkg:pypi/arrow@1.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/beautifulsoup4@4.12.3",
+      "type": "library",
+      "name": "beautifulsoup4",
+      "version": "4.12.3",
+      "purl": "pkg:pypi/beautifulsoup4@4.12.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/bleach@6.2.0",
+      "type": "library",
+      "name": "bleach",
+      "version": "6.2.0",
+      "purl": "pkg:pypi/bleach@6.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/certifi@2025.8.3",
+      "type": "library",
+      "name": "certifi",
+      "version": "2025.8.3",
+      "purl": "pkg:pypi/certifi@2025.8.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cheroot@10.0.1",
+      "type": "library",
+      "name": "cheroot",
+      "version": "10.0.1",
+      "purl": "pkg:pypi/cheroot@10.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cherrypy-cors@1.7.0",
+      "type": "library",
+      "name": "cherrypy-cors",
+      "version": "1.7.0",
+      "purl": "pkg:pypi/cherrypy-cors@1.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cherrypy@18.10.0",
+      "type": "library",
+      "name": "cherrypy",
+      "version": "18.10.0",
+      "purl": "pkg:pypi/cherrypy@18.10.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cloudinary@1.41.0",
+      "type": "library",
+      "name": "cloudinary",
+      "version": "1.41.0",
+      "purl": "pkg:pypi/cloudinary@1.41.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/distro@1.9.0",
+      "type": "library",
+      "name": "distro",
+      "version": "1.9.0",
+      "purl": "pkg:pypi/distro@1.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/dnspython@2.7.0",
+      "type": "library",
+      "name": "dnspython",
+      "version": "2.7.0",
+      "purl": "pkg:pypi/dnspython@2.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/facebook-sdk@3.1.0",
+      "type": "library",
+      "name": "facebook-sdk",
+      "version": "3.1.0",
+      "purl": "pkg:pypi/facebook-sdk@3.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/future@1.0.0",
+      "type": "library",
+      "name": "future",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/future@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ga4mp@2.0.4",
+      "type": "library",
+      "name": "ga4mp",
+      "version": "2.0.4",
+      "purl": "pkg:pypi/ga4mp@2.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/gntp@1.0.3",
+      "type": "library",
+      "name": "gntp",
+      "version": "1.0.3",
+      "purl": "pkg:pypi/gntp@1.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/html5lib@1.1",
+      "type": "library",
+      "name": "html5lib",
+      "version": "1.1",
+      "purl": "pkg:pypi/html5lib@1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/httpagentparser@1.9.5",
+      "type": "library",
+      "name": "httpagentparser",
+      "version": "1.9.5",
+      "purl": "pkg:pypi/httpagentparser@1.9.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/idna@3.10",
+      "type": "library",
+      "name": "idna",
+      "version": "3.10",
+      "purl": "pkg:pypi/idna@3.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/importlib-metadata@8.5.0",
+      "type": "library",
+      "name": "importlib-metadata",
+      "version": "8.5.0",
+      "purl": "pkg:pypi/importlib-metadata@8.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/importlib-resources@6.4.5",
+      "type": "library",
+      "name": "importlib-resources",
+      "version": "6.4.5",
+      "purl": "pkg:pypi/importlib-resources@6.4.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ipy@1.01",
+      "type": "library",
+      "name": "IPy",
+      "version": "1.01",
+      "purl": "pkg:pypi/ipy@1.01",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mako@1.3.6",
+      "type": "library",
+      "name": "Mako",
+      "version": "1.3.6",
+      "purl": "pkg:pypi/mako@1.3.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@3.0.2",
+      "type": "library",
+      "name": "MarkupSafe",
+      "version": "3.0.2",
+      "purl": "pkg:pypi/markupsafe@3.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/musicbrainzngs@0.7.1",
+      "type": "library",
+      "name": "musicbrainzngs",
+      "version": "0.7.1",
+      "purl": "pkg:pypi/musicbrainzngs@0.7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/packaging@24.2",
+      "type": "library",
+      "name": "packaging",
+      "version": "24.2",
+      "purl": "pkg:pypi/packaging@24.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/paho-mqtt@2.1.0",
+      "type": "library",
+      "name": "paho-mqtt",
+      "version": "2.1.0",
+      "purl": "pkg:pypi/paho-mqtt@2.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/platformdirs@4.3.6",
+      "type": "library",
+      "name": "platformdirs",
+      "version": "4.3.6",
+      "purl": "pkg:pypi/platformdirs@4.3.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/plexapi@4.17.0",
+      "type": "library",
+      "name": "plexapi",
+      "version": "4.17.0",
+      "purl": "pkg:pypi/plexapi@4.17.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/portend@3.2.0",
+      "type": "library",
+      "name": "portend",
+      "version": "3.2.0",
+      "purl": "pkg:pypi/portend@3.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/profilehooks@1.13.0",
+      "type": "library",
+      "name": "profilehooks",
+      "version": "1.13.0",
+      "purl": "pkg:pypi/profilehooks@1.13.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyjwt@2.10.1",
+      "type": "library",
+      "name": "PyJWT",
+      "version": "2.10.1",
+      "purl": "pkg:pypi/pyjwt@2.10.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyparsing@3.2.0",
+      "type": "library",
+      "name": "pyparsing",
+      "version": "3.2.0",
+      "purl": "pkg:pypi/pyparsing@3.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "type": "library",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-twitter@3.5",
+      "type": "library",
+      "name": "python-twitter",
+      "version": "3.5",
+      "purl": "pkg:pypi/python-twitter@3.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytz@2024.2",
+      "type": "library",
+      "name": "pytz",
+      "version": "2024.2",
+      "purl": "pkg:pypi/pytz@2024.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/requests-oauthlib@2.0.0",
+      "type": "library",
+      "name": "requests-oauthlib",
+      "version": "2.0.0",
+      "purl": "pkg:pypi/requests-oauthlib@2.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.32.4",
+      "type": "library",
+      "name": "requests",
+      "version": "2.32.4",
+      "purl": "pkg:pypi/requests@2.32.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/rumps@0.4.0",
+      "type": "library",
+      "name": "rumps",
+      "version": "0.4.0",
+      "purl": "pkg:pypi/rumps@0.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/simplejson@3.19.3",
+      "type": "library",
+      "name": "simplejson",
+      "version": "3.19.3",
+      "purl": "pkg:pypi/simplejson@3.19.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "type": "library",
+      "name": "six",
+      "version": "1.16.0",
+      "purl": "pkg:pypi/six@1.16.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tempora@5.7.0",
+      "type": "library",
+      "name": "tempora",
+      "version": "5.7.0",
+      "purl": "pkg:pypi/tempora@5.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tokenize-rt@6.1.0",
+      "type": "library",
+      "name": "tokenize-rt",
+      "version": "6.1.0",
+      "purl": "pkg:pypi/tokenize-rt@6.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tzdata@2024.2",
+      "type": "library",
+      "name": "tzdata",
+      "version": "2024.2",
+      "purl": "pkg:pypi/tzdata@2024.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tzlocal@5.0.1",
+      "type": "library",
+      "name": "tzlocal",
+      "version": "5.0.1",
+      "purl": "pkg:pypi/tzlocal@5.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.5.0",
+      "type": "library",
+      "name": "urllib3",
+      "version": "2.5.0",
+      "purl": "pkg:pypi/urllib3@2.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/webencodings@0.5.1",
+      "type": "library",
+      "name": "webencodings",
+      "version": "0.5.1",
+      "purl": "pkg:pypi/webencodings@0.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/websocket-client@1.8.0",
+      "type": "library",
+      "name": "websocket-client",
+      "version": "1.8.0",
+      "purl": "pkg:pypi/websocket-client@1.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/xmltodict@0.14.2",
+      "type": "library",
+      "name": "xmltodict",
+      "version": "0.14.2",
+      "purl": "pkg:pypi/xmltodict@0.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/zipp@3.21.0",
+      "type": "library",
+      "name": "zipp",
+      "version": "3.21.0",
+      "purl": "pkg:pypi/zipp@3.21.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "50c7ed8d-fa40-4376-a062-b8520e862e10",
+      "dependsOn": [
+        "6e3598d9-214e-4652-a461-bbffb74bed27"
+      ]
+    },
+    {
+      "ref": "6e3598d9-214e-4652-a461-bbffb74bed27",
+      "dependsOn": [
+        "pkg:pypi/apscheduler@3.10.1",
+        "pkg:pypi/arrow@1.3.0",
+        "pkg:pypi/beautifulsoup4@4.12.3",
+        "pkg:pypi/bleach@6.2.0",
+        "pkg:pypi/certifi@2025.8.3",
+        "pkg:pypi/cheroot@10.0.1",
+        "pkg:pypi/cherrypy-cors@1.7.0",
+        "pkg:pypi/cherrypy@18.10.0",
+        "pkg:pypi/cloudinary@1.41.0",
+        "pkg:pypi/distro@1.9.0",
+        "pkg:pypi/dnspython@2.7.0",
+        "pkg:pypi/facebook-sdk@3.1.0",
+        "pkg:pypi/future@1.0.0",
+        "pkg:pypi/ga4mp@2.0.4",
+        "pkg:pypi/gntp@1.0.3",
+        "pkg:pypi/html5lib@1.1",
+        "pkg:pypi/httpagentparser@1.9.5",
+        "pkg:pypi/idna@3.10",
+        "pkg:pypi/importlib-metadata@8.5.0",
+        "pkg:pypi/importlib-resources@6.4.5",
+        "pkg:pypi/ipy@1.01",
+        "pkg:pypi/mako@1.3.6",
+        "pkg:pypi/markupsafe@3.0.2",
+        "pkg:pypi/musicbrainzngs@0.7.1",
+        "pkg:pypi/packaging@24.2",
+        "pkg:pypi/paho-mqtt@2.1.0",
+        "pkg:pypi/platformdirs@4.3.6",
+        "pkg:pypi/plexapi@4.17.0",
+        "pkg:pypi/portend@3.2.0",
+        "pkg:pypi/profilehooks@1.13.0",
+        "pkg:pypi/pyjwt@2.10.1",
+        "pkg:pypi/pyparsing@3.2.0",
+        "pkg:pypi/python-dateutil@2.9.0.post0",
+        "pkg:pypi/python-twitter@3.5",
+        "pkg:pypi/pytz@2024.2",
+        "pkg:pypi/requests-oauthlib@2.0.0",
+        "pkg:pypi/requests@2.32.4",
+        "pkg:pypi/rumps@0.4.0",
+        "pkg:pypi/simplejson@3.19.3",
+        "pkg:pypi/six@1.16.0",
+        "pkg:pypi/tempora@5.7.0",
+        "pkg:pypi/tokenize-rt@6.1.0",
+        "pkg:pypi/tzdata@2024.2",
+        "pkg:pypi/tzlocal@5.0.1",
+        "pkg:pypi/urllib3@2.5.0",
+        "pkg:pypi/webencodings@0.5.1",
+        "pkg:pypi/websocket-client@1.8.0",
+        "pkg:pypi/xmltodict@0.14.2",
+        "pkg:pypi/zipp@3.21.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/apscheduler@3.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/arrow@1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/beautifulsoup4@4.12.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/bleach@6.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/certifi@2025.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cheroot@10.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cherrypy-cors@1.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cherrypy@18.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cloudinary@1.41.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/distro@1.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/dnspython@2.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/facebook-sdk@3.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/future@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ga4mp@2.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/gntp@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/html5lib@1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/httpagentparser@1.9.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/idna@3.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/importlib-metadata@8.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/importlib-resources@6.4.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ipy@1.01",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mako@1.3.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@3.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/musicbrainzngs@0.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/packaging@24.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/paho-mqtt@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/platformdirs@4.3.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/plexapi@4.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/portend@3.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/profilehooks@1.13.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyjwt@2.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyparsing@3.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-twitter@3.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytz@2024.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests-oauthlib@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests@2.32.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rumps@0.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/simplejson@3.19.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tempora@5.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tokenize-rt@6.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tzdata@2024.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tzlocal@5.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/webencodings@0.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/websocket-client@1.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/xmltodict@0.14.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/zipp@3.21.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

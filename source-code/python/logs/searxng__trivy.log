@@ -1,0 +1,17 @@
+$ trivy fs . --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/searxng.trivy.cdx.json
+exit_code: 0
+elapsed: 1.160 s
+
+=== STDERR ===
+2025-12-04T22:29:20+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-04T22:29:21+07:00	INFO	[npm] To collect the license information of packages, "npm install" needs to be performed beforehand	dir="client/simple/node_modules"
+2025-12-04T22:29:21+07:00	WARN	[pip] Unable to find python `site-packages` directory. License detection is skipped.	err="site-packages directory not found"
+2025-12-04T22:29:21+07:00	INFO	Suppressing dependencies for development and testing. To display them, try the '--include-dev-deps' flag.
+2025-12-04T22:29:21+07:00	INFO	Number of language-specific files	num=3
+
+📣 [34mNotices:[0m
+  - Version 0.68.1 of Trivy is now available, current version is 0.67.2
+
+To suppress version checks, run Trivy scans with the --skip-version-check flag
+
+

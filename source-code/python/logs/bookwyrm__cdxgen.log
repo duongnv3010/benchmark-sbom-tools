@@ -1,0 +1,108 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/bookwyrm.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 46.779 s
+
+=== STDOUT ===
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/dev-tools
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma
+---------------
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated npmlog@4.1.2: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated are-we-there-yet@1.1.7: This package is no longer supported.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated osenv@0.1.5: This package is no longer supported.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated fstream@1.0.12: This package is no longer supported.
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm warn deprecated glob@7.1.7: Glob versions prior to v9 are no longer supported
+npm warn deprecated gauge@2.7.4: This package is no longer supported.
+npm warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+npm warn deprecated node-sass@4.14.1: Node Sass is no longer supported. Please use `sass` or `sass-embedded` instead.
+npm error code 1
+npm error path /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/node-sass
+npm error command failed
+npm error command sh -c node scripts/build.js
+npm error Building: /home/duongnv48/.nvm/versions/node/v20.19.5/bin/node /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/node-gyp/bin/node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+npm error gyp info it worked if it ends with ok
+npm error gyp verb cli [
+npm error gyp verb cli   '/home/duongnv48/.nvm/versions/node/v20.19.5/bin/node',
+npm error gyp verb cli   '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/node-gyp/bin/node-gyp.js',
+npm error gyp verb cli   'rebuild',
+npm error gyp verb cli   '--verbose',
+npm error gyp verb cli   '--libsass_ext=',
+npm error gyp verb cli   '--libsass_cflags=',
+npm error gyp verb cli   '--libsass_ldflags=',
+npm error gyp verb cli   '--libsass_library='
+npm error gyp verb cli ]
+npm error gyp info using node-gyp@3.8.0
+npm error gyp info using node@20.19.5 | linux | x64
+npm error gyp verb command rebuild []
+npm error gyp verb command clean []
+npm error gyp verb clean removing "build" directory
+npm error gyp verb command configure []
+npm error gyp verb check python checking for Python executable "python2" in the PATH
+npm error gyp verb `which` failed Error: not found: python2
+npm error gyp verb `which` failed     at getNotFoundError (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:13:12)
+npm error gyp verb `which` failed     at F (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:68:19)
+npm error gyp verb `which` failed     at E (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:80:29)
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:89:16
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/index.js:42:5
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/mode.js:8:5
+npm error gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:198:21)
+npm error gyp verb `which` failed  python2 Error: not found: python2
+npm error gyp verb `which` failed     at getNotFoundError (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:13:12)
+npm error gyp verb `which` failed     at F (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:68:19)
+npm error gyp verb `which` failed     at E (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:80:29)
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:89:16
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/index.js:42:5
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/mode.js:8:5
+npm error gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:198:21) {
+npm error gyp verb `which` failed   code: 'ENOENT'
+npm error gyp verb `which` failed }
+npm error gyp verb check python checking for Python executable "python" in the PATH
+npm error gyp verb `which` failed Error: not found: python
+npm error gyp verb `which` failed     at getNotFoundError (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:13:12)
+npm error gyp verb `which` failed     at F (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:68:19)
+npm error gyp verb `which` failed     at E (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:80:29)
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:89:16
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/index.js:42:5
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/mode.js:8:5
+npm error gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:198:21)
+npm error gyp verb `which` failed  python Error: not found: python
+npm error gyp verb `which` failed     at getNotFoundError (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:13:12)
+npm error gyp verb `which` failed     at F (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:68:19)
+npm error gyp verb `which` failed     at E (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:80:29)
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:89:16
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/index.js:42:5
+npm error gyp verb `which` failed     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/mode.js:8:5
+npm error gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:198:21) {
+npm error gyp verb `which` failed   code: 'ENOENT'
+npm error gyp verb `which` failed }
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+npm error gyp ERR! stack     at PythonFinder.failNoPython (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/node-gyp/lib/configure.js:484:19)
+npm error gyp ERR! stack     at PythonFinder.<anonymous> (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/node-gyp/lib/configure.js:406:16)
+npm error gyp ERR! stack     at F (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:68:16)
+npm error gyp ERR! stack     at E (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:80:29)
+npm error gyp ERR! stack     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/which/which.js:89:16
+npm error gyp ERR! stack     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/index.js:42:5
+npm error gyp ERR! stack     at /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/isexe/mode.js:8:5
+npm error gyp ERR! stack     at FSReqCallback.oncomplete (node:fs:198:21)
+npm error gyp ERR! System Linux 6.14.0-36-generic
+npm error gyp ERR! command "/home/duongnv48/.nvm/versions/node/v20.19.5/bin/node" "/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/node-gyp/bin/node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+npm error gyp ERR! cwd /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm/bookwyrm/static/css/vendor/bulma/node_modules/node-sass
+npm error gyp ERR! node -v v20.19.5
+npm error gyp ERR! node-gyp -v v3.8.0
+npm error gyp ERR! not ok 
+npm error Build failed with error code: 1
+npm error A complete log of this run can be found in: /home/duongnv48/.npm/_logs/2025-12-04T15_26_40_863Z-debug-0.log
+
+
+
+=== STDERR ===
+npm install has failed. Generated SBOM will be empty or with a lower precision.
+

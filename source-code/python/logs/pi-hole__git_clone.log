@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/pi-hole/pi-hole.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/pi-hole
+exit_code: 0
+elapsed: 1.743 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/pi-hole'...
+

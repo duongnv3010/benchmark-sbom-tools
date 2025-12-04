@@ -1,0 +1,335 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:ff341842-3ac2-4c9b-a9bd-dc3b5170beca",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T15:48:20+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "a7f533df-2f37-4599-bac8-ea3292a97188",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "ee8efbc9-6aac-47d9-856d-1928bd655dd1",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/aiosmtpd@1.4.6",
+      "type": "library",
+      "name": "aiosmtpd",
+      "version": "1.4.6",
+      "purl": "pkg:pypi/aiosmtpd@1.4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cronsim@2.7",
+      "type": "library",
+      "name": "cronsim",
+      "version": "2.7",
+      "purl": "pkg:pypi/cronsim@2.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-compressor@4.6",
+      "type": "library",
+      "name": "django-compressor",
+      "version": "4.6",
+      "purl": "pkg:pypi/django-compressor@4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-stubs-ext@5.2.8",
+      "type": "library",
+      "name": "django-stubs-ext",
+      "version": "5.2.8",
+      "purl": "pkg:pypi/django-stubs-ext@5.2.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django@6.0",
+      "type": "library",
+      "name": "Django",
+      "version": "6.0",
+      "purl": "pkg:pypi/django@6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/fido2@2.0.0",
+      "type": "library",
+      "name": "fido2",
+      "version": "2.0.0",
+      "purl": "pkg:pypi/fido2@2.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/oncalendar@1.1",
+      "type": "library",
+      "name": "oncalendar",
+      "version": "1.1",
+      "purl": "pkg:pypi/oncalendar@1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/psycopg@3.2.13",
+      "type": "library",
+      "name": "psycopg",
+      "version": "3.2.13",
+      "purl": "pkg:pypi/psycopg@3.2.13",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pycurl@7.45.7",
+      "type": "library",
+      "name": "pycurl",
+      "version": "7.45.7",
+      "purl": "pkg:pypi/pycurl@7.45.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pydantic@2.12.5",
+      "type": "library",
+      "name": "pydantic",
+      "version": "2.12.5",
+      "purl": "pkg:pypi/pydantic@2.12.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyjwt@2.10.1",
+      "type": "library",
+      "name": "PyJWT",
+      "version": "2.10.1",
+      "purl": "pkg:pypi/pyjwt@2.10.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyotp@2.9.0",
+      "type": "library",
+      "name": "pyotp",
+      "version": "2.9.0",
+      "purl": "pkg:pypi/pyotp@2.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/segno@1.6.6",
+      "type": "library",
+      "name": "segno",
+      "version": "1.6.6",
+      "purl": "pkg:pypi/segno@1.6.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/statsd@4.0.1",
+      "type": "library",
+      "name": "statsd",
+      "version": "4.0.1",
+      "purl": "pkg:pypi/statsd@4.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/whitenoise@6.11.0",
+      "type": "library",
+      "name": "whitenoise",
+      "version": "6.11.0",
+      "purl": "pkg:pypi/whitenoise@6.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "a7f533df-2f37-4599-bac8-ea3292a97188",
+      "dependsOn": [
+        "ee8efbc9-6aac-47d9-856d-1928bd655dd1"
+      ]
+    },
+    {
+      "ref": "ee8efbc9-6aac-47d9-856d-1928bd655dd1",
+      "dependsOn": [
+        "pkg:pypi/aiosmtpd@1.4.6",
+        "pkg:pypi/cronsim@2.7",
+        "pkg:pypi/django-compressor@4.6",
+        "pkg:pypi/django-stubs-ext@5.2.8",
+        "pkg:pypi/django@6.0",
+        "pkg:pypi/fido2@2.0.0",
+        "pkg:pypi/oncalendar@1.1",
+        "pkg:pypi/psycopg@3.2.13",
+        "pkg:pypi/pycurl@7.45.7",
+        "pkg:pypi/pydantic@2.12.5",
+        "pkg:pypi/pyjwt@2.10.1",
+        "pkg:pypi/pyotp@2.9.0",
+        "pkg:pypi/segno@1.6.6",
+        "pkg:pypi/statsd@4.0.1",
+        "pkg:pypi/whitenoise@6.11.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/aiosmtpd@1.4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cronsim@2.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-compressor@4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-stubs-ext@5.2.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django@6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/fido2@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/oncalendar@1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/psycopg@3.2.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycurl@7.45.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pydantic@2.12.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyjwt@2.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyotp@2.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/segno@1.6.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/statsd@4.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/whitenoise@6.11.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

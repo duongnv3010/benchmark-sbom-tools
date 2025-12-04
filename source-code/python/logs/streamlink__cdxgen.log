@@ -1,0 +1,36 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/streamlink.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 2.248 s
+
+=== STDOUT ===
+Error while parsing the pyproject file pyproject.toml. TomlError: Inline lists must be a single type, not a mix of inline-table and string at row 100, col 19, pos 3012:
+ 99:   # pytest and plugins
+100>   "pytest >=8.4.0",
+                       ^
+101:   "pytest-cov",
+
+
+    at TOMLParser.recordInlineListValue (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/toml-parser.js:1305:28)
+    at TOMLParser.runOne (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:64:30)
+    at TOMLParser.parse (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/lib/parser.js:45:22)
+    at Object.parseString [as parse] (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/@iarna/toml/parse-string.js:13:12)
+    at parsePyProjectTomlFile (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:5668:21)
+    at createPythonBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:3792:23)
+    at createMultiXBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:7430:23)
+    at async createBom (file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:8637:16)
+    at async file:///home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/bin/cdxgen.js:830:20 {
+  fromTOML: true,
+  wrapped: null,
+  line: 99,
+  col: 18,
+  pos: 3012
+}
+Atom requires Java 21 or above. To improve the SBOM accuracy, please install a suitable version, set the JAVA_HOME environment variable, and re-run cdxgen.
+Alternatively, use the cdxgen container image.
+Current JAVA_HOME: 
+Slicing was not successful. For large projects (> 1 million lines of code), try running atom cli externally in Java mode. Please refer to the instructions in https://github.com/CycloneDX/cdxgen/blob/master/ADVANCED.md.
+
+
+=== STDERR ===
+Either the requirements file or the data needs to be provided for parsing.
+

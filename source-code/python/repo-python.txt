@@ -1,11 +1,34 @@
 # 10 Python application repos cho benchmark SBOM (mỗi dòng 1 URL, bỏ qua dòng bắt đầu bằng #)
-https://github.com/pypa/pipenv.git
-https://github.com/locustio/locust.git
-https://github.com/psf/black.git
-https://github.com/pytest-dev/pytest.git
-https://github.com/cookiecutter/cookiecutter.git
-https://github.com/yt-dlp/yt-dlp.git
-https://github.com/mitmproxy/mitmproxy.git
-https://github.com/fastapi/fastapi.git
-https://github.com/encode/django-rest-framework.git
-https://github.com/fastapi/sqlmodel.git
+# https://github.com/pypa/pipenv.git
+# https://github.com/locustio/locust.git
+# https://github.com/psf/black.git
+# https://github.com/pytest-dev/pytest.git
+# https://github.com/cookiecutter/cookiecutter.git
+# https://github.com/yt-dlp/yt-dlp.git
+# https://github.com/mitmproxy/mitmproxy.git
+# https://github.com/fastapi/fastapi.git
+# https://github.com/encode/django-rest-framework.git
+# https://github.com/fastapi/sqlmodel.git
+## https://github.com/ArchiveBox/ArchiveBox.git
+# https://github.com/bookwyrm-social/bookwyrm.git
+# https://github.com/CTFd/CTFd.git
+# https://github.com/deluge-torrent/deluge.git
+## https://github.com/newsblur/newsblur.git
+# https://github.com/flaskbb/flaskbb.git
+# https://github.com/httpie/httpie.git
+## https://github.com/sivel/speedtest-cli.git
+# https://github.com/streamlink/streamlink.git
+# https://github.com/beetbox/beets.git
+# https://github.com/searxng/searxng.git
+# https://github.com/sabnzbd/sabnzbd.git
+# https://github.com/Tautulli/Tautulli.git
+# https://github.com/pyload/pyload.git
+# https://github.com/gpodder/gpodder.git
+# https://github.com/mealie-recipes/mealie.git
+# https://github.com/pi-hole/pi-hole.git
+# https://github.com/qutebrowser/qutebrowser.git
+# https://github.com/soimort/you-get.git
+# https://github.com/mozilla-services/syncserver.git
+https://github.com/ckan/ckan.git
+https://github.com/healthchecks/healthchecks.git
+https://github.com/DefectDojo/django-DefectDojo.git

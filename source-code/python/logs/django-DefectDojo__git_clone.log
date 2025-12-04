@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/DefectDojo/django-DefectDojo.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/django-DefectDojo
+exit_code: 0
+elapsed: 23.412 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/django-DefectDojo'...
+

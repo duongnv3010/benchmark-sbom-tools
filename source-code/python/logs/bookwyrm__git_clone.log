@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/bookwyrm-social/bookwyrm.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm
+exit_code: 0
+elapsed: 4.536 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/bookwyrm'...
+

@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/ArchiveBox/ArchiveBox.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/ArchiveBox
+exit_code: 0
+elapsed: 1.779 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/ArchiveBox'...
+

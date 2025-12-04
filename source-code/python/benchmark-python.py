@@ -14,7 +14,7 @@ from pathlib import Path
 # Cấu hình cơ bản
 # ==============================
 DEFAULT_REPO_LIST = "repo-python.txt"
-DEFAULT_OUTPUT = "result-python.csv"
+DEFAULT_OUTPUT = "result-python-2.csv"
 REQUIRED_TOOLS = ["git", "syft", "trivy", "cdxgen", "sbomqs"]
 
 

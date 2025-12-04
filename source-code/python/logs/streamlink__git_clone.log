@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/streamlink/streamlink.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/streamlink
+exit_code: 0
+elapsed: 2.240 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/streamlink'...
+

@@ -1,0 +1,173 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:7332ea61-dcb6-4ade-a2ea-5c54eaf9df55",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T15:31:43+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "67d31549-ef7a-4523-aa6d-1ae75c6964c9",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "4f19158e-664b-4a25-aaf0-fccae8b776d6",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/adblock@0.6.0",
+      "type": "library",
+      "name": "adblock",
+      "version": "0.6.0",
+      "purl": "pkg:pypi/adblock@0.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/colorama@0.4.6",
+      "type": "library",
+      "name": "colorama",
+      "version": "0.4.6",
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jinja2@3.1.6",
+      "type": "library",
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@3.0.3",
+      "type": "library",
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "purl": "pkg:pypi/markupsafe@3.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pygments@2.19.2",
+      "type": "library",
+      "name": "Pygments",
+      "version": "2.19.2",
+      "purl": "pkg:pypi/pygments@2.19.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+      "type": "library",
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "4f19158e-664b-4a25-aaf0-fccae8b776d6",
+      "dependsOn": [
+        "pkg:pypi/adblock@0.6.0",
+        "pkg:pypi/colorama@0.4.6",
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markupsafe@3.0.3",
+        "pkg:pypi/pygments@2.19.2",
+        "pkg:pypi/pyyaml@6.0.3"
+      ]
+    },
+    {
+      "ref": "67d31549-ef7a-4523-aa6d-1ae75c6964c9",
+      "dependsOn": [
+        "4f19158e-664b-4a25-aaf0-fccae8b776d6"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/adblock@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/colorama@0.4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pygments@2.19.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.3",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

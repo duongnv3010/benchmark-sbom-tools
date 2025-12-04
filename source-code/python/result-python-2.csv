@@ -1,0 +1,10 @@
+repo_name,tool,gen_elapsed_sec,ntia_score,grade,num_of_component
+ckan,syft,2.243,8.3000,B,172
+ckan,trivy,0.607,8.5000,B,87
+ckan,cdxgen,22.799,8.6000,B,490
+healthchecks,syft,2.674,8.1000,B,34
+healthchecks,trivy,0.413,8.2000,B,17
+healthchecks,cdxgen,7.822,8.6000,B,29
+django-DefectDojo,syft,2.722,8.4000,B,609
+django-DefectDojo,trivy,1.421,8.5000,B,469
+django-DefectDojo,cdxgen,19.596,8.6000,B,548

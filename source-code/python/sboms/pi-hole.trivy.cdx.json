@@ -1,0 +1,173 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:d1a600e7-ca42-47cc-9098-8f6e911349c4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T15:31:33+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "2b81ea07-089d-4ef9-b840-8a13c5f6a209",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "9dfec175-b657-4047-be45-91210e7b3e78",
+      "type": "application",
+      "name": "test/requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-clarity@1.0.1",
+      "type": "library",
+      "name": "pytest-clarity",
+      "version": "1.0.1",
+      "purl": "pkg:pypi/pytest-clarity@1.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-testinfra@10.2.2",
+      "type": "library",
+      "name": "pytest-testinfra",
+      "version": "10.2.2",
+      "purl": "pkg:pypi/pytest-testinfra@10.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-xdist@3.8.0",
+      "type": "library",
+      "name": "pytest-xdist",
+      "version": "3.8.0",
+      "purl": "pkg:pypi/pytest-xdist@3.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest@9.0.1",
+      "type": "library",
+      "name": "pytest",
+      "version": "9.0.1",
+      "purl": "pkg:pypi/pytest@9.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+      "type": "library",
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tox@4.32.0",
+      "type": "library",
+      "name": "tox",
+      "version": "4.32.0",
+      "purl": "pkg:pypi/tox@4.32.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "2b81ea07-089d-4ef9-b840-8a13c5f6a209",
+      "dependsOn": [
+        "9dfec175-b657-4047-be45-91210e7b3e78"
+      ]
+    },
+    {
+      "ref": "9dfec175-b657-4047-be45-91210e7b3e78",
+      "dependsOn": [
+        "pkg:pypi/pytest-clarity@1.0.1",
+        "pkg:pypi/pytest-testinfra@10.2.2",
+        "pkg:pypi/pytest-xdist@3.8.0",
+        "pkg:pypi/pytest@9.0.1",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/tox@4.32.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest-clarity@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-testinfra@10.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-xdist@3.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest@9.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tox@4.32.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,9 @@
+$ trivy fs . --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/bookwyrm.trivy.cdx.json
+exit_code: 0
+elapsed: 0.379 s
+
+=== STDERR ===
+2025-12-04T22:26:27+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-04T22:26:27+07:00	WARN	[pip] Unable to find python `site-packages` directory. License detection is skipped.	err="site-packages directory not found"
+2025-12-04T22:26:27+07:00	INFO	Number of language-specific files	num=1
+

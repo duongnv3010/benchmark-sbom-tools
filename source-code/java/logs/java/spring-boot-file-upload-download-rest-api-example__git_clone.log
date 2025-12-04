@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/callicoder/spring-boot-file-upload-download-rest-api-example /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/spring-boot-file-upload-download-rest-api-example
+exit_code: 0
+elapsed: 1.240 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/spring-boot-file-upload-download-rest-api-example'...
+

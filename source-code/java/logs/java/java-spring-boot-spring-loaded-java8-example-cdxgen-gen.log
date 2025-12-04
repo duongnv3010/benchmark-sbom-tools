@@ -1,0 +1,9 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/spring-boot-spring-loaded-java8-example.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/spring-boot-spring-loaded-java8-example/spring-boot-spring-loaded-java8-example-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 2.574 s
+
+=== STDOUT ===
+/tmp/war-deps-ASPckr did not contain any jars. Try building the project to improve the BOM precision.
+Cleaning up /tmp/war-deps-ASPckr
+
+

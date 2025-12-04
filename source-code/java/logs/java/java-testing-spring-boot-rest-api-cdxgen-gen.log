@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/testing-spring-boot-rest-api.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/testing-spring-boot-rest-api/testing-spring-boot-rest-api-1.0.0-SNAPSHOT.jar
+exit_code: 0
+elapsed: 16.848 s
+
+=== STDOUT ===
+/tmp/war-deps-xzhxuA did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-xzhxuA
+
+

@@ -1,0 +1,8 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/ms-springboot-310-java-17-jakarta-ee-10.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 38.517 s
+
+=== STDOUT ===
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/ms-springboot-310-java-17-jakarta-ee-10/jmeter/jmoutput-2023-06-20-13-27-20/sbadmin2-1.0.7/bower_components/flot
+
+

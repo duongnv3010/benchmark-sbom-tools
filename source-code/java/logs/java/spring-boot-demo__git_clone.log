@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/MaartenSmeets/spring-boot-demo /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/spring-boot-demo
+exit_code: 0
+elapsed: 1.284 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/spring-boot-demo'...
+

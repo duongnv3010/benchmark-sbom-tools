@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/bezkoder/spring-boot-jpa-postgresql /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/spring-boot-jpa-postgresql
+exit_code: 0
+elapsed: 1.330 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/spring-boot-jpa-postgresql'...
+

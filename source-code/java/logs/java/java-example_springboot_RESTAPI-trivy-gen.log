@@ -1,0 +1,8 @@
+$ trivy fs /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/example_springboot_RESTAPI/gs-rest-service-0.1.0.jar --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/example_springboot_RESTAPI.trivy.cdx.json
+exit_code: 0
+elapsed: 0.119 s
+
+=== STDERR ===
+2025-12-04T23:48:12+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-04T23:48:12+07:00	INFO	Number of language-specific files	num=0
+

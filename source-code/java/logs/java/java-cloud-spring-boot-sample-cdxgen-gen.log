@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/cloud-spring-boot-sample.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/cloud-spring-boot-sample/ROOT.jar
+exit_code: 0
+elapsed: 11.501 s
+
+=== STDOUT ===
+/tmp/war-deps-Zp4PRQ did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-Zp4PRQ
+
+

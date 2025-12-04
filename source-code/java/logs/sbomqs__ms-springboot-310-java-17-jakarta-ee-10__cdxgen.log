@@ -1,0 +1,30 @@
+$ sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/ms-springboot-310-java-17-jakarta-ee-10.cdxgen.cdx.json
+exit_code: 0
+elapsed: 0.074 s
+
+=== STDOUT ===
+
+ SBOM Quality Score: 8.6/10.0	 Grade: B	Components: 239 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/ms-springboot-310-java-17-jakarta-ee-10.cdxgen.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 239/239 have name              |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 10.0/10.0 | 239/239 have versions          |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 10.0/10.0 | 239/239 have unique ID         |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 2             |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing legal authors          |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present 2025-12-04T17:07:59Z   |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

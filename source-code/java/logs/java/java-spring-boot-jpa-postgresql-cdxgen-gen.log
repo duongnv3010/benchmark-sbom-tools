@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/spring-boot-jpa-postgresql.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/spring-boot-jpa-postgresql/spring-boot-jpa-postgresql-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 11.343 s
+
+=== STDOUT ===
+/tmp/war-deps-nkkTmK did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-nkkTmK
+
+

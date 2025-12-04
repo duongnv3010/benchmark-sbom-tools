@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/bezkoder/spring-boot-3-rest-api-example /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/spring-boot-3-rest-api-example
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/spring-boot-3-rest-api-example'...
-

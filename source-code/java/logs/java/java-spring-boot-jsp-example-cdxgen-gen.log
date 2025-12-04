@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/spring-boot-jsp-example.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/spring-boot-jsp-example/spring-boot-example-1.0.jar
+exit_code: 0
+elapsed: 8.802 s
+
+=== STDOUT ===
+/tmp/war-deps-7cxaGe did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-7cxaGe
+
+

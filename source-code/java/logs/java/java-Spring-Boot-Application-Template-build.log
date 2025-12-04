@@ -1,0 +1,26 @@
+$ ./mvnw -q -DskipTests package
+exit_code: 1
+elapsed: 40.391 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/Spring-Boot-Application-Template
+[ERROR] COMPILATION ERROR : 
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/Spring-Boot-Application-Template/src/main/java/io/github/anantharajuc/sbat/core_backend/infra/config/ViewConfiguration.java:[7,31] package nz.net.ultraq.thymeleaf does not exist
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/Spring-Boot-Application-Template/src/main/java/io/github/anantharajuc/sbat/core_backend/infra/config/ViewConfiguration.java:[19,16] cannot find symbol
+  symbol:   class LayoutDialect
+  location: class io.github.anantharajuc.sbat.core_backend.infra.config.ViewConfiguration
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project spring-boot-application-template: Compilation failure: Compilation failure: 
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/Spring-Boot-Application-Template/src/main/java/io/github/anantharajuc/sbat/core_backend/infra/config/ViewConfiguration.java:[7,31] package nz.net.ultraq.thymeleaf does not exist
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/Spring-Boot-Application-Template/src/main/java/io/github/anantharajuc/sbat/core_backend/infra/config/ViewConfiguration.java:[19,16] cannot find symbol
+[ERROR]   symbol:   class LayoutDialect
+[ERROR]   location: class io.github.anantharajuc.sbat.core_backend.infra.config.ViewConfiguration
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+

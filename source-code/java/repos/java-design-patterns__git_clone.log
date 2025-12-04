@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/iluwatar/java-design-patterns /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/java-design-patterns
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/java-design-patterns'...
-

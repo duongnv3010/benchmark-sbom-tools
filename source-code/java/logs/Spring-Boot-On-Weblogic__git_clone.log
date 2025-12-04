@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/NajeebArif/Spring-Boot-On-Weblogic /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/Spring-Boot-On-Weblogic
+exit_code: 0
+elapsed: 1.359 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/Spring-Boot-On-Weblogic'...
+

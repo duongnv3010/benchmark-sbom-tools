@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/mscharhag/JPA-Specifications-Example /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/JPA-Specifications-Example
+exit_code: 0
+elapsed: 1.197 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/JPA-Specifications-Example'...
+

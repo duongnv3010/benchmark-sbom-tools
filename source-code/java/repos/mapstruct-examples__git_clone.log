@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/mapstruct/mapstruct-examples /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct-examples
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/mapstruct-examples'...
-

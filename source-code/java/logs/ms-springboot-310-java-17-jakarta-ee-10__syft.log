@@ -1,0 +1,7 @@
+$ syft dir:. -o cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/ms-springboot-310-java-17-jakarta-ee-10.syft.cdx.json
+exit_code: 0
+elapsed: 2.193 s
+
+=== STDERR ===
+[0000]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+

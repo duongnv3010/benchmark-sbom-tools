@@ -1,0 +1,34 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/JPA-Specifications-Example.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 5.588 s
+
+=== STDOUT ===
+[[1;34mINFO[m] Scanning for projects...
+Downloading from maven-default-http-blocker: http://0.0.0.0/org/springframework/boot/spring-boot-starter-parent/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+[[1;33mWARNING[m] Could not transfer metadata org.springframework.boot:spring-boot-starter-parent:0.5.0.BUILD-SNAPSHOT/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): transfer failed for http://0.0.0.0/org/springframework/boot/spring-boot-starter-parent/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 76, column 12
+[FATAL] Non-resolvable parent POM for com.mscharhag:specifications:0.0.1-SNAPSHOT: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:0.5.0.BUILD-SNAPSHOT from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [spring-snapshots (http://repo.springsource.org/snapshot, default, releases+snapshots), spring-milestones (http://repo.springsource.org/milestone, default, releases)] and 'parent.relativePath' points at wrong local POM @ line 13, column 10
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.mscharhag:specifications:0.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/JPA-Specifications-Example/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for com.mscharhag:specifications:0.0.1-SNAPSHOT: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:0.5.0.BUILD-SNAPSHOT from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [spring-snapshots (http://repo.springsource.org/snapshot, default, releases+snapshots), spring-milestones (http://repo.springsource.org/milestone, default, releases)] and 'parent.relativePath' points at wrong local POM @ line 13, column 10 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+1. Check if the pom.xml contains valid settings for parent and modules. Some projects can be built only from a specific directory.
+2. Private dependencies cannot be downloaded: Check if any additional arguments must be passed to maven and set them via MVN_ARGS environment variable.
+3. Check if all required environment variables including any maven profile arguments are passed correctly to this tool.
+
+Falling back to parsing pom.xml files. Only direct dependencies would get included!
+
+
+=== STDERR ===
+Multiple errors occurred while building this project with maven. The SBOM is therefore incomplete!
+

@@ -1,257 +1,310 @@
 #!/usr/bin/env python3
 import argparse
 import csv
+import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
-from typing import List, Tuple, Optional
+from pathlib import Path
+from typing import List, Tuple
 
+# ==============================
+# Cấu hình cơ bản
+# ==============================
+DEFAULT_REPO_LIST = "repo-java.txt"
+DEFAULT_OUTPUT = "result-java-2.csv"
+REQUIRED_TOOLS = ["git", "syft", "trivy", "cdxgen", "sbomqs"]
 TOOLS = ["syft", "trivy", "cdxgen"]
 
 
-def run_cmd(cmd: List[str], cwd: Optional[str] = None) -> Tuple[int, float, str, str]:
+# ==============================
+# Hàm tiện ích
+# ==============================
+def check_tools():
+    missing = [t for t in REQUIRED_TOOLS if shutil.which(t) is None]
+    if missing:
+        print("[FATAL] Thiếu các tool sau trong PATH:", ", ".join(missing))
+        sys.exit(1)
+
+
+def run_cmd(cmd, cwd=None, env=None):
     """
-    Chạy lệnh và trả về (exit_code, elapsed_sec, stdout, stderr)
+    Chạy lệnh, trả về dict giống benchmark-python:
+      {
+        ok, exit_code, stdout, stderr, elapsed
+      }
     """
     start = time.time()
     try:
-        proc = subprocess.Popen(
+        p = subprocess.run(
             cmd,
             cwd=cwd,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
+            env=env,
             text=True,
+            capture_output=True,
         )
-        out, err = proc.communicate()
         elapsed = time.time() - start
-        return proc.returncode, elapsed, out, err
+        return {
+            "ok": p.returncode == 0,
+            "exit_code": p.returncode,
+            "stdout": p.stdout,
+            "stderr": p.stderr,
+            "elapsed": elapsed,
+        }
     except FileNotFoundError as e:
         elapsed = time.time() - start
-        return 127, elapsed, "", str(e)
+        return {
+            "ok": False,
+            "exit_code": -1,
+            "stdout": "",
+            "stderr": f"FileNotFoundError: {e}",
+            "elapsed": elapsed,
+        }
 
 
-def write_log(log_path: str, cmd: List[str], exit_code: int, stdout: str, stderr: str) -> None:
-    os.makedirs(os.path.dirname(log_path), exist_ok=True)
-    with open(log_path, "w", encoding="utf-8", errors="ignore") as f:
-        f.write("CMD: " + " ".join(cmd) + "\n")
-        f.write(f"EXIT_CODE: {exit_code}\n\n")
-        if stdout:
-            f.write("==== STDOUT ====\n")
-            f.write(stdout)
+def write_log(log_path: Path, cmd, res):
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with log_path.open("w", encoding="utf-8") as f:
+        f.write(f"$ {' '.join(cmd)}\n")
+        f.write(f"exit_code: {res['exit_code']}\n")
+        f.write(f"elapsed: {res['elapsed']:.3f} s\n\n")
+        if res["stdout"]:
+            f.write("=== STDOUT ===\n")
+            f.write(res["stdout"])
             f.write("\n\n")
-        if stderr:
-            f.write("==== STDERR ====\n")
-            f.write(stderr)
+        if res["stderr"]:
+            f.write("=== STDERR ===\n")
+            f.write(res["stderr"])
             f.write("\n")
 
 
-def derive_repo_name(url: str) -> str:
-    """
-    Lấy tên repo từ URL Git.
-    Ví dụ:
-      https://github.com/gothinkster/spring-boot-realworld-example-app.git
-      -> spring-boot-realworld-example-app
-    """
-    url = url.strip()
-    if url.endswith("/"):
-        url = url[:-1]
-    if url.endswith(".git"):
-        url = url[:-4]
-    return url.split("/")[-1]
+# ==============================
+# Repo list parsing
+# ==============================
+def repo_name_from_url(url: str) -> str:
+    name = url.rstrip("/").split("/")[-1]
+    if name.endswith(".git"):
+        name = name[:-4]
+    return name
 
 
-def parse_repo_list(path: str) -> List[Tuple[str, str]]:
+def load_repos(repo_list_path: Path) -> List[Tuple[str, str]]:
     """
     File repo-java.txt:
-      - Mỗi dòng: 1 URL git
-      - Bỏ qua dòng trống và dòng bắt đầu bằng '#'
-    Trả về list (repo_name, url)
+      - Mỗi dòng:
+          + url
+          + hoặc: name,url
+      - Bỏ qua dòng trống & dòng bắt đầu bằng '#'
+    Trả về list (repo_name, repo_url)
     """
+    if not repo_list_path.is_file():
+        print(f"[FATAL] Không tìm thấy file repo list: {repo_list_path}")
+        sys.exit(1)
+
     repos: List[Tuple[str, str]] = []
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
+    with repo_list_path.open("r", encoding="utf-8") as f:
+        for raw in f:
+            line = raw.strip()
             if not line or line.startswith("#"):
                 continue
-            url = line
-            name = derive_repo_name(url)
+
+            if "," in line:
+                name_part, url_part = line.split(",", 1)
+                name = name_part.strip()
+                url = url_part.strip()
+                if not name:
+                    name = repo_name_from_url(url)
+            else:
+                url = line
+                name = repo_name_from_url(url)
+
+            if not url:
+                continue
             repos.append((name, url))
+
+    if not repos:
+        print(f"[FATAL] File {repo_list_path} không có repo hợp lệ.")
+        sys.exit(1)
     return repos
 
 
-def clone_repo(name: str, url: str, repos_dir: str) -> bool:
-    repo_dir = os.path.join(repos_dir, name)
-    if os.path.isdir(os.path.join(repo_dir, ".git")):
+def clone_repo(name: str, url: str, repos_dir: Path, logs_dir: Path) -> bool:
+    repo_dir = repos_dir / name
+    if (repo_dir / ".git").is_dir():
         print(f"  -> Repo đã tồn tại, bỏ qua bước clone.")
         return True
 
-    os.makedirs(repos_dir, exist_ok=True)
+    repos_dir.mkdir(parents=True, exist_ok=True)
     print(f"  -> Cloning vào {repo_dir} ...")
-    cmd = ["git", "clone", "--depth", "1", url, repo_dir]
-    exit_code, elapsed, out, err = run_cmd(cmd)
-    log_path = os.path.join(repos_dir, f"{name}__git_clone.log")
-    write_log(log_path, cmd, exit_code, out, err)
-    if exit_code != 0:
-        print(f"    [ERROR] git clone thất bại (exit={exit_code}, {elapsed:.2f}s)")
+    cmd = ["git", "clone", "--depth", "1", url, str(repo_dir)]
+    res = run_cmd(cmd, cwd=repos_dir)
+    write_log(logs_dir / f"{name}__git_clone.log", cmd, res)
+
+    if not res["ok"]:
+        print(f"     - Clone FAILED (exit={res['exit_code']}, {res['elapsed']:.2f}s)")
         return False
+
     return True
 
 
-def gen_sbom(
-    tool: str,
-    repo_name: str,
-    repo_dir: str,
-    sboms_dir: str,
-    logs_dir: str,
-) -> Tuple[bool, float, str]:
+# ==============================
+# Đếm components trong CycloneDX JSON (fallback)
+# ==============================
+def count_components_in_cyclonedx(sbom_path: Path):
+    try:
+        with sbom_path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return None
+
+    components = None
+    if isinstance(data, dict):
+        if isinstance(data.get("components"), list):
+            components = data["components"]
+        elif isinstance(data.get("bom"), dict) and isinstance(
+            data["bom"].get("components"), list
+        ):
+            components = data["bom"]["components"]
+
+    if components is None:
+        return None
+    return len(components)
+
+
+# ==============================
+# Generate SBOM (scan source)
+# ==============================
+def gen_sbom_syft(repo_dir: Path, sbom_path: Path, logs_dir: Path):
+    cmd = [
+        "syft",
+        "dir:.",
+        "-o",
+        f"cyclonedx-json={sbom_path}",
+    ]
+    res = run_cmd(cmd, cwd=repo_dir)
+    write_log(logs_dir / f"{repo_dir.name}__syft.log", cmd, res)
+    return res
+
+
+def gen_sbom_trivy(repo_dir: Path, sbom_path: Path, logs_dir: Path):
+    env = os.environ.copy()
+    env.setdefault("TRIVY_NO_PROGRESS", "1")
+    cmd = [
+        "trivy",
+        "fs",
+        ".",
+        "--format",
+        "cyclonedx",
+        "--output",
+        str(sbom_path),
+    ]
+    res = run_cmd(cmd, cwd=repo_dir, env=env)
+    write_log(logs_dir / f"{repo_dir.name}__trivy.log", cmd, res)
+    return res
+
+
+def gen_sbom_cdxgen(repo_dir: Path, sbom_path: Path, logs_dir: Path):
+    cmd = [
+        "cdxgen",
+        "-r",
+        "-o",
+        str(sbom_path),
+        ".",
+    ]
+    res = run_cmd(cmd, cwd=repo_dir)
+    write_log(logs_dir / f"{repo_dir.name}__cdxgen.log", cmd, res)
+    return res
+
+
+# ==============================
+# sbomqs scoring (NTIA profile)
+# ==============================
+def parse_sbomqs_profile_ntia(stdout: str):
     """
-    Sinh SBOM cho 1 repo + 1 tool.
-    Trả về (success, elapsed_sec, sbom_path)
+    Parse từ output dạng:
+      SBOM Quality Score: 8.5/10.0  Grade: B Components: 224 ...
+    Trả về (score, grade, num_components)
     """
-    os.makedirs(sboms_dir, exist_ok=True)
-    sbom_path = os.path.join(sboms_dir, f"{repo_name}.{tool}.cdx.json")
-
-    if tool == "syft":
-        # Phân tích source code bằng syft
-        cmd = [
-            "syft",
-            "scan",
-            "dir:.",
-            "-o",
-            f"cyclonedx-json={sbom_path}",
-        ]
-    elif tool == "trivy":
-        # Trivy fs -> CycloneDX
-        cmd = [
-            "trivy",
-            "fs",
-            "--quiet",
-            "--format",
-            "cyclonedx",
-            "--output",
-            sbom_path,
-            ".",
-        ]
-    elif tool == "cdxgen":
-        # Cdxgen cho Java (Maven / Gradle), ưu tiên Maven
-        cmd = [
-            "cdxgen",
-            "-r",
-            "-o",
-            sbom_path,
-            ".",
-        ]
-    else:
-        raise ValueError(f"Tool không hỗ trợ: {tool}")
-
-    log_path = os.path.join(logs_dir, f"{repo_name}__{tool}.gen.log")
-    exit_code, elapsed, out, err = run_cmd(cmd, cwd=repo_dir)
-    write_log(log_path, cmd, exit_code, out, err)
-
-    if exit_code != 0:
-        print(f"     - Gen SBOM: FAILED ({elapsed:.2f}s, exit={exit_code})")
-        return False, elapsed, sbom_path
-
-    print(f"     - Gen SBOM: OK ({elapsed:.2f}s, exit={exit_code})")
-    return True, elapsed, sbom_path
-
-
-def parse_sbomqs_ntia(stdout: str) -> Tuple[Optional[float], Optional[str], Optional[int]]:
-    """
-    Parse dòng tổng kết của sbomqs:
-    SBOM Quality Score: 8.5/10.0  Grade: B Components: 224 ...
-    """
-    pattern = r"SBOM Quality Score:\s*([0-9.]+)/10\.0\s*Grade:\s*([A-Za-z\+\-]+)\s*Components:\s*([0-9]+)"
-    m = re.search(pattern, stdout)
-    if not m:
+    if not stdout:
         return None, None, None
-    score_str, grade, comps_str = m.groups()
-    try:
-        score = float(score_str)
-    except ValueError:
-        score = None
-    try:
-        num_components = int(comps_str)
-    except ValueError:
-        num_components = None
+
+    line = None
+    for l in stdout.splitlines():
+        if "SBOM Quality Score" in l:
+            line = l
+            break
+    if not line:
+        lines = stdout.strip().splitlines()
+        if not lines:
+            return None, None, None
+        line = lines[-1]
+
+    m_score = re.search(r"SBOM Quality Score:\s*([\d.]+)/10\.0", line)
+    score = float(m_score.group(1)) if m_score else None
+
+    m_grade = re.search(r"Grade:\s*([A-F][+-]?)", line)
+    grade = m_grade.group(1) if m_grade else None
+
+    m_comp = re.search(r"Components:\s*(\d+)", line)
+    num_components = int(m_comp.group(1)) if m_comp else None
+
     return score, grade, num_components
 
 
-def score_sbom_ntia(
-    sbom_path: str,
-    repo_name: str,
-    tool: str,
-    logs_dir: str,
-) -> Tuple[Optional[float], Optional[str], Optional[int], int, float]:
-    """
-    Chấm điểm SBOM bằng sbomqs profile ntia.
-    Trả về: (score, grade, num_components, exit_code, elapsed)
-    """
+def score_sbom_ntia(sbom_path: Path, logs_dir: Path, repo_name: str, tool: str):
     cmd = [
         "sbomqs",
         "score",
         "--profile",
         "ntia",
-        sbom_path,
+        str(sbom_path),
     ]
-    log_path = os.path.join(logs_dir, f"{repo_name}__{tool}.sbomqs.log")
+    res = run_cmd(cmd)
+    log_name = f"sbomqs__{repo_name}__{tool}.log"
+    write_log(logs_dir / log_name, cmd, res)
 
-    exit_code, elapsed, out, err = run_cmd(cmd)
-    write_log(log_path, cmd, exit_code, out, err)
+    if not res["ok"]:
+        print(f"    [ERROR] sbomqs failed (exit={res['exit_code']})", file=sys.stderr)
+        return None, None, None, res
 
-    if exit_code != 0:
-        print(f"    [ERROR] sbomqs failed (exit={exit_code})")
-        return None, None, None, exit_code, elapsed
-
-    score, grade, num_components = parse_sbomqs_ntia(out)
+    score, grade, num_components = parse_sbomqs_profile_ntia(res["stdout"])
     if score is None:
-        # Thử luôn stderr (phòng trường hợp output chính lại ghi vào stderr)
-        score, grade, num_components = parse_sbomqs_ntia(err)
-
-    if score is None:
-        print("    [WARN] Không parse được SBOM Quality Score từ output của sbomqs.")
+        print("    [WARN] Không parse được điểm sbomqs, xem log để debug", file=sys.stderr)
     else:
         print(
-            f"     - sbomqs NTIA: OK (score={score}, grade={grade}, components={num_components}, {elapsed:.2f}s, exit={exit_code})"
+            f"    -> sbomqs NTIA: score={score}, grade={grade}, components={num_components}"
         )
-    return score, grade, num_components, exit_code, elapsed
+    return score, grade, num_components, res
 
 
-def main() -> None:
+# ==============================
+# Main
+# ==============================
+def main():
     parser = argparse.ArgumentParser(
-        description="Benchmark SBOM tools (Syft/Trivy/Cdxgen) trên các repo Java (Maven) dùng sbomqs profile ntia"
+        description="Benchmark SBOM (Syft, Trivy, Cdxgen) trên Java source repos, chấm sbomqs --profile ntia."
     )
     parser.add_argument(
         "--repo-list",
-        default="repo-java.txt",
-        help="File danh sách repo (mặc định: repo-java.txt)",
+        default=DEFAULT_REPO_LIST,
+        help=f"File danh sách repo (mặc định: {DEFAULT_REPO_LIST}, mỗi dòng url hoặc name,url).",
     )
     parser.add_argument(
         "--output",
-        default="result-java.csv",
-        help="File CSV output (mặc định: result-java.csv)",
+        default=DEFAULT_OUTPUT,
+        help=f"File CSV kết quả (mặc định: {DEFAULT_OUTPUT}).",
     )
-    parser.add_argument(
-        "--base-dir",
-        default=".",
-        help="Thư mục gốc chạy benchmark (mặc định: .)",
-    )
-
     args = parser.parse_args()
 
-    base_dir = os.path.abspath(args.base_dir)
-    repo_list_path = os.path.abspath(os.path.join(base_dir, args.repo_list))
-    output_csv = os.path.abspath(os.path.join(base_dir, args.output))
-
-    repos_dir = os.path.join(base_dir, "repos")
-    sboms_dir = os.path.join(base_dir, "sboms")
-    logs_dir = os.path.join(base_dir, "logs")
-
-    os.makedirs(repos_dir, exist_ok=True)
-    os.makedirs(sboms_dir, exist_ok=True)
-    os.makedirs(logs_dir, exist_ok=True)
+    base_dir = Path(__file__).resolve().parent
+    repo_list_path = base_dir / args.repo_list
+    output_csv = base_dir / args.output
+    repos_dir = base_dir / "repos"
+    sboms_dir = base_dir / "sboms"
+    logs_dir = base_dir / "logs"
 
     print(f"[INFO] Base dir        : {base_dir}")
     print(f"[INFO] Repo list file  : {repo_list_path}")
@@ -261,14 +314,12 @@ def main() -> None:
     print(f"[INFO] Logs dir        : {logs_dir}")
     print()
 
-    if not os.path.isfile(repo_list_path):
-        print(f"[ERROR] Không tìm thấy file repo list: {repo_list_path}")
-        sys.exit(1)
+    check_tools()
+    repos = load_repos(repo_list_path)
 
-    repos = parse_repo_list(repo_list_path)
-    if not repos:
-        print("[ERROR] Repo list trống hoặc không hợp lệ.")
-        sys.exit(1)
+    repos_dir.mkdir(parents=True, exist_ok=True)
+    sboms_dir.mkdir(parents=True, exist_ok=True)
+    logs_dir.mkdir(parents=True, exist_ok=True)
 
     fieldnames = [
         "repo_name",
@@ -279,71 +330,88 @@ def main() -> None:
         "num_of_component",
     ]
 
-    with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    with output_csv.open("w", newline="", encoding="utf-8") as fcsv:
+        writer = csv.DictWriter(fcsv, fieldnames=fieldnames)
         writer.writeheader()
 
         total = len(repos)
-        for idx, (name, url) in enumerate(repos, start=1):
+        for idx, (repo_name, repo_url) in enumerate(repos, start=1):
             print("=" * 80)
-            print(f"[{idx}/{total}] Repo: {name} ({url})")
+            print(f"[{idx}/{len(repos)}] Repo: {repo_name} ({repo_url})")
 
-            # Clone
-            ok = clone_repo(name, url, repos_dir)
-            if not ok:
-                print("  -> Bỏ qua repo do clone thất bại.")
-                continue
+            repo_dir = repos_dir / repo_name
 
-            repo_dir = os.path.join(repos_dir, name)
+            # Clone nếu chưa có
+            if not repo_dir.exists():
+                print(f"  -> Cloning vào {repo_dir} ...")
+                cmd = ["git", "clone", "--depth", "1", repo_url, str(repo_dir)]
+                res_clone = run_cmd(cmd, cwd=repos_dir)
+                write_log(logs_dir / f"{repo_name}__git_clone.log", cmd, res_clone)
+                if not res_clone["ok"]:
+                    print("  [ERROR] Clone thất bại, bỏ qua repo này.")
+                    for tool in TOOLS:
+                        writer.writerow({
+                            "repo_name": repo_name,
+                            "tool": tool,
+                            "gen_elapsed_sec": "",
+                            "ntia_score": "",
+                            "grade": "",
+                            "num_of_component": "",
+                        })
+                    continue
+            else:
+                print("  -> Repo đã tồn tại, bỏ qua bước clone.")
 
+            # Cho từng tool
             for tool in TOOLS:
                 print(f"  -> Tool = {tool}")
-                success, gen_elapsed, sbom_path = gen_sbom(
-                    tool, name, repo_dir, sboms_dir, logs_dir
-                )
+                sbom_path = sboms_dir / f"{repo_name}.{tool}.cdx.json"
 
-                if not success or not os.path.isfile(sbom_path):
-                    writer.writerow(
-                        {
-                            "repo_name": name,
-                            "tool": tool,
-                            "gen_elapsed_sec": f"{gen_elapsed:.2f}",
-                            "ntia_score": "",
-                            "grade": "",
-                            "num_of_component": "",
-                        }
-                    )
-                    continue
-
-                score, grade, num_components, exit_code, sbomqs_elapsed = score_sbom_ntia(
-                    sbom_path, name, tool, logs_dir
-                )
-
-                if score is None:
-                    writer.writerow(
-                        {
-                            "repo_name": name,
-                            "tool": tool,
-                            "gen_elapsed_sec": f"{gen_elapsed:.2f}",
-                            "ntia_score": "",
-                            "grade": "",
-                            "num_of_component": "",
-                        }
-                    )
+                # 1. Gen SBOM từ source
+                if tool == "syft":
+                    res_gen = gen_sbom_syft(repo_dir, sbom_path, logs_dir)
+                elif tool == "trivy":
+                    res_gen = gen_sbom_trivy(repo_dir, sbom_path, logs_dir)
                 else:
-                    writer.writerow(
-                        {
-                            "repo_name": name,
-                            "tool": tool,
-                            "gen_elapsed_sec": f"{gen_elapsed:.2f}",
-                            "ntia_score": f"{score}",
-                            "grade": grade,
-                            "num_of_component": num_components,
-                        }
-                    )
+                    res_gen = gen_sbom_cdxgen(repo_dir, sbom_path, logs_dir)
 
-    print("=" * 80)
-    print(f"[DONE] Benchmark hoàn thành. Kết quả nằm trong: {output_csv}")
+                print(
+                    f"     - Gen SBOM: {'OK' if res_gen['ok'] else 'FAILED'} "
+                    f"({res_gen['elapsed']:.2f}s, exit={res_gen['exit_code']})"
+                )
+
+                gen_elapsed_sec = f"{res_gen['elapsed']:.3f}"
+                ntia_score = ""
+                grade = ""
+                num_of_component = ""
+
+                if res_gen["ok"] and sbom_path.is_file():
+                    # 2. Chấm điểm sbomqs --profile ntia
+                    score, g, comps, res_score = score_sbom_ntia(sbom_path, logs_dir, repo_name, tool)
+                    if score is not None:
+                        ntia_score = f"{score:.4f}"
+                    if g is not None:
+                        grade = g
+                    if comps is not None:
+                        num_of_component = comps
+                    else:
+                        num = count_components_in_cyclonedx(sbom_path)
+                        if num is not None:
+                            num_of_component = num
+                else:
+                    print("     - Bỏ qua sbomqs vì gen SBOM thất bại hoặc file không tồn tại.")
+
+                writer.writerow({
+                    "repo_name": repo_name,
+                    "tool": tool,
+                    "gen_elapsed_sec": gen_elapsed_sec if res_gen["ok"] else "",
+                    "ntia_score": ntia_score,
+                    "grade": grade,
+                    "num_of_component": num_of_component,
+                })
+
+    print()
+    print(f"[DONE] Đã ghi kết quả vào: {output_csv}")
 
 
 if __name__ == "__main__":

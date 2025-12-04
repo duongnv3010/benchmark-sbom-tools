@@ -1,0 +1,9 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/spring-boot-rest-api-postgresql.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/spring-boot-rest-api-postgresql/spring-boot2-rest-api-postgresql-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 1.463 s
+
+=== STDOUT ===
+/tmp/war-deps-08m5ls did not contain any jars. Try building the project to improve the BOM precision.
+Cleaning up /tmp/war-deps-08m5ls
+
+

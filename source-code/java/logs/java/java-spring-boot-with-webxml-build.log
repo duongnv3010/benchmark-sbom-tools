@@ -1,0 +1,13 @@
+$ ./mvnw -q -DskipTests package
+exit_code: 0
+elapsed: 24.723 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/spring-boot-with-webxml
+Downloading https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.5.3/apache-maven-3.5.3-bin.zip
+...............................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /home/duongnv48/.m2/wrapper/dists/apache-maven-3.5.3-bin/2c22a6s60afpuloj4v181qvild/apache-maven-3.5.3-bin.zip to /home/duongnv48/.m2/wrapper/dists/apache-maven-3.5.3-bin/2c22a6s60afpuloj4v181qvild
+Set executable permissions for: /home/duongnv48/.m2/wrapper/dists/apache-maven-3.5.3-bin/2c22a6s60afpuloj4v181qvild/apache-maven-3.5.3/bin/mvn
+
+

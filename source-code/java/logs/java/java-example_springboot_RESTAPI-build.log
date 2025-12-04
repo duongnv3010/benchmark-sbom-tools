@@ -1,0 +1,4 @@
+$ mvn -q -DskipTests package
+exit_code: 0
+elapsed: 28.556 s
+

@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/AtomicJar/spring-ai-demo /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/spring-ai-demo
+exit_code: 0
+elapsed: 1.246 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/spring-ai-demo'...
+

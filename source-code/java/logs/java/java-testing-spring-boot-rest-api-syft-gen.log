@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/testing-spring-boot-rest-api/testing-spring-boot-rest-api-1.0.0-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/testing-spring-boot-rest-api.syft.cdx.json
+exit_code: 0
+elapsed: 4.541 s
+

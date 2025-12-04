@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/barbararochazup/adrs-archunit-sample /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/adrs-archunit-sample
+exit_code: 0
+elapsed: 4.096 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/adrs-archunit-sample'...
+

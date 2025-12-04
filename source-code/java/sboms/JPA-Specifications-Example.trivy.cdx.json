@@ -1,0 +1,346 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:82be22a8-4c2d-4425-b16a-eb645753330c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T17:09:05+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "1c96ed4e-3174-4132-8207-9e21ee81285a",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "12cd19c9-8443-4167-9d2c-3d4a1f7a5fa2",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.h2database/h2",
+      "type": "library",
+      "group": "com.h2database",
+      "name": "h2",
+      "purl": "pkg:maven/com.h2database/h2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.h2database:h2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.mscharhag/specifications@0.0.1-SNAPSHOT",
+      "type": "library",
+      "group": "com.mscharhag",
+      "name": "specifications",
+      "version": "0.0.1-SNAPSHOT",
+      "purl": "pkg:maven/com.mscharhag/specifications@0.0.1-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.mscharhag:specifications:0.0.1-SNAPSHOT"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-dbcp/commons-dbcp",
+      "type": "library",
+      "group": "commons-dbcp",
+      "name": "commons-dbcp",
+      "purl": "pkg:maven/commons-dbcp/commons-dbcp",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "commons-dbcp:commons-dbcp"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/joda-time/joda-time",
+      "type": "library",
+      "group": "joda-time",
+      "name": "joda-time",
+      "purl": "pkg:maven/joda-time/joda-time",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "joda-time:joda-time"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hibernate/hibernate-jpamodelgen@4.3.0.CR2",
+      "type": "library",
+      "group": "org.hibernate",
+      "name": "hibernate-jpamodelgen",
+      "version": "4.3.0.CR2",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hibernate/hibernate-jpamodelgen@4.3.0.CR2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.hibernate:hibernate-jpamodelgen:4.3.0.CR2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jadira.usertype/usertype.core@3.0.0.CR1",
+      "type": "library",
+      "group": "org.jadira.usertype",
+      "name": "usertype.core",
+      "version": "3.0.0.CR1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jadira.usertype/usertype.core@3.0.0.CR1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jadira.usertype:usertype.core:3.0.0.CR1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jadira.usertype/usertype.spi@3.0.0.CR1",
+      "type": "library",
+      "group": "org.jadira.usertype",
+      "name": "usertype.spi",
+      "version": "3.0.0.CR1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jadira.usertype/usertype.spi@3.0.0.CR1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jadira.usertype:usertype.spi:3.0.0.CR1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging-annotations@1.2.0.Beta1",
+      "type": "library",
+      "group": "org.jboss.logging",
+      "name": "jboss-logging-annotations",
+      "version": "1.2.0.Beta1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging-annotations@1.2.0.Beta1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging@3.1.3.GA",
+      "type": "library",
+      "group": "org.jboss.logging",
+      "name": "jboss-logging",
+      "version": "3.1.3.GA",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.1.3.GA",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jboss.logging:jboss-logging:3.1.3.GA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-data-jpa",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework.boot:spring-boot-starter-data-jpa"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-orm",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-orm",
+      "purl": "pkg:maven/org.springframework/spring-orm",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.springframework:spring-orm"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "12cd19c9-8443-4167-9d2c-3d4a1f7a5fa2",
+      "dependsOn": [
+        "pkg:maven/com.mscharhag/specifications@0.0.1-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "1c96ed4e-3174-4132-8207-9e21ee81285a",
+      "dependsOn": [
+        "12cd19c9-8443-4167-9d2c-3d4a1f7a5fa2"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.h2database/h2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.mscharhag/specifications@0.0.1-SNAPSHOT",
+      "dependsOn": [
+        "pkg:maven/org.hibernate/hibernate-jpamodelgen@4.3.0.CR2",
+        "pkg:maven/org.jadira.usertype/usertype.core@3.0.0.CR1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-dbcp/commons-dbcp",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/joda-time/joda-time",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hibernate/hibernate-jpamodelgen@4.3.0.CR2",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging-annotations@1.2.0.Beta1",
+        "pkg:maven/org.jboss.logging/jboss-logging@3.1.3.GA"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jadira.usertype/usertype.core@3.0.0.CR1",
+      "dependsOn": [
+        "pkg:maven/org.jadira.usertype/usertype.spi@3.0.0.CR1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jadira.usertype/usertype.spi@3.0.0.CR1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging-annotations@1.2.0.Beta1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging@3.1.3.GA",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-orm",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

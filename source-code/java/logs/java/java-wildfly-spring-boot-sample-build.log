@@ -1,0 +1,234 @@
+$ mvn -q -DskipTests package
+exit_code: 1
+elapsed: 24.868 s
+
+=== STDOUT ===
+[[1;33mWARNING[m] Error injecting: org.apache.maven.plugin.war.WarMojo
+[1;31mcom.google.inject.ProvisionException[m: [1;31mUnable to provision, see the following errors:
+
+1) Error injecting constructor, java.lang.ExceptionInInitializerError
+  at org.apache.maven.plugin.war.WarMojo.<init>(Unknown Source)
+  while locating org.apache.maven.plugin.war.WarMojo
+
+1 error[m
+    [1mat[m com.google.inject.internal.InternalProvisionException.toProvisionException ([1mInternalProvisionException.java:226[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1097[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getInstance ([1mInjectorImpl.java:1131[m)
+    [1mat[m org.eclipse.sisu.space.AbstractDeferredClass.get ([1mAbstractDeferredClass.java:48[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.provision ([1mProviderInternalFactory.java:85[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.provision ([1mInternalFactoryToInitializableAdapter.java:57[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory$1.call ([1mProviderInternalFactory.java:66[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:112[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:127[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:61[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:47[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1094[m)
+    [1mat[m org.eclipse.sisu.inject.Guice4$1.get ([1mGuice4.java:162[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:263[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:255[m)
+    [1mat[m org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo ([1mDefaultMavenPluginManager.java:520[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:124[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:370[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:351[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:215[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:171[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:163[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:298[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:960[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:293[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:196[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[1mCaused by[m: java.lang.ExceptionInInitializerError
+    [1mat[m com.thoughtworks.xstream.XStream.setupConverters ([1mXStream.java:679[m)
+    [1mat[m com.thoughtworks.xstream.XStream.<init> ([1mXStream.java:456[m)
+    [1mat[m com.thoughtworks.xstream.XStream.<init> ([1mXStream.java:381[m)
+    [1mat[m com.thoughtworks.xstream.XStream.<init> ([1mXStream.java:356[m)
+    [1mat[m org.apache.maven.plugin.war.util.WebappStructureSerializer.<clinit> ([1mWebappStructureSerializer.java:47[m)
+    [1mat[m org.apache.maven.plugin.war.AbstractWarMojo.<init> ([1mAbstractWarMojo.java:328[m)
+    [1mat[m org.apache.maven.plugin.war.WarMojo.<init> ([1mWarMojo.java:56[m)
+    [1mat[m jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance ([1mNativeConstructorAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance ([1mDelegatingConstructorAccessorImpl.java:45[m)
+    [1mat[m java.lang.reflect.Constructor.newInstanceWithCaller ([1mConstructor.java:500[m)
+    [1mat[m java.lang.reflect.Constructor.newInstance ([1mConstructor.java:481[m)
+    [1mat[m com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance ([1mDefaultConstructionProxyFactory.java:126[m)
+    [1mat[m com.google.inject.internal.ConstructorInjector.provision ([1mConstructorInjector.java:114[m)
+    [1mat[m com.google.inject.internal.ConstructorInjector.access$000 ([1mConstructorInjector.java:32[m)
+    [1mat[m com.google.inject.internal.ConstructorInjector$1.call ([1mConstructorInjector.java:98[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:112[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:127[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ConstructorInjector.construct ([1mConstructorInjector.java:93[m)
+    [1mat[m com.google.inject.internal.ConstructorBindingImpl$Factory.get ([1mConstructorBindingImpl.java:306[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1094[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getInstance ([1mInjectorImpl.java:1131[m)
+    [1mat[m org.eclipse.sisu.space.AbstractDeferredClass.get ([1mAbstractDeferredClass.java:48[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.provision ([1mProviderInternalFactory.java:85[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.provision ([1mInternalFactoryToInitializableAdapter.java:57[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory$1.call ([1mProviderInternalFactory.java:66[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:112[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:127[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:61[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:47[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1094[m)
+    [1mat[m org.eclipse.sisu.inject.Guice4$1.get ([1mGuice4.java:162[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:263[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:255[m)
+    [1mat[m org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo ([1mDefaultMavenPluginManager.java:520[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:124[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:370[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:351[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:215[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:171[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:163[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:298[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:960[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:293[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:196[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[1mCaused by[m: java.lang.reflect.InaccessibleObjectException: [1;31mUnable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @756808cc[m
+    [1mat[m java.lang.reflect.AccessibleObject.checkCanSetAccessible ([1mAccessibleObject.java:354[m)
+    [1mat[m java.lang.reflect.AccessibleObject.checkCanSetAccessible ([1mAccessibleObject.java:297[m)
+    [1mat[m java.lang.reflect.Field.checkCanSetAccessible ([1mField.java:178[m)
+    [1mat[m java.lang.reflect.Field.setAccessible ([1mField.java:172[m)
+    [1mat[m com.thoughtworks.xstream.converters.collections.TreeMapConverter.<clinit> ([1mTreeMapConverter.java:59[m)
+    [1mat[m com.thoughtworks.xstream.XStream.setupConverters ([1mXStream.java:679[m)
+    [1mat[m com.thoughtworks.xstream.XStream.<init> ([1mXStream.java:456[m)
+    [1mat[m com.thoughtworks.xstream.XStream.<init> ([1mXStream.java:381[m)
+    [1mat[m com.thoughtworks.xstream.XStream.<init> ([1mXStream.java:356[m)
+    [1mat[m org.apache.maven.plugin.war.util.WebappStructureSerializer.<clinit> ([1mWebappStructureSerializer.java:47[m)
+    [1mat[m org.apache.maven.plugin.war.AbstractWarMojo.<init> ([1mAbstractWarMojo.java:328[m)
+    [1mat[m org.apache.maven.plugin.war.WarMojo.<init> ([1mWarMojo.java:56[m)
+    [1mat[m jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance ([1mNativeConstructorAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance ([1mDelegatingConstructorAccessorImpl.java:45[m)
+    [1mat[m java.lang.reflect.Constructor.newInstanceWithCaller ([1mConstructor.java:500[m)
+    [1mat[m java.lang.reflect.Constructor.newInstance ([1mConstructor.java:481[m)
+    [1mat[m com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance ([1mDefaultConstructionProxyFactory.java:126[m)
+    [1mat[m com.google.inject.internal.ConstructorInjector.provision ([1mConstructorInjector.java:114[m)
+    [1mat[m com.google.inject.internal.ConstructorInjector.access$000 ([1mConstructorInjector.java:32[m)
+    [1mat[m com.google.inject.internal.ConstructorInjector$1.call ([1mConstructorInjector.java:98[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:112[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:127[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ConstructorInjector.construct ([1mConstructorInjector.java:93[m)
+    [1mat[m com.google.inject.internal.ConstructorBindingImpl$Factory.get ([1mConstructorBindingImpl.java:306[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1094[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getInstance ([1mInjectorImpl.java:1131[m)
+    [1mat[m org.eclipse.sisu.space.AbstractDeferredClass.get ([1mAbstractDeferredClass.java:48[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.provision ([1mProviderInternalFactory.java:85[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.provision ([1mInternalFactoryToInitializableAdapter.java:57[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory$1.call ([1mProviderInternalFactory.java:66[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:112[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:127[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:61[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:47[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1094[m)
+    [1mat[m org.eclipse.sisu.inject.Guice4$1.get ([1mGuice4.java:162[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:263[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:255[m)
+    [1mat[m org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo ([1mDefaultMavenPluginManager.java:520[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:124[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:370[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:351[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:215[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:171[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:163[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:298[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:960[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:293[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:196[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:77[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:569[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-war-plugin:2.5:war[m [1m(default-war)[m on project [36mwildfly-spring-boot-sample[m: [1;31mExecution default-war of goal org.apache.maven.plugins:maven-war-plugin:2.5:war failed: Unable to load the mojo 'war' in the plugin 'org.apache.maven.plugins:maven-war-plugin:2.5' due to an API incompatibility: org.codehaus.plexus.component.repository.exception.ComponentLookupException: null[m
+[[1;31mERROR[m] [1;31m-----------------------------------------------------[m
+[[1;31mERROR[m] [1;31mrealm =    plugin>org.apache.maven.plugins:maven-war-plugin:2.5[m
+[[1;31mERROR[m] [1;31mstrategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy[m
+[[1;31mERROR[m] [1;31murls[0] = file:/home/duongnv48/.m2/repository/org/apache/maven/plugins/maven-war-plugin/2.5/maven-war-plugin-2.5.jar[m
+[[1;31mERROR[m] [1;31murls[1] = file:/home/duongnv48/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar[m
+[[1;31mERROR[m] [1;31murls[2] = file:/home/duongnv48/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar[m
+[[1;31mERROR[m] [1;31murls[3] = file:/home/duongnv48/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar[m
+[[1;31mERROR[m] [1;31murls[4] = file:/home/duongnv48/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar[m
+[[1;31mERROR[m] [1;31murls[5] = file:/home/duongnv48/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar[m
+[[1;31mERROR[m] [1;31murls[6] = file:/home/duongnv48/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar[m
+[[1;31mERROR[m] [1;31murls[7] = file:/home/duongnv48/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar[m
+[[1;31mERROR[m] [1;31murls[8] = file:/home/duongnv48/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar[m
+[[1;31mERROR[m] [1;31murls[9] = file:/home/duongnv48/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar[m
+[[1;31mERROR[m] [1;31murls[10] = file:/home/duongnv48/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar[m
+[[1;31mERROR[m] [1;31murls[11] = file:/home/duongnv48/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar[m
+[[1;31mERROR[m] [1;31murls[12] = file:/home/duongnv48/.m2/repository/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar[m
+[[1;31mERROR[m] [1;31murls[13] = file:/home/duongnv48/.m2/repository/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar[m
+[[1;31mERROR[m] [1;31murls[14] = file:/home/duongnv48/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar[m
+[[1;31mERROR[m] [1;31murls[15] = file:/home/duongnv48/.m2/repository/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.jar[m
+[[1;31mERROR[m] [1;31murls[16] = file:/home/duongnv48/.m2/repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar[m
+[[1;31mERROR[m] [1;31murls[17] = file:/home/duongnv48/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.19/plexus-interpolation-1.19.jar[m
+[[1;31mERROR[m] [1;31murls[18] = file:/home/duongnv48/.m2/repository/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.jar[m
+[[1;31mERROR[m] [1;31murls[19] = file:/home/duongnv48/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar[m
+[[1;31mERROR[m] [1;31murls[20] = file:/home/duongnv48/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar[m
+[[1;31mERROR[m] [1;31murls[21] = file:/home/duongnv48/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.jar[m
+[[1;31mERROR[m] [1;31murls[22] = file:/home/duongnv48/.m2/repository/org/apache/maven/shared/maven-filtering/1.2/maven-filtering-1.2.jar[m
+[[1;31mERROR[m] [1;31murls[23] = file:/home/duongnv48/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.3/maven-shared-utils-0.3.jar[m
+[[1;31mERROR[m] [1;31murls[24] = file:/home/duongnv48/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar[m
+[[1;31mERROR[m] [1;31murls[25] = file:/home/duongnv48/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar[m
+[[1;31mERROR[m] [1;31murls[26] = file:/home/duongnv48/.m2/repository/org/apache/maven/shared/maven-mapping/1.0/maven-mapping-1.0.jar[m
+[[1;31mERROR[m] [1;31mNumber of foreign imports: 1[m
+[[1;31mERROR[m] [1;31mimport: Entry[import  from realm ClassRealm[maven.api, parent: null]][m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31m-----------------------------------------------------[m
+[[1;31mERROR[m] [1;31m[m: ExceptionInInitializerError: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @756808cc
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException
+
+

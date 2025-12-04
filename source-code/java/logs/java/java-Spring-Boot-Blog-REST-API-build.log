@@ -1,0 +1,13 @@
+$ ./mvnw -q -DskipTests package
+exit_code: 1
+elapsed: 0.070 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/Spring-Boot-Blog-REST-API
+
+
+=== STDERR ===
+Error: Could not find or load main class org.apache.maven.wrapper.MavenWrapperMain
+Caused by: java.lang.ClassNotFoundException: org.apache.maven.wrapper.MavenWrapperMain
+

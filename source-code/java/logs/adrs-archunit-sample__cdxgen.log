@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/adrs-archunit-sample.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 17.050 s
+

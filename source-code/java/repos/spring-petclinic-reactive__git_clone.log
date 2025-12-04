@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/spring-petclinic/spring-petclinic-reactive /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/spring-petclinic-reactive
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/spring-petclinic-reactive'...
-

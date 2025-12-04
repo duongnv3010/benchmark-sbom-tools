@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/wildfly-spring-boot-sample.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 8.610 s
+

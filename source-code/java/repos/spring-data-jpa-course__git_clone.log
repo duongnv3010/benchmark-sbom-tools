@@ -1,6 +1,0 @@
-CMD: git clone --depth 1 https://github.com/amigoscode/spring-data-jpa-course /home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/spring-data-jpa-course
-EXIT_CODE: 0
-
-==== STDERR ====
-Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/java/repos/spring-data-jpa-course'...
-

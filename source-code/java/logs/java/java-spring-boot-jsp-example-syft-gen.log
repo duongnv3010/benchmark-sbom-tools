@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/spring-boot-jsp-example/spring-boot-example-1.0.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/spring-boot-jsp-example.syft.cdx.json
+exit_code: 0
+elapsed: 3.071 s
+

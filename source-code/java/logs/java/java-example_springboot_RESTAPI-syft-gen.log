@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/example_springboot_RESTAPI/gs-rest-service-0.1.0.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/example_springboot_RESTAPI.syft.cdx.json
+exit_code: 0
+elapsed: 2.735 s
+

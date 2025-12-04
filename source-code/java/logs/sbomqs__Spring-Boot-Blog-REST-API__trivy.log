@@ -1,0 +1,31 @@
+$ sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/Spring-Boot-Blog-REST-API.trivy.cdx.json
+exit_code: 0
+elapsed: 0.052 s
+
+=== STDOUT ===
+
+ SBOM Quality Score: 8.5/10.0	 Grade: B	Components: 95 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/Spring-Boot-Blog-REST-API.trivy.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 95/95 have name                |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 9.7/10.0  | 92/95 have versions            |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 9.8/10.0  | 93/95 have unique ID           |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 1             |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing authors                |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present                        |
+|                       |                     |           | 2025-12-04T17:06:10+00:00      |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

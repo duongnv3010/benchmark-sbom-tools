@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/spring-boot-jpa-postgresql/spring-boot-jpa-postgresql-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/spring-boot-jpa-postgresql.syft.cdx.json
+exit_code: 0
+elapsed: 3.485 s
+

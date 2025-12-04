@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/spring-boot-rest-api-mysql.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 21.957 s
+

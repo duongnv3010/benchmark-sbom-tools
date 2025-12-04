@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/Programmingatkstark/Simple-Spring-Boot-application /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/Simple-Spring-Boot-application
+exit_code: 0
+elapsed: 1.126 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/Simple-Spring-Boot-application'...
+

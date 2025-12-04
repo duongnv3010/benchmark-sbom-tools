@@ -1,0 +1,14 @@
+$ ./mvnw -q -DskipTests package
+exit_code: 1
+elapsed: 0.080 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+
+
+=== STDERR ===
+./mvnw: 219: cannot open /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/ms-springboot-310-java-17-jakarta-ee-10/.mvn/wrapper/maven-wrapper.properties: No such file
+/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/repos/java/ms-springboot-310-java-17-jakarta-ee-10/.mvn/wrapper/maven-wrapper.jar: No such file or directory
+Error: Could not find or load main class org.apache.maven.wrapper.MavenWrapperMain
+Caused by: java.lang.ClassNotFoundException: org.apache.maven.wrapper.MavenWrapperMain
+

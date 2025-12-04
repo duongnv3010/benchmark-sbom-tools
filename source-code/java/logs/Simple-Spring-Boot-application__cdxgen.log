@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/Simple-Spring-Boot-application.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 10.057 s
+

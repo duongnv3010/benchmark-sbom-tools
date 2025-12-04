@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/artifacts/java/spring-boot-essentials/demo-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/java/sboms/java/spring-boot-essentials.syft.cdx.json
+exit_code: 0
+elapsed: 2.904 s
+

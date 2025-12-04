@@ -1,0 +1,11 @@
+$ trivy fs . --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/blog-app-react-mysql-node.trivy.cdx.json
+exit_code: 0
+elapsed: 0.110 s
+
+=== STDERR ===
+2025-12-04T23:26:52+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-04T23:26:52+07:00	INFO	[npm] To collect the license information of packages, "npm install" needs to be performed beforehand	dir="client/node_modules"
+2025-12-04T23:26:52+07:00	INFO	[npm] To collect the license information of packages, "npm install" needs to be performed beforehand	dir="server/node_modules"
+2025-12-04T23:26:52+07:00	INFO	Suppressing dependencies for development and testing. To display them, try the '--include-dev-deps' flag.
+2025-12-04T23:26:52+07:00	INFO	Number of language-specific files	num=2
+

@@ -15,7 +15,7 @@ from typing import List, Tuple
 # Cấu hình cơ bản
 # ==============================
 DEFAULT_REPO_LIST = "repo-nodejs.txt"
-DEFAULT_OUTPUT = "result-nodejs-2.csv"
+DEFAULT_OUTPUT = "result-nodejs-3.csv"
 REQUIRED_TOOLS = ["git", "syft", "trivy", "cdxgen", "sbomqs"]
 
 

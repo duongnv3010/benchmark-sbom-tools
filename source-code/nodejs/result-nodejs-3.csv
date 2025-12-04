@@ -1,0 +1,16 @@
+repo_name,tool,gen_elapsed_sec,ntia_score,grade,num_of_component
+fullstack-react-node-postgresql,syft,2.263,8.5,B,191
+fullstack-react-node-postgresql,trivy,0.318,8.5,B,188
+fullstack-react-node-postgresql,cdxgen,3.511,8.6,B,187
+mern-blog-app-sradhe545,syft,3.253,8.6,B,1509
+mern-blog-app-sradhe545,trivy,0.35,8.6,B,1507
+mern-blog-app-sradhe545,cdxgen,9.923,8.6,B,1384
+mern-ecommerce-hrutavmodha,syft,5.048,8.6,B,4253
+mern-ecommerce-hrutavmodha,trivy,0.675,8.6,B,4188
+mern-ecommerce-hrutavmodha,cdxgen,9.067,8.6,B,1419
+blog-app-react-mysql-node,syft,1.697,8.5,B,257
+blog-app-react-mysql-node,trivy,0.11,8.5,B,255
+blog-app-react-mysql-node,cdxgen,2.677,8.6,B,499
+fullstack-react-express-material-design,syft,2,5.7,D,1
+fullstack-react-express-material-design,trivy,0.128,5.7,D,1
+fullstack-react-express-material-design,cdxgen,1.912,4.3,F,0

@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/mern-blog-app-sradhe545.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 9.923 s
+

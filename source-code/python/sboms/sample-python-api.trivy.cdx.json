@@ -1,0 +1,389 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:18847e96-6f5f-40f5-868f-41112281f6b5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T01:36:49+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "5e841e3c-0108-4cb0-a9e6-5d34b48539ec",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "beb0fc06-3028-4e58-934f-96486d50e3fd",
+      "type": "application",
+      "name": "Pipfile.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/aniso8601@3.0.2",
+      "type": "library",
+      "name": "aniso8601",
+      "version": "3.0.2",
+      "purl": "pkg:pypi/aniso8601@3.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/atomicwrites@1.2.1",
+      "type": "library",
+      "name": "atomicwrites",
+      "version": "1.2.1",
+      "purl": "pkg:pypi/atomicwrites@1.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/attrs@18.2.0",
+      "type": "library",
+      "name": "attrs",
+      "version": "18.2.0",
+      "purl": "pkg:pypi/attrs@18.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/click@7.0",
+      "type": "library",
+      "name": "click",
+      "version": "7.0",
+      "purl": "pkg:pypi/click@7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-restplus@0.12.1",
+      "type": "library",
+      "name": "flask-restplus",
+      "version": "0.12.1",
+      "purl": "pkg:pypi/flask-restplus@0.12.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask@1.0.2",
+      "type": "library",
+      "name": "flask",
+      "version": "1.0.2",
+      "purl": "pkg:pypi/flask@1.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/itsdangerous@0.24",
+      "type": "library",
+      "name": "itsdangerous",
+      "version": "0.24",
+      "purl": "pkg:pypi/itsdangerous@0.24",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jinja2@2.10",
+      "type": "library",
+      "name": "jinja2",
+      "version": "2.10",
+      "purl": "pkg:pypi/jinja2@2.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jsonschema@2.6.0",
+      "type": "library",
+      "name": "jsonschema",
+      "version": "2.6.0",
+      "purl": "pkg:pypi/jsonschema@2.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@1.0",
+      "type": "library",
+      "name": "markupsafe",
+      "version": "1.0",
+      "purl": "pkg:pypi/markupsafe@1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/more-itertools@4.3.0",
+      "type": "library",
+      "name": "more-itertools",
+      "version": "4.3.0",
+      "purl": "pkg:pypi/more-itertools@4.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pluggy@0.7.1",
+      "type": "library",
+      "name": "pluggy",
+      "version": "0.7.1",
+      "purl": "pkg:pypi/pluggy@0.7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/py@1.6.0",
+      "type": "library",
+      "name": "py",
+      "version": "1.6.0",
+      "purl": "pkg:pypi/py@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest-flask@0.13.0",
+      "type": "library",
+      "name": "pytest-flask",
+      "version": "0.13.0",
+      "purl": "pkg:pypi/pytest-flask@0.13.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest@3.8.2",
+      "type": "library",
+      "name": "pytest",
+      "version": "3.8.2",
+      "purl": "pkg:pypi/pytest@3.8.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytz@2018.5",
+      "type": "library",
+      "name": "pytz",
+      "version": "2018.5",
+      "purl": "pkg:pypi/pytz@2018.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/six@1.11.0",
+      "type": "library",
+      "name": "six",
+      "version": "1.11.0",
+      "purl": "pkg:pypi/six@1.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/werkzeug@0.14.1",
+      "type": "library",
+      "name": "werkzeug",
+      "version": "0.14.1",
+      "purl": "pkg:pypi/werkzeug@0.14.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pipenv"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "5e841e3c-0108-4cb0-a9e6-5d34b48539ec",
+      "dependsOn": [
+        "beb0fc06-3028-4e58-934f-96486d50e3fd"
+      ]
+    },
+    {
+      "ref": "beb0fc06-3028-4e58-934f-96486d50e3fd",
+      "dependsOn": [
+        "pkg:pypi/aniso8601@3.0.2",
+        "pkg:pypi/atomicwrites@1.2.1",
+        "pkg:pypi/attrs@18.2.0",
+        "pkg:pypi/click@7.0",
+        "pkg:pypi/flask-restplus@0.12.1",
+        "pkg:pypi/flask@1.0.2",
+        "pkg:pypi/itsdangerous@0.24",
+        "pkg:pypi/jinja2@2.10",
+        "pkg:pypi/jsonschema@2.6.0",
+        "pkg:pypi/markupsafe@1.0",
+        "pkg:pypi/more-itertools@4.3.0",
+        "pkg:pypi/pluggy@0.7.1",
+        "pkg:pypi/py@1.6.0",
+        "pkg:pypi/pytest-flask@0.13.0",
+        "pkg:pypi/pytest@3.8.2",
+        "pkg:pypi/pytz@2018.5",
+        "pkg:pypi/six@1.11.0",
+        "pkg:pypi/werkzeug@0.14.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/aniso8601@3.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/atomicwrites@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/attrs@18.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/click@7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask-restplus@0.12.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/itsdangerous@0.24",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jinja2@2.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jsonschema@2.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/more-itertools@4.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pluggy@0.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/py@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-flask@0.13.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest@3.8.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytz@2018.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.11.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/werkzeug@0.14.1",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

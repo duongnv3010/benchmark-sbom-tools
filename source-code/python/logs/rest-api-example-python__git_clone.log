@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/bullhorn/rest-api-example-python /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/rest-api-example-python
+exit_code: 0
+elapsed: 1.116 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/rest-api-example-python'...
+

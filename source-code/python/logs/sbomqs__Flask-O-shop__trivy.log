@@ -1,0 +1,31 @@
+$ sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/Flask-O-shop.trivy.cdx.json
+exit_code: 0
+elapsed: 0.042 s
+
+=== STDOUT ===
+
+ SBOM Quality Score: 8.4/10.0	 Grade: B	Components: 63 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/Flask-O-shop.trivy.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 63/63 have name                |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 9.5/10.0  | 60/63 have versions            |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 9.5/10.0  | 60/63 have unique ID           |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 2             |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing authors                |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present                        |
+|                       |                     |           | 2025-12-05T01:51:40+00:00      |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

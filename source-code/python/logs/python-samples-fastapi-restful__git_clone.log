@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/nanotaboada/python-samples-fastapi-restful /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/python-samples-fastapi-restful
+exit_code: 0
+elapsed: 1.633 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/python-samples-fastapi-restful'...
+

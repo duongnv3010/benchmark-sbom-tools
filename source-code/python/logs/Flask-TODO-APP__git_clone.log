@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/Swappy514/Flask-TODO-APP /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/Flask-TODO-APP
+exit_code: 0
+elapsed: 1.170 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/Flask-TODO-APP'...
+

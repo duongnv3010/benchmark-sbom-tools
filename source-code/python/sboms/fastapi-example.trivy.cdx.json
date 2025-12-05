@@ -1,0 +1,137 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:2635c2fd-4eb1-4ae4-9834-07eb9ceff1bb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T01:36:53+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "6c9abac8-218b-4576-879a-c16580225ec9",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "2dbad947-c12b-463a-b46d-d09e74150966",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/fastapi@0.46.0",
+      "type": "library",
+      "name": "fastapi",
+      "version": "0.46.0",
+      "purl": "pkg:pypi/fastapi@0.46.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest@5.3.2",
+      "type": "library",
+      "name": "pytest",
+      "version": "5.3.2",
+      "purl": "pkg:pypi/pytest@5.3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.22.0",
+      "type": "library",
+      "name": "requests",
+      "version": "2.22.0",
+      "purl": "pkg:pypi/requests@2.22.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/uvicorn@0.11.1",
+      "type": "library",
+      "name": "uvicorn",
+      "version": "0.11.1",
+      "purl": "pkg:pypi/uvicorn@0.11.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "2dbad947-c12b-463a-b46d-d09e74150966",
+      "dependsOn": [
+        "pkg:pypi/fastapi@0.46.0",
+        "pkg:pypi/pytest@5.3.2",
+        "pkg:pypi/requests@2.22.0",
+        "pkg:pypi/uvicorn@0.11.1"
+      ]
+    },
+    {
+      "ref": "6c9abac8-218b-4576-879a-c16580225ec9",
+      "dependsOn": [
+        "2dbad947-c12b-463a-b46d-d09e74150966"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/fastapi@0.46.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest@5.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests@2.22.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/uvicorn@0.11.1",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

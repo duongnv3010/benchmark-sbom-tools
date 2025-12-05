@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/pj8912/todo-app /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/todo-app
+exit_code: 0
+elapsed: 1.201 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/todo-app'...
+

@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/MahmudJewel/fastapi-starter-boilerplate /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/fastapi-starter-boilerplate
+exit_code: 0
+elapsed: 1.514 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/fastapi-starter-boilerplate'...
+

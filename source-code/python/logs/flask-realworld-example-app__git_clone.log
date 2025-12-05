@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/gothinkster/flask-realworld-example-app /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/flask-realworld-example-app
+exit_code: 0
+elapsed: 1.401 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/flask-realworld-example-app'...
+

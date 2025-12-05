@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/yeazin/Multi-Authors-advanced-Django-Blog /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/Multi-Authors-advanced-Django-Blog
+exit_code: 0
+elapsed: 14.353 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/Multi-Authors-advanced-Django-Blog'...
+

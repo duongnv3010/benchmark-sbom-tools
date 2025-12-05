@@ -1,0 +1,137 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:168ae1b4-d263-4e40-a325-3bf6450fb211",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T01:36:59+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "b7ec7ce7-0089-4240-acac-69f0317d2bce",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "6a3ba8b7-a2fb-4d15-9648-93bf6d6d1fd6",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/aiocache@0.12.3",
+      "type": "library",
+      "name": "aiocache",
+      "version": "0.12.3",
+      "purl": "pkg:pypi/aiocache@0.12.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/aiosqlite@0.21.0",
+      "type": "library",
+      "name": "aiosqlite",
+      "version": "0.21.0",
+      "purl": "pkg:pypi/aiosqlite@0.21.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/fastapi@0.123.2",
+      "type": "library",
+      "name": "fastapi",
+      "version": "0.123.2",
+      "purl": "pkg:pypi/fastapi@0.123.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sqlalchemy@2.0.44",
+      "type": "library",
+      "name": "SQLAlchemy",
+      "version": "2.0.44",
+      "purl": "pkg:pypi/sqlalchemy@2.0.44",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "6a3ba8b7-a2fb-4d15-9648-93bf6d6d1fd6",
+      "dependsOn": [
+        "pkg:pypi/aiocache@0.12.3",
+        "pkg:pypi/aiosqlite@0.21.0",
+        "pkg:pypi/fastapi@0.123.2",
+        "pkg:pypi/sqlalchemy@2.0.44"
+      ]
+    },
+    {
+      "ref": "b7ec7ce7-0089-4240-acac-69f0317d2bce",
+      "dependsOn": [
+        "6a3ba8b7-a2fb-4d15-9648-93bf6d6d1fd6"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/aiocache@0.12.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/aiosqlite@0.21.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/fastapi@0.123.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sqlalchemy@2.0.44",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/nikolayg/sample-python-api /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/sample-python-api
+exit_code: 0
+elapsed: 1.188 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/sample-python-api'...
+

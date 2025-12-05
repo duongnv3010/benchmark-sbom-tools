@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/fastapi/full-stack-fastapi-template /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/full-stack-fastapi-template
+exit_code: 0
+elapsed: 1.752 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/full-stack-fastapi-template'...
+

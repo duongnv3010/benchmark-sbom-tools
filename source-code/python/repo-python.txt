@@ -29,6 +29,36 @@
 # https://github.com/qutebrowser/qutebrowser.git
 # https://github.com/soimort/you-get.git
 # https://github.com/mozilla-services/syncserver.git
-https://github.com/ckan/ckan.git
-https://github.com/healthchecks/healthchecks.git
-https://github.com/DefectDojo/django-DefectDojo.git
+# https://github.com/ckan/ckan.git
+# https://github.com/healthchecks/healthchecks.git
+# https://github.com/DefectDojo/django-DefectDojo.git
+# https://github.com/patrickloeber/flask-todo
+#https://github.com/Remy349/todo-app-flask-reactjs
+#https://github.com/pj8912/todo-app
+##https://github.com/Swappy514/Flask-TODO-APP
+#https://github.com/emarifer/flask-htmx-todolist
+#https://github.com/Ishan2608/Flask-Todo-List
+#https://github.com/akbarahmed/basic-python-rest-api
+#https://github.com/ynsrc/python-simple-rest-api
+#https://github.com/bullhorn/rest-api-example-python
+#https://github.com/nikolayg/sample-python-api
+#https://github.com/marciovrl/fastapi-example
+#https://github.com/nanotaboada/python-samples-fastapi-restful
+#https://github.com/nsidnev/fastapi-realworld-example-app
+#https://github.com/skatesham/fastapi-bigger-application
+#https://github.com/astral-sh/uv-fastapi-example
+#https://github.com/yeazin/Multi-Authors-advanced-Django-Blog
+#https://github.com/keerti1924/Python-Django-Blog-Website
+#https://github.com/AhmedBedeir/django-blog
+#https://github.com/markcarcillar/django-blog
+#https://github.com/devmahmud/DjangoBlog
+https://github.com/gothinkster/flask-realworld-example-app
+https://github.com/fastapi/full-stack-fastapi-template
+https://github.com/diwash007/Flask-O-shop
+https://github.com/zdmwi/fastapi-starter-template
+https://github.com/mohsinenur/Ecommerce-Website-Using-Python-Flask
+https://github.com/shreys7/django-todo
+https://github.com/hjlarry/flask-shop
+https://github.com/MahmudJewel/fastapi-starter-boilerplate
+https://github.com/AliBigdeli/Django-FBV-TodoApp
+https://github.com/Himani13040/Flask-E-commerce

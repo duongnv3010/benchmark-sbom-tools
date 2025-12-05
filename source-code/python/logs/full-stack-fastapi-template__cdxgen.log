@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/full-stack-fastapi-template.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 3.760 s
+

@@ -1,0 +1,4 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/Django-FBV-TodoApp.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 2.819 s
+

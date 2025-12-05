@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/marciovrl/fastapi-example /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/fastapi-example
+exit_code: 0
+elapsed: 1.136 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/fastapi-example'...
+

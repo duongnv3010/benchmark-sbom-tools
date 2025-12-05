@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/diwash007/Flask-O-shop /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/Flask-O-shop
+exit_code: 0
+elapsed: 1.207 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/Flask-O-shop'...
+

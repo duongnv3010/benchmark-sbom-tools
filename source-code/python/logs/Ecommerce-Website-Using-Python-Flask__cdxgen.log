@@ -1,0 +1,8 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/Ecommerce-Website-Using-Python-Flask.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 47.546 s
+
+=== STDOUT ===
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/repos/Ecommerce-Website-Using-Python-Flask/templates
+
+

@@ -1,0 +1,227 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c97df0ef-dbe5-4870-8b9b-1d5fd2430447",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T01:39:00+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "4ac21122-7d84-4cf2-adb3-553a3c6acd28",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "d3191346-6d4f-4f9b-b8fe-4c9959478211",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/attrs@20.3.0",
+      "type": "library",
+      "name": "attrs",
+      "version": "20.3.0",
+      "purl": "pkg:pypi/attrs@20.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-crispy-forms@1.14.0",
+      "type": "library",
+      "name": "django-crispy-forms",
+      "version": "1.14.0",
+      "purl": "pkg:pypi/django-crispy-forms@1.14.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-filter@22.1",
+      "type": "library",
+      "name": "django-filter",
+      "version": "22.1",
+      "purl": "pkg:pypi/django-filter@22.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django-multiselectfield@0.1.12",
+      "type": "library",
+      "name": "django-multiselectfield",
+      "version": "0.1.12",
+      "purl": "pkg:pypi/django-multiselectfield@0.1.12",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/django@4.0.6",
+      "type": "library",
+      "name": "Django",
+      "version": "4.0.6",
+      "purl": "pkg:pypi/django@4.0.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/djangorestframework@3.13.1",
+      "type": "library",
+      "name": "djangorestframework",
+      "version": "3.13.1",
+      "purl": "pkg:pypi/djangorestframework@3.13.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markdown2@2.4.3",
+      "type": "library",
+      "name": "markdown2",
+      "version": "2.4.3",
+      "purl": "pkg:pypi/markdown2@2.4.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markdown@3.4.1",
+      "type": "library",
+      "name": "Markdown",
+      "version": "3.4.1",
+      "purl": "pkg:pypi/markdown@3.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pillow@9.2.0",
+      "type": "library",
+      "name": "Pillow",
+      "version": "9.2.0",
+      "purl": "pkg:pypi/pillow@9.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "4ac21122-7d84-4cf2-adb3-553a3c6acd28",
+      "dependsOn": [
+        "d3191346-6d4f-4f9b-b8fe-4c9959478211"
+      ]
+    },
+    {
+      "ref": "d3191346-6d4f-4f9b-b8fe-4c9959478211",
+      "dependsOn": [
+        "pkg:pypi/attrs@20.3.0",
+        "pkg:pypi/django-crispy-forms@1.14.0",
+        "pkg:pypi/django-filter@22.1",
+        "pkg:pypi/django-multiselectfield@0.1.12",
+        "pkg:pypi/django@4.0.6",
+        "pkg:pypi/djangorestframework@3.13.1",
+        "pkg:pypi/markdown2@2.4.3",
+        "pkg:pypi/markdown@3.4.1",
+        "pkg:pypi/pillow@9.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/attrs@20.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-crispy-forms@1.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-filter@22.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-multiselectfield@0.1.12",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django@4.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/djangorestframework@3.13.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markdown2@2.4.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markdown@3.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pillow@9.2.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,31 @@
+$ sbomqs score --profile ntia /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/fastapi-realworld-example-app.syft.cdx.json
+exit_code: 0
+elapsed: 0.047 s
+
+=== STDOUT ===
+
+ SBOM Quality Score: 8.4/10.0	 Grade: B	Components: 119 	 EngineVersion: 1	File: /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/python/sboms/fastapi-realworld-example-app.syft.cdx.json
++-----------------------+---------------------+-----------+--------------------------------+
+|        PROFILE        |       FEATURE       |  STATUS   |              DESC              |
++-----------------------+---------------------+-----------+--------------------------------+
+| NTIA Minimum Elements | sbom_machine_format | 10.0/10.0 | present json                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_name           | 10.0/10.0 | 119/119 have name              |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_version        | 9.5/10.0  | 113/119 have versions          |
++                       +---------------------+-----------+--------------------------------+
+|                       | comp_uniq_id        | 9.5/10.0  | 113/119 have unique ID         |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_dependencies   | 10.0/10.0 | primary comp has 0             |
+|                       |                     |           | dependencies                   |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_creator        | 0.0/10.0  | missing authors                |
++                       +---------------------+-----------+--------------------------------+
+|                       | sbom_timestamp      | 10.0/10.0 | present                        |
+|                       |                     |           | 2025-12-05T08:37:05+07:00      |
++-----------------------+---------------------+-----------+--------------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

@@ -1,0 +1,299 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:7ef8ca6b-bdd1-4440-8b1f-23493a550d3f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T01:51:59+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "0e003abe-dce8-4a99-b703-9fccb61a36e9",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "b956566a-cd90-49e3-9923-fe82c165454a",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/blinker@1.4",
+      "type": "library",
+      "name": "blinker",
+      "version": "1.4",
+      "purl": "pkg:pypi/blinker@1.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/click@7.0",
+      "type": "library",
+      "name": "Click",
+      "version": "7.0",
+      "purl": "pkg:pypi/click@7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-mail@0.9.1",
+      "type": "library",
+      "name": "Flask-Mail",
+      "version": "0.9.1",
+      "purl": "pkg:pypi/flask-mail@0.9.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-mysqldb@0.2.0",
+      "type": "library",
+      "name": "Flask-MySQLdb",
+      "version": "0.2.0",
+      "purl": "pkg:pypi/flask-mysqldb@0.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-uploads@0.2.1",
+      "type": "library",
+      "name": "Flask-Uploads",
+      "version": "0.2.1",
+      "purl": "pkg:pypi/flask-uploads@0.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask@1.0.2",
+      "type": "library",
+      "name": "Flask",
+      "version": "1.0.2",
+      "purl": "pkg:pypi/flask@1.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/itsdangerous@1.1.0",
+      "type": "library",
+      "name": "itsdangerous",
+      "version": "1.1.0",
+      "purl": "pkg:pypi/itsdangerous@1.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jinja2@2.10.1",
+      "type": "library",
+      "name": "Jinja2",
+      "version": "2.10.1",
+      "purl": "pkg:pypi/jinja2@2.10.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@1.1.1",
+      "type": "library",
+      "name": "MarkupSafe",
+      "version": "1.1.1",
+      "purl": "pkg:pypi/markupsafe@1.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mysqlclient@1.4.2.post1",
+      "type": "library",
+      "name": "mysqlclient",
+      "version": "1.4.2.post1",
+      "purl": "pkg:pypi/mysqlclient@1.4.2.post1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/passlib@1.7.1",
+      "type": "library",
+      "name": "passlib",
+      "version": "1.7.1",
+      "purl": "pkg:pypi/passlib@1.7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/werkzeug@0.15.2",
+      "type": "library",
+      "name": "Werkzeug",
+      "version": "0.15.2",
+      "purl": "pkg:pypi/werkzeug@0.15.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/wtforms@2.2.1",
+      "type": "library",
+      "name": "WTForms",
+      "version": "2.2.1",
+      "purl": "pkg:pypi/wtforms@2.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "0e003abe-dce8-4a99-b703-9fccb61a36e9",
+      "dependsOn": [
+        "b956566a-cd90-49e3-9923-fe82c165454a"
+      ]
+    },
+    {
+      "ref": "b956566a-cd90-49e3-9923-fe82c165454a",
+      "dependsOn": [
+        "pkg:pypi/blinker@1.4",
+        "pkg:pypi/click@7.0",
+        "pkg:pypi/flask-mail@0.9.1",
+        "pkg:pypi/flask-mysqldb@0.2.0",
+        "pkg:pypi/flask-uploads@0.2.1",
+        "pkg:pypi/flask@1.0.2",
+        "pkg:pypi/itsdangerous@1.1.0",
+        "pkg:pypi/jinja2@2.10.1",
+        "pkg:pypi/markupsafe@1.1.1",
+        "pkg:pypi/mysqlclient@1.4.2.post1",
+        "pkg:pypi/passlib@1.7.1",
+        "pkg:pypi/werkzeug@0.15.2",
+        "pkg:pypi/wtforms@2.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/blinker@1.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/click@7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask-mail@0.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask-mysqldb@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask-uploads@0.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/itsdangerous@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jinja2@2.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mysqlclient@1.4.2.post1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/passlib@1.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/werkzeug@0.15.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/wtforms@2.2.1",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

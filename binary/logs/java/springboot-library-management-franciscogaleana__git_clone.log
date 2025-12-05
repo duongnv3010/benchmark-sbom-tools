@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/FranciscoGaleana/Springboot-library-management.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/springboot-library-management-franciscogaleana
+exit_code: 0
+elapsed: 1.161 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/springboot-library-management-franciscogaleana'...
+

@@ -1,0 +1,9 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-springboot-shan5a6.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/java-springboot-shan5a6/spring-boot-web.jar
+exit_code: 0
+elapsed: 12.306 s
+
+=== STDOUT ===
+/tmp/war-deps-oje2BJ did not contain any jars. Try building the project to improve the BOM precision.
+Cleaning up /tmp/war-deps-oje2BJ
+
+

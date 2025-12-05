@@ -1,10 +1,107 @@
-ecommerce-spring-boot-eherozhao; https://github.com/eherozhao/E-Commerce-Spring-Boot.git
-ecommerce-demo-diffblue; https://github.com/diffblue/ecommerce-demo.git
-spring-boot-file-upload-download; https://github.com/callicoder/spring-boot-file-upload-download-rest-api-example.git
-java-spring-boot-secure-todo-app; https://github.com/mongodb-developer/java-spring-boot-secure-todo-app.git
-spring-boot-3-todo-application; https://github.com/wazooinc/spring-boot-3-todo-application.git
-expense-tracker-application; https://github.com/chizuru-nina-yamauchi/Expense_Tracker_Application.git
-spring-boot-ecommerce-rest-api-manirdev; https://github.com/manirDev/Spring-boot-e-commerce-rest-api.git
-spring-boot-3-rest-api-example-bezkoder; https://github.com/bezkoder/spring-boot-3-rest-api-example.git
-spring-boot-todoapp-pelinhangisi; https://github.com/pelinhangisi/spring-boot-todoapp.git
-todoapp-springboot-docker; https://github.com/devSuatt/todoApp-springboot-docker.git
+# ==== OLD REPOS (tạm comment giữ lịch sử) ====
+# ecommerce-spring-boot-eherozhao; https://github.com/eherozhao/E-Commerce-Spring-Boot.git
+# ecommerce-demo-diffblue; https://github.com/diffblue/ecommerce-demo.git
+# spring-boot-file-upload-download; https://github.com/callicoder/spring-boot-file-upload-download-rest-api-example.git
+# java-spring-boot-secure-todo-app; https://github.com/mongodb-developer/java-spring-boot-secure-todo-app.git
+# spring-boot-3-todo-application; https://github.com/wazooinc/spring-boot-3-todo-application.git
+# expense-tracker-application; https://github.com/chizuru-nina-yamauchi/Expense_Tracker_Application.git
+# spring-boot-ecommerce-rest-api-manirdev; https://github.com/manirDev/Spring-boot-e-commerce-rest-api.git
+# spring-boot-3-rest-api-example-bezkoder; https://github.com/bezkoder/spring-boot-3-rest-api-example.git
+# spring-boot-todoapp-pelinhangisi; https://github.com/pelinhangisi/spring-boot-todoapp.git
+# todoapp-springboot-docker; https://github.com/devSuatt/todoApp-springboot-docker.git
+
+# ==== NEW REPOS (40 Java Spring Boot + Maven, build ra JAR/WAR) ====
+#ecommerce-springboot-jaygajera17; https://github.com/jaygajera17/E-commerce-project-springBoot.git
+#demo-rest-api-spring-boot-brodygaudel; https://github.com/BrodyGaudel/demo-rest-api-spring-boot.git
+#spring-boot-3-hello-world-buntyraghani; https://github.com/BuntyRaghani/spring-boot-3-hello-world.git
+#springboot-todolist-macktireh; https://github.com/Macktireh/SpringBootTodolist.git
+#restful-ecommerce-api-springboot3-jbrun0r; https://github.com/jbrun0r/RESTful-E-Commerce-API-SpringBoot3.git
+#example-springboot-restapi-louwersj; https://github.com/louwersj/example_springboot_RESTAPI.git
+#cloud-spring-boot-sample-sap; https://github.com/SAP-archive/cloud-spring-boot-sample.git
+#ecommerce-application-sirajuddin135; https://github.com/Sirajuddin135/E-Commerce-Application.git
+#springboot-reactjs-ecommerce-gattiharishkumar; https://github.com/GattiHarishKumar/SpringBoot-Reactjs-Ecommerce.git
+#restfulapi-conlean; https://github.com/conlean/RESTfulApi.git
+#library-management-system-saikat021; https://github.com/saikat021/Library-Management-System.git
+#library-management-jeddineo; https://github.com/JeddineO/Library-management.git
+#library-vusalaxndzde; https://github.com/vusalaxndzde/library.git
+#springboot-library-management-franciscogaleana; https://github.com/FranciscoGaleana/Springboot-library-management.git
+#librarymanagementsystem-knowledgefactory4u; https://github.com/knowledgefactory4u/librarymanagementsystem.git
+#librarymanagementsystemapp-kayanr; https://github.com/kayanr/LibraryManagementSystemApp.git
+#tasks-springboot-anantsingh1510; https://github.com/AnantSingh1510/Tasks-SpringBoot.git
+#ecommerce-springboot-kraizan; https://github.com/Kraizan/Ecommerce-SpringBoot.git
+#ecommerce-spring-boot-microservices-mrnileshrathod; https://github.com/mrNileshRathod/eCommerce-Spring-Boot-Microservices.git
+#springboot-ecommerce-hendisantika; https://github.com/hendisantika/springboot-ecommerce.git
+#spring-boot-ecommerce-devrobots; https://github.com/devRobots/spring-boot-ecommerce.git
+#business-management-project-secretdev804; https://github.com/SecretDev804/Business_Management_Project.git
+#foodfrenzy-secretdev804; https://github.com/SecretDev804/FoodFrenzy.git
+#shopme-ecommerce-application-aadewunmi; https://github.com/AAdewunmi/Shopme-ECommerce-Application.git
+#todo-springboot-mysql-hibernate-rest-devdilip; https://github.com/devdilip/todo-springboot-mysql-hibernate-rest.git
+#spring-boot-todo-app-sohamds1; https://github.com/sohamds1/spring-boot-todo-app.git
+#notes-using-spring-boot-vivekkakadiya; https://github.com/vivekkakadiya/Notes-using-Spring-Boot.git
+#wildfly-spring-boot-sample-pvorb; https://github.com/pvorb/wildfly-spring-boot-sample.git
+#spring-boot-easy-notes-app-dev8523; https://github.com/dev8523/spring-boot-easy-notes-app.git
+#springboot-notes-app-emwork; https://github.com/emwork/springboot-notes-app.git
+#spring-boot-sample-app-romeh; https://github.com/Romeh/spring-boot-sample-app.git
+#spring-boot-spring-loaded-java8-example-joakim666; https://github.com/joakim666/spring-boot-spring-loaded-java8-example.git
+#spring-boot-todo-jazzybruno; https://github.com/jazzybruno/spring-boot-todo.git
+#spring-todo-mvc-dsyer; https://github.com/dsyer/spring-todo-mvc.git
+#notes-app-mohammadusman; https://github.com/M0hammadUsman/Notes-App.git
+#notes-app-kenydanfer01; https://github.com/kenydanfer01/Notes-App.git
+#todo-springboot-harsh-codefreakkk; https://github.com/codefreakkk/todo-springboot-harsh.git
+#hilla-todo-tarekoraby; https://github.com/tarekoraby/hilla-todo.git
+#notes-app-higunio320; https://github.com/Higunio320/Notes-app.git
+#blog-application-tejasmedade; https://github.com/TejasMedade/Blog-Application.git
+#blog-application-gaurav637; https://github.com/gaurav637/Blog-Application-Using-Spring-Boot.git
+#spring-boot-blog-app-gtiwari333; https://github.com/gtiwari333/spring-boot-blog-app.git
+#spring-boot-blog-app-skarware; https://github.com/skarware/spring-boot-blog-app.git
+#spring-boot-blog-rest-api-osopromadze; https://github.com/osopromadze/Spring-Boot-Blog-REST-API.git
+#springboot-maven-todo-app-dcrentsil; https://github.com/dcrentsil/SpringBoot-Maven-Todo-App.git
+#spring-boot-todo-crud-davidarchanjo; https://github.com/davidarchanjo/spring-boot-todo-crud.git
+#spring-boot-notes-rest-api-vaibhav2002; https://github.com/Vaibhav2002/Spring-Boot-Notes-REST-API.git
+#todolist-valeriyemelyanov; https://github.com/ValeriyEmelyanov/todolist.git
+#spring-boot-rest-api-odemur; https://github.com/odemur/spring-boot-rest-api.git
+#spring-boot-rest-api-demo-sahandilshan; https://github.com/sahandilshan/spring-boot-rest-api-demo.git
+#spring-boot-sample-project-mertakdut; https://github.com/mertakdut/Spring-Boot-Sample-Project.git
+#spring-boot-rest-api-template-anshad; https://github.com/anshad/spring-boot-rest-api-template.git
+#rest-api-using-spring-boot-maven-swapatgithub; https://github.com/swapatGithub/REST-API-using-Spring-Boot-Maven.git
+#spring-boot-rest-api-books-hendisantika; https://github.com/hendisantika/Spring-Boot-Rest-API-Books.git
+#spring-boot-mysql-rest-api-hendisantika; https://github.com/hendisantika/spring-boot-mysql-rest-api.git
+#spring-boot-mysql-rest-api-callicoder; https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+#ecommerce-website-muhaiminur; https://github.com/Muhaiminur/E-commerce-Website-by-Java-Spring-Boot.git
+#ecommerce-junchen22; https://github.com/JunChen22/e-commerce.git
+#ecommerce-chinmaysawant; https://github.com/chinmay-sawant/e-Commerce.git
+#java-springboot-ecommerce-application-krishnamurtyp; https://github.com/Krishnamurtyp/java-springboot-ecommerce-application.git
+#ecommerce-app-mohamad-shosha; https://github.com/Mohamad-shosha/E-commerce-App.git
+#springboot-multimodule-example-alexmarqs; https://github.com/alexmarqs/springboot-multimodule-example.git
+#java-spring-boot-boilerplate-mewebstudio; https://github.com/mewebstudio/java-spring-boot-boilerplate.git
+#expense-tracker-haricazorla; https://github.com/HariCazorla/expense-tracker.git
+#spring-boot-crud-rest-ifaruquehossain; https://github.com/ifaruquehossain/Spring-Boot-CRUD-with-REST-API.git
+#spring-boot-jpa-xgeekshq; https://github.com/xgeekshq/spring-boot-jpa.git
+#java8-springboot-restapi-pallavchanana; https://github.com/pallavchanana/java8-Springboot-RestApi.git
+#java-spring-boot-mongodb-starter-mongodbdeveloper; https://github.com/mongodb-developer/java-spring-boot-mongodb-starter.git
+#springboot-rest-api-mongodb-alexmarqs; https://github.com/alexmarqs/springboot-rest-api-mongodb.git
+#spring-boot-file-upload-download-zeeshanalamkhan; https://github.com/zeeshanalamkhan/spring-boot-file-upload-download-rest-api-example.git
+#spring-boot-angular-app-khadkakrishna; https://github.com/khadkakrishna/spring-boot-angular-app.git
+#spring-boot-postgresql-rest-callicoder; https://github.com/callicoder/spring-boot-postgresql-jpa-hibernate-rest-api-demo.git
+#ecommerce-manager-lpdecastro; https://github.com/lpdecastro/ecommerce-manager.git
+#ecommerce-springboot-harishanan; https://github.com/Harishanan/E-commerce-SpringBoot.git
+#ecommerce-backend-shittu24; https://github.com/Shittu24/ecommerce-backend.git
+#spring-boot-maven-example-helloworld-javabycode; https://github.com/javabycode/spring-boot-maven-example-helloworld.git
+#spring-boot-hello-world-jib-lvthillo; https://github.com/lvthillo/spring-boot-hello-world-jib.git
+#spring-boot-hello-world-bratzelk; https://github.com/bratzelk/spring-boot-hello-world.git
+#spring-boot-hello-world-abhishake63; https://github.com/Abhishake63/spring-boot-hello-world.git
+#spring-boot-hello-world-mag1309; https://github.com/mag1309/spring-boot-hello-world.git
+#spring-boot-application-example-alexmanrique; https://github.com/alexmanrique/spring-boot-application-example.git
+#springboot-sample-app-codecentric; https://github.com/codecentric/springboot-sample-app.git
+#spring-boot-todo-masudcsesust04; https://github.com/masudcsesust04/spring-boot-todo.git
+#todo-rest-api-spring-boot-claykabongok; https://github.com/claykabongok/Todo-REST-API-Spring-Boot.git
+spring-boot-hello-world-bratzelk; https://github.com/bratzelk/spring-boot-hello-world.git
+spring-boot-crud-rest-ifaruquehossain; https://github.com/ifaruquehossain/Spring-Boot-CRUD-with-REST-API.git
+hello-spring-bugbiteme; https://github.com/bugbiteme/hello-spring.git
+jarvis-springboot-demo-app-jarviscanada; https://github.com/jarviscanada/jarvis_springboot_demo_app.git
+dokku-boot-demo-kabisa; https://github.com/kabisa/dokku-boot-demo.git
+playspringboot-markreha; https://github.com/markreha/playspringboot.git
+spring-boot-angular-app-khadkakrishna; https://github.com/khadkakrishna/spring-boot-angular-app.git
+spring-boot-lambda-gemerick; https://github.com/gemerick/spring-boot-lambda.git
+spring-boot-example-avanathan; https://github.com/avanathan/spring-boot-example.git
+java-springboot-shan5a6; https://github.com/shan5a6/javaSpringBoot.git

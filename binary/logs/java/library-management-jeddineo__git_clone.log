@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/JeddineO/Library-management.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/library-management-jeddineo
+exit_code: 0
+elapsed: 1.221 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/library-management-jeddineo'...
+

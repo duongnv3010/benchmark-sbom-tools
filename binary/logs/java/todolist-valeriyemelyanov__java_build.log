@@ -1,0 +1,8 @@
+$ ./mvnw -q -DskipTests clean package
+exit_code: 0
+elapsed: 19.384 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+
+

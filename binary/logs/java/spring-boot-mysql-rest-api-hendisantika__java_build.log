@@ -1,0 +1,28 @@
+$ ./mvnw -q -DskipTests clean package
+exit_code: 1
+elapsed: 4.922 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-mysql-rest-api-hendisantika
+Downloading https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.9.8/apache-maven-3.9.8-bin.zip
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /home/duongnv48/.m2/wrapper/dists/apache-maven-3.9.8-bin/77ob9fsoslr05hv92g6n8167dn/apache-maven-3.9.8-bin.zip to /home/duongnv48/.m2/wrapper/dists/apache-maven-3.9.8-bin/77ob9fsoslr05hv92g6n8167dn
+Set executable permissions for: /home/duongnv48/.m2/wrapper/dists/apache-maven-3.9.8-bin/77ob9fsoslr05hv92g6n8167dn/apache-maven-3.9.8/bin/mvn
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.testcontainers:mysql:jar is missing. @ line 60, column 21
+[ERROR] 'dependencies.dependency.version' for org.testcontainers:junit-jupiter:jar is missing. @ line 65, column 21
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.hendisantika:easy-notes:0.0.1-SNAPSHOT (/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-mysql-rest-api-hendisantika/pom.xml) has 2 errors
+[ERROR]     'dependencies.dependency.version' for org.testcontainers:mysql:jar is missing. @ line 60, column 21
+[ERROR]     'dependencies.dependency.version' for org.testcontainers:junit-jupiter:jar is missing. @ line 65, column 21
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+
+

@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/Romeh/spring-boot-sample-app.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-sample-app-romeh
+exit_code: 0
+elapsed: 1.366 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-sample-app-romeh'...
+

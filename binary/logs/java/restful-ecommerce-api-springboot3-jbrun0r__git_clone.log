@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/jbrun0r/RESTful-E-Commerce-API-SpringBoot3.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/restful-ecommerce-api-springboot3-jbrun0r
+exit_code: 0
+elapsed: 1.245 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/restful-ecommerce-api-springboot3-jbrun0r'...
+

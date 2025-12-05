@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/bugbiteme/hello-spring.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/hello-spring-bugbiteme
+exit_code: 0
+elapsed: 1.255 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/hello-spring-bugbiteme'...
+

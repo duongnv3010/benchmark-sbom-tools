@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/java-spring-boot-boilerplate-mewebstudio/java-spring-boot-boilerplate-0.0.2.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-boilerplate-mewebstudio.syft.cdx.json
+exit_code: 0
+elapsed: 6.077 s
+

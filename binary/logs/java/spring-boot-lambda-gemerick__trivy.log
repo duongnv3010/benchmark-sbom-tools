@@ -1,0 +1,8 @@
+$ trivy fs /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-lambda-gemerick/spring-boot-lambda-1.0.0-SNAPSHOT.jar --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-lambda-gemerick.trivy.cdx.json
+exit_code: 0
+elapsed: 0.122 s
+
+=== STDERR ===
+2025-12-05T08:05:19+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-05T08:05:19+07:00	INFO	Number of language-specific files	num=0
+

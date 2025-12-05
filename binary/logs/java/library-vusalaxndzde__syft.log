@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/library-vusalaxndzde/library-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/library-vusalaxndzde.syft.cdx.json
+exit_code: 0
+elapsed: 4.027 s
+

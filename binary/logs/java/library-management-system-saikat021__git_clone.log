@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/saikat021/Library-Management-System.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/library-management-system-saikat021
+exit_code: 0
+elapsed: 1.317 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/library-management-system-saikat021'...
+

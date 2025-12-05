@@ -1,0 +1,42 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:29590c76-95e1-4536-9ffa-260124786800",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T17:57:53+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "a78caec6-34ee-43eb-bdaa-c4f7b7e5e5b6",
+      "type": "application",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/hilla-todo-tarekoraby/hilla-todo-1.0-SNAPSHOT.jar",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "a78caec6-34ee-43eb-bdaa-c4f7b7e5e5b6",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

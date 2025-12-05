@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/dokku-boot-demo-kabisa/dokku-boot-demo-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/dokku-boot-demo-kabisa.syft.cdx.json
+exit_code: 0
+elapsed: 3.023 s
+

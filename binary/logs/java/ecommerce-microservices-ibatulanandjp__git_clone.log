@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/ibatulanandjp/ecommerce-microservices.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/ecommerce-microservices-ibatulanandjp
+exit_code: 0
+elapsed: 3.288 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/ecommerce-microservices-ibatulanandjp'...
+

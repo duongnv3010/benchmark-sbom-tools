@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/mag1309/spring-boot-hello-world.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-hello-world-mag1309
+exit_code: 0
+elapsed: 1.218 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-hello-world-mag1309'...
+

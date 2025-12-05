@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/restfulapi-conlean/rebanking-1.0.0.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/restfulapi-conlean.syft.cdx.json
+exit_code: 0
+elapsed: 3.368 s
+

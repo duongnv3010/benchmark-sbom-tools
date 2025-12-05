@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-todo-jazzybruno.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-todo-jazzybruno/boilerplateSwagger-0.0.1-SNAPSHOT.war
+exit_code: 0
+elapsed: 16.887 s
+
+=== STDOUT ===
+/tmp/war-deps-F0rta7 did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-F0rta7
+
+

@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/springboot-sample-app-codecentric/app.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/springboot-sample-app-codecentric.syft.cdx.json
+exit_code: 0
+elapsed: 3.974 s
+

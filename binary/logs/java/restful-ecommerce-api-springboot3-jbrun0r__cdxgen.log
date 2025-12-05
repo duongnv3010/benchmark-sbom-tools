@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/restful-ecommerce-api-springboot3-jbrun0r.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/restful-ecommerce-api-springboot3-jbrun0r/ecommerce-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 12.133 s
+
+=== STDOUT ===
+/tmp/war-deps-z2e4Xj did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-z2e4Xj
+
+

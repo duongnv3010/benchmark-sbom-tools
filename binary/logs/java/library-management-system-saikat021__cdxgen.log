@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/library-management-system-saikat021.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/library-management-system-saikat021/Student-library-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 8.840 s
+
+=== STDOUT ===
+/tmp/war-deps-NOfWaw did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-NOfWaw
+
+

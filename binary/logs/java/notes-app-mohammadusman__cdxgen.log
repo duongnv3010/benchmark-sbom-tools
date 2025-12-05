@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/notes-app-mohammadusman.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/notes-app-mohammadusman/Notes-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 14.572 s
+
+=== STDOUT ===
+/tmp/war-deps-sOo1Zf did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-sOo1Zf
+
+

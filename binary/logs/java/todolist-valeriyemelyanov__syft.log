@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/todolist-valeriyemelyanov/todolist-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/todolist-valeriyemelyanov.syft.cdx.json
+exit_code: 0
+elapsed: 4.369 s
+

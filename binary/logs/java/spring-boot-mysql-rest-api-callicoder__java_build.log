@@ -1,0 +1,9 @@
+$ ./mvnw -q -DskipTests clean package
+exit_code: 0
+elapsed: 11.146 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-mysql-rest-api-callicoder
+
+

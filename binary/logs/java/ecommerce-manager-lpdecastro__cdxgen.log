@@ -1,0 +1,9 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/ecommerce-manager-lpdecastro.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/ecommerce-manager-lpdecastro/ecommerce-manager-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 22.366 s
+
+=== STDOUT ===
+/tmp/war-deps-6QCe6E did not contain any jars. Try building the project to improve the BOM precision.
+Cleaning up /tmp/war-deps-6QCe6E
+
+

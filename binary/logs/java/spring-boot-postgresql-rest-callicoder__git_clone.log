@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/callicoder/spring-boot-postgresql-jpa-hibernate-rest-api-demo.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-postgresql-rest-callicoder
+exit_code: 0
+elapsed: 1.342 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-postgresql-rest-callicoder'...
+

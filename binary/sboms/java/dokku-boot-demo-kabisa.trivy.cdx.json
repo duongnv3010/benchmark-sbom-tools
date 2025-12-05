@@ -1,0 +1,42 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c4673f9f-44f8-46a9-8df5-50b5c07c3dfe",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T01:04:27+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "4f4783e5-120a-4bfa-8175-1e2e20e3e3fd",
+      "type": "application",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/dokku-boot-demo-kabisa/dokku-boot-demo-0.0.1-SNAPSHOT.jar",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "4f4783e5-120a-4bfa-8175-1e2e20e3e3fd",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

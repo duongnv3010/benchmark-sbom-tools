@@ -1,0 +1,12 @@
+$ ./mvnw -q -DskipTests clean package
+exit_code: 1
+elapsed: 0.074 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+
+
+=== STDERR ===
+Error: Could not find or load main class org.apache.maven.wrapper.MavenWrapperMain
+Caused by: java.lang.ClassNotFoundException: org.apache.maven.wrapper.MavenWrapperMain
+

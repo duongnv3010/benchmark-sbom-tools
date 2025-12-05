@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/springboot-library-management-franciscogaleana/biblioteca-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/springboot-library-management-franciscogaleana.syft.cdx.json
+exit_code: 0
+elapsed: 4.272 s
+

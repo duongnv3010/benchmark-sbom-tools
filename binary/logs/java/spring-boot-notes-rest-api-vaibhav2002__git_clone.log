@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/Vaibhav2002/Spring-Boot-Notes-REST-API.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-notes-rest-api-vaibhav2002
+exit_code: 0
+elapsed: 1.905 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-notes-rest-api-vaibhav2002'...
+

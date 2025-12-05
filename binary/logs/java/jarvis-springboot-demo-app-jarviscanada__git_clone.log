@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/jarviscanada/jarvis_springboot_demo_app.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/jarvis-springboot-demo-app-jarviscanada
+exit_code: 0
+elapsed: 9.047 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/jarvis-springboot-demo-app-jarviscanada'...
+

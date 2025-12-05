@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/codefreakkk/todo-springboot-harsh.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/todo-springboot-harsh-codefreakkk
+exit_code: 0
+elapsed: 1.174 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/todo-springboot-harsh-codefreakkk'...
+

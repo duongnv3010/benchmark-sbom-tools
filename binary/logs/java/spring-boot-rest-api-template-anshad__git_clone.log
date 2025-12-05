@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/anshad/spring-boot-rest-api-template.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-rest-api-template-anshad
+exit_code: 0
+elapsed: 1.180 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-rest-api-template-anshad'...
+

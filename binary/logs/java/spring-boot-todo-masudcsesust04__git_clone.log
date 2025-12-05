@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/masudcsesust04/spring-boot-todo.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-todo-masudcsesust04
+exit_code: 0
+elapsed: 1.333 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-todo-masudcsesust04'...
+

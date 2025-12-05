@@ -1,0 +1,42 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:affc8a63-2a34-48bc-9c97-7ba8650db76e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-04T17:43:16+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "593e0907-e0f2-4a18-9327-afa74413395d",
+      "type": "application",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/example-springboot-restapi-louwersj/gs-rest-service-0.1.0.jar",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "593e0907-e0f2-4a18-9327-afa74413395d",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

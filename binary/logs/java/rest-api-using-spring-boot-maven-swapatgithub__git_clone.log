@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/swapatGithub/REST-API-using-Spring-Boot-Maven.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/rest-api-using-spring-boot-maven-swapatgithub
+exit_code: 0
+elapsed: 1.250 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/rest-api-using-spring-boot-maven-swapatgithub'...
+

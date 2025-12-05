@@ -1,0 +1,14 @@
+$ mvn -q -DskipTests clean package
+exit_code: 1
+elapsed: 3.483 s
+
+=== STDOUT ===
+[[1;31mERROR[m] Failed to execute goal on project [36mTodosSpringBoot[m: [1;31mCould not resolve dependencies for project com.todos:TodosSpringBoot:war:0.0.1-SNAPSHOT: org.openjfx:javafx.base:jar:11.0.0-SNAPSHOT was not found in https://oss.sonatype.org/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of sonatype-oss-snapshots has elapsed or updates are forced[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+

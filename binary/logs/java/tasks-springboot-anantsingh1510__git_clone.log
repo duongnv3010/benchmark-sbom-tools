@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/AnantSingh1510/Tasks-SpringBoot.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/tasks-springboot-anantsingh1510
+exit_code: 0
+elapsed: 1.244 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/tasks-springboot-anantsingh1510'...
+

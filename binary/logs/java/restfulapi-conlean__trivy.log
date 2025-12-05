@@ -1,0 +1,8 @@
+$ trivy fs /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/restfulapi-conlean/rebanking-1.0.0.jar --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/restfulapi-conlean.trivy.cdx.json
+exit_code: 0
+elapsed: 0.121 s
+
+=== STDERR ===
+2025-12-05T00:44:07+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-05T00:44:07+07:00	INFO	Number of language-specific files	num=0
+

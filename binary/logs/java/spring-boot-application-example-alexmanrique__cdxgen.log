@@ -1,0 +1,9 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-application-example-alexmanrique.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-application-example-alexmanrique/myapp_server-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 19.696 s
+
+=== STDOUT ===
+/tmp/war-deps-oFv8k2 did not contain any jars. Try building the project to improve the BOM precision.
+Cleaning up /tmp/war-deps-oFv8k2
+
+

@@ -1,0 +1,9 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/springboot-sample-app-codecentric.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/springboot-sample-app-codecentric/app.jar
+exit_code: 0
+elapsed: 3.851 s
+
+=== STDOUT ===
+/tmp/war-deps-rltyVY did not contain any jars. Try building the project to improve the BOM precision.
+Cleaning up /tmp/war-deps-rltyVY
+
+

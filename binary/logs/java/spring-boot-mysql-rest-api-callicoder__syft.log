@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-mysql-rest-api-callicoder/easy-notes-1.0.0.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-mysql-rest-api-callicoder.syft.cdx.json
+exit_code: 0
+elapsed: 4.044 s
+

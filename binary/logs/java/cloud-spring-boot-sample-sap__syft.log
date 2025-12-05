@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/cloud-spring-boot-sample-sap/ROOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/cloud-spring-boot-sample-sap.syft.cdx.json
+exit_code: 0
+elapsed: 3.358 s
+

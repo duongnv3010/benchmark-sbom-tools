@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/hilla-todo-tarekoraby/hilla-todo-1.0-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/hilla-todo-tarekoraby.syft.cdx.json
+exit_code: 0
+elapsed: 5.447 s
+

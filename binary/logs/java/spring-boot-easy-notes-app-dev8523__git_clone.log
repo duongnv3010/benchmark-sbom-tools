@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/dev8523/spring-boot-easy-notes-app.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-easy-notes-app-dev8523
+exit_code: 0
+elapsed: 1.480 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-boot-easy-notes-app-dev8523'...
+

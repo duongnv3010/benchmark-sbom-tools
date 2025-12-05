@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/AAdewunmi/Shopme-ECommerce-Application.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/shopme-ecommerce-application-aadewunmi
+exit_code: 0
+elapsed: 4.865 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/shopme-ecommerce-application-aadewunmi'...
+

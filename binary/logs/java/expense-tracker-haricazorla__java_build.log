@@ -1,0 +1,21 @@
+$ ./mvnw -q -DskipTests clean package
+exit_code: 0
+elapsed: 44.177 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+
+
+=== STDERR ===
+--2025-12-05 01:24:56--  https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar
+Resolving repo.maven.apache.org (repo.maven.apache.org)... 104.18.18.12, 104.18.19.12, 2606:4700::6812:130c, ...
+Connecting to repo.maven.apache.org (repo.maven.apache.org)|104.18.18.12|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 50710 (50K) [application/java-archive]
+Saving to: ‘/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/expense-tracker-haricazorla/.mvn/wrapper/maven-wrapper.jar’
+
+     0K .......... .......... .......... .......... ......... 100% 5.17M=0.009s
+
+2025-12-05 01:24:56 (5.17 MB/s) - ‘/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/expense-tracker-haricazorla/.mvn/wrapper/maven-wrapper.jar’ saved [50710/50710]
+
+

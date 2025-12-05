@@ -1,0 +1,42 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:197becdf-4e66-42d3-83b2-a9570f0d4644",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T01:06:02+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "4f5923b4-e0c0-40d0-9ade-c7f84d0dbe98",
+      "type": "application",
+      "name": "/home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/java-springboot-shan5a6/spring-boot-web.jar",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "4f5923b4-e0c0-40d0-9ade-c7f84d0dbe98",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

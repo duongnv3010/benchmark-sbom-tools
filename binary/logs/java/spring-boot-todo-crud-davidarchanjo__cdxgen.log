@@ -1,0 +1,10 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/spring-boot-todo-crud-davidarchanjo.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/spring-boot-todo-crud-davidarchanjo/spring-boot-todo-crud-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 12.971 s
+
+=== STDOUT ===
+/tmp/war-deps-qvFkz3 did not contain any jars. Try building the project to improve the BOM precision.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Cleaning up /tmp/war-deps-qvFkz3
+
+

@@ -1,0 +1,12 @@
+$ ./mvnw -q -DskipTests clean package
+exit_code: 0
+elapsed: 15.371 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+Downloading https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.3.9/apache-maven-3.3.9-bin.zip
+..............................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /home/duongnv48/.m2/wrapper/dists/apache-maven-3.3.9-bin/2609u9g41na2l7ogackmif6fj2/apache-maven-3.3.9-bin.zip to /home/duongnv48/.m2/wrapper/dists/apache-maven-3.3.9-bin/2609u9g41na2l7ogackmif6fj2
+Set executable permissions for: /home/duongnv48/.m2/wrapper/dists/apache-maven-3.3.9-bin/2609u9g41na2l7ogackmif6fj2/apache-maven-3.3.9/bin/mvn
+
+

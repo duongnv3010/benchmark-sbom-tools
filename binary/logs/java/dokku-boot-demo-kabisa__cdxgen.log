@@ -1,0 +1,14 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/dokku-boot-demo-kabisa.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/dokku-boot-demo-kabisa/dokku-boot-demo-0.0.1-SNAPSHOT.jar
+exit_code: 0
+elapsed: 2.490 s
+
+=== STDOUT ===
+/tmp/war-deps-ZccE4d did not contain any jars. Try building the project to improve the BOM precision.
+Unable to extract /tmp/war-deps-ZccE4d/dokku-boot-demo-0.0.1-SNAPSHOT.jar. Skipping. Error: Invalid entry header
+    at ZipEntry.readHeader (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/node-stream-zip/node_stream_zip.js:810:19)
+    at FsRead.readEntriesCallback [as callback] (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/node-stream-zip/node_stream_zip.js:334:27)
+    at FsRead.readCallback (/home/duongnv48/.nvm/versions/node/v20.19.5/lib/node_modules/@cyclonedx/cdxgen/node_modules/node-stream-zip/node_stream_zip.js:996:25)
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:683:5)
+Cleaning up /tmp/war-deps-ZccE4d
+
+

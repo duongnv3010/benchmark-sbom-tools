@@ -1,0 +1,9 @@
+$ cdxgen -t java -o /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/java-spring-boot-boilerplate-mewebstudio.cdxgen.cdx.json /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/java-spring-boot-boilerplate-mewebstudio/java-spring-boot-boilerplate-0.0.2.jar
+exit_code: 0
+elapsed: 32.458 s
+
+=== STDOUT ===
+/tmp/war-deps-lKpFM3 did not contain any jars. Try building the project to improve the BOM precision.
+Cleaning up /tmp/war-deps-lKpFM3
+
+

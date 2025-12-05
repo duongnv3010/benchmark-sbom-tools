@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/springboot-rest-api-mongodb-alexmarqs/rest-api.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/springboot-rest-api-mongodb-alexmarqs.syft.cdx.json
+exit_code: 0
+elapsed: 3.614 s
+

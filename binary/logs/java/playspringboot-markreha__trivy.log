@@ -1,0 +1,8 @@
+$ trivy fs /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/playspringboot-markreha/playspringboot.jar --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/playspringboot-markreha.trivy.cdx.json
+exit_code: 0
+elapsed: 0.103 s
+
+=== STDERR ===
+2025-12-05T08:04:46+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-05T08:04:46+07:00	INFO	Number of language-specific files	num=0
+

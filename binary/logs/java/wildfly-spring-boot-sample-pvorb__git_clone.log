@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/pvorb/wildfly-spring-boot-sample.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/wildfly-spring-boot-sample-pvorb
+exit_code: 0
+elapsed: 1.119 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/wildfly-spring-boot-sample-pvorb'...
+

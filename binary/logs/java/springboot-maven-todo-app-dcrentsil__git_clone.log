@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/dcrentsil/SpringBoot-Maven-Todo-App.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/springboot-maven-todo-app-dcrentsil
+exit_code: 0
+elapsed: 1.217 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/springboot-maven-todo-app-dcrentsil'...
+

@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/gaurav637/Blog-Application-Using-Spring-Boot.git /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/blog-application-gaurav637
+exit_code: 0
+elapsed: 1.260 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/blog-application-gaurav637'...
+

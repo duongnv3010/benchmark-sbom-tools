@@ -1,0 +1,53 @@
+$ ./mvnw -q -DskipTests clean package
+exit_code: 1
+elapsed: 97.328 s
+
+=== STDOUT ===
+Warning: JAVA_HOME environment variable is not set.
+[ERROR] COMPILATION ERROR : 
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[32,52] cannot find symbol
+  symbol:   class FragmentRendering
+  location: package org.springframework.web.reactive.result.view
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[49,9] cannot find symbol
+  symbol:   class FragmentRendering
+  location: class example.todomvc.web.HtmxTodoController
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[69,9] cannot find symbol
+  symbol:   class FragmentRendering
+  location: class example.todomvc.web.HtmxTodoController
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[82,9] cannot find symbol
+  symbol:   class FragmentRendering
+  location: class example.todomvc.web.HtmxTodoController
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[97,9] cannot find symbol
+  symbol:   class FragmentRendering
+  location: class example.todomvc.web.HtmxTodoController
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[108,9] cannot find symbol
+  symbol:   class FragmentRendering
+  location: class example.todomvc.web.HtmxTodoController
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project htmx-spring-boot-example-todowebflux: Compilation failure: Compilation failure: 
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[32,52] cannot find symbol
+[ERROR]   symbol:   class FragmentRendering
+[ERROR]   location: package org.springframework.web.reactive.result.view
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[49,9] cannot find symbol
+[ERROR]   symbol:   class FragmentRendering
+[ERROR]   location: class example.todomvc.web.HtmxTodoController
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[69,9] cannot find symbol
+[ERROR]   symbol:   class FragmentRendering
+[ERROR]   location: class example.todomvc.web.HtmxTodoController
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[82,9] cannot find symbol
+[ERROR]   symbol:   class FragmentRendering
+[ERROR]   location: class example.todomvc.web.HtmxTodoController
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[97,9] cannot find symbol
+[ERROR]   symbol:   class FragmentRendering
+[ERROR]   location: class example.todomvc.web.HtmxTodoController
+[ERROR] /home/duongnv48/Desktop/benchmark-sbom-tools/binary/repos/java/spring-todo-mvc-dsyer/src/main/java/example/todomvc/web/HtmxTodoController.java:[108,9] cannot find symbol
+[ERROR]   symbol:   class FragmentRendering
+[ERROR]   location: class example.todomvc.web.HtmxTodoController
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+

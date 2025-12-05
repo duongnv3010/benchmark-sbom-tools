@@ -1,0 +1,4 @@
+$ syft /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/librarymanagementsystem-knowledgefactory4u/librarymanagementsystem-0.0.1-SNAPSHOT.jar --output cyclonedx-json=/home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/librarymanagementsystem-knowledgefactory4u.syft.cdx.json
+exit_code: 0
+elapsed: 4.118 s
+

@@ -1,0 +1,8 @@
+$ trivy fs /home/duongnv48/Desktop/benchmark-sbom-tools/binary/artifacts/java/hello-spring-bugbiteme/hello-0.0.1-SNAPSHOT.jar --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/binary/sboms/java/hello-spring-bugbiteme.trivy.cdx.json
+exit_code: 0
+elapsed: 0.101 s
+
+=== STDERR ===
+2025-12-05T08:03:20+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-05T08:03:20+07:00	INFO	Number of language-specific files	num=0
+

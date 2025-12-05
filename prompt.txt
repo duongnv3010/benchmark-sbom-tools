@@ -1,0 +1,157 @@
+Bạn là một chuyên gia DevSecOps, tập trung vào SBOM và bảo mật chuỗi cung ứng phần mềm.
+
+Mình sẽ upload 6 file CSV sau (khi mình nói “bộ dữ liệu” là mình đang nói tới 6 file này):
+- result-python.csv    (SBOM từ source code cho các project Python)
+- result-nodejs.csv    (SBOM từ source code cho các project Node.js)
+- result-java.csv      (SBOM từ source code cho các project Java)
+- result-java-binary.csv (SBOM từ binary cho các project Java)
+- result-images.csv    (SBOM từ container image)
+- result-upload-dtrack.csv (kết quả Dependency-Track khi upload tất cả SBOM trên)
+
+MỤC TIÊU CHÍNH
+==============
+Dựa trên bộ dữ liệu này, hãy:
+1. Phân tích định lượng chất lượng SBOM do các tool (ví dụ: Syft, Trivy, cdxgen, …) sinh ra cho 3 use case:
+   - Use case 1: SBOM từ source code (Python, Node.js, Java)
+   - Use case 2: SBOM từ binary (Java)
+   - Use case 3: SBOM từ container image
+2. Kết hợp kết quả từ Dependency-Track (result-upload-dtrack.csv) để xem:
+   - Công cụ nào giúp phát hiện được nhiều lỗ hổng hơn (đặc biệt là High/Critical) trên cùng một project / cùng một image.
+   - Có mối tương quan nào giữa điểm chất lượng SBOM (sbomqs) và số lượng/cường độ lỗ hổng được DTrack phân tích.
+3. Từ các phân tích định lượng đó, hãy đề xuất **công cụ SBOM phù hợp nhất cho từng use case**, nêu rõ:
+   - Lý do chọn (dựa trên số liệu cụ thể).
+   - Trade-off: ví dụ chất lượng SBOM cao hơn nhưng ít format hỗ trợ, hoặc hiệu năng chậm hơn,…
+
+LÀM VIỆC VỚI DỮ LIỆU
+====================
+- Hãy sử dụng Python/pandas (nếu môi trường cho phép) để:
+  - Đọc tất cả các file CSV mà mình upload.
+  - In ra (và giải thích ngắn gọn) tên cột trong từng CSV (để mình hiểu bạn đang dùng cột nào).
+- Nếu thấy có các cột như (ví dụ, tuỳ theo cách mình đã export):
+  - `tool` hoặc `sbom_tool`: tên công cụ sinh SBOM (syft, trivy, cdxgen, …).
+  - `language`, `kind`, `project`, `image`, `binary_name`, v.v.
+  - `sbomqs_score`, `score`, `grade`, `num_components` hoặc tương tự.
+  - Các cột chi tiết về nhóm điểm: `identification_score`, `provenance_score`, `integrity_score`, `completeness_score`, `licensing_score`, `vulnerability_score`, `structural_score`, …
+  - Các cột về thời gian sinh SBOM, thời gian upload hoặc runtime nếu có (ví dụ `sbom_gen_time`, `upload_time`, …).
+- Trong result-upload-dtrack.csv, giả sử có các cột như:
+  - `project` / `bom_name` / `sbom_file` (để mapping ngược về SBOM tương ứng).
+  - `tool` (nếu mình đã lưu tool trong tên project).
+  - `num_vulns_total`, `critical`, `high`, `medium`, `low`, hoặc các cột tương tự về số lượng lỗ hổng theo mức độ.
+- Nếu tên cột hơi khác, hãy:
+  - Tự suy luận hợp lý từ tên cột.
+  - Nếu thực sự không thể suy luận, hãy nêu rõ bạn đang giả định điều gì.
+
+YÊU CẦU PHÂN TÍCH CỤ THỂ
+=========================
+1. **Khám phá dữ liệu**
+   - Với từng file CSV, hãy:
+     - Liệt kê các cột chính và giải thích ngắn gọn ý nghĩa (dựa trên tên cột).
+     - Đếm số dòng (tức là số SBOM) và tách theo `tool`.
+   - Kiểm tra xem cho mỗi SBOM có:
+     - Điểm chất lượng tổng (ví dụ `sbomqs_score` hoặc tương đương).
+     - Số component (`num_components` hoặc tương tự).
+     - Các nhóm điểm chi tiết (identification, provenance, completeness, integrity, licensing, vulnerability, structural, …) nếu có.
+
+2. **Phân tích cho SBOM từ source code**
+   - Gộp chung 3 file:
+     - result-python.csv
+     - result-nodejs.csv
+     - result-java.csv
+   - Với mỗi ngôn ngữ (Python/Node.js/Java) và mỗi tool:
+     - Tính:
+       - Số SBOM (`count`).
+       - Điểm sbomqs trung bình, median, min, max.
+       - Tỷ lệ SBOM có grade “C” trở lên (nếu có cột `grade`).
+       - Trung bình số component.
+     - Trình bày kết quả dạng bảng (group theo `language` + `tool`).
+   - Sau đó:
+     - So sánh các tool trong từng ngôn ngữ.
+     - So sánh tổng thể (gộp tất cả language) xem tool nào cho:
+       - Điểm sbomqs trung bình cao nhất.
+       - Độ ổn định (std nhỏ, ít outlier).
+       - Tỷ lệ “SBOM tốt” (theo ngưỡng bạn tự chọn, ví dụ sbomqs_score ≥ 7 hoặc grade ≥ C).
+
+3. **Phân tích cho SBOM từ binary (Java)**
+   - Làm tương tự với file result-java-binary.csv:
+     - Nhóm theo `tool`.
+     - Tính các thống kê: count, mean/median/min/max sbomqs_score, số component, tỷ lệ grade tốt.
+   - So sánh xem giữa các tool:
+     - Công cụ nào “thích ứng” tốt với binary (điểm cao, ít SBOM quá kém).
+     - Có sự khác biệt lớn so với kết quả khi sinh từ source không (ví dụ cùng project mà binary SBOM thấp hơn nhiều)?
+
+4. **Phân tích cho SBOM từ container image**
+   - Dùng result-images.csv:
+     - Nhóm theo `tool`.
+     - Nếu có cột `image` hoặc tương tự, có thể phân tích thêm theo image.
+   - Tính các thống kê tương tự:
+     - Số SBOM, sbomqs_score mean/median/min/max, grade, num_components, v.v.
+   - Kết luận sơ bộ tool nào phù hợp nhất cho use case image.
+
+5. **Kết hợp với kết quả Dependency-Track (result-upload-dtrack.csv)**
+   - Ghép (join/merge) result-upload-dtrack.csv với các file benchmark khác dựa trên tên project/SBOM (hoặc khoá hợp lý mà bạn suy luận được).
+   - Với mỗi tool và mỗi use case (source / binary / image):
+     - Tính:
+       - Số lượng lỗ hổng trung bình trên một SBOM (`avg_vulns_per_sbom`).
+       - Số lượng lỗ hổng Critical/High trung bình. Nếu có thể, chuẩn hoá theo số component, ví dụ:
+         - `critical_per_100_components` = (critical / num_components) * 100.
+       - Quan sát xem tool nào có xu hướng “phát lộ” nhiều lỗ hổng hơn (đặc biệt High/Critical) khi SBOM được tiêu thụ bởi Dependency-Track.
+   - Phân tích sơ bộ mối tương quan (không cần thống kê phức tạp, chỉ cần trực quan):
+     - SBOM có sbomqs_score cao có dẫn đến:
+       - Nhiều lỗ hổng được phát hiện hơn không?
+       - Hoặc lỗ hổng với mức độ nghiêm trọng cao được nhận diện rõ ràng hơn?
+
+6. **Đánh giá và đề xuất công cụ cho từng use case**
+   - Dựa trên các kết quả định lượng, hãy đưa ra đánh giá cho từng use case:
+     - **Use case 1 – SBOM từ source code**:
+       - Tool nào nổi bật nhất về:
+         - Điểm chất lượng trung bình.
+         - Độ ổn định (ít SBOM kém).
+         - “Tỷ lệ SBOM tốt”.
+         - Số/lượng lỗ hổng được DTrack tìm ra (đặc biệt High/Critical, chuẩn hoá theo số component).
+       - Nêu rõ tool nào mình nên chọn làm “tool chính” cho pipeline sinh SBOM từ source, và vì sao.
+       - Nếu cần, có thể đề xuất:
+         - Tool chính.
+         - Tool phụ (ví dụ dùng song song cho một số ngôn ngữ đặc biệt).
+     - **Use case 2 – SBOM từ binary (Java)**:
+       - Tool nào duy trì chất lượng tốt nhất khi chỉ có binary.
+       - Nhấn mạnh nếu có chênh lệch lớn giữa kết quả trên source vs binary.
+       - Đề xuất tool phù hợp (và nếu có, đề xuất kết hợp thêm tool khác nếu một mình nó chưa đủ).
+     - **Use case 3 – SBOM từ container image**:
+       - Tool nào cho SBOM chất lượng cao và phát hiện nhiều lỗ hổng có ý nghĩa trên image.
+       - Nếu một tool có điểm sbomqs không cao nhất nhưng số lượng lỗ hổng (đặc biệt High/Critical) được phát hiện nhiều hơn, hãy phân tích trade-off này.
+       - Đề xuất tool chính cho môi trường container/Kubernetes.
+
+7. **Định dạng và cách trình bày kết quả**
+   - Hãy trả lời bằng **tiếng Việt**.
+   - Vui lòng cấu trúc kết quả theo các phần:
+     - **Phần A – Tóm tắt nhanh (Executive summary)**:
+       - 3–5 bullet tổng kết: với dataset hiện tại, nên chọn tool nào cho từng use case và lý do chính.
+     - **Phần B – Bảng tổng hợp so sánh**:
+       - Một bảng gộp cho 3 use case, mỗi hàng là (Use case, Tool) với các cột:
+         - Số SBOM.
+         - Điểm sbomqs trung bình.
+         - Tỷ lệ grade tốt (nếu có).
+         - Số lỗ hổng trung bình / Critical trung bình (chuẩn hoá theo số component nếu có).
+         - Kết luận ngắn: “Mạnh về…”, “Yếu về…”.
+     - **Phần C – Phân tích chi tiết**:
+       - Lần lượt cho:
+         - Source code (Python/Node.js/Java).
+         - Binary (Java).
+         - Image.
+       - Mỗi phần nên có cả số liệu cụ thể (con số) và lời nhận xét.
+     - **Phần D – Khuyến nghị lựa chọn công cụ**:
+       - Mỗi use case: 1–2 đoạn văn + 3–5 bullet giải thích lý do chọn tool.
+     - **Phần E – Gợi ý đoạn văn mẫu cho luận văn**:
+       - Viết giúp mình ~2–3 đoạn văn bằng tiếng Việt, văn phong học thuật, có thể chèn thẳng vào phần “Đánh giá và lựa chọn công cụ sinh SBOM” trong khoá luận.
+       - Các đoạn này nên có số liệu định lượng (ví dụ: “trong tập 17 image, công cụ X đạt điểm chất lượng trung bình Y, cao hơn Z% so với công cụ Y…”) dựa trên kết quả bạn phân tích.
+
+8. **Lưu ý về hạn chế**
+   - Cuối cùng, hãy tự đánh giá ngắn gọn:
+     - Các hạn chế của bộ dữ liệu benchmark hiện tại.
+     - Nguy cơ bias (ví dụ số lượng project per language chưa cân bằng, dataset chưa đủ đa dạng).
+     - Gợi ý thêm những bước benchmark mở rộng nếu muốn kết luận chắc chắn hơn.
+
+Hãy bắt đầu bằng việc:
+1. Đọc các file CSV mình upload.
+2. In nhanh thông tin khám phá dữ liệu (tên cột chính + số dòng) cho từng file.
+3. Sau đó thực hiện phân tích theo các bước mình mô tả ở trên.

@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/golang_1.22-alpine.trivy.cdx.json golang:1.22-alpine
+EXIT_CODE: 0
+

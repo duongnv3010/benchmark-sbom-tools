@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/node_20-slim.cdxgen.cdx.json node:20-slim
+EXIT_CODE: 0
+

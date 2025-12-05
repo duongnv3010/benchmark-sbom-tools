@@ -1,0 +1,29 @@
+CMD: sbomqs score --profile ntia /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/prom__prometheus_v2.54.0.cdxgen.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+SBOM Quality Score: 10.0/10.0	 Grade: A	Components: 183 	 EngineVersion: 2	File: /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/prom__prometheus_v2.54.0.cdxgen.cdx.json
+
+
++------------------------------+---------------------+-----------+---------------------+
+|           PROFILE            |       FEATURE       |  STATUS   |        DESC         |
++------------------------------+---------------------+-----------+---------------------+
+| NTIA Minimum Elements (2021) | sbom_machine_format | 10.0/10.0 | complete            |
++                              +---------------------+-----------+---------------------+
+|                              | comp_name           | 10.0/10.0 | complete            |
++                              +---------------------+-----------+---------------------+
+|                              | comp_version        | 9.8/10.0  | add to 4 components |
++                              +---------------------+-----------+---------------------+
+|                              | comp_uniq_id        | 10.0/10.0 | complete            |
++                              +---------------------+-----------+---------------------+
+|                              | sbom_dependencies   | 10.0/10.0 | complete            |
++                              +---------------------+-----------+---------------------+
+|                              | sbom_creator        | 10.0/10.0 | complete            |
++                              +---------------------+-----------+---------------------+
+|                              | sbom_timestamp      | 10.0/10.0 | complete            |
++------------------------------+---------------------+-----------+---------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

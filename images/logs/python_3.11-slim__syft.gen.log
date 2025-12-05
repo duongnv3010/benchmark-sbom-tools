@@ -1,0 +1,3 @@
+CMD: syft scan python:3.11-slim -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/python_3.11-slim.syft.cdx.json
+EXIT_CODE: 0
+

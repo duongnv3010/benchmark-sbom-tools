@@ -1,0 +1,3 @@
+CMD: syft scan signoz/sample-nodejs-app:latest -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/signoz__sample-nodejs-app_latest.syft.cdx.json
+EXIT_CODE: 0
+

@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/traefik_v3.1.cdxgen.cdx.json traefik:v3.1
+EXIT_CODE: 0
+

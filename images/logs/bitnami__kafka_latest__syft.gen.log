@@ -1,0 +1,13 @@
+CMD: syft scan bitnami/kafka:latest -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/bitnami__kafka_latest.syft.cdx.json
+EXIT_CODE: 1
+
+==== STDERR ====
+[0009] ERROR [31mcould not determine source: errors occurred attempting to resolve 'bitnami/kafka:latest':
+  - snap: snap file "bitnami/kafka:latest" does not exist
+  - docker: pull failed: Error response from daemon: failed to resolve reference "docker.io/bitnami/kafka:latest": docker.io/bitnami/kafka:latest: not found
+  - podman: podman not available: no host address
+  - containerd: containerd not available: failed to dial "/run/containerd/containerd.sock": connection error: desc = "transport: error while dialing: dial unix /run/containerd/containerd.sock: connect: permission denied"
+  - oci-registry: failed to get image descriptor from registry: GET https://index.docker.io/v2/bitnami/kafka/manifests/latest: MANIFEST_UNKNOWN: manifest unknown; unknown tag=latest
+  - snap: no snap found with name 'bitnami/kafka:latest'
+  - additionally, the following providers failed with file does not exist: docker-archive, oci-archive, oci-dir, singularity, local-file, local-directory[0m
+

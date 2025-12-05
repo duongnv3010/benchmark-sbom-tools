@@ -1,0 +1,3 @@
+CMD: syft scan minio/minio:RELEASE.2024-08-17T01-24-54Z -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/minio__minio_RELEASE.2024-08-17T01-24-54Z.syft.cdx.json
+EXIT_CODE: 0
+

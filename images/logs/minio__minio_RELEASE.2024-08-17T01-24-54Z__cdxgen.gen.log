@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/minio__minio_RELEASE.2024-08-17T01-24-54Z.cdxgen.cdx.json minio/minio:RELEASE.2024-08-17T01-24-54Z
+EXIT_CODE: 0
+

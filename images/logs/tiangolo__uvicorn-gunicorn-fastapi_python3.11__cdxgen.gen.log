@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/tiangolo__uvicorn-gunicorn-fastapi_python3.11.cdxgen.cdx.json tiangolo/uvicorn-gunicorn-fastapi:python3.11
+EXIT_CODE: 0
+

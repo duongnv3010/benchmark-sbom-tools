@@ -1,0 +1,19 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/bencuk__python-demoapp_latest.cdxgen.cdx.json bencuk/python-demoapp:latest
+EXIT_CODE: 0
+
+==== STDERR ====
+MaxListenersExceededWarning: Possible event memory leak detected. 101 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 102 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 103 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 104 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 105 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 106 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 107 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 108 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 109 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 110 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 111 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 112 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 113 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 114 error listeners added. Use setMaxListeners() to increase limit.
+

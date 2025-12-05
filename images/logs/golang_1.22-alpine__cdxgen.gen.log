@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/golang_1.22-alpine.cdxgen.cdx.json golang:1.22-alpine
+EXIT_CODE: 0
+

@@ -1,0 +1,29 @@
+CMD: sbomqs score --profile ntia /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/containous__whoami_latest.syft.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+SBOM Quality Score: 6.3/10.0	 Grade: D	Components: 5 	 EngineVersion: 2	File: /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/containous__whoami_latest.syft.cdx.json
+
+
++------------------------------+---------------------+-----------+---------------------+
+|           PROFILE            |       FEATURE       |  STATUS   |        DESC         |
++------------------------------+---------------------+-----------+---------------------+
+| NTIA Minimum Elements (2021) | sbom_machine_format | 10.0/10.0 | complete            |
++                              +---------------------+-----------+---------------------+
+|                              | comp_name           | 10.0/10.0 | complete            |
++                              +---------------------+-----------+---------------------+
+|                              | comp_version        | 8.0/10.0  | add to 1 component  |
++                              +---------------------+-----------+---------------------+
+|                              | comp_uniq_id        | 6.0/10.0  | add to 2 components |
++                              +---------------------+-----------+---------------------+
+|                              | sbom_dependencies   | 0.0/10.0  | add dependencies    |
++                              +---------------------+-----------+---------------------+
+|                              | sbom_creator        | 0.0/10.0  | add authors         |
++                              +---------------------+-----------+---------------------+
+|                              | sbom_timestamp      | 10.0/10.0 | complete            |
++------------------------------+---------------------+-----------+---------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

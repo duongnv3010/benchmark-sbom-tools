@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/wordpress_6.6.2-php8.2-apache.cdxgen.cdx.json wordpress:6.6.2-php8.2-apache
+EXIT_CODE: 0
+

@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/omar0unir__unir-images_app-nodejs-example.cdxgen.cdx.json omar0unir/unir-images:app-nodejs-example
+EXIT_CODE: 0
+

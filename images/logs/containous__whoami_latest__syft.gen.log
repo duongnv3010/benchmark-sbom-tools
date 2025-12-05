@@ -1,0 +1,3 @@
+CMD: syft scan containous/whoami:latest -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/containous__whoami_latest.syft.cdx.json
+EXIT_CODE: 0
+

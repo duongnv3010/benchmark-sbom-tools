@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/piomin__sample-spring-boot-app-k8s_latest.trivy.cdx.json piomin/sample-spring-boot-app-k8s:latest
+EXIT_CODE: 0
+

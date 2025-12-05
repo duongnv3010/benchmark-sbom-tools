@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/signoz__sample-nodejs-app_latest.cdxgen.cdx.json signoz/sample-nodejs-app:latest
+EXIT_CODE: 0
+

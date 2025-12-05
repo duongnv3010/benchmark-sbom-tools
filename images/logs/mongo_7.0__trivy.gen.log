@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/mongo_7.0.trivy.cdx.json mongo:7.0
+EXIT_CODE: 0
+

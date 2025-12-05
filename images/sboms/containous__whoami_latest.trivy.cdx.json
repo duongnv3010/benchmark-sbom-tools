@@ -1,0 +1,184 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:4a1ec4df-6c54-463c-828e-72dd83f0075a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T14:27:40+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "pkg:oci/whoami@sha256%3A7d6a3c8f91470a23ef380320609ee6e69ac68d20bc804f3a1c6065fb56cfa34e?arch=amd64&repository_url=index.docker.io%2Fcontainous%2Fwhoami",
+      "type": "container",
+      "name": "containous/whoami:latest",
+      "purl": "pkg:oci/whoami@sha256%3A7d6a3c8f91470a23ef380320609ee6e69ac68d20bc804f3a1c6065fb56cfa34e?arch=amd64&repository_url=index.docker.io%2Fcontainous%2Fwhoami",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:d39a8d45d5038c8de58c50983132f63adb12682f79a7c6b5c4815c2ee00a6176"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:dc788139f06c7eaac06f3a5fcbde7f81e524fef0eac867f1fecd6a6b4b85f385"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:ef02b53d2c9c7e5de5c5ae5d10e7c777898b3ccb46811d19b1f02e6b5fe8ac78"
+        },
+        {
+          "name": "aquasecurity:trivy:ImageID",
+          "value": "sha256:7d6a3c8f91470a23ef380320609ee6e69ac68d20bc804f3a1c6065fb56cfa34e"
+        },
+        {
+          "name": "aquasecurity:trivy:RepoDigest",
+          "value": "containous/whoami@sha256:7d6a3c8f91470a23ef380320609ee6e69ac68d20bc804f3a1c6065fb56cfa34e"
+        },
+        {
+          "name": "aquasecurity:trivy:RepoTag",
+          "value": "containous/whoami:latest"
+        },
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        },
+        {
+          "name": "aquasecurity:trivy:Size",
+          "value": "8222208"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "a99d0ae2-2c91-4c59-8b89-beccb3c39ecb",
+      "type": "application",
+      "name": "whoami",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "gobinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/containous/whoami",
+      "type": "library",
+      "name": "github.com/containous/whoami",
+      "purl": "pkg:golang/github.com/containous/whoami",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:d39a8d45d5038c8de58c50983132f63adb12682f79a7c6b5c4815c2ee00a6176"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:d3caffff64d8a02ed8cc7b81b4c40d42405194d5541e2d02416e9e2aa6eacfdf"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "github.com/containous/whoami"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gobinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/gorilla/websocket@v1.4.1",
+      "type": "library",
+      "name": "github.com/gorilla/websocket",
+      "version": "v1.4.1",
+      "purl": "pkg:golang/github.com/gorilla/websocket@v1.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:d39a8d45d5038c8de58c50983132f63adb12682f79a7c6b5c4815c2ee00a6176"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:d3caffff64d8a02ed8cc7b81b4c40d42405194d5541e2d02416e9e2aa6eacfdf"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "github.com/gorilla/websocket@v1.4.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gobinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/stdlib@v1.14",
+      "type": "library",
+      "name": "stdlib",
+      "version": "v1.14",
+      "purl": "pkg:golang/stdlib@v1.14",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:d39a8d45d5038c8de58c50983132f63adb12682f79a7c6b5c4815c2ee00a6176"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:d3caffff64d8a02ed8cc7b81b4c40d42405194d5541e2d02416e9e2aa6eacfdf"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "stdlib@v1.14"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gobinary"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "a99d0ae2-2c91-4c59-8b89-beccb3c39ecb",
+      "dependsOn": [
+        "pkg:golang/github.com/containous/whoami"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/containous/whoami",
+      "dependsOn": [
+        "pkg:golang/github.com/gorilla/websocket@v1.4.1",
+        "pkg:golang/stdlib@v1.14"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/gorilla/websocket@v1.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/stdlib@v1.14",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:oci/whoami@sha256%3A7d6a3c8f91470a23ef380320609ee6e69ac68d20bc804f3a1c6065fb56cfa34e?arch=amd64&repository_url=index.docker.io%2Fcontainous%2Fwhoami",
+      "dependsOn": [
+        "a99d0ae2-2c91-4c59-8b89-beccb3c39ecb"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

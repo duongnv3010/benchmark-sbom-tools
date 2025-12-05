@@ -1,0 +1,13 @@
+CMD: syft scan openjdk:17-jdk-slim -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/openjdk_17-jdk-slim.syft.cdx.json
+EXIT_CODE: 1
+
+==== STDERR ====
+[0012] ERROR [31mcould not determine source: errors occurred attempting to resolve 'openjdk:17-jdk-slim':
+  - snap: snap file "openjdk:17-jdk-slim" does not exist
+  - docker: pull failed: Error response from daemon: failed to resolve reference "docker.io/library/openjdk:17-jdk-slim": docker.io/library/openjdk:17-jdk-slim: not found
+  - podman: podman not available: no host address
+  - containerd: containerd not available: failed to dial "/run/containerd/containerd.sock": connection error: desc = "transport: error while dialing: dial unix /run/containerd/containerd.sock: connect: permission denied"
+  - oci-registry: failed to get image descriptor from registry: GET https://index.docker.io/v2/library/openjdk/manifests/17-jdk-slim: MANIFEST_UNKNOWN: manifest unknown; unknown tag=17-jdk-slim
+  - snap: no snap found with name 'openjdk:17-jdk-slim'
+  - additionally, the following providers failed with file does not exist: docker-archive, oci-archive, oci-dir, singularity, local-file, local-directory[0m
+

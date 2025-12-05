@@ -1,0 +1,29 @@
+CMD: sbomqs score --profile ntia /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nginxinc__nginx-unprivileged_stable-alpine.syft.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+SBOM Quality Score: 4.5/10.0	 Grade: F	Components: 1046 	 EngineVersion: 2	File: /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nginxinc__nginx-unprivileged_stable-alpine.syft.cdx.json
+
+
++------------------------------+---------------------+-----------+-----------------------+
+|           PROFILE            |       FEATURE       |  STATUS   |         DESC          |
++------------------------------+---------------------+-----------+-----------------------+
+| NTIA Minimum Elements (2021) | sbom_machine_format | 10.0/10.0 | complete              |
++                              +---------------------+-----------+-----------------------+
+|                              | comp_name           | 10.0/10.0 | complete              |
++                              +---------------------+-----------+-----------------------+
+|                              | comp_version        | 0.7/10.0  | add to 976 components |
++                              +---------------------+-----------+-----------------------+
+|                              | comp_uniq_id        | 0.7/10.0  | add to 978 components |
++                              +---------------------+-----------+-----------------------+
+|                              | sbom_dependencies   | 0.0/10.0  | add dependencies      |
++                              +---------------------+-----------+-----------------------+
+|                              | sbom_creator        | 0.0/10.0  | add authors           |
++                              +---------------------+-----------+-----------------------+
+|                              | sbom_timestamp      | 10.0/10.0 | complete              |
++------------------------------+---------------------+-----------+-----------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

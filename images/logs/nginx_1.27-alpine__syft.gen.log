@@ -1,0 +1,3 @@
+CMD: syft scan nginx:1.27-alpine -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nginx_1.27-alpine.syft.cdx.json
+EXIT_CODE: 0
+

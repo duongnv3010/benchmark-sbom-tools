@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/portainer__portainer-ce_2.20.3.cdxgen.cdx.json portainer/portainer-ce:2.20.3
+EXIT_CODE: 0
+

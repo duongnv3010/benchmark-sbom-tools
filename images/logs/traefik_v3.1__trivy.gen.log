@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/traefik_v3.1.trivy.cdx.json traefik:v3.1
+EXIT_CODE: 0
+

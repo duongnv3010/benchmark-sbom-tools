@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nginxdemos__hello_latest.trivy.cdx.json nginxdemos/hello:latest
+EXIT_CODE: 0
+

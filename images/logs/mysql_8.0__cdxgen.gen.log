@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/mysql_8.0.cdxgen.cdx.json mysql:8.0
+EXIT_CODE: 0
+

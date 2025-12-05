@@ -1,0 +1,3 @@
+CMD: syft scan mariadb:11.4 -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/mariadb_11.4.syft.cdx.json
+EXIT_CODE: 0
+

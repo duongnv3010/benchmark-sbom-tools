@@ -1,0 +1,3 @@
+CMD: syft scan nextcloud:29-apache -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nextcloud_29-apache.syft.cdx.json
+EXIT_CODE: 0
+

@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/appuio__example-spring-boot_latest.trivy.cdx.json appuio/example-spring-boot:latest
+EXIT_CODE: 0
+

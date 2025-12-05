@@ -1,0 +1,25 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nextcloud_29-apache.cdxgen.cdx.json nextcloud:29-apache
+EXIT_CODE: 1
+
+==== STDOUT ====
+Schema validation failed for nextcloud
+[
+  {
+    instancePath: '/dependencies/277/dependsOn/23',
+    schemaPath: '#/definitions/refLinkType/type',
+    keyword: 'type',
+    params: { type: 'string' },
+    message: 'must be string',
+    schema: 'string',
+    parentSchema: {
+      description: 'Identifier for referable and therefore interlinkable elements.\n' +
+        "Value SHOULD not start with the BOM-Link intro 'urn:cdx:' to avoid conflicts with BOM-Links.",
+      type: 'string',
+      minLength: 1,
+      '$comment': "TODO (breaking change): add a format constraint that prevents the value from staring with 'urn:cdx:'"
+    },
+    data: undefined
+  }
+]
+
+

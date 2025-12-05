@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/kimb88__hello-world-spring-boot_latest.trivy.cdx.json kimb88/hello-world-spring-boot:latest
+EXIT_CODE: 0
+

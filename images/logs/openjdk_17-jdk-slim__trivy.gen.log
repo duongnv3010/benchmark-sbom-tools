@@ -1,0 +1,12 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/openjdk_17-jdk-slim.trivy.cdx.json openjdk:17-jdk-slim
+EXIT_CODE: 1
+
+==== STDERR ====
+2025-12-05T20:52:12+07:00	FATAL	Fatal error	run error: image scan error: scan error: unable to initialize a scan service: unable to initialize artifact: unable to initialize container image: unable to find the specified image "openjdk:17-jdk-slim" in ["docker" "containerd" "podman" "remote"]: 4 errors occurred:
+	* docker error: unable to inspect the image (openjdk:17-jdk-slim): Error response from daemon: No such image: openjdk:17-jdk-slim
+	* containerd error: failed to list images from containerd client: connection error: desc = "transport: Error while dialing: dial unix /run/containerd/containerd.sock: connect: permission denied"
+	* podman error: unable to initialize Podman client: no podman socket found: stat /run/user/1000/podman/podman.sock: no such file or directory
+	* remote error: GET https://index.docker.io/v2/library/openjdk/manifests/17-jdk-slim: MANIFEST_UNKNOWN: manifest unknown; unknown tag=17-jdk-slim
+
+
+

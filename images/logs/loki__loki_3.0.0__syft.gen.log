@@ -1,0 +1,13 @@
+CMD: syft scan loki/loki:3.0.0 -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/loki__loki_3.0.0.syft.cdx.json
+EXIT_CODE: 1
+
+==== STDERR ====
+[0014] ERROR [31mcould not determine source: errors occurred attempting to resolve 'loki/loki:3.0.0':
+  - snap: snap file "loki/loki:3.0.0" does not exist
+  - docker: pull failed: Error response from daemon: pull access denied for loki/loki, repository does not exist or may require 'docker login'
+  - podman: podman not available: no host address
+  - containerd: containerd not available: failed to dial "/run/containerd/containerd.sock": connection error: desc = "transport: error while dialing: dial unix /run/containerd/containerd.sock: connect: permission denied"
+  - oci-registry: failed to get image descriptor from registry: GET https://index.docker.io/v2/loki/loki/manifests/3.0.0: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:loki/loki Type:repository]]
+  - snap: no snap found with name 'loki/loki:3.0.0'
+  - additionally, the following providers failed with file does not exist: docker-archive, oci-archive, oci-dir, singularity, local-file, local-directory[0m
+

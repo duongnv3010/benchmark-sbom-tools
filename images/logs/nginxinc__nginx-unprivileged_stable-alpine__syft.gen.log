@@ -1,0 +1,3 @@
+CMD: syft scan nginxinc/nginx-unprivileged:stable-alpine -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nginxinc__nginx-unprivileged_stable-alpine.syft.cdx.json
+EXIT_CODE: 0
+

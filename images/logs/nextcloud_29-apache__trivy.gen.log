@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nextcloud_29-apache.trivy.cdx.json nextcloud:29-apache
+EXIT_CODE: 0
+

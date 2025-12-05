@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/mariadb_11.4.cdxgen.cdx.json mariadb:11.4
+EXIT_CODE: 0
+

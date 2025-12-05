@@ -1,0 +1,9 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/openjdk_17-jdk-slim.cdxgen.cdx.json openjdk:17-jdk-slim
+EXIT_CODE: 0
+
+==== STDOUT ====
+Unable to pull openjdk:17-jdk-slim. Check if the name is valid. Perform any authentication prior to invoking cdxgen.
+Try manually pulling this image using docker pull openjdk:17-jdk-slim
+OCI BOM generation has failed due to problems with exporting the image openjdk:17-jdk-slim.
+
+

@@ -1,0 +1,69 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/appuio__example-spring-boot_latest.cdxgen.cdx.json appuio/example-spring-boot:latest
+EXIT_CODE: 0
+
+==== STDOUT ====
+Unable to extract component information from /tmp/docker-images-eWhXxB/all-layers/opt/jboss/.gradle/wrapper/dists/gradle-6.9-bin/2ecsmyp3bolyybemj56vfn4mt/gradle-6.9/lib/javax.inject-1.jar. The SBOM won't include this artifact.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Unable to extract component information from /tmp/docker-images-eWhXxB/all-layers/opt/jboss/.gradle/caches/jars-8/ee026fe8b0bbea5b459e25f4e7d9d7e6/proj.jar. The SBOM won't include this artifact.
+Unable to extract component information from /tmp/docker-images-eWhXxB/all-layers/opt/jboss/.gradle/caches/jars-8/93b75aea480e56c67d4c054d8eeccc73/cp_proj.jar. The SBOM won't include this artifact.
+Unable to extract component information from /tmp/docker-images-eWhXxB/all-layers/opt/jboss/.gradle/caches/6.9/workerMain/gradle-worker.jar. The SBOM won't include this artifact.
+
+
+==== STDERR ====
+MaxListenersExceededWarning: Possible event memory leak detected. 101 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 102 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 103 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 104 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 105 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 106 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 107 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 108 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 109 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 110 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 111 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 112 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 113 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 114 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 115 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 116 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 117 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 118 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 119 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 120 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 121 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 122 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 123 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 124 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 125 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 126 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 127 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 128 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 129 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 130 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 131 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 132 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 133 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 134 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 135 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 136 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 137 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 138 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 139 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 140 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 141 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 142 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 143 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 144 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 145 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 146 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 147 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 148 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 149 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 150 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 151 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 152 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 153 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 154 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 155 error listeners added. Use setMaxListeners() to increase limit.
+MaxListenersExceededWarning: Possible event memory leak detected. 156 error listeners added. Use setMaxListeners() to increase limit.
+

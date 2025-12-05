@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/tiangolo__uwsgi-nginx-flask_python3.11.trivy.cdx.json tiangolo/uwsgi-nginx-flask:python3.11
+EXIT_CODE: 0
+

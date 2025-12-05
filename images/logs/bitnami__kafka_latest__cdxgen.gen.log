@@ -1,0 +1,9 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/bitnami__kafka_latest.cdxgen.cdx.json bitnami/kafka:latest
+EXIT_CODE: 0
+
+==== STDOUT ====
+Unable to pull bitnami/kafka:latest. Check if the name is valid. Perform any authentication prior to invoking cdxgen.
+Try manually pulling this image using docker pull bitnami/kafka:latest
+OCI BOM generation has failed due to problems with exporting the image bitnami/kafka:latest.
+
+

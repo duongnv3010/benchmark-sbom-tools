@@ -1,0 +1,99 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/jupyter__scipy-notebook_latest.cdxgen.cdx.json jupyter/scipy-notebook:latest
+EXIT_CODE: 0
+
+==== STDOUT ====
+Error: EACCES: permission denied, open '/tmp/docker-images-tacOn5/all-layers/etc/sudoers'
+    at Object.openSync (node:fs:574:18)
+    at [file] (file:///usr/lib/node_modules/@cyclonedx/cdxgen/node_modules/tar/dist/esm/unpack.js:724:21)
+    at [makeFs] (file:///usr/lib/node_modules/@cyclonedx/cdxgen/node_modules/tar/dist/esm/unpack.js:616:34)
+    at [makeFs] (file:///usr/lib/node_modules/@cyclonedx/cdxgen/node_modules/tar/dist/esm/unpack.js:651:29)
+    at [checkFs] (file:///usr/lib/node_modules/@cyclonedx/cdxgen/node_modules/tar/dist/esm/unpack.js:680:32)
+    at [onEntry] (file:///usr/lib/node_modules/@cyclonedx/cdxgen/node_modules/tar/dist/esm/unpack.js:318:37)
+    at UnpackSync.<anonymous> (file:///usr/lib/node_modules/@cyclonedx/cdxgen/node_modules/tar/dist/esm/unpack.js:195:48)
+    at UnpackSync.emit (node:events:536:35)
+    at UnpackSync.emit (node:domain:489:12)
+    at [processEntry] (file:///usr/lib/node_modules/@cyclonedx/cdxgen/node_modules/tar/dist/esm/parse.js:267:18) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'open',
+  path: '/tmp/docker-images-tacOn5/all-layers/etc/sudoers',
+  entry: ReadEntry {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    writable: false,
+    readable: false,
+    extended: undefined,
+    globalExtended: undefined,
+    header: Header {
+      cksumValid: true,
+      needPax: false,
+      nullBlock: false,
+      block: undefined,
+      path: 'etc/sudoers',
+      mode: 288,
+      uid: 0,
+      gid: 0,
+      size: 1673,
+      cksum: 4890,
+      linkpath: '',
+      uname: '',
+      gname: '',
+      devmaj: 0,
+      devmin: 0,
+      atime: undefined,
+      ctime: undefined,
+      mtime: 2023-10-20T01:46:06.000Z,
+      charset: undefined,
+      comment: undefined
+    },
+    startBlockSize: 2048,
+    blockRemain: 0,
+    remain: 0,
+    type: 'File',
+    meta: false,
+    ignore: false,
+    path: 'etc/sudoers',
+    mode: 288,
+    uid: 0,
+    gid: 0,
+    uname: '',
+    gname: '',
+    size: 1673,
+    mtime: 2023-10-20T01:46:06.000Z,
+    atime: undefined,
+    ctime: undefined,
+    linkpath: undefined,
+    dev: undefined,
+    ino: undefined,
+    nlink: undefined,
+    invalid: false,
+    absolute: '/tmp/docker-images-tacOn5/all-layers/etc/sudoers',
+    unsupported: false,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(flowing)]: true,
+    [Symbol(paused)]: false,
+    [Symbol(pipes)]: [],
+    [Symbol(buffer)]: [],
+    [Symbol(objectMode)]: false,
+    [Symbol(encoding)]: null,
+    [Symbol(async)]: false,
+    [Symbol(decoder)]: null,
+    [Symbol(EOF)]: true,
+    [Symbol(emittedEnd)]: true,
+    [Symbol(emittingEnd)]: false,
+    [Symbol(closed)]: false,
+    [Symbol(emittedError)]: null,
+    [Symbol(bufferLength)]: 0,
+    [Symbol(destroyed)]: false,
+    [Symbol(signal)]: undefined,
+    [Symbol(aborted)]: false,
+    [Symbol(dataListeners)]: 0,
+    [Symbol(discarded)]: true
+  },
+  cwd: '/tmp/docker-images-tacOn5/all-layers',
+  tarCode: 'TAR_ENTRY_ERROR'
+}
+
+

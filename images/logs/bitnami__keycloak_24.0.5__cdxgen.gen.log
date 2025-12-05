@@ -1,0 +1,9 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/bitnami__keycloak_24.0.5.cdxgen.cdx.json bitnami/keycloak:24.0.5
+EXIT_CODE: 0
+
+==== STDOUT ====
+Unable to pull bitnami/keycloak:24.0.5. Check if the name is valid. Perform any authentication prior to invoking cdxgen.
+Try manually pulling this image using docker pull bitnami/keycloak:24.0.5
+OCI BOM generation has failed due to problems with exporting the image bitnami/keycloak:24.0.5.
+
+

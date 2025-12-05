@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/banagevikas__nodejs-sample-app_latest.trivy.cdx.json banagevikas/nodejs-sample-app:latest
+EXIT_CODE: 0
+

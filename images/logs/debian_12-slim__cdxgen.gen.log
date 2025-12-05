@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/debian_12-slim.cdxgen.cdx.json debian:12-slim
+EXIT_CODE: 0
+

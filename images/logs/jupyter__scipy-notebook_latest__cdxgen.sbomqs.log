@@ -1,0 +1,29 @@
+CMD: sbomqs score --profile ntia /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/jupyter__scipy-notebook_latest.cdxgen.cdx.json
+EXIT_CODE: 0
+
+==== STDOUT ====
+SBOM Quality Score: 7.3/10.0	 Grade: C	Components: 2340 	 EngineVersion: 2	File: /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/jupyter__scipy-notebook_latest.cdxgen.cdx.json
+
+
++------------------------------+---------------------+-----------+------------------------+
+|           PROFILE            |       FEATURE       |  STATUS   |          DESC          |
++------------------------------+---------------------+-----------+------------------------+
+| NTIA Minimum Elements (2021) | sbom_machine_format | 10.0/10.0 | complete               |
++                              +---------------------+-----------+------------------------+
+|                              | comp_name           | 10.0/10.0 | complete               |
++                              +---------------------+-----------+------------------------+
+|                              | comp_version        | 1.3/10.0  | add to 2029 components |
++                              +---------------------+-----------+------------------------+
+|                              | comp_uniq_id        | 10.0/10.0 | complete               |
++                              +---------------------+-----------+------------------------+
+|                              | sbom_dependencies   | 0.0/10.0  | add dependencies       |
++                              +---------------------+-----------+------------------------+
+|                              | sbom_creator        | 10.0/10.0 | complete               |
++                              +---------------------+-----------+------------------------+
+|                              | sbom_timestamp      | 10.0/10.0 | complete               |
++------------------------------+---------------------+-----------+------------------------+
+
+
+Love to hear your feedback https://forms.gle/anFSspwrk7uSfD7Q6
+
+

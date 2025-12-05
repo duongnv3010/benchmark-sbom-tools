@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/ubuntu_24.04.cdxgen.cdx.json ubuntu:24.04
+EXIT_CODE: 0
+

@@ -1,0 +1,3 @@
+CMD: syft scan appuio/example-spring-boot:latest -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/appuio__example-spring-boot_latest.syft.cdx.json
+EXIT_CODE: 0
+

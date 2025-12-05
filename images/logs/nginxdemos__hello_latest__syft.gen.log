@@ -1,0 +1,3 @@
+CMD: syft scan nginxdemos/hello:latest -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/nginxdemos__hello_latest.syft.cdx.json
+EXIT_CODE: 0
+

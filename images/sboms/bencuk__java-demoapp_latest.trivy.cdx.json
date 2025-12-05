@@ -1,0 +1,3771 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c01bb305-24bc-49dc-a75e-1b547baaff5d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T14:58:01+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.67.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "pkg:oci/java-demoapp@sha256%3A5cc6c4c2403cf075aa354724f108781394ec9ea96de99b9e6c0260d9b085df38?arch=amd64&repository_url=index.docker.io%2Fbencuk%2Fjava-demoapp",
+      "type": "container",
+      "name": "bencuk/java-demoapp:latest",
+      "purl": "pkg:oci/java-demoapp@sha256%3A5cc6c4c2403cf075aa354724f108781394ec9ea96de99b9e6c0260d9b085df38?arch=amd64&repository_url=index.docker.io%2Fbencuk%2Fjava-demoapp",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:23619cbdaa4c218f44d550204f9577405098031a955dd4c4d7b5076445ece745"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:b9e4623df261c08fa7a6025a08c6a1839c0f853c8a1c7c6b4821a2c52637b043"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:c2ac4178ebdc4e60dadf823e420d066661fc9a2a0eece21b82d51092a7794c28"
+        },
+        {
+          "name": "aquasecurity:trivy:ImageID",
+          "value": "sha256:5cc6c4c2403cf075aa354724f108781394ec9ea96de99b9e6c0260d9b085df38"
+        },
+        {
+          "name": "aquasecurity:trivy:RepoDigest",
+          "value": "bencuk/java-demoapp@sha256:5cc6c4c2403cf075aa354724f108781394ec9ea96de99b9e6c0260d9b085df38"
+        },
+        {
+          "name": "aquasecurity:trivy:RepoTag",
+          "value": "bencuk/java-demoapp:latest"
+        },
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        },
+        {
+          "name": "aquasecurity:trivy:Size",
+          "value": "219479552"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "ed01e25f-bdf2-4e87-aa4e-7545276286f1",
+      "type": "operating-system",
+      "name": "alpine",
+      "version": "3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "os-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "alpine"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-baselayout@3.2.0-r6?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "alpine-baselayout",
+      "version": "3.2.0-r6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9b230d7ddeeee6fe544e03477aad5edf5a938d95"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/alpine-baselayout@3.2.0-r6?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "alpine-baselayout@3.2.0-r6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "alpine-baselayout"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "3.2.0-r6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-keys@2.2-r0?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "alpine-keys",
+      "version": "2.2-r0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dc54000f065e1842566411b8129d84eb0d1f9b6b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/alpine-keys@2.2-r0?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "alpine-keys@2.2-r0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "alpine-keys"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.2-r0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/apk-tools@2.10.5-r1?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "apk-tools",
+      "version": "2.10.5-r1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "747cfd72085f70e0fcf837e53b9080ab42ba0e48"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/apk-tools@2.10.5-r1?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "apk-tools@2.10.5-r1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "apk-tools"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.10.5-r1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/busybox@1.31.1-r16?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "busybox",
+      "version": "1.31.1-r16",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "37f09c689ab276c4e953a654d36417763c47b50f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/busybox@1.31.1-r16?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "busybox@1.31.1-r16"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "busybox"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.31.1-r16"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/ca-certificates-bundle@20191127-r2?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "ca-certificates-bundle",
+      "version": "20191127-r2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e72f693c08ed30910ce92c79fcf17e3f5b3e1bec"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/ca-certificates-bundle@20191127-r2?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ca-certificates-bundle@20191127-r2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "ca-certificates"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "20191127-r2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/glibc-bin@2.31-r0?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Sasha Gerrand <alpine-pkgs@sgerrand.com>"
+      },
+      "name": "glibc-bin",
+      "version": "2.31-r0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4ec6c32452c4aaf1bcf2339eaec2b6c678d6c42e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/glibc-bin@2.31-r0?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:23619cbdaa4c218f44d550204f9577405098031a955dd4c4d7b5076445ece745"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:ffa7158a1780abe48cc7c41a1697b4b021b5776220532eca21791266ffa5b860"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "glibc-bin@2.31-r0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "glibc"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.31-r0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/glibc@2.31-r0?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Sasha Gerrand <alpine-pkgs@sgerrand.com>"
+      },
+      "name": "glibc",
+      "version": "2.31-r0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "257768cc75a5eceb4003143caedcfd2c23b460ee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/glibc@2.31-r0?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:23619cbdaa4c218f44d550204f9577405098031a955dd4c4d7b5076445ece745"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:ffa7158a1780abe48cc7c41a1697b4b021b5776220532eca21791266ffa5b860"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "glibc@2.31-r0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "glibc"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.31-r0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/libc-utils@0.7.2-r3?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "libc-utils",
+      "version": "0.7.2-r3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "eb13f5c917a2ee0b1f1451764a8f7a48f669c347"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libc-utils@0.7.2-r3?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libc-utils@0.7.2-r3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "libc-dev"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "0.7.2-r3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/libcrypto1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Timo Teras <timo.teras@iki.fi>"
+      },
+      "name": "libcrypto1.1",
+      "version": "1.1.1g-r0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "883e59005203fb435fe723d2a24044648bd2d16a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "OpenSSL"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libcrypto1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libcrypto1.1@1.1.1g-r0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "openssl"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.1.1g-r0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/libgcc@9.3.0-r2?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "libgcc",
+      "version": "9.3.0-r2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1a8de9616241a66eed785d06909b7715f478430a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libgcc@9.3.0-r2?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:23619cbdaa4c218f44d550204f9577405098031a955dd4c4d7b5076445ece745"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:ffa7158a1780abe48cc7c41a1697b4b021b5776220532eca21791266ffa5b860"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libgcc@9.3.0-r2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "gcc"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "9.3.0-r2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/libssl1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Timo Teras <timo.teras@iki.fi>"
+      },
+      "name": "libssl1.1",
+      "version": "1.1.1g-r0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1f4a8110f2f5feef712d546f8d09b1b6e32c2553"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "OpenSSL"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libssl1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libssl1.1@1.1.1g-r0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "openssl"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.1.1g-r0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/libtls-standalone@2.9.1-r1?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "name": "libtls-standalone",
+      "version": "2.9.1-r1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e01cea4ac27dc1161e8ca08153efb723656fcd2b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libtls-standalone@2.9.1-r1?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libtls-standalone@2.9.1-r1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "libtls-standalone"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.9.1-r1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/musl-utils@1.1.24-r8?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Timo Teräs <timo.teras@iki.fi>"
+      },
+      "name": "musl-utils",
+      "version": "1.1.24-r8",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "29128ea49c50ace81b6b159dfad01b64cb17f5d5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/musl-utils@1.1.24-r8?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "musl-utils@1.1.24-r8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "musl"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.1.24-r8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Timo Teräs <timo.teras@iki.fi>"
+      },
+      "name": "musl",
+      "version": "1.1.24-r8",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e7557ec9bd2ca52ec27ecca84b52512db977201c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "musl@1.1.24-r8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "musl"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.1.24-r8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/scanelf@1.2.6-r0?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "scanelf",
+      "version": "1.2.6-r0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8ef61abd1bfdf527624f73372afe60be98bc2d76"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/scanelf@1.2.6-r0?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "scanelf@1.2.6-r0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "pax-utils"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.2.6-r0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/ssl_client@1.31.1-r16?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "ssl_client",
+      "version": "1.31.1-r16",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c8abfd29f018a76b792dc80ed20bc6d9ac651f34"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/ssl_client@1.31.1-r16?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ssl_client@1.31.1-r16"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "busybox"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.31.1-r16"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/zlib@1.2.11-r3?arch=x86_64&distro=3.12.0",
+      "type": "library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "name": "zlib",
+      "version": "1.2.11-r3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "546ddc3b175f47acd983b099383e92482de53bab"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/zlib@1.2.11-r3?arch=x86_64&distro=3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:df20fa9351a15782c64e6dddb2d4a6f50bf6d3688060a34c4014b0d9a752eb4c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "zlib@1.2.11-r3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "alpine"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "zlib"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.2.11-r3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+      "type": "library",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/logback-classic-1.2.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.2.3",
+      "type": "library",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/logback-core-1.2.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.9.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jackson-annotations-2.9.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.9",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.9.9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jackson-core-2.9.9.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.9",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.9.9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jackson-databind-2.9.9.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.9",
+      "type": "library",
+      "group": "com.fasterxml.jackson.datatype",
+      "name": "jackson-datatype-jdk8",
+      "version": "2.9.9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jackson-datatype-jdk8-2.9.9.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.9.9",
+      "type": "library",
+      "group": "com.fasterxml.jackson.datatype",
+      "name": "jackson-datatype-jsr310",
+      "version": "2.9.9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.9.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jackson-datatype-jsr310-2.9.9.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.9.9",
+      "type": "library",
+      "group": "com.fasterxml.jackson.module",
+      "name": "jackson-module-parameter-names",
+      "version": "2.9.9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.9.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jackson-module-parameter-names-2.9.9.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml/classmate@1.4.0",
+      "type": "library",
+      "group": "com.fasterxml",
+      "name": "classmate",
+      "version": "1.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml/classmate@1.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/classmate-1.4.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+      "type": "library",
+      "group": "com.github.stephenc.jcip",
+      "name": "jcip-annotations",
+      "version": "1.0-1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jcip-annotations-1.0-1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.code.gson/gson@2.8.5",
+      "type": "library",
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.8.5",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.gson/gson@2.8.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/gson-2.8.5.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.microsoft.azure/adal4j@1.6.0",
+      "type": "library",
+      "group": "com.microsoft.azure",
+      "name": "adal4j",
+      "version": "1.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.azure/adal4j@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/adal4j-1.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.microsoft.azure/applicationinsights-core@2.5.0-BETA.2",
+      "type": "library",
+      "group": "com.microsoft.azure",
+      "name": "applicationinsights-core",
+      "version": "2.5.0-BETA.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.azure/applicationinsights-core@2.5.0-BETA.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/applicationinsights-core-2.5.0-BETA.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.microsoft.azure/applicationinsights-spring-boot-starter@2.5.0-BETA.2",
+      "type": "library",
+      "group": "com.microsoft.azure",
+      "name": "applicationinsights-spring-boot-starter",
+      "version": "2.5.0-BETA.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.azure/applicationinsights-spring-boot-starter@2.5.0-BETA.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/applicationinsights-spring-boot-starter-2.5.0-BETA.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.microsoft.azure/applicationinsights-web@2.5.0-BETA.2",
+      "type": "library",
+      "group": "com.microsoft.azure",
+      "name": "applicationinsights-web",
+      "version": "2.5.0-BETA.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.azure/applicationinsights-web@2.5.0-BETA.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/applicationinsights-web-2.5.0-BETA.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.microsoft.azure/azure-active-directory-spring-boot-starter@2.1.6",
+      "type": "library",
+      "group": "com.microsoft.azure",
+      "name": "azure-active-directory-spring-boot-starter",
+      "version": "2.1.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.azure/azure-active-directory-spring-boot-starter@2.1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/azure-active-directory-spring-boot-starter-2.1.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.microsoft.azure/azure-spring-boot-starter@2.1.6",
+      "type": "library",
+      "group": "com.microsoft.azure",
+      "name": "azure-spring-boot-starter",
+      "version": "2.1.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.azure/azure-spring-boot-starter@2.1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/azure-spring-boot-starter-2.1.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.microsoft.azure/azure-spring-boot@2.1.6",
+      "type": "library",
+      "group": "com.microsoft.azure",
+      "name": "azure-spring-boot",
+      "version": "2.1.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.azure/azure-spring-boot@2.1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/azure-spring-boot-2.1.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.nimbusds/lang-tag@1.5",
+      "type": "library",
+      "group": "com.nimbusds",
+      "name": "lang-tag",
+      "version": "1.5",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.nimbusds/lang-tag@1.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/lang-tag-1.5.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@6.0.2",
+      "type": "library",
+      "group": "com.nimbusds",
+      "name": "nimbus-jose-jwt",
+      "version": "6.0.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@6.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/nimbus-jose-jwt-6.0.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@5.64.4",
+      "type": "library",
+      "group": "com.nimbusds",
+      "name": "oauth2-oidc-sdk",
+      "version": "5.64.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@5.64.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/oauth2-oidc-sdk-5.64.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.sun.mail/javax.mail@1.6.2",
+      "type": "library",
+      "group": "com.sun.mail",
+      "name": "javax.mail",
+      "version": "1.6.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/com.sun.mail/javax.mail@1.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/javax.mail-1.6.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.11",
+      "type": "library",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.11",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/commons-codec/commons-codec@1.11",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/commons-codec-1.11.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.benco/java-demoapp@1.0.2",
+      "type": "library",
+      "group": "io.benco",
+      "name": "java-demoapp",
+      "version": "1.0.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/io.benco/java-demoapp@1.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.micrometer/micrometer-core@1.1.5",
+      "type": "library",
+      "group": "io.micrometer",
+      "name": "micrometer-core",
+      "version": "1.1.5",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-core@1.1.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/micrometer-core-1.1.5.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.activation/activation@1.1",
+      "type": "library",
+      "group": "javax.activation",
+      "name": "activation",
+      "version": "1.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/javax.activation/activation@1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/activation-1.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+      "type": "library",
+      "group": "javax.annotation",
+      "name": "javax.annotation-api",
+      "version": "1.3.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/javax.annotation-api-1.3.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+      "type": "library",
+      "group": "javax.validation",
+      "name": "validation-api",
+      "version": "2.0.1.Final",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/validation-api-2.0.1.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.minidev/accessors-smart@1.2",
+      "type": "library",
+      "group": "net.minidev",
+      "name": "accessors-smart",
+      "version": "1.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/net.minidev/accessors-smart@1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/accessors-smart-1.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.minidev/json-smart@2.3",
+      "type": "library",
+      "group": "net.minidev",
+      "name": "json-smart",
+      "version": "2.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/net.minidev/json-smart@2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/json-smart-2.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.11.2",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.11.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.11.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/log4j-api-2.11.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.11.2",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-to-slf4j",
+      "version": "2.11.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.11.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/log4j-to-slf4j-2.11.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.21",
+      "type": "library",
+      "group": "org.apache.tomcat.embed",
+      "name": "tomcat-embed-core",
+      "version": "9.0.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/tomcat-embed-core-9.0.21.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.21",
+      "type": "library",
+      "group": "org.apache.tomcat.embed",
+      "name": "tomcat-embed-el",
+      "version": "9.0.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/tomcat-embed-el-9.0.21.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.21",
+      "type": "library",
+      "group": "org.apache.tomcat.embed",
+      "name": "tomcat-embed-websocket",
+      "version": "9.0.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/tomcat-embed-websocket-9.0.21.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.freemarker/freemarker@2.3.28",
+      "type": "library",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.28",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.28",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/freemarker-2.3.28.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.9",
+      "type": "library",
+      "group": "org.hdrhistogram",
+      "name": "HdrHistogram",
+      "version": "2.1.9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/HdrHistogram-2.1.9.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hibernate.validator/hibernate-validator@6.0.17.Final",
+      "type": "library",
+      "group": "org.hibernate.validator",
+      "name": "hibernate-validator",
+      "version": "6.0.17.Final",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.hibernate.validator/hibernate-validator@6.0.17.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/hibernate-validator-6.0.17.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final",
+      "type": "library",
+      "group": "org.jboss.logging",
+      "name": "jboss-logging",
+      "version": "3.3.2.Final",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jboss-logging-3.3.2.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.latencyutils/LatencyUtils@2.0.3",
+      "type": "library",
+      "group": "org.latencyutils",
+      "name": "LatencyUtils",
+      "version": "2.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.latencyutils/LatencyUtils@2.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/LatencyUtils-2.0.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.ow2.asm/asm@5.0.4",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "5.0.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@5.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/asm-5.0.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.pcollections/pcollections@3.0.3",
+      "type": "library",
+      "group": "org.pcollections",
+      "name": "pcollections",
+      "version": "3.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.pcollections/pcollections@3.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/micrometer-core-1.1.5.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.26",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "jul-to-slf4j",
+      "version": "1.7.26",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.26",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/jul-to-slf4j-1.7.26.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.26",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.26",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.26",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/slf4j-api-1.7.26.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-actuator-autoconfigure",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-actuator-autoconfigure-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-actuator@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-actuator",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-actuator@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-actuator-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-autoconfigure",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-autoconfigure-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-actuator",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-actuator-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-freemarker@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-freemarker",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-freemarker@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-freemarker-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-json@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-json",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-json@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-json-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-logging",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-logging-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-security@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-security",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-security@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-security-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-tomcat",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-tomcat-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-validation@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-validation",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-validation@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-validation-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-web",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-web-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-starter-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@2.1.6.RELEASE",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot",
+      "version": "2.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@2.1.6.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-boot-2.1.6.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-config@5.1.5.RELEASE",
+      "type": "library",
+      "group": "org.springframework.security",
+      "name": "spring-security-config",
+      "version": "5.1.5.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-config@5.1.5.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-security-config-5.1.5.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-core@5.1.5.RELEASE",
+      "type": "library",
+      "group": "org.springframework.security",
+      "name": "spring-security-core",
+      "version": "5.1.5.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-core@5.1.5.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-security-core-5.1.5.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.1.5.RELEASE",
+      "type": "library",
+      "group": "org.springframework.security",
+      "name": "spring-security-oauth2-client",
+      "version": "5.1.5.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.1.5.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-security-oauth2-client-5.1.5.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.1.5.RELEASE",
+      "type": "library",
+      "group": "org.springframework.security",
+      "name": "spring-security-oauth2-core",
+      "version": "5.1.5.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.1.5.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-security-oauth2-core-5.1.5.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.1.5.RELEASE",
+      "type": "library",
+      "group": "org.springframework.security",
+      "name": "spring-security-oauth2-jose",
+      "version": "5.1.5.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.1.5.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-security-oauth2-jose-5.1.5.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-web@5.1.5.RELEASE",
+      "type": "library",
+      "group": "org.springframework.security",
+      "name": "spring-security-web",
+      "version": "5.1.5.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-web@5.1.5.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-security-web-5.1.5.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-aop@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aop@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-aop-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-beans@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-beans-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-context-support@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-context-support",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context-support@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-context-support-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-context@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-context-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-core@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-core-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-expression@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-expression-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-jcl",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-jcl@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-jcl-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-web@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-web",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-web@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-web-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-webmvc@5.1.8.RELEASE",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-webmvc",
+      "version": "5.1.8.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-webmvc@5.1.8.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/spring-webmvc-5.1.8.RELEASE.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.23",
+      "type": "library",
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.23",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7dcbdf110cf9f0654d0e252fd9e7b941ee55017c"
+        }
+      ],
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.23",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app/java-demoapp.jar/BOOT-INF/lib/snakeyaml-1.23.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:42ac863f8ae980ac1d90db4bf44601ce7558689672dd24406199bd07c37f3eaf"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:055d29535c2a402a516b96d6cb7535e6d084fbb66fdf4301f338c6a351a6caad"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "ed01e25f-bdf2-4e87-aa4e-7545276286f1",
+      "dependsOn": [
+        "pkg:apk/alpine/alpine-baselayout@3.2.0-r6?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/alpine-keys@2.2-r0?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/apk-tools@2.10.5-r1?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/glibc-bin@2.31-r0?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/libc-utils@0.7.2-r3?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/ssl_client@1.31.1-r16?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/alpine-baselayout@3.2.0-r6?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/busybox@1.31.1-r16?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/alpine-keys@2.2-r0?arch=x86_64&distro=3.12.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/apk-tools@2.10.5-r1?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/libcrypto1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/libssl1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/zlib@1.2.11-r3?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/busybox@1.31.1-r16?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/ca-certificates-bundle@20191127-r2?arch=x86_64&distro=3.12.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/glibc-bin@2.31-r0?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/busybox@1.31.1-r16?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/glibc@2.31-r0?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/libgcc@9.3.0-r2?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/glibc@2.31-r0?arch=x86_64&distro=3.12.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libc-utils@0.7.2-r3?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/musl-utils@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libcrypto1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libgcc@9.3.0-r2?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libssl1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/libcrypto1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libtls-standalone@2.9.1-r1?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/ca-certificates-bundle@20191127-r2?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/libcrypto1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/libssl1.1@1.1.1g-r0?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/musl-utils@1.1.24-r8?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/scanelf@1.2.6-r0?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/scanelf@1.2.6-r0?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/ssl_client@1.31.1-r16?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/libtls-standalone@2.9.1-r1?arch=x86_64&distro=3.12.0",
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/zlib@1.2.11-r3?arch=x86_64&distro=3.12.0",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.1.24-r8?arch=x86_64&distro=3.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-core@1.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.9.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.9.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml/classmate@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.gson/gson@2.8.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.azure/adal4j@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.azure/applicationinsights-core@2.5.0-BETA.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.azure/applicationinsights-spring-boot-starter@2.5.0-BETA.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.azure/applicationinsights-web@2.5.0-BETA.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.azure/azure-active-directory-spring-boot-starter@2.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.azure/azure-spring-boot-starter@2.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.azure/azure-spring-boot@2.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.nimbusds/lang-tag@1.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@6.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@5.64.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.mail/javax.mail@1.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.benco/java-demoapp@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.micrometer/micrometer-core@1.1.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.activation/activation@1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/net.minidev/accessors-smart@1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/net.minidev/json-smart@2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.11.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.11.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.freemarker/freemarker@2.3.28",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hibernate.validator/hibernate-validator@6.0.17.Final",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.latencyutils/LatencyUtils@2.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm@5.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.pcollections/pcollections@3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.26",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.26",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-actuator@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-freemarker@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-json@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-security@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-validation@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot@2.1.6.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.security/spring-security-config@5.1.5.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.security/spring-security-core@5.1.5.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.1.5.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.1.5.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.1.5.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.security/spring-security-web@5.1.5.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-aop@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-beans@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-context-support@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-context@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-expression@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-jcl@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-web@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-webmvc@5.1.8.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.yaml/snakeyaml@1.23",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:oci/java-demoapp@sha256%3A5cc6c4c2403cf075aa354724f108781394ec9ea96de99b9e6c0260d9b085df38?arch=amd64&repository_url=index.docker.io%2Fbencuk%2Fjava-demoapp",
+      "dependsOn": [
+        "ed01e25f-bdf2-4e87-aa4e-7545276286f1",
+        "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+        "pkg:maven/ch.qos.logback/logback-core@1.2.3",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.9",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.9",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.9",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.9.9",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.9.9",
+        "pkg:maven/com.fasterxml/classmate@1.4.0",
+        "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+        "pkg:maven/com.google.code.gson/gson@2.8.5",
+        "pkg:maven/com.microsoft.azure/adal4j@1.6.0",
+        "pkg:maven/com.microsoft.azure/applicationinsights-core@2.5.0-BETA.2",
+        "pkg:maven/com.microsoft.azure/applicationinsights-spring-boot-starter@2.5.0-BETA.2",
+        "pkg:maven/com.microsoft.azure/applicationinsights-web@2.5.0-BETA.2",
+        "pkg:maven/com.microsoft.azure/azure-active-directory-spring-boot-starter@2.1.6",
+        "pkg:maven/com.microsoft.azure/azure-spring-boot-starter@2.1.6",
+        "pkg:maven/com.microsoft.azure/azure-spring-boot@2.1.6",
+        "pkg:maven/com.nimbusds/lang-tag@1.5",
+        "pkg:maven/com.nimbusds/nimbus-jose-jwt@6.0.2",
+        "pkg:maven/com.nimbusds/oauth2-oidc-sdk@5.64.4",
+        "pkg:maven/com.sun.mail/javax.mail@1.6.2",
+        "pkg:maven/commons-codec/commons-codec@1.11",
+        "pkg:maven/io.benco/java-demoapp@1.0.2",
+        "pkg:maven/io.micrometer/micrometer-core@1.1.5",
+        "pkg:maven/javax.activation/activation@1.1",
+        "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+        "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+        "pkg:maven/net.minidev/accessors-smart@1.2",
+        "pkg:maven/net.minidev/json-smart@2.3",
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.11.2",
+        "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.11.2",
+        "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.21",
+        "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.21",
+        "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.21",
+        "pkg:maven/org.freemarker/freemarker@2.3.28",
+        "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.9",
+        "pkg:maven/org.hibernate.validator/hibernate-validator@6.0.17.Final",
+        "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final",
+        "pkg:maven/org.latencyutils/LatencyUtils@2.0.3",
+        "pkg:maven/org.ow2.asm/asm@5.0.4",
+        "pkg:maven/org.pcollections/pcollections@3.0.3",
+        "pkg:maven/org.slf4j/jul-to-slf4j@1.7.26",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.26",
+        "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-actuator@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-freemarker@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-json@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-security@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-validation@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot-starter@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.boot/spring-boot@2.1.6.RELEASE",
+        "pkg:maven/org.springframework.security/spring-security-config@5.1.5.RELEASE",
+        "pkg:maven/org.springframework.security/spring-security-core@5.1.5.RELEASE",
+        "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.1.5.RELEASE",
+        "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.1.5.RELEASE",
+        "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.1.5.RELEASE",
+        "pkg:maven/org.springframework.security/spring-security-web@5.1.5.RELEASE",
+        "pkg:maven/org.springframework/spring-aop@5.1.8.RELEASE",
+        "pkg:maven/org.springframework/spring-beans@5.1.8.RELEASE",
+        "pkg:maven/org.springframework/spring-context-support@5.1.8.RELEASE",
+        "pkg:maven/org.springframework/spring-context@5.1.8.RELEASE",
+        "pkg:maven/org.springframework/spring-core@5.1.8.RELEASE",
+        "pkg:maven/org.springframework/spring-expression@5.1.8.RELEASE",
+        "pkg:maven/org.springframework/spring-jcl@5.1.8.RELEASE",
+        "pkg:maven/org.springframework/spring-web@5.1.8.RELEASE",
+        "pkg:maven/org.springframework/spring-webmvc@5.1.8.RELEASE",
+        "pkg:maven/org.yaml/snakeyaml@1.23"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

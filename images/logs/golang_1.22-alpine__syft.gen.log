@@ -1,0 +1,3 @@
+CMD: syft scan golang:1.22-alpine -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/golang_1.22-alpine.syft.cdx.json
+EXIT_CODE: 0
+

@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/node_20-slim.trivy.cdx.json node:20-slim
+EXIT_CODE: 0
+

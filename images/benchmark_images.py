@@ -214,8 +214,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--output",
-        default="result-images.csv",
-        help="File CSV output (mặc định: result-images.csv)",
+        default="result-images-2.csv",
+        help="File CSV output (mặc định: result-images-2.csv)",
     )
     parser.add_argument(
         "--base-dir",

@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/mysql_8.0.trivy.cdx.json mysql:8.0
+EXIT_CODE: 0
+

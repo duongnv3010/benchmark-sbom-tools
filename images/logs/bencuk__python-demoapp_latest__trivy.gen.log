@@ -1,0 +1,3 @@
+CMD: trivy image --quiet --format cyclonedx --output /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/bencuk__python-demoapp_latest.trivy.cdx.json bencuk/python-demoapp:latest
+EXIT_CODE: 0
+

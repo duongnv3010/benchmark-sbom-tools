@@ -1,0 +1,3 @@
+CMD: syft scan rabbitmq:3-management-alpine -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/rabbitmq_3-management-alpine.syft.cdx.json
+EXIT_CODE: 0
+

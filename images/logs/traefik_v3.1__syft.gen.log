@@ -1,0 +1,3 @@
+CMD: syft scan traefik:v3.1 -o cyclonedx-json=/home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/traefik_v3.1.syft.cdx.json
+EXIT_CODE: 0
+

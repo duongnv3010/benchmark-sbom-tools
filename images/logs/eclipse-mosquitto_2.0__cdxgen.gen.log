@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/eclipse-mosquitto_2.0.cdxgen.cdx.json eclipse-mosquitto:2.0
+EXIT_CODE: 0
+

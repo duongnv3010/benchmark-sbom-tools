@@ -1,0 +1,9 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/loki__loki_3.0.0.cdxgen.cdx.json loki/loki:3.0.0
+EXIT_CODE: 0
+
+==== STDOUT ====
+Unable to pull loki/loki:3.0.0. Check if the name is valid. Perform any authentication prior to invoking cdxgen.
+Try manually pulling this image using docker pull loki/loki:3.0.0
+OCI BOM generation has failed due to problems with exporting the image loki/loki:3.0.0.
+
+

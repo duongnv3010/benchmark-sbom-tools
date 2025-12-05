@@ -1,0 +1,3 @@
+CMD: cdxgen -t docker -o /home/duongnv/Desktop/benchmark-sbom-tools/images/sboms/bencuk__java-demoapp_latest.cdxgen.cdx.json bencuk/java-demoapp:latest
+EXIT_CODE: 0
+

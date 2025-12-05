@@ -1,0 +1,8 @@
+$ trivy fs . --format cyclonedx --output /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/node-telegram-bot-api.trivy.cdx.json
+exit_code: 0
+elapsed: 0.175 s
+
+=== STDERR ===
+2025-12-05T08:27:51+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2025-12-05T08:27:51+07:00	INFO	Number of language-specific files	num=0
+

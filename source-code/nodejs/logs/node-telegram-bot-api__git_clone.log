@@ -1,0 +1,7 @@
+$ git clone --depth 1 https://github.com/yagop/node-telegram-bot-api.git /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-telegram-bot-api
+exit_code: 0
+elapsed: 1.885 s
+
+=== STDERR ===
+Cloning into '/home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-telegram-bot-api'...
+

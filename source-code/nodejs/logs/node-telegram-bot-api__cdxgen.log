@@ -1,0 +1,8 @@
+$ cdxgen -r -o /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/sboms/node-telegram-bot-api.cdxgen.cdx.json .
+exit_code: 0
+elapsed: 46.578 s
+
+=== STDOUT ===
+Executing 'npm install' in /home/duongnv48/Desktop/benchmark-sbom-tools/source-code/nodejs/repos/node-telegram-bot-api
+
+
